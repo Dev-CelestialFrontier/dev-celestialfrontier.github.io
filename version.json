@@ -1,7 +1,9 @@
 {
-  "v": "1.8.9",
-  "build": "develop-af2ef1705a56",
-  "sourceCommit": "af2ef1705a56387edbacb9d1f9982bbd2f3dff98",
+  "schema": "cf-development-site-version/v1",
+  "v": "2.0",
+  "version": "2.0",
+  "build": "develop-9f4b12dbfb0c",
+  "sourceCommit": "9f4b12dbfb0cb8ba38003a0b79391a954372df24",
   "sourceBranch": "develop",
   "channel": "development"
 }

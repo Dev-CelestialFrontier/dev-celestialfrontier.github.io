@@ -1,0 +1,246 @@
+{
+  "schema": "cf-dev-preview/v3",
+  "kind": "human-development-preview",
+  "generatedAt": "2026-08-13T05:16:08.291Z",
+  "expectedOrigin": "https://dev-celestialfrontier.github.io",
+  "productionOrigin": "https://celestialfrontier.github.io",
+  "publishable": true,
+  "development": {
+    "versionSchema": "cf-v2-version/v1",
+    "version": "2.0",
+    "build": "develop-9f4b12dbfb0c",
+    "channel": "development"
+  },
+  "source": {
+    "commit": "9f4b12dbfb0cb8ba38003a0b79391a954372df24",
+    "shortCommit": "9f4b12dbfb0c",
+    "branch": "develop",
+    "state": "committed",
+    "dirtyEntries": [],
+    "buildInput": {
+      "mode": "git-archive-exact-commit",
+      "subtree": "port/v2",
+      "tree": "dc6e8a7297d7ffb9e8845f24a2df7352b8c5926f",
+      "externalInputs": [
+        {
+          "path": "port/baseline-v1.8.9/content-registry.json",
+          "blob": "8a290b25fc8ff27ca7f23f00367121a78a5e8af0"
+        }
+      ],
+      "workingTreeRead": false
+    }
+  },
+  "build": {
+    "command": "npx vite build in isolated git-archive snapshot of exact source commit (root-relative HTML asset references rewritten and verified relative)",
+    "node": "v26.7.0",
+    "vite": "8.2.0",
+    "lockfileSha256": "b81617792187b3e76c7f1586ed311d540f1451acadb85c369ffcd2c4571229cb",
+    "platform": "linux",
+    "architecture": "x64",
+    "githubRunId": "31669727316",
+    "githubRunAttempt": "1"
+  },
+  "storage": {
+    "isolation": "exact-origin",
+    "indexedDbName": "cf-v2-slice",
+    "localStorageKeys": [
+      "cf_v2_import_original"
+    ],
+    "contract": "The guarded app runs only on expectedOrigin or loopback. Production and preview therefore cannot share browser storage."
+  },
+  "indexing": "noindex,nofollow,noarchive,nosnippet plus robots.txt Disallow: /",
+  "publication": "approved-candidate-awaiting-separate-host-publication",
+  "files": [
+    {
+      "path": "assets/audit-BUP3pHqG.js",
+      "bytes": 16441,
+      "sha256": "eeeb727c86e49ce2504d82a296caf1e08edcd3625e0e03fb3a4b129dbe455f71"
+    },
+    {
+      "path": "assets/audit-BUP3pHqG.js.map",
+      "bytes": 67506,
+      "sha256": "3ab7e44061a7412335d0ac6405a499ea0c7b58d87630c526dc9dcb83ee13e5fc"
+    },
+    {
+      "path": "assets/browserAll-CAHNI2rF.js",
+      "bytes": 42649,
+      "sha256": "e4e09a2f845f764445a9672423c95a8f4142f3b314aee86ace1cc59e1cf68b03"
+    },
+    {
+      "path": "assets/browserAll-CAHNI2rF.js.map",
+      "bytes": 157973,
+      "sha256": "b73192615e7f58178dd0367776356a61535bc31ff7d2eb1e618bcbe92bde4f58"
+    },
+    {
+      "path": "assets/BufferResource-CrH0Joed.js",
+      "bytes": 10576,
+      "sha256": "dee7faf654d836305c5128f83d3ae59f4e73f721bf8ff00491b5573641316ffb"
+    },
+    {
+      "path": "assets/BufferResource-CrH0Joed.js.map",
+      "bytes": 26335,
+      "sha256": "8d5819b77d9c801acb1833fb3a0b24e92d0d167d76012e27c2491ef63e0ca9a4"
+    },
+    {
+      "path": "assets/CanvasPool-BewL5izq.js",
+      "bytes": 804,
+      "sha256": "8b4af0914a4436094e428b6747bef851805c1c84f361ba8819c1fbdcab6b806a"
+    },
+    {
+      "path": "assets/CanvasPool-BewL5izq.js.map",
+      "bytes": 3598,
+      "sha256": "9a7d4740eca3af0258b761488a2b1b1b95a53e46654824fb251210e02bb85519"
+    },
+    {
+      "path": "assets/CanvasRenderer-hi4akGXb.js",
+      "bytes": 87438,
+      "sha256": "7dd06b4cf41a35d53b7cfe667aec6e88867f56859a35c22e31f04cb3c5da14f1"
+    },
+    {
+      "path": "assets/CanvasRenderer-hi4akGXb.js.map",
+      "bytes": 467990,
+      "sha256": "f1626bcea6993adc1b9b343e25003a9cf1a8095df5fa4a57bcf77fe85784034d"
+    },
+    {
+      "path": "assets/canvasUtils-CWV5icuA.js",
+      "bytes": 6070,
+      "sha256": "faaff76b40957b52f7817add636bb204e563dfab14ed3a0b6f563c96c259938b"
+    },
+    {
+      "path": "assets/canvasUtils-CWV5icuA.js.map",
+      "bytes": 22162,
+      "sha256": "e68e36e79f2a7df11877903ba3d64fa1761649b8cb332d173ff7f09d480a4a03"
+    },
+    {
+      "path": "assets/Geometry-C5FtorEc.js",
+      "bytes": 101664,
+      "sha256": "9bbbacd5502e42fb7c51a5306bda3b59b718a2bacd20badde40fe7e8ab1afbb6"
+    },
+    {
+      "path": "assets/Geometry-C5FtorEc.js.map",
+      "bytes": 507381,
+      "sha256": "7f648c4f441c1073094e251d7cf05537a6deffe93c1e3bb2c5aafa5109d2dbce"
+    },
+    {
+      "path": "assets/getPo2TextureFromSource-0axNaDip.js",
+      "bytes": 25109,
+      "sha256": "b30689d034d24afffd35fc3a31fbc217dd73090d008e0ec963372dfdc5fcae68"
+    },
+    {
+      "path": "assets/getPo2TextureFromSource-0axNaDip.js.map",
+      "bytes": 109083,
+      "sha256": "956dc79f8f893b10d8256c1fc0d50933464b0386645add15c06c0a33af6a864d"
+    },
+    {
+      "path": "assets/getTextureBatchBindGroup-DkbnCTGz.js",
+      "bytes": 404,
+      "sha256": "3ce2d33bde60e5f2cc123fab89998b4c1580eecab18b1294321b14d255b83be5"
+    },
+    {
+      "path": "assets/getTextureBatchBindGroup-DkbnCTGz.js.map",
+      "bytes": 1867,
+      "sha256": "9e9d037f63a905400fa6c89c94e5122e5a36dd7fe538e8a3073a4a0cc039bcaf"
+    },
+    {
+      "path": "assets/hybridMatrix-ujdem4n7.js",
+      "bytes": 33838,
+      "sha256": "6c33d55a4d2b364f1a67213548a20781f853cad680bb8f182182bca1125b7e9d"
+    },
+    {
+      "path": "assets/hybridMatrix-ujdem4n7.js.map",
+      "bytes": 97552,
+      "sha256": "5e7c8718e280f975bcb8c9b4a26e879b2f5cfe97dc5c61b8837bb4fa9a5e1e53"
+    },
+    {
+      "path": "assets/init-S6n54E3j.js",
+      "bytes": 15305,
+      "sha256": "d9d1196b839d592b9b80843129c776109e53dbb6b96b905b6405bb65f0c42cfb"
+    },
+    {
+      "path": "assets/init-S6n54E3j.js.map",
+      "bytes": 54065,
+      "sha256": "22fef5bbaee93958b3fbac00dd36efbc998d117a660619bafe5808ce2bd1520e"
+    },
+    {
+      "path": "assets/main-GzkqhYHr.js",
+      "bytes": 476592,
+      "sha256": "0173e2f70c7ad92590cf32a73c1eba88b398f5312d55c22a23985d366b7ca599"
+    },
+    {
+      "path": "assets/main-GzkqhYHr.js.map",
+      "bytes": 1372932,
+      "sha256": "453c099a716851d61f9453991bdb14ee7b2e62663fd26f3e5084d431a9a791c7"
+    },
+    {
+      "path": "assets/RenderTargetSystem-B17crJt9.js",
+      "bytes": 71119,
+      "sha256": "658d2a2c1fc7f266fc37cf8296461051718e632a5e062c37d2a328b89e333ba0"
+    },
+    {
+      "path": "assets/RenderTargetSystem-B17crJt9.js.map",
+      "bytes": 267927,
+      "sha256": "e19475fdb586feeb11a56c2b225438fc04ecaa0fcb322a2834cd25dd5040e2c6"
+    },
+    {
+      "path": "assets/speciesart-BRcEHXBJ.js",
+      "bytes": 1263289,
+      "sha256": "ade0c8bca0553ff0237e9b485643972f19600087e29f4eb59592d7bb2fa55b86"
+    },
+    {
+      "path": "assets/speciesart-BRcEHXBJ.js.map",
+      "bytes": 4409072,
+      "sha256": "31934ee784630cab570d4383c52e64f501b363ac4068f5dd459ba09bda109a63"
+    },
+    {
+      "path": "assets/src-DDYdpvQl.js",
+      "bytes": 46964,
+      "sha256": "92456dff981166f639903297d40f3a511ce1e99be111f37b25f6e399960bbd3b"
+    },
+    {
+      "path": "assets/src-DDYdpvQl.js.map",
+      "bytes": 163910,
+      "sha256": "468eca6e1413a383b0f7bef4c63232c61e76c8d442a54911f8aa2a3e2e05c68d"
+    },
+    {
+      "path": "assets/src-M1J-pIR0.js",
+      "bytes": 60023,
+      "sha256": "50b48198d429b6c250124797193d19be1a90d6d46f289bb7861834ac1c0b40b0"
+    },
+    {
+      "path": "assets/src-M1J-pIR0.js.map",
+      "bytes": 162904,
+      "sha256": "361a0c5e7034889671e3292ae8c0bea90b5290222bd6e31f9fc506819b360342"
+    },
+    {
+      "path": "assets/webworkerAll-Dl-gkjA6.js",
+      "bytes": 73,
+      "sha256": "791e45d86752eb73039eb295ef453ce3e7b70d0a15fc8d297812370d688f7e30"
+    },
+    {
+      "path": "audit.html",
+      "bytes": 1966,
+      "sha256": "41b264a46795a26b3e5d2c092c4464f59d44ecdd38d6c64fc938f9af5618e94a"
+    },
+    {
+      "path": "hybrid-matrix.html",
+      "bytes": 2055,
+      "sha256": "a1966850e3ad80b3f3647bfbd8b811beb48b6b4232c2c34546f4e36bc36ed5a0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 32294,
+      "sha256": "821e40c1cc7f685a4e6e64dfd94f86df9e9f84737ea735c0c154ab9be0873228"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "version.json",
+      "bytes": 237,
+      "sha256": "febcae11cbfc11d5f7999b3b6fab94ae3be0315d9b766515dcd3c42791c35f27"
+    }
+  ],
+  "contentSha256": "fab179e701a03b9659ab336bace0e91400ce496d374114c978dcc775448ebe32"
+}

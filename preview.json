@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-08-13T16:45:54.195Z",
+  "generatedAt": "2026-08-13T21:28:36.207Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-c5aadc8a0842",
+    "build": "develop-9aad1a423dd4",
     "channel": "development"
   },
   "source": {
-    "commit": "c5aadc8a08424ddfc919bc2e4489b79e0f25b076",
-    "shortCommit": "c5aadc8a0842",
+    "commit": "9aad1a423dd4ffbec35e369e4cc5386f14dce1aa",
+    "shortCommit": "9aad1a423dd4",
     "branch": "develop",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "61784231527b64fe4f08b21374cb82ebdc605850",
+      "tree": "a89a11223b4f7ce11fc0fee20ef95b290ac52413",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -37,7 +37,7 @@
     "lockfileSha256": "b81617792187b3e76c7f1586ed311d540f1451acadb85c369ffcd2c4571229cb",
     "platform": "linux",
     "architecture": "x64",
-    "githubRunId": "31722287785",
+    "githubRunId": "31745741634",
     "githubRunAttempt": "1"
   },
   "storage": {
@@ -219,17 +219,17 @@
     {
       "path": "audit.html",
       "bytes": 1966,
-      "sha256": "77d4c55d0db792afa139ddab3c41b37cd06e985073df8de1e5e5a8399b45d717"
+      "sha256": "901b5e96242945aef71153fd10f70b41de04feaf1a4448c5e34dcba6b2abb2bd"
     },
     {
       "path": "hybrid-matrix.html",
       "bytes": 2055,
-      "sha256": "2640d0a8e567a9b5ffe099becfd8571b3d48b85122f76755d8a1dfdcbe11d2f2"
+      "sha256": "45dc399c7143f80db61b578838122afa8036f8832855a2f99402c3f388440bc2"
     },
     {
       "path": "index.html",
       "bytes": 32294,
-      "sha256": "dfbf1cae913653d57cff1b527be30054b1def7f24d313315d171641c73c471a9"
+      "sha256": "047ccccc347d522f60e3103bca96e9c5b5491619319599b06d2e8df20680734e"
     },
     {
       "path": "robots.txt",
@@ -239,8 +239,8 @@
     {
       "path": "version.json",
       "bytes": 237,
-      "sha256": "7a0e1040884146e0335c20e78725d73027c019e784351015892f017af47f7513"
+      "sha256": "5ba5a9f8335d33299f0b35ba144048b5c93067055be12dee2ae0691932a09b1a"
     }
   ],
-  "contentSha256": "8bd6c26c86ffac287797fe4112d86052b71437e8155770a72907a6bb06dc91ff"
+  "contentSha256": "e211fbe56c322321631563fbb2bd203fa7554e0eaaff14a459df45961f604a1a"
 }

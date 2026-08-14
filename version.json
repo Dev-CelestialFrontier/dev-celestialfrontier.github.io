@@ -2,8 +2,8 @@
   "schema": "cf-development-site-version/v1",
   "v": "2.0",
   "version": "2.0",
-  "build": "develop-e7463e100db4",
-  "sourceCommit": "e7463e100db43cd1a67e483b90e2fcfddad4493e",
+  "build": "develop-8eaf3b5aaf25",
+  "sourceCommit": "8eaf3b5aaf25c634ce944f66b6797f35f84bdb2d",
   "sourceBranch": "develop",
   "channel": "development"
 }

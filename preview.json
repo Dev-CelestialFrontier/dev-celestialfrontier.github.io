@@ -1,19 +1,19 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-08-14T06:35:15.297Z",
+  "generatedAt": "2026-08-14T08:43:02.779Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-8eaf3b5aaf25",
+    "build": "develop-5836d817fc82",
     "channel": "development"
   },
   "source": {
-    "commit": "8eaf3b5aaf25c634ce944f66b6797f35f84bdb2d",
-    "shortCommit": "8eaf3b5aaf25",
+    "commit": "5836d817fc8279b5f6520a1e9f9899a4367d43ec",
+    "shortCommit": "5836d817fc82",
     "branch": "develop",
     "state": "committed",
     "dirtyEntries": [],
@@ -37,7 +37,7 @@
     "lockfileSha256": "b81617792187b3e76c7f1586ed311d540f1451acadb85c369ffcd2c4571229cb",
     "platform": "linux",
     "architecture": "x64",
-    "githubRunId": "31776747613",
+    "githubRunId": "31784986607",
     "githubRunAttempt": "1"
   },
   "storage": {
@@ -219,17 +219,17 @@
     {
       "path": "audit.html",
       "bytes": 1966,
-      "sha256": "783abef7697f1079e36ed694f4cd76b2777e8e4df775f715909474fcbab92af2"
+      "sha256": "a4594c629a6bb891094d85059a9af6634f93c8d0f50569fe118e036fad632c11"
     },
     {
       "path": "hybrid-matrix.html",
       "bytes": 2055,
-      "sha256": "22e0d366e1ae5a26d46d90ec45138cab7f2da2d7525487e35cc3005807b243f3"
+      "sha256": "7b9c7ab30ea6b4d86d53e1d0888449932aed3bf98d8fefda0584a77e45aaa7e7"
     },
     {
       "path": "index.html",
       "bytes": 32294,
-      "sha256": "5db82562c1a8b9b4523221287e1f73bf246b68960c2fef2ddfaba237b1d88322"
+      "sha256": "edbdc167af4b7e67aedd3d208d45142148f3aebff709a99cda7f31a365846948"
     },
     {
       "path": "robots.txt",
@@ -239,8 +239,8 @@
     {
       "path": "version.json",
       "bytes": 237,
-      "sha256": "5f204a8d6712fe1662e00f8e55097cd8d3d86694cbef397f40ecc77749c302ab"
+      "sha256": "bf3b86754599ae60fb29e3b449a54498363f925ab39e52ab0a7ae24e964c7b45"
     }
   ],
-  "contentSha256": "bf3c2a0277d31469680f31cf6e127ad9b6725665580e26149ceda6aa10b69236"
+  "contentSha256": "5d3c11a67581ca255600414a3b30527c943a28d3d455f6249ad532c377ee8b49"
 }

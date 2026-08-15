@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-08-15T12:49:15.912Z",
+  "generatedAt": "2026-08-15T15:47:58.758Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-b5e5d0a3b4bb",
+    "build": "develop-a50e593e2135",
     "channel": "development"
   },
   "source": {
-    "commit": "b5e5d0a3b4bb4057fa6d251816454b370e8b2624",
-    "shortCommit": "b5e5d0a3b4bb",
+    "commit": "a50e593e2135f55ae8c37e6ece1f10c52701346b",
+    "shortCommit": "a50e593e2135",
     "branch": "develop",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "87244a676c6bb7d096dba48dbae42ec4ba30cafa",
+      "tree": "15d140e44c10d89559fd0c11958be491f9ea88ad",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -37,7 +37,7 @@
     "lockfileSha256": "b81617792187b3e76c7f1586ed311d540f1451acadb85c369ffcd2c4571229cb",
     "platform": "linux",
     "architecture": "x64",
-    "githubRunId": "31885531363",
+    "githubRunId": "31893693225",
     "githubRunAttempt": "1"
   },
   "storage": {
@@ -168,8 +168,8 @@
     },
     {
       "path": "assets/main-BkW0LqQS.js.map",
-      "bytes": 1422027,
-      "sha256": "da1f59a3f5db832907ab2dd58d8c5379d1c5edba9a271539b37075ee083e4098"
+      "bytes": 1421833,
+      "sha256": "0384699a23050bdb14b9bcf54f6c04bce0d14241edca4c23452bbd9077cff2fe"
     },
     {
       "path": "assets/RenderTargetSystem-B17crJt9.js",
@@ -219,17 +219,17 @@
     {
       "path": "audit.html",
       "bytes": 1966,
-      "sha256": "d57b1603d7e5c1d952aca9c9d158618664631432ae138196e0fd5ffbebb75e50"
+      "sha256": "b571e76abbf9a3034cff04196498afca3fda9737d862b7cf1b9d2236ee513dc2"
     },
     {
       "path": "hybrid-matrix.html",
       "bytes": 2055,
-      "sha256": "480dd3993908e74cd3af9f0c037cc08c1fc45ab08145c0d87ffc74eab722c3d5"
+      "sha256": "c2adb1746453a957ce60cab7dd3d2db87d8be46bf1b14f955c8cc94922c71af5"
     },
     {
       "path": "index.html",
       "bytes": 32374,
-      "sha256": "5a8b1057539099c0ae4307cbb193782a88f9daff351b0945d0c626cdfef5ecfa"
+      "sha256": "b7ec5af7e5d3e8641aa1c3aab52ee70babc3ef679929eb5e722d8a04852c5ebb"
     },
     {
       "path": "robots.txt",
@@ -239,8 +239,8 @@
     {
       "path": "version.json",
       "bytes": 237,
-      "sha256": "9c628a3d32317bd4dcca8731cbdb989cbb51b38289af7c0ec0ea7db5c7ac0c86"
+      "sha256": "ff4f1d8259883c359e4c083c09a53df422aa44c47309b4b3e2a3897ec283d6a7"
     }
   ],
-  "contentSha256": "de0776a93df6a88470e2d448e3345b03008d3f131f354f88cdd4c788e6662f55"
+  "contentSha256": "650a19c596cb63a20966984e8b26c84ace6e372bd5b55ea7d4a168ff97021270"
 }

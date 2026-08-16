@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-08-16T12:19:37.875Z",
+  "generatedAt": "2026-08-16T23:16:01.119Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-b091f010011f",
+    "build": "develop-384470195171",
     "channel": "development"
   },
   "source": {
-    "commit": "b091f010011fa16bec457599b41274b7f92bb5e6",
-    "shortCommit": "b091f010011f",
+    "commit": "38447019517147319bd08c598202d097ee866874",
+    "shortCommit": "384470195171",
     "branch": "develop",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "f66036858fe3dc38fc8788d394f55e04bf4afc5f",
+      "tree": "24cf0859a5ea151597a0420431515ba5746004a8",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -34,10 +34,10 @@
     "command": "npx vite build in isolated git-archive snapshot of exact source commit (root-relative HTML asset references rewritten and verified relative)",
     "node": "v26.7.0",
     "vite": "8.2.0",
-    "lockfileSha256": "b81617792187b3e76c7f1586ed311d540f1451acadb85c369ffcd2c4571229cb",
+    "lockfileSha256": "a6b7eb9f9439d7c76d7cf0ee154ef6221e9ad73226c7a5f0e893feaf4231a110",
     "platform": "linux",
     "architecture": "x64",
-    "githubRunId": "31946711226",
+    "githubRunId": "31978596073",
     "githubRunAttempt": "1"
   },
   "storage": {
@@ -162,14 +162,14 @@
       "sha256": "22fef5bbaee93958b3fbac00dd36efbc998d117a660619bafe5808ce2bd1520e"
     },
     {
-      "path": "assets/main-pHSi4bs0.js",
-      "bytes": 504628,
-      "sha256": "8cebf8e7af9ee15d527932eab350a129798e5b29c95d0626b287e69efc3dc4ac"
+      "path": "assets/main-Cmhkq1nJ.js",
+      "bytes": 521576,
+      "sha256": "b22e5c3fb595e2b9c470004ea928b35a0ff5fcfefa58ccab4c9260a3234ec1ae"
     },
     {
-      "path": "assets/main-pHSi4bs0.js.map",
-      "bytes": 1481671,
-      "sha256": "d87cde826082ca794300ca6b02c9f75444a0171f66fcc248c36bc3c95dc158d0"
+      "path": "assets/main-Cmhkq1nJ.js.map",
+      "bytes": 1544938,
+      "sha256": "e8d4788455113aa2e7360de456861c4122a102538be3c4af6c8dcf1026b58a3c"
     },
     {
       "path": "assets/RenderTargetSystem-B17crJt9.js",
@@ -219,17 +219,17 @@
     {
       "path": "audit.html",
       "bytes": 1966,
-      "sha256": "2145205f5c84b53edee72c25f06e82109d77540ce5394a4e8577d7735175b8a9"
+      "sha256": "04ae8a5649ebed4205254eaf7d147dfd4060e59071fd9035354e80c7220acb84"
     },
     {
       "path": "hybrid-matrix.html",
       "bytes": 2055,
-      "sha256": "e12964a3e585f68ce3d2d5de7969402d7c40a8e180c9d784e675a5a51a8e1e0e"
+      "sha256": "db8b5719addc925f77fe12924c38231c2f7b30f19a089c324cafc5b5912864ea"
     },
     {
       "path": "index.html",
       "bytes": 32374,
-      "sha256": "2d28d68a70e62722134d30daf69062b129cd39005dc40bf16e680023f1e42eb7"
+      "sha256": "693cffcfad253586b75a29abd94b38a6a1289b907958ed8d395d95b5778eaf4e"
     },
     {
       "path": "robots.txt",
@@ -239,8 +239,8 @@
     {
       "path": "version.json",
       "bytes": 237,
-      "sha256": "a7db50707e3a52ee275f18bb4b52a17709fa6f052dfa8a2273051cb0f97b34df"
+      "sha256": "7915ccc6cd6d099a4cc585b77b78e31deeb019cd1edd7ff18aca3f61b4c54916"
     }
   ],
-  "contentSha256": "8bdae6cf1d5d1bd557cabf7232bfaba9a7eadca6a9a1c64c0902a7431f88d7e0"
+  "contentSha256": "bb5d5227968eefcd8baea07276cdfa7238fdcc20a2c6afc4b443fe9b834fb668"
 }

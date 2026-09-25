@@ -1,0 +1,263 @@
+{
+  "kind": "quadruped",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"River Otter\"]],[\"accent\",[\"number\",\"7\"]],[\"behavior\",[\"number\",\"9\"]],[\"body\",[\"number\",\"4\"]],[\"color\",[\"number\",\"15\"]],[\"detail\",[\"number\",\"8\"]],[\"diet\",[\"number\",\"0\"]],[\"eyes\",[\"number\",\"2\"]],[\"form\",[\"number\",\"2\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"13\"]],[\"head\",[\"number\",\"8\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"2\"]],[\"limbs\",[\"number\",\"1\"]],[\"loco\",[\"number\",\"11\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"5\"]],[\"pattern\",[\"number\",\"1\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"3920864942\"]],[\"sense\",[\"number\",\"0\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"5\"]],[\"tail\",[\"number\",\"5\"]],[\"temper\",[\"number\",\"7\"]],[\"trait\",[\"number\",\"19\"]]]]",
+    "seed": 3920864942,
+    "ownerId": "authored:archetype-sprint/river-otter",
+    "earthName": "River Otter"
+  },
+  "template": {
+    "id": "quadruped",
+    "version": 1
+  },
+  "clipSetId": "quadruped-land-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3920864942,
+    "kingdom": "fauna",
+    "color": 15,
+    "form": 2,
+    "body": 4,
+    "loco": 11,
+    "trait": 19,
+    "size": 3,
+    "diet": 0,
+    "head": 8,
+    "limbs": 1,
+    "skin": 5,
+    "tail": 5,
+    "pattern": 1,
+    "eyes": 2,
+    "behavior": 9,
+    "habitat": 13,
+    "detail": 8,
+    "accent": 7,
+    "temper": 7,
+    "sense": 0,
+    "repro": 4,
+    "life": 2,
+    "metab": 5,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "River Otter"
+  },
+  "geometry": {
+    "cutoutAssetHash": "12b5d7092a86a53c7769a1719c0eda38d5369f3ca3056b80a6275dbf1cd3411e",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.6586921850079744,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.569377990430622,
+      0.5255183413078149
+    ],
+    "pelvis": [
+      0.41866028708133973,
+      0.5255183413078149
+    ],
+    "spine": [
+      0.5701754385964912,
+      0.518341307814992
+    ],
+    "chest": [
+      0.6977671451355661,
+      0.5311004784688995
+    ],
+    "neck": [
+      0.7830940988835726,
+      0.47368421052631576
+    ],
+    "head": [
+      0.8556618819776715,
+      0.4409888357256778
+    ],
+    "jaw": [
+      0.8923444976076556,
+      0.4696969696969697
+    ],
+    "hindNearRoot": [
+      0.42105263157894735,
+      0.5279106858054227
+    ],
+    "hindNearKnee": [
+      0.4393939393939394,
+      0.5733652312599681
+    ],
+    "hindNearAnkle": [
+      0.38197767145135564,
+      0.6164274322169059
+    ],
+    "hindNearPaw": [
+      0.4194577352472089,
+      0.6403508771929824
+    ],
+    "hindFarRoot": [
+      0.4649122807017544,
+      0.5518341307814992
+    ],
+    "hindFarKnee": [
+      0.4864433811802233,
+      0.5933014354066986
+    ],
+    "hindFarAnkle": [
+      0.4768740031897927,
+      0.6172248803827751
+    ],
+    "hindFarPaw": [
+      0.5303030303030303,
+      0.6267942583732058
+    ],
+    "foreNearRoot": [
+      0.6977671451355661,
+      0.5382775119617225
+    ],
+    "foreNearKnee": [
+      0.6786283891547049,
+      0.5877192982456141
+    ],
+    "foreNearAnkle": [
+      0.696969696969697,
+      0.6259968102073366
+    ],
+    "foreNearPaw": [
+      0.7288676236044657,
+      0.6483253588516746
+    ],
+    "foreFarRoot": [
+      0.7599681020733652,
+      0.5494417862838915
+    ],
+    "foreFarKnee": [
+      0.751993620414673,
+      0.5861244019138756
+    ],
+    "foreFarAnkle": [
+      0.7918660287081339,
+      0.6220095693779905
+    ],
+    "foreFarPaw": [
+      0.8317384370015949,
+      0.6307814992025519
+    ],
+    "tail0": [
+      0.3660287081339713,
+      0.539872408293461
+    ],
+    "tail1": [
+      0.2926634768740032,
+      0.5725677830940988
+    ],
+    "tail2": [
+      0.20334928229665072,
+      0.5988835725677831
+    ],
+    "tail3": [
+      0.10526315789473684,
+      0.6220095693779905
+    ],
+    "earNearRoot": [
+      0.7934609250398724,
+      0.43381180223285487
+    ],
+    "earNearTip": [
+      0.7894736842105263,
+      0.42105263157894735
+    ],
+    "earFarRoot": [
+      0.8381180223285486,
+      0.40271132376395535
+    ],
+    "earFarTip": [
+      0.8381180223285486,
+      0.39473684210526316
+    ]
+  },
+  "materials": {
+    "surface": "plain unmarked painted brown otter fur with lighter throat shading, small rounded ears and whiskers"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/master.png",
+  "habitat": {
+    "realm": "amphibious",
+    "source": "Manually declared Earth River Otter; standing short-legged mustelid on land, semiaquatic species, no swimming surfaces inferred."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Four independently visible short legs and paws, two visible small rounded ears, complete low tapering tail. No absent, hidden or folded contracted anatomy. Landmarks and pixel priority polygons manually authored on generation03, no transferred source labels.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; no family-wide or swimming acceptance",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "5e06238781c3af8441ea25ab65c66790c5f306562d41a38635bede6a86297f45",
+    "subjectSourceSha256": "5d2f64208f664022cc34f4d862fb5ceb390f487ecbb68a62f7532f8cd24ca96c",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.15071770334928225,
+      "spine": 0.1516850386439494,
+      "chest": 0.128228078100426,
+      "neck": 0.10284608334967846,
+      "head": 0.0795931572218766,
+      "jaw": 0.04658080340194658,
+      "hindFarRoot": 0.05321435604689914,
+      "hindFarKnee": 0.04672393006472166,
+      "hindFarAnkle": 0.025766338790117256,
+      "hindFarPaw": 0.054279221930595305,
+      "foreFarRoot": 0.06484876726925667,
+      "foreFarKnee": 0.037539401262965975,
+      "foreFarAnkle": 0.053642839103164745,
+      "foreFarPaw": 0.04082591941362109,
+      "hindNearRoot": 0.0033832860343854126,
+      "hindNearKnee": 0.049015500352884524,
+      "hindNearAnkle": 0.07177033492822968,
+      "hindNearPaw": 0.044464439743064285,
+      "foreNearRoot": 0.0071770334928229484,
+      "foreNearKnee": 0.053016810649424824,
+      "foreNearAnkle": 0.04244492306912685,
+      "foreNearPaw": 0.03893638154938971,
+      "tail0": 0.054553848090867864,
+      "tail1": 0.08032088577190115,
+      "tail2": 0.09311039753230811,
+      "tail3": 0.1007754907140295,
+      "earFarRoot": 0.042106471395355935,
+      "earFarTip": 0.00797448165869219,
+      "earNearRoot": 0.06261364750383923,
+      "earNearTip": 0.013367667156491424
+    },
+    "measures": {
+      "torso": 0.27916267384481624,
+      "head": 0.0795931572218766,
+      "head/torso": 0.2851138947971305,
+      "bone-min": 0.0033832860343854126,
+      "bone-max": 0.1516850386439494,
+      "leg/torso:hindFar": 0.45410616340458226,
+      "leg/torso:foreFar": 0.47287181327520106,
+      "leg/torso:hindNear": 0.59194975011609,
+      "leg/torso:foreNear": 0.48143297030695437
+    }
+  },
+  "recipeHash": "319995acc2303f38f7ea5ea1ae7ebedd09c525234ab97ee2e7510f90e791bb73"
+}

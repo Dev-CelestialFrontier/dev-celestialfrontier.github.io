@@ -1,0 +1,163 @@
+{
+  "kind": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Sturgeon\"]],[\"accent\",[\"number\",\"7\"]],[\"behavior\",[\"number\",\"6\"]],[\"body\",[\"number\",\"9\"]],[\"color\",[\"number\",\"15\"]],[\"detail\",[\"number\",\"2\"]],[\"diet\",[\"number\",\"0\"]],[\"eyes\",[\"number\",\"0\"]],[\"form\",[\"number\",\"4\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"15\"]],[\"head\",[\"number\",\"0\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"3\"]],[\"limbs\",[\"number\",\"5\"]],[\"loco\",[\"number\",\"13\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"3\"]],[\"pattern\",[\"number\",\"3\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"83809255\"]],[\"sense\",[\"number\",\"8\"]],[\"size\",[\"number\",\"1\"]],[\"skin\",[\"number\",\"3\"]],[\"tail\",[\"number\",\"1\"]],[\"temper\",[\"number\",\"5\"]],[\"trait\",[\"number\",\"7\"]]]]",
+    "seed": 83809255,
+    "ownerId": "authored:archetype-sprint/sturgeon",
+    "earthName": "Sturgeon"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 83809255,
+    "kingdom": "fauna",
+    "color": 15,
+    "form": 4,
+    "body": 9,
+    "loco": 13,
+    "trait": 7,
+    "size": 1,
+    "diet": 0,
+    "head": 0,
+    "limbs": 5,
+    "skin": 3,
+    "tail": 1,
+    "pattern": 3,
+    "eyes": 0,
+    "behavior": 6,
+    "habitat": 15,
+    "detail": 2,
+    "accent": 7,
+    "temper": 5,
+    "sense": 8,
+    "repro": 4,
+    "life": 3,
+    "metab": 3,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Sturgeon"
+  },
+  "geometry": {
+    "cutoutAssetHash": "cd1a2cd6aecb629019d576abe64b50f549f95a4efa2cb8c58744aa5b0a9601f2",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.82,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7416267942583732,
+      0.5079744816586922
+    ],
+    "head": [
+      0.8373205741626795,
+      0.5039872408293461
+    ],
+    "jaw": [
+      0.8676236044657097,
+      0.5374800637958532
+    ],
+    "spine0": [
+      0.6810207336523126,
+      0.5047846889952153
+    ],
+    "spine1": [
+      0.5821371610845295,
+      0.5063795853269537
+    ],
+    "spine2": [
+      0.4784688995215311,
+      0.5135566188197768
+    ],
+    "spine3": [
+      0.3763955342902711,
+      0.5135566188197768
+    ],
+    "spine4": [
+      0.2838915470494418,
+      0.5087719298245614
+    ],
+    "spine5": [
+      0.19138755980861244,
+      0.5023923444976076
+    ],
+    "caudal": [
+      0.10127591706539076,
+      0.49920255183413076
+    ],
+    "dorsal": [
+      0.27352472089314195,
+      0.4449760765550239
+    ],
+    "pectoralNear": [
+      0.6961722488038278,
+      0.5988835725677831
+    ],
+    "pectoralFar": [
+      0.7416267942583732,
+      0.5964912280701754
+    ]
+  },
+  "materials": {
+    "surface": "plain steel-grey painted sturgeon scales and bony scutes; no pigment markings"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/master.png",
+  "coverage": {
+    "scope": "Manual observation of right-facing generation04, all visible fins/barbels retained. Prior left-facing records and bindings remain unchanged.",
+    "notes": "Thirteen existing fish joints; small pelvic/anal painted areas follow their observed axial region. No source pixels excluded.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "9492131d67b710cca0ab4a83afcc97fae1795f31b310972b56cc5bb60e1d2d57",
+    "subjectSourceSha256": "eb2179313088bfb2f67bea7a5fc1a75e73829f6d8098eb171b1487f485169b86",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.09577681139923701,
+      "jaw": 0.0451668333604666,
+      "spine0": 0.060689944467114613,
+      "spine1": 0.09889643379858053,
+      "spine2": 0.10391640036708044,
+      "spine3": 0.10207336523125998,
+      "spine4": 0.09262764654374227,
+      "spine5": 0.09272371198563724,
+      "caudal": 0.09016808157612087,
+      "dorsal": 0.3146617694134246,
+      "pectoralFar": 0.08851674641148322,
+      "pectoralNear": 0.10163945352271771
+    },
+    "measures": {
+      "body": 0.4896390182986344,
+      "bone-min": 0.0451668333604666,
+      "bone-max": 0.3146617694134246,
+      "caudal/body": 0.18415215741880828,
+      "head/body": 0.19560698355297748
+    }
+  },
+  "recipeHash": "42621bc17f76e19de15b2d6300922321146355ff8699a4767373c1f03d82dd64"
+}

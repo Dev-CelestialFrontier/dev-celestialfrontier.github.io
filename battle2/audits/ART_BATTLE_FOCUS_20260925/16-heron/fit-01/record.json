@@ -1,0 +1,201 @@
+{
+  "kind": "biped-bird",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Heron\"]],[\"accent\",[\"number\",\"12\"]],[\"behavior\",[\"number\",\"4\"]],[\"body\",[\"number\",\"1\"]],[\"color\",[\"number\",\"8\"]],[\"detail\",[\"number\",\"3\"]],[\"diet\",[\"number\",\"4\"]],[\"eyes\",[\"number\",\"1\"]],[\"form\",[\"number\",\"12\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"7\"]],[\"head\",[\"number\",\"3\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"4\"]],[\"limbs\",[\"number\",\"0\"]],[\"loco\",[\"number\",\"11\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"0\"]],[\"pattern\",[\"number\",\"7\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"13215684\"]],[\"sense\",[\"number\",\"3\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"3\"]],[\"tail\",[\"number\",\"1\"]],[\"temper\",[\"number\",\"6\"]],[\"trait\",[\"number\",\"2\"]]]]",
+    "seed": 13215684,
+    "ownerId": "authored:archetype-sprint/heron",
+    "earthName": "Heron"
+  },
+  "template": {
+    "id": "biped-bird",
+    "version": 1
+  },
+  "clipSetId": "biped-bird-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 13215684,
+    "kingdom": "fauna",
+    "color": 8,
+    "form": 12,
+    "body": 1,
+    "loco": 11,
+    "trait": 2,
+    "size": 3,
+    "diet": 4,
+    "head": 3,
+    "limbs": 0,
+    "skin": 3,
+    "tail": 1,
+    "pattern": 7,
+    "eyes": 1,
+    "behavior": 4,
+    "habitat": 7,
+    "detail": 3,
+    "accent": 12,
+    "temper": 6,
+    "sense": 3,
+    "repro": 4,
+    "life": 4,
+    "metab": 0,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Heron"
+  },
+  "geometry": {
+    "cutoutAssetHash": "15618869db6ea85407c2566b5dacd469513bffd1db2fa0a76247918cb51c491c",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.8229665071770335,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.5287081339712919,
+      0.5271132376395534
+    ],
+    "pelvis": [
+      0.4880382775119617,
+      0.5996810207336523
+    ],
+    "spine": [
+      0.562200956937799,
+      0.507177033492823
+    ],
+    "chest": [
+      0.6100478468899522,
+      0.518341307814992
+    ],
+    "neck0": [
+      0.6523125996810207,
+      0.4473684210526316
+    ],
+    "neck1": [
+      0.5988835725677831,
+      0.38995215311004783
+    ],
+    "head": [
+      0.645933014354067,
+      0.3492822966507177
+    ],
+    "beak": [
+      0.7695374800637959,
+      0.38197767145135564
+    ],
+    "legNearKnee": [
+      0.4258373205741627,
+      0.6674641148325359
+    ],
+    "legNearAnkle": [
+      0.4082934609250399,
+      0.7767145135566188
+    ],
+    "legNearFoot": [
+      0.45534290271132377,
+      0.7982456140350878
+    ],
+    "legFarKnee": [
+      0.4920255183413078,
+      0.6762360446570973
+    ],
+    "legFarAnkle": [
+      0.5318979266347688,
+      0.7934609250398724
+    ],
+    "legFarFoot": [
+      0.5877192982456141,
+      0.8086124401913876
+    ],
+    "wingNearRoot": [
+      0.5318979266347688,
+      0.44976076555023925
+    ],
+    "wingNearTip": [
+      0.24082934609250398,
+      0.24800637958532695
+    ],
+    "wingFarRoot": [
+      0.5287081339712919,
+      0.42025518341307816
+    ],
+    "wingFarTip": [
+      0.4178628389154705,
+      0.24003189792663476
+    ],
+    "tailFan": [
+      0.31259968102073366,
+      0.5972886762360446
+    ]
+  },
+  "materials": {
+    "surface": "plain medium grey painted heron feathers, natural muted bill and scaly legs/toes"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/16-heron/master.png",
+  "habitat": {
+    "realm": "land",
+    "source": "Manually declared Heron standing on two long wading legs, two visible spread wings. Ground battle pose; no hidden undersides or flying support inferred."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Long S neck and dagger bill, two long stilt-leg chains/toes, two visible spread wings, short full tail explicitly present. No absent, hidden or folded parts. Manual fresh master-pixel landmarks and labels.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; no family-wide or flight acceptance",
+    "wingPose": "Both spread and visible; unpainted undersides are not supplied.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "c35735a7c145d14e334211c06dc937b8b07f9116f9aff9be2d8b98586d07330d",
+    "subjectSourceSha256": "5eecda3718f23ba7d32c1e713029f75adffc2eeffc2a1c4d1a4bb8c45bdbd1e9",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.08318726084933137,
+      "spine": 0.11856260234606453,
+      "chest": 0.04913212695613834,
+      "neck0": 0.08260423708184085,
+      "neck1": 0.07843015212736522,
+      "head": 0.06219073240301512,
+      "beak": 0.12785558836727365,
+      "legFarKnee": 0.07665878799818354,
+      "legFarAnkle": 0.12382035989237145,
+      "legFarFoot": 0.05784110942835278,
+      "legNearKnee": 0.09199732001311799,
+      "legNearAnkle": 0.11065006386242722,
+      "legNearFoot": 0.051742035717729964,
+      "wingFarRoot": 0.12742463144101215,
+      "wingFarTip": 0.2115824001838059,
+      "wingNearRoot": 0.10397452001918098,
+      "wingNearTip": 0.354154981378164,
+      "tailFan": 0.1754549071727752
+    },
+    "measures": {
+      "body": 0.14663725282987516,
+      "bone-min": 0.04913212695613834,
+      "bone-max": 0.354154981378164,
+      "leg/torso:legFar": 1.7616277742096302,
+      "leg/torso:legNear": 1.7348212318762637,
+      "wing/torso": 2.311875223263528
+    }
+  },
+  "recipeHash": "cf60db301065dbb0147b3ba91650fbaa7b0447cf8fac40250a2b758d2cdb5982"
+}

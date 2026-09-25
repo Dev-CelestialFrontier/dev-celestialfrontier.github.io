@@ -784,6 +784,686 @@
    "sha256": "efe2405f0168299d429debc35ed72ee0dbbca7f602ee03f957a8bec3f49e26c2"
   },
   {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/banded.png",
+   "bytes": 19202,
+   "sha256": "f81bb965cef65dd6824fc2967bd401249b219f5de8313bf02b01958fb1629f10"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/eye-spotted.png",
+   "bytes": 29627,
+   "sha256": "7a9b7f9712d2190f9a7f84b24bb5cdc57e2913bfe435e13bdb103257d0d2fc39"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/marbled.png",
+   "bytes": 34747,
+   "sha256": "d229cbf5d8dc0eba4697c8df016c87b5a8fdb3187a4a36fa109aede66c98974c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/mottled.png",
+   "bytes": 25126,
+   "sha256": "ab33586877863a5f7470880ffeeffcca2c5af2aa64cdb5bd75aea608629b7e9d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/spotted.png",
+   "bytes": 23949,
+   "sha256": "ad2278c3cf7dd413de3182aaddf5c5693647aed02c0cb5a71ca6ac3b1be1abd1"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/striped.png",
+   "bytes": 35669,
+   "sha256": "363319f5961632df69e3e44bc4fba16343531364ba22007e8519c5607cb3ac4b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/binding.json.gz",
+   "bytes": 208278,
+   "sha256": "901eefe6f166766e9b94b26470757c82a798c19754e1f6aead9058eb54679d0b",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/binding.json",
+    "sha256": "53e14948949de8737876db980fe450ea5462e41b077b6f2b867358a9af52fe7d",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/parts/alpha.png",
+   "bytes": 63881,
+   "sha256": "4ded7d35f09248effdb884e7976143ed6e44f227b07b70b80b01ab508c917026",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/parts/keyed.png",
+    "sha256": "1735c0d8213313b80cce70cd8e9bf72d79aaab742b0835e54f4024ba816554ae",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/parts/atlas/bass.png",
+   "bytes": 1143634,
+   "sha256": "ae063590ba4b573f1b1fbf1b5b58a53216d66f1d6f27f7dc73f40c50635739c1"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/parts/manifest.json",
+   "bytes": 2110,
+   "sha256": "ef2c38ff8765898ae51c1d2b55effc2be7ba99d83af551ad7317605ec6ce5ee8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/record.json",
+   "bytes": 5761,
+   "sha256": "8af4a5f98a2b3ed947f010ec48869056401de1043602f637355b939f4cc5ce85"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings.json",
+   "bytes": 24327,
+   "sha256": "85ac554cc48cb4015453a4c89df2d7ac48300e50ab547347467ee86d4d2d2f41"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/banded.png",
+   "bytes": 37587,
+   "sha256": "62d5282ef4bfe7ea1d9ec8054b7702822e0504dc7cb0292bb3b4072c8c4d178b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/eye-spotted.png",
+   "bytes": 29047,
+   "sha256": "85c923fcb67794702b8e9b35ef2abf2fa4c5a1395c103b640b9e61cebb85ae3b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/marbled.png",
+   "bytes": 56983,
+   "sha256": "086b593f20ec6f71b2a89750036fac1be960f2929fbfa15499712d16e27668ce"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/mottled.png",
+   "bytes": 31201,
+   "sha256": "180a95d1ab54ed6d9b5796b0e654fa1e998555791cba6429c9a8e341c6aafeef"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/spotted.png",
+   "bytes": 23601,
+   "sha256": "15ae919460fa4e8cf3d0baea4e965aec4a8b3928a3d9cbb0964d737dbb1736ed"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/markings/striped.png",
+   "bytes": 47739,
+   "sha256": "6d184960858ffd1813e00c705c903107785180746c843fa059b0fa2906172aba"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/master.png",
+   "bytes": 1111759,
+   "sha256": "8e3ff13f2dd2b8b65e775e9a720760725eaf0087b2fecb9caa3ce9736ea1d1e8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/binding.json.gz",
+   "bytes": 288539,
+   "sha256": "d130e49ee363d628228d11fec7946b62cd8befb27e2b9b8877b54a506beecf5a",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/binding.json",
+    "sha256": "7311cf78431989d81d950d8d4689f1e10e059c321b980dbb1e2cd9632fa9b582",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/parts/alpha.png",
+   "bytes": 133872,
+   "sha256": "8abe5a96835d8be04f9d6d5bab911a012a8580222bdfd47c214fc9ff76df7927",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/parts/keyed.png",
+    "sha256": "3a1062f3567d1577d12bce4b0972439c40bfcee0a5232f4d62c330f998df5fd8",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/parts/atlas/tang.png",
+   "bytes": 1373291,
+   "sha256": "fec9e0c26ab84e500b9b2ab4fab4c9466e2e32db9f6eb716bbacdb51950a9f85"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/parts/manifest.json",
+   "bytes": 2110,
+   "sha256": "0426e1828f766e2191bc08ea50d96c010bad3267267b675a84c13fed46da3bdd"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/record.json",
+   "bytes": 5303,
+   "sha256": "330ffbca96f9a8bc6a379af0e5aa32cab5a314e2085a3d431c29cbeb75d13edb"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings.json",
+   "bytes": 24464,
+   "sha256": "30fe4f21dbbf300223721c201c6f133b57e441019854b986b46f6265f0012ca7"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/banded.png",
+   "bytes": 64632,
+   "sha256": "a05f96ba652058139ee3abebc2cdcc55d356e6b692a184d27e0714688e99056c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/eye-spotted.png",
+   "bytes": 29828,
+   "sha256": "a111fa26851cd5aa0f9a61fdb153d08403bcd143494cd07173fa4ffb1370d4f6"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/marbled.png",
+   "bytes": 74335,
+   "sha256": "d476bfe841b05c5621b2d931a34bec810fd1007cfe282651d503af57ca521bae"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/mottled.png",
+   "bytes": 70298,
+   "sha256": "81c7ec9738da0264bfc4a5abb8237e6b8af05c3bf7a1f3a72b49d299ff66702c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/spotted.png",
+   "bytes": 35417,
+   "sha256": "76828bf3b3602c2f6cc11720f69e460af864da20f2aec82a24bc8081e8d5b269"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/striped.png",
+   "bytes": 64165,
+   "sha256": "6b5bdb78662db4bbe2cbc0073ef5e58957602dd4a330ddbb1eb98ac5c76c907c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/master.png",
+   "bytes": 1319605,
+   "sha256": "e6970b7e7d2320aca6022ae2b74117f10f7d38e66fc5b81568b0061ce65f8ffe"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/binding.json.gz",
+   "bytes": 231813,
+   "sha256": "1a3ad8979dcb5545ce698b944808905ad94957f0cf930888e1f2d90e7573c216",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/binding.json",
+    "sha256": "b5da6af9459e3a04408fa36ddd29ab77c1f06742998660a018dfb378930a577b",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/parts/alpha.png",
+   "bytes": 66576,
+   "sha256": "b961a6ee812090c1d5be353ea8d0d3ed0bb0835666c99098c058d8f6cd30a387",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/parts/keyed.png",
+    "sha256": "82e7288fa8f75a0b7cb923de3df23815f87fefec6b1e6a398cfbcb7b414523f2",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/parts/atlas/wolf.png",
+   "bytes": 627949,
+   "sha256": "3888b35dc716d271e44f68213506de897ecdc0285e09084e0f27a08983c0c870"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/parts/manifest.json",
+   "bytes": 5200,
+   "sha256": "2af609ab852c611b938e790c8a1247c3edbc41b6415d40e84fc26e684e93a922"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/record.json",
+   "bytes": 7502,
+   "sha256": "8ccee0dc9fb68d1e2e5c69e5efb66499af8af811998c822a9652db33d345cc7d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings.json",
+   "bytes": 26038,
+   "sha256": "cc7d88248165ea634528836248999f97f890f9af167a3ff7ea8bb31df75c941e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/banded.png",
+   "bytes": 30538,
+   "sha256": "2f55ec37c8854080d0b016a7a3497cf41c099be65da1d6d9b5ab81397391dde6"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/eye-spotted.png",
+   "bytes": 27536,
+   "sha256": "b264ddf009cce27913c076656b64718989f1ed24a7325cb005b185537977b2ed"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/marbled.png",
+   "bytes": 44116,
+   "sha256": "4ea5fb0169c493bf163b14efe87008e7cc9882b9fa2af6dc5d165e2cc6a7694c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/mottled.png",
+   "bytes": 37406,
+   "sha256": "3ae6da1d355e060b20294501f8e868509a6ee6ec94a391b6e3228537c1a743d1"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/spotted.png",
+   "bytes": 22142,
+   "sha256": "272f6717d677e6827be6c05f6caab0fcae06449518641f24e6401a8ae67558e8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/markings/striped.png",
+   "bytes": 29532,
+   "sha256": "f0e905f76aff8adf8fdb0c9ef3ddfbb6496126019b5b96ac95f5cff32da17d14"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/master.png",
+   "bytes": 609200,
+   "sha256": "ab7a9c80a6b5ea2344f88d7d14038ad1df0fe9d5cf942fae59a5860543bb1e43"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/binding.json.gz",
+   "bytes": 180113,
+   "sha256": "729e02825fc9edfadc54bb981747cc62c5c9dce3c716834e6cf09775139980d4",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/binding.json",
+    "sha256": "5dd755f791e843b52eefc702cf779ec2bb7b0ac1025a695c458aae11fd0dedbf",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/parts/alpha.png",
+   "bytes": 53661,
+   "sha256": "14ac3a84d2ae34edd6a162022fe733b84a593da693dc240fb763c15740c1907c",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/parts/keyed.png",
+    "sha256": "21095f3f344ccddd927becb4cb00cece239c8fc192d80a9cde5152234a04fe87",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/parts/atlas/river-otter.png",
+   "bytes": 471195,
+   "sha256": "a5d61152a9fe1ace7a07d3f834a5c16b0e060921e9d36b93746f530d9254671f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/parts/manifest.json",
+   "bytes": 5207,
+   "sha256": "49a0611a3ad71ae2ba1cb86096dc0f4cbbf5ad228df57ca5b894e64b4fa82629"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/record.json",
+   "bytes": 7671,
+   "sha256": "27beffd980683e5a505cb6211729a43eab0b1936dc617f3b78b9b14a19ac1c6e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings.json",
+   "bytes": 25539,
+   "sha256": "cb442ffefbcb8604d6768a37375852daad6cabc22690276f247f2192c6a847e2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/banded.png",
+   "bytes": 24000,
+   "sha256": "7bdb6055651d236b12a9d5762b462bc614697545391a752d67cfe9d81d866a10"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/eye-spotted.png",
+   "bytes": 22036,
+   "sha256": "dce9a092261c542d8766318fdd49e4c1aac11401c96f320d3361527ad8e3d2ba"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/marbled.png",
+   "bytes": 39239,
+   "sha256": "4d0d84f7a3b85a91c5165bb6c674219849e6d4dd73f273c41c63a67f13208ea3"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/mottled.png",
+   "bytes": 22437,
+   "sha256": "9ed554c499c5bc5bcd71f75de6ae74bfe99a0a8776b52721261bc0b3ffcf205b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/spotted.png",
+   "bytes": 15647,
+   "sha256": "b3a986e4ea98a90fd3c12bd53adf499578339806bf1075fa9790d4fddf669de6"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/markings/striped.png",
+   "bytes": 25194,
+   "sha256": "591974ef7418e64e4e1f62a45c3b0bdd552ba0113ea15f4ad9bf49cf8b40636b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/master.png",
+   "bytes": 457140,
+   "sha256": "12b5d7092a86a53c7769a1719c0eda38d5369f3ca3056b80a6275dbf1cd3411e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/binding.json.gz",
+   "bytes": 148672,
+   "sha256": "59e9129c9533cee4983be622a70b1270105f2ef5ee6ffa9fd8c1e8996a3541c9",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/binding.json",
+    "sha256": "0f44ccb0f5287b38eacf80f5958860138fb1827a0ff431174e7c2e7edbb53b86",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/parts/alpha.png",
+   "bytes": 78626,
+   "sha256": "e91ed75762f7d9eaf97a4525b4d3ec1e224f7c384fa2ba2695501be73482a4b4",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/parts/keyed.png",
+    "sha256": "e1ffdf32a93e7d79cdfa18abf9b1455039bcf116e9a331212f06877d72d7a411",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/parts/atlas/heron.png",
+   "bytes": 638401,
+   "sha256": "ad743f3bad22bcae1918ed63fa2025cdf62ea50b986be73ebe838b3c30f5ee7b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/parts/manifest.json",
+   "bytes": 2847,
+   "sha256": "70781765b92f0f6d08df63ce19db7067f04f9e670b3201e475f325fdea0b6b01"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/record.json",
+   "bytes": 6079,
+   "sha256": "e9f853f08eb829ec9dda6beb8e4edc3dd723970d6ff1a90be68b51f4efb55805"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings.json",
+   "bytes": 25638,
+   "sha256": "3cca5691741ef9e7903ad0951d4918f9a034d142bf9ccc5c63502f41f3e995fd"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/banded.png",
+   "bytes": 16702,
+   "sha256": "551f6fe492bc7c4db7be62c3bf3028020966f73728bf84878a3fcc6783d13896"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/eye-spotted.png",
+   "bytes": 22585,
+   "sha256": "83a0810a90565b03c7cbf38318695b5e0c078477571cfea464315706bc17000a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/marbled.png",
+   "bytes": 20237,
+   "sha256": "dc7598350262495e8d78aeda0b1ea3ba28179afd2c7854744e05add95625f2e2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/mottled.png",
+   "bytes": 30804,
+   "sha256": "05101dd3ae3c274c95f88a1baa6ffb52377f7c3eaf9f77e7495f6d7b8416816f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/spotted.png",
+   "bytes": 15385,
+   "sha256": "288cbc31fa1aef50ff8c0138e3c2df4ee991910179baad95b1bd585f13877270"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/markings/striped.png",
+   "bytes": 16352,
+   "sha256": "9ccf9feeba1980ecf03c63463dcbc9a164eefa7cfe9b3cf0be830c207a37f424"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/master.png",
+   "bytes": 609674,
+   "sha256": "15618869db6ea85407c2566b5dacd469513bffd1db2fa0a76247918cb51c491c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/binding.json.gz",
+   "bytes": 256543,
+   "sha256": "573376130db33b015b5f032901b5344e0fd91892e4e00edc37c36ce191a323da",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/binding.json",
+    "sha256": "cf7dee0366903619597d9bdba350ba1d9539f7e07c955cabeb445b12a7bc8d7b",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/parts/alpha.png",
+   "bytes": 139689,
+   "sha256": "d45b7bee9170815d22c37d4d27ae5f00ca280d9bb44c0080786856c1cb7e5a02",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/parts/keyed.png",
+    "sha256": "ce376d44aa8cce07122a073d7bb6933bef1995dfb48ff51bb539d5d5dc06475d",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/parts/atlas/dragonfly.png",
+   "bytes": 1020282,
+   "sha256": "63b70c5c7b4dc673f190d9f495eacd31f91f7c33d49f41d8c4200b840ec51c1e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/parts/manifest.json",
+   "bytes": 3673,
+   "sha256": "a349d836050607e244f6c8eb2244fda8d6bf8b56174d0318daa44f4ed6055c8a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/record.json",
+   "bytes": 6496,
+   "sha256": "4a38dfd1dcf05b66a06e774e54b1ffa1fc5e66c08adfdfc0273a4e785b34fa7f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings.json",
+   "bytes": 27591,
+   "sha256": "c0c7c05cd0fcfd24bbbbd317f680712d41f5764ee8d2b37551f7eff8426e8a7e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/banded.png",
+   "bytes": 44329,
+   "sha256": "18f35c0fda157169a8bf2faa4de55d192551ea4c9419e1b0686ddabca7568c7f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/eye-spotted.png",
+   "bytes": 21827,
+   "sha256": "f49054fee9996ea676a4e5cccd0bbe287b13fb477bc3e1b6b9c3aab9495e01bc"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/marbled.png",
+   "bytes": 96348,
+   "sha256": "79ced4da6fcbb09e38766993f6d1a41ea2764a3d48d48b5a0072a4a5f3ccc86b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/mottled.png",
+   "bytes": 59228,
+   "sha256": "aeb9f9c29a4a2d31d8a11af4fa0af8e5a8aa92887ef42981092b645269734f70"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/spotted.png",
+   "bytes": 26776,
+   "sha256": "a8678410aa9083b16928733297a959310b051eb8bbc40bbb3514fd4faa1b8980"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/markings/striped.png",
+   "bytes": 57877,
+   "sha256": "f8fb8b68d2de927a8cec600174955c59822d04940a57a46334c961102a8c4d21"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/master.png",
+   "bytes": 975776,
+   "sha256": "8b09ab3ef579a7860bec17e3fdaa82040b748d9541d2429c84d8f5e7f0d1383a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/binding.json.gz",
+   "bytes": 284826,
+   "sha256": "bb6d496e8ce137710da8f46639b7d0a4eff96d8f22b664a902a4cff741b0a3b1",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/binding.json",
+    "sha256": "8350613f2d881e2e514b5771a522ed583284034f8cebe7c23cba40e4497991e8",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/markings.json",
+   "bytes": 25364,
+   "sha256": "fbe54831a7ca19a1bf81d974fbb75538a194022b0e0b944f84989c0b602dfc9a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/parts/alpha.png",
+   "bytes": 116416,
+   "sha256": "31d229e0f74e2230d07acfc33d4fa072a49d342ad64f2e8f97f32d289f510f09",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/parts/keyed.png",
+    "sha256": "88c8a47092017a832447f9abbc57ad4033923eca70cf07a83b34b382bdd2790d",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/parts/atlas/impala.png",
+   "bytes": 995777,
+   "sha256": "c09bdef8a344c344d57dd2092b2a8ecc24668f99d643ca04c0d32ca2d0c9ae95"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/parts/manifest.json",
+   "bytes": 5202,
+   "sha256": "1d09d0bc2e7e859ac9b9122f1a626c2105b6be4f9c8e309206519d4a494a7132"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/record.json",
+   "bytes": 7582,
+   "sha256": "e41b53418ccd6ac0875c98a0abd166df27afbe06e1f258ef05bad42b3c089000"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-input-01/master.png",
+   "bytes": 971622,
+   "sha256": "abad16f380bf27e2a17123882dd1ba027e196f10a180f299dbb470663e2b031a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/binding.json.gz",
+   "bytes": 388374,
+   "sha256": "944f771f6b7012593fb099fc0daacf84e02a63b14a7ec9b3d2f9581bfc5a2c56",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/binding.json",
+    "sha256": "58a8cf5327da5d3992d69b56dfd045f7cdcca38e14c86ea59570b5387a779c53",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/parts/alpha.png",
+   "bytes": 185916,
+   "sha256": "f1231bef744eba546645de746619f3461054c4c38de9a06e68cbf247063b56fc",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/parts/keyed.png",
+    "sha256": "ecfb60dd5bbe4efe07fc91db638b341e486d29db0989927077d2d44491f61d32",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/parts/atlas/jellyfish.png",
+   "bytes": 997528,
+   "sha256": "7e21aa49d9b42a8580d792455806a8ae6b2969f267318826aadf745fb52b87cb"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/parts/manifest.json",
+   "bytes": 5111,
+   "sha256": "e9482dfc8fb75f8bfde25f97fda6045bfe1e73b2b94dcd795e63a3745027ab25"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/record.json",
+   "bytes": 8931,
+   "sha256": "7731a1b9050637d4552062b925e00a02ebf74bdce875097429d399629a193046"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings.json",
+   "bytes": 26558,
+   "sha256": "45655c87902db65565641faf37a8c2e2d1020a2e3adb79bb818a1cbf77e5ed8e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/banded.png",
+   "bytes": 42164,
+   "sha256": "9e7e831af755c862cb40029df91789c45c729436aa26690e30af08dcc1c2a5fc"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/eye-spotted.png",
+   "bytes": 25785,
+   "sha256": "79d998d1244bd916ef536149f261e2094e546b3eaee4fee30a8109d117343cc8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/marbled.png",
+   "bytes": 44659,
+   "sha256": "7478113b72dff30b9b2437a4bc03ea6172fdea37b5575e890c007efa7bb08313"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/mottled.png",
+   "bytes": 75179,
+   "sha256": "4afcc83639ca1ed54f7fd96f9998e395d23f7c5198adc75def84713cd746fe58"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/spotted.png",
+   "bytes": 19131,
+   "sha256": "188a54b6cedd1b7603d2af93459b881629c8914f39a535f33a710cb079550d01"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/markings/striped.png",
+   "bytes": 36778,
+   "sha256": "5595f76e112592875bb87eee446427181ba5c070f309ec9688967f5a8e2089ef"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/master.png",
+   "bytes": 950211,
+   "sha256": "5c878a70e83b232ef7aa1d716f6deab99626a8292e2a9714d87d945b1187e2ee"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/weapon-declaration.json",
+   "bytes": 450,
+   "sha256": "0a8c29b926576ff1ccfada6c249963f245154cfb9928979f4ea0ab9f546f26d8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/binding.json.gz",
+   "bytes": 149217,
+   "sha256": "b41a82c3d971e627fc84831eec91811529797f99081caeea59ddc3ec318f1b18",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/binding.json",
+    "sha256": "6e5299858d7b36fba5ef215a49bc6489b9968570d27f63b32767fa60870d0c07",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/parts/alpha.png",
+   "bytes": 55347,
+   "sha256": "d9308ef27ad9a3f7fb6e8fda1c48362f2f7fdaf9fe500b7d174e6392085b02ef",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/parts/keyed.png",
+    "sha256": "81266cd26fe16cab864aa7656d3e22ac45de915a3c3d2bfb5689ad1e02b24b6d",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/parts/atlas/sturgeon.png",
+   "bytes": 547422,
+   "sha256": "6158e30a1b37f1d55bf2d46689b261303052a2e2a7777a06b372eadc2280a65a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/parts/manifest.json",
+   "bytes": 2152,
+   "sha256": "382f8244c55d647cd2a4d995d8d75e350bc3896a956232ee905e440e2f76ea56"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/record.json",
+   "bytes": 4869,
+   "sha256": "aaafbf96bc0dd7e6a8f5708b69dbcddac0a519a4d5f085e3e1973e86968e7a6c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings.json",
+   "bytes": 29236,
+   "sha256": "73bf706dd0bbc92da2eaf24ad9e5f393d6acdad423c911044a0c6de6981b9d62"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/banded.png",
+   "bytes": 33449,
+   "sha256": "da4ad0cc99910db541a788f6a7d9b5d8aacd4f6dc8784f8957f006ba82428265"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/eye-spotted.png",
+   "bytes": 19450,
+   "sha256": "4db6a095cfd5c125721588188f21e1d987aeefe34017c5b4dbb717757435b5c4"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/marbled.png",
+   "bytes": 52136,
+   "sha256": "971572ef8adf474370d5f1ba2f7ef0335068d0c5d1cf048095c0d14fae22a634"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/mottled.png",
+   "bytes": 45043,
+   "sha256": "8b9b4fb4707309e0a2a232ea58fa76e5559fd48cb74d9ba2e935ebf5849a6f10"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/spotted.png",
+   "bytes": 34631,
+   "sha256": "9af58f445499fb18981a9c2236940692c56f08b627f739719e7883a3db81dafc"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/markings/striped.png",
+   "bytes": 31069,
+   "sha256": "53e5a5a13cee8df6b53103ded57d16aa10e29e871cc85bf2a93ff1dca4fa0269"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/master.png",
+   "bytes": 536008,
+   "sha256": "cd1a2cd6aecb629019d576abe64b50f549f95a4efa2cb8c58744aa5b0a9601f2"
+  },
+  {
    "path": "audits/ART_KIT_ENGINE_FIRST_20260912/masters/civet.png",
    "bytes": 1931944,
    "sha256": "a5e62568dfa010d8d646124ce641c72d42686bff5329bba40cfdfc21fa25a76b"

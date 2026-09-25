@@ -1,0 +1,160 @@
+{
+  "creatureId": "jellyfish",
+  "parts": [
+    {
+      "name": "arm8-oral.png",
+      "path": "parts/arm8-oral.png",
+      "sha256": "435bcdfbbea079697e9cb91ce38f37bfcf1826b098a36448dbc0ffa53ae24e10"
+    },
+    {
+      "name": "arm9-oral.png",
+      "path": "parts/arm9-oral.png",
+      "sha256": "49e1a8b06d9b771b73e882127cc2384fd78c0996b709de1a95ddd0aaadcbf179"
+    },
+    {
+      "name": "arm10-oral.png",
+      "path": "parts/arm10-oral.png",
+      "sha256": "52a7c74f07a206ae89d012d92e37686d3df267d30deb2b89c12a8490b59300e6"
+    },
+    {
+      "name": "arm11-oral.png",
+      "path": "parts/arm11-oral.png",
+      "sha256": "6165823e3a93494669e56e82071015b7dd7e3a68225bd582e89f2b9c4af5b303"
+    },
+    {
+      "name": "arm0-seg0.png",
+      "path": "parts/arm0-seg0.png",
+      "sha256": "51e63b5157976affb98cb9aa843b1643fd428d0eb88b0697469eaacea61c8d06"
+    },
+    {
+      "name": "arm0-seg1.png",
+      "path": "parts/arm0-seg1.png",
+      "sha256": "838fce8d86a9052e3b5ad331701c6e142a0a0aba5005da497c9be8118da562d6"
+    },
+    {
+      "name": "arm0-seg2.png",
+      "path": "parts/arm0-seg2.png",
+      "sha256": "1d372e1b77240592ed9d6e461afbc2717e5a15994d8c7a38468a45e9fbea2d04"
+    },
+    {
+      "name": "arm1-seg0.png",
+      "path": "parts/arm1-seg0.png",
+      "sha256": "d3a83abbb69a108d4ba843bf03741454ce9390bfb89d56167587ed62068b5c7b"
+    },
+    {
+      "name": "arm1-seg1.png",
+      "path": "parts/arm1-seg1.png",
+      "sha256": "ecd3121474819e98bf66ab20467d2fa07e587ec0f166c50cd0f4eeef2ead8aca"
+    },
+    {
+      "name": "arm1-seg2.png",
+      "path": "parts/arm1-seg2.png",
+      "sha256": "0c783f48dcf3e95bac648cb677d01dc7485c377e7012b6a4dcc74973a72e18bd"
+    },
+    {
+      "name": "arm2-seg0.png",
+      "path": "parts/arm2-seg0.png",
+      "sha256": "48c4e3b131dbf18397ce9999c5da9ee880ec906bcad42d3919ff5fa654a2c54b"
+    },
+    {
+      "name": "arm2-seg1.png",
+      "path": "parts/arm2-seg1.png",
+      "sha256": "d3975ff210016e2e1cf88f1afd4b2f0e530aaf01a27a3309096669fc8c4f0ebe"
+    },
+    {
+      "name": "arm2-seg2.png",
+      "path": "parts/arm2-seg2.png",
+      "sha256": "89c46718700856c05f3ccf72e0fe3f4ea43cc65f8d58fd706e4c3d235de09a6b"
+    },
+    {
+      "name": "arm3-seg0.png",
+      "path": "parts/arm3-seg0.png",
+      "sha256": "61e8f67d3145bed911bb67ef358fb6ba50d4ee042218cc9c292fb8153336964e"
+    },
+    {
+      "name": "arm3-seg1.png",
+      "path": "parts/arm3-seg1.png",
+      "sha256": "ed1eadb6d5b01ac4dc894a07161fec07afd8457d06eaa6f6202a3ac43f649ab4"
+    },
+    {
+      "name": "arm3-seg2.png",
+      "path": "parts/arm3-seg2.png",
+      "sha256": "312a79746f02b8d961dc170abf76b9ce60dc86b3919af38cbf0925997e7311e1"
+    },
+    {
+      "name": "arm4-seg0.png",
+      "path": "parts/arm4-seg0.png",
+      "sha256": "88dd546884c1fd4dc58f94dbb395b6a7d4cde423488f569525996cb8f02a7f13"
+    },
+    {
+      "name": "arm4-seg1.png",
+      "path": "parts/arm4-seg1.png",
+      "sha256": "747857a1a490475795357e2f035306b3d4d81b8e874b9a0f6846388f58efa0dd"
+    },
+    {
+      "name": "arm4-seg2.png",
+      "path": "parts/arm4-seg2.png",
+      "sha256": "5f7297594d80112dec77f696a6cfdc68a7f20abd26b2923257c3c0c4b0db4a34"
+    },
+    {
+      "name": "arm5-seg0.png",
+      "path": "parts/arm5-seg0.png",
+      "sha256": "66e76edcc3ab0a42a51e311c93d3bea757b0755694b4fac72cff7c7a96f44f06"
+    },
+    {
+      "name": "arm5-seg1.png",
+      "path": "parts/arm5-seg1.png",
+      "sha256": "0da8f68f7b7870225707fd42dff9177926f54478ef70826a302a655fbaa4b4c5"
+    },
+    {
+      "name": "arm5-seg2.png",
+      "path": "parts/arm5-seg2.png",
+      "sha256": "1249cca956caeee9148f599919fbc50fb6123b04cba952707493ebc6747cdce0"
+    },
+    {
+      "name": "arm6-seg0.png",
+      "path": "parts/arm6-seg0.png",
+      "sha256": "3b70bbd84b5cd986f8b1e00c3be2ee2b1502bbe2901627ff739849c8a72bb1c8"
+    },
+    {
+      "name": "arm6-seg1.png",
+      "path": "parts/arm6-seg1.png",
+      "sha256": "de98d4f53467c57898d4a4fcb5af1402f5ba99dc38de833ae37d1b61d5f6daa3"
+    },
+    {
+      "name": "arm6-seg2.png",
+      "path": "parts/arm6-seg2.png",
+      "sha256": "77c4f61e3c6be879abfda888d7c42c6708413a5acac0169b3c46f5fb763a4806"
+    },
+    {
+      "name": "arm7-seg0.png",
+      "path": "parts/arm7-seg0.png",
+      "sha256": "1d64dcee4c243b393927f50893757e831ccb01ea2acfd2b5e44ce7bee7b3e79a"
+    },
+    {
+      "name": "arm7-seg1.png",
+      "path": "parts/arm7-seg1.png",
+      "sha256": "ec912751e306ffe3eaa943e5095b896580aef9d5b40fb0b01627ad48d8b02f3c"
+    },
+    {
+      "name": "arm7-seg2.png",
+      "path": "parts/arm7-seg2.png",
+      "sha256": "452653a4c0f0e9b09053c1d4e774616d960205e5ffe5e40adb66d30c721b5fcc"
+    },
+    {
+      "name": "root.png",
+      "path": "parts/root.png",
+      "sha256": "b3ab3d9694bb57104adc0fed096b929fbfb3a8a73071da3a8b07a6fc6b212bf7"
+    },
+    {
+      "name": "bell.png",
+      "path": "parts/bell.png",
+      "sha256": "2ecc0865ea9eb2fb07b959271da2dd10fcd1194f3af4ca57723389c968af618b"
+    },
+    {
+      "name": "centre.png",
+      "path": "parts/centre.png",
+      "sha256": "9a99577df47e5be9e5690b3628dda393c978ac93203cf0563be2827ec2713568"
+    }
+  ]
+}

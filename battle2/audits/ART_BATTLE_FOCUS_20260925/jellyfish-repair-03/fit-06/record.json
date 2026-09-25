@@ -1,0 +1,310 @@
+{
+  "kind": "radial",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Jellyfish\"]],[\"accent\",[\"number\",\"12\"]],[\"behavior\",[\"number\",\"8\"]],[\"body\",[\"number\",\"12\"]],[\"color\",[\"number\",\"12\"]],[\"detail\",[\"number\",\"0\"]],[\"diet\",[\"number\",\"3\"]],[\"eyes\",[\"number\",\"2\"]],[\"form\",[\"number\",\"5\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"13\"]],[\"head\",[\"number\",\"4\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"5\"]],[\"limbs\",[\"number\",\"1\"]],[\"loco\",[\"number\",\"2\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"1\"]],[\"pattern\",[\"number\",\"6\"]],[\"repro\",[\"number\",\"2\"]],[\"seed\",[\"number\",\"2660681326\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"5\"]],[\"skin\",[\"number\",\"8\"]],[\"tail\",[\"number\",\"5\"]],[\"temper\",[\"number\",\"3\"]],[\"trait\",[\"number\",\"19\"]]]]",
+    "seed": 2660681326,
+    "ownerId": "authored:archetype-sprint/jellyfish",
+    "earthName": "Jellyfish"
+  },
+  "template": {
+    "id": "radial",
+    "version": 1
+  },
+  "clipSetId": "radial-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": [],
+    "appendages": {
+      "arms": 12
+    }
+  },
+  "genome": {
+    "seed": 2660681326,
+    "kingdom": "fauna",
+    "color": 12,
+    "form": 5,
+    "body": 12,
+    "loco": 2,
+    "trait": 19,
+    "size": 5,
+    "diet": 3,
+    "head": 4,
+    "limbs": 1,
+    "skin": 8,
+    "tail": 5,
+    "pattern": 6,
+    "eyes": 2,
+    "behavior": 8,
+    "habitat": 13,
+    "detail": 0,
+    "accent": 12,
+    "temper": 3,
+    "sense": 1,
+    "repro": 2,
+    "life": 5,
+    "metab": 1,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Jellyfish"
+  },
+  "geometry": {
+    "cutoutAssetHash": "5c878a70e83b232ef7aa1d716f6deab99626a8292e2a9714d87d945b1187e2ee",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.82,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.49920255183413076,
+      0.20733652312599682
+    ],
+    "centre": [
+      0.49920255183413076,
+      0.2703349282296651
+    ],
+    "bell": [
+      0.49920255183413076,
+      0.14114832535885166
+    ],
+    "arm8Seg0": [
+      0.4513556618819777,
+      0.26156299840510366
+    ],
+    "arm8Seg1": [
+      0.406048337627285,
+      0.41586921850079744
+    ],
+    "arm8Seg2": [
+      0.4314194577352472,
+      0.5701754385964912
+    ],
+    "arm9Seg0": [
+      0.48325358851674644,
+      0.25598086124401914
+    ],
+    "arm9Seg1": [
+      0.4655752195384409,
+      0.43859649122807015
+    ],
+    "arm9Seg2": [
+      0.49362041467304624,
+      0.6212121212121212
+    ],
+    "arm10Seg0": [
+      0.5255183413078149,
+      0.2607655502392344
+    ],
+    "arm10Seg1": [
+      0.5415104099314626,
+      0.43301435406698563
+    ],
+    "arm10Seg2": [
+      0.5534290271132376,
+      0.6052631578947368
+    ],
+    "arm11Seg0": [
+      0.5550239234449761,
+      0.2671451355661882
+    ],
+    "arm11Seg1": [
+      0.5791301169590642,
+      0.4126794258373206
+    ],
+    "arm11Seg2": [
+      0.6004784688995215,
+      0.5582137161084529
+    ],
+    "arm0Seg0": [
+      0.2711323763955343,
+      0.2671451355661882
+    ],
+    "arm0Seg1": [
+      0.1971843945528156,
+      0.5781499202551834
+    ],
+    "arm0Seg2": [
+      0.17304625199362042,
+      0.8891547049441786
+    ],
+    "arm1Seg0": [
+      0.30303030303030304,
+      0.25757575757575757
+    ],
+    "arm1Seg1": [
+      0.2776431873700361,
+      0.5952950558213717
+    ],
+    "arm1Seg2": [
+      0.24720893141945774,
+      0.9330143540669856
+    ],
+    "arm2Seg0": [
+      0.3444976076555024,
+      0.24800637958532695
+    ],
+    "arm2Seg1": [
+      0.32612307283359915,
+      0.5984848484848485
+    ],
+    "arm2Seg2": [
+      0.3181818181818182,
+      0.94896331738437
+    ],
+    "arm3Seg0": [
+      0.3835725677830941,
+      0.24960127591706538
+    ],
+    "arm3Seg1": [
+      0.40381125226860254,
+      0.5817384370015949
+    ],
+    "arm3Seg2": [
+      0.39872408293460926,
+      0.9138755980861244
+    ],
+    "arm4Seg0": [
+      0.5917065390749602,
+      0.30462519936204147
+    ],
+    "arm4Seg1": [
+      0.5734649122807017,
+      0.6208133971291866
+    ],
+    "arm4Seg2": [
+      0.5789473684210527,
+      0.9370015948963317
+    ],
+    "arm5Seg0": [
+      0.6052631578947368,
+      0.2647527910685805
+    ],
+    "arm5Seg1": [
+      0.6422272258185571,
+      0.6108452950558214
+    ],
+    "arm5Seg2": [
+      0.664274322169059,
+      0.9569377990430622
+    ],
+    "arm6Seg0": [
+      0.6570972886762361,
+      0.27910685805422647
+    ],
+    "arm6Seg1": [
+      0.7016367296781447,
+      0.611244019138756
+    ],
+    "arm6Seg2": [
+      0.733652312599681,
+      0.9433811802232854
+    ],
+    "arm7Seg0": [
+      0.6985645933014354,
+      0.2902711323763955
+    ],
+    "arm7Seg1": [
+      0.7657644790402057,
+      0.5917065390749602
+    ],
+    "arm7Seg2": [
+      0.7878787878787878,
+      0.8931419457735247
+    ]
+  },
+  "materials": {
+    "surface": "translucent soft smooth skin, gelatinous painted bell and frilled oral arms"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Explicitly observed eight long marginal tentacles (arm0..7) plus four shorter frilled oral arms (arm8..11); twelve in total. All individually visible; no absent/hidden/folded appendages. Manual pixel traces are part-ownership polygons, never an inferred anatomy detector.",
+    "sourceFacing": "radial",
+    "visualAcceptance": "Nick pending",
+    "generation": "04 corrects previously missing leftmost long tentacle; original generations01..03 retained.",
+    "partGrouping": "The four frilled oral arms each use one texture part with all three skeleton joints retained; a separate manual skin-weight receipt will bind their three-bone deformation. This keeps31 painted parts under the existing32 limit, with39 skeleton joints unchanged.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "0e07ab71a32223646ed685477a13fce6da9c58339f8c114ae46d4565706bfeb6",
+    "subjectSourceSha256": "b6e42cbd3b8967347a2d49bf5563d7ed5ca4a742703f8d5b16fe0f22c4445d54",
+    "presenceSha256": "8bf62a66eec2898911c649850b0a7d046640e0361b228ff98d3927c4933bf4c8",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "centre": 0.06299840510366828,
+      "bell": 0.12918660287081343,
+      "arm0Seg0": 0.22809248059028195,
+      "arm0Seg1": 0.3196752729224757,
+      "arm0Seg2": 0.3119401000603422,
+      "arm1Seg0": 0.1965867432878586,
+      "arm1Seg1": 0.3386721571801523,
+      "arm1Seg2": 0.33908784753036386,
+      "arm2Seg0": 0.1563079775247415,
+      "arm2Seg1": 0.35095979925352455,
+      "arm2Seg2": 0.35056842511497993,
+      "arm3Seg0": 0.11747415694467767,
+      "arm3Seg1": 0.3327532090348561,
+      "arm3Seg2": 0.33217611754176946,
+      "arm4Seg0": 0.09865500671422316,
+      "arm4Seg1": 0.3167139614152434,
+      "arm4Seg2": 0.316235724946702,
+      "arm5Seg0": 0.10620740281745068,
+      "arm5Seg1": 0.34806086196760927,
+      "arm5Seg2": 0.34679402499703854,
+      "arm6Seg0": 0.15813821383613993,
+      "arm6Seg1": 0.3351102140759861,
+      "arm6Seg2": 0.333676626875627,
+      "arm7Seg0": 0.20035637203191567,
+      "arm7Seg1": 0.3088351162915786,
+      "arm7Seg2": 0.3022455079350844,
+      "arm8Seg0": 0.04864433811802231,
+      "arm8Seg1": 0.1608202822760256,
+      "arm8Seg2": 0.15637807805364964,
+      "arm9Seg0": 0.021457135641265862,
+      "arm9Seg1": 0.18346932453193626,
+      "arm9Seg2": 0.18475660011109193,
+      "arm10Seg0": 0.028001674427558906,
+      "arm10Seg1": 0.17298958546384974,
+      "arm10Seg2": 0.17266066099611926,
+      "arm11Seg0": 0.05591243426780898,
+      "arm11Seg1": 0.14751724716269923,
+      "arm11Seg2": 0.14709174611546305
+    },
+    "measures": {
+      "body": 0.12918660287081343,
+      "bone-min": 0.021457135641265862,
+      "bone-max": 0.35095979925352455,
+      "arm/bell:arm0": 6.654775607288067,
+      "arm/bell:arm1": 6.768091493765196,
+      "arm/bell:arm2": 6.640287636877346,
+      "arm/bell:arm3": 6.056382520590827,
+      "arm/bell:arm4": 5.663162253811822,
+      "arm/bell:arm5": 6.2008155023873535,
+      "arm/bell:arm6": 6.401012461134828,
+      "arm/bell:arm7": 6.28112341548307,
+      "arm/bell:arm8": 2.831893480576621,
+      "arm/bell:arm9": 3.016435540719164,
+      "arm/bell:arm10": 2.8923426468701225,
+      "arm/bell:arm11": 2.713295494707703
+    }
+  },
+  "recipeHash": "050cddedc732597f195ebed17582e37e1c7e9eaea348bbaaa0375e1554c806e7"
+}

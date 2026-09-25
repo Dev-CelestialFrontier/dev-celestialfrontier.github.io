@@ -1,0 +1,168 @@
+{
+  "kind": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Bass\"]],[\"accent\",[\"number\",\"16\"]],[\"behavior\",[\"number\",\"1\"]],[\"body\",[\"number\",\"13\"]],[\"color\",[\"number\",\"11\"]],[\"detail\",[\"number\",\"3\"]],[\"diet\",[\"number\",\"1\"]],[\"eyes\",[\"number\",\"4\"]],[\"form\",[\"number\",\"1\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"9\"]],[\"head\",[\"number\",\"6\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"0\"]],[\"limbs\",[\"number\",\"3\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"1\"]],[\"pattern\",[\"number\",\"6\"]],[\"repro\",[\"number\",\"6\"]],[\"seed\",[\"number\",\"3333275214\"]],[\"sense\",[\"number\",\"4\"]],[\"size\",[\"number\",\"5\"]],[\"skin\",[\"number\",\"3\"]],[\"tail\",[\"number\",\"2\"]],[\"temper\",[\"number\",\"1\"]],[\"trait\",[\"number\",\"4\"]]]]",
+    "seed": 3333275214,
+    "ownerId": "authored:archetype-sprint/bass",
+    "earthName": "Bass"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3333275214,
+    "kingdom": "fauna",
+    "color": 11,
+    "form": 1,
+    "body": 13,
+    "loco": 6,
+    "trait": 4,
+    "size": 5,
+    "diet": 1,
+    "head": 6,
+    "limbs": 3,
+    "skin": 3,
+    "tail": 2,
+    "pattern": 6,
+    "eyes": 4,
+    "behavior": 1,
+    "habitat": 9,
+    "detail": 3,
+    "accent": 16,
+    "temper": 1,
+    "sense": 4,
+    "repro": 6,
+    "life": 0,
+    "metab": 1,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Bass"
+  },
+  "geometry": {
+    "cutoutAssetHash": "8e3ff13f2dd2b8b65e775e9a720760725eaf0087b2fecb9caa3ce9736ea1d1e8",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.75,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7496012759170654,
+      0.49362041467304624
+    ],
+    "head": [
+      0.8620414673046252,
+      0.4728867623604466
+    ],
+    "jaw": [
+      0.9027113237639554,
+      0.5701754385964912
+    ],
+    "spine0": [
+      0.6874003189792663,
+      0.47129186602870815
+    ],
+    "spine1": [
+      0.6036682615629984,
+      0.46730462519936206
+    ],
+    "spine2": [
+      0.511164274322169,
+      0.47129186602870815
+    ],
+    "spine3": [
+      0.41626794258373206,
+      0.47368421052631576
+    ],
+    "spine4": [
+      0.3189792663476874,
+      0.4768740031897927
+    ],
+    "spine5": [
+      0.22248803827751196,
+      0.474481658692185
+    ],
+    "caudal": [
+      0.12200956937799043,
+      0.47368421052631576
+    ],
+    "dorsal": [
+      0.5135566188197768,
+      0.3269537480063796
+    ],
+    "pectoralNear": [
+      0.6778309409888357,
+      0.5406698564593302
+    ],
+    "pectoralFar": [
+      0.7272727272727273,
+      0.5789473684210527
+    ]
+  },
+  "materials": {
+    "surface": "plain olive-silver painted scales and translucent fin rays; no pigment markings"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/08-bass/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Two separately visible pectorals after explicit correction, two pelvic fins carried by spine0, one anal carried by spine3, one joined dorsal, one caudal. Mandatory jaw/head/spine inventory present. No hidden/absent/folded anatomy.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; exact manual authoring, no other asset labels reused",
+    "labelCorrection": "Fish source join ownership is unique per joint: the two pelvic fin regions are bundled into spine0 body part and anal fin into spine3 body part. Source pixels and joint inventory unchanged.",
+    "finFringeCorrection": "Alert fold triangle300 includes root-pinned points (920,783) and (920,802) beside far pectoral. Fin polygon extended over its painted fringe; exact source preserved.",
+    "pectoralJoinCorrection": "Native film shows an opened near-pectoral boundary despite static pass. Source paint around its full border is now owned by its actual parent root/body, so the observed join writer welds the fin to connected body paint rather than a sibling spine surface. No hidden fill or source pixels fabricated.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "8da048f4c2be9106a763434c279ed370366c538801f6cc342c878492d18798fb",
+    "subjectSourceSha256": "e1245b184879496d76003d0542c2faa2f22b6f4a63b7f8b05b8c66ceb5fb125b",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.1143358254331985,
+      "jaw": 0.10544725576412331,
+      "spine0": 0.0660872387722509,
+      "spine1": 0.08382693796502651,
+      "spine2": 0.09258987927890777,
+      "spine3": 0.09492648255153413,
+      "spine4": 0.0973409538734745,
+      "spine5": 0.0965208806771149,
+      "caudal": 0.10048163332654064,
+      "dorsal": 0.1667887193029602,
+      "pectoralFar": 0.08820007437908994,
+      "pectoralNear": 0.08581742799752969
+    },
+    "measures": {
+      "body": 0.46492322325792984,
+      "bone-min": 0.0660872387722509,
+      "bone-max": 0.1667887193029602,
+      "caudal/body": 0.21612521874562393,
+      "head/body": 0.24592410039660967
+    }
+  },
+  "recipeHash": "5147fe4303aff3d7821c41d28697113dbbadd69e0f04f2288b1ae01841fb035f"
+}

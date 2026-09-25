@@ -1,0 +1,167 @@
+{
+  "kind": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Tang\"]],[\"accent\",[\"number\",\"9\"]],[\"behavior\",[\"number\",\"8\"]],[\"body\",[\"number\",\"10\"]],[\"color\",[\"number\",\"8\"]],[\"detail\",[\"number\",\"6\"]],[\"diet\",[\"number\",\"2\"]],[\"eyes\",[\"number\",\"2\"]],[\"form\",[\"number\",\"6\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"11\"]],[\"head\",[\"number\",\"0\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"1\"]],[\"limbs\",[\"number\",\"5\"]],[\"loco\",[\"number\",\"8\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"3\"]],[\"pattern\",[\"number\",\"5\"]],[\"repro\",[\"number\",\"0\"]],[\"seed\",[\"number\",\"2198041148\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"0\"]],[\"skin\",[\"number\",\"1\"]],[\"tail\",[\"number\",\"4\"]],[\"temper\",[\"number\",\"1\"]],[\"trait\",[\"number\",\"0\"]]]]",
+    "seed": 2198041148,
+    "ownerId": "authored:archetype-sprint/tang",
+    "earthName": "Tang"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 2198041148,
+    "kingdom": "fauna",
+    "color": 8,
+    "form": 6,
+    "body": 10,
+    "loco": 8,
+    "trait": 0,
+    "size": 0,
+    "diet": 2,
+    "head": 0,
+    "limbs": 5,
+    "skin": 1,
+    "tail": 4,
+    "pattern": 5,
+    "eyes": 2,
+    "behavior": 8,
+    "habitat": 11,
+    "detail": 6,
+    "accent": 9,
+    "temper": 1,
+    "sense": 1,
+    "repro": 0,
+    "life": 1,
+    "metab": 3,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Tang"
+  },
+  "geometry": {
+    "cutoutAssetHash": "e6970b7e7d2320aca6022ae2b74117f10f7d38e66fc5b81568b0061ce65f8ffe",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.75,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7974481658692185,
+      0.49920255183413076
+    ],
+    "head": [
+      0.8859649122807017,
+      0.4529505582137161
+    ],
+    "jaw": [
+      0.94896331738437,
+      0.5582137161084529
+    ],
+    "spine0": [
+      0.7312599681020734,
+      0.49122807017543857
+    ],
+    "spine1": [
+      0.6403508771929824,
+      0.4904306220095694
+    ],
+    "spine2": [
+      0.5478468899521531,
+      0.48883572567783096
+    ],
+    "spine3": [
+      0.45454545454545453,
+      0.4880382775119617
+    ],
+    "spine4": [
+      0.36443381180223283,
+      0.48564593301435405
+    ],
+    "spine5": [
+      0.2671451355661882,
+      0.4840510366826156
+    ],
+    "caudal": [
+      0.19617224880382775,
+      0.48325358851674644
+    ],
+    "dorsal": [
+      0.5980861244019139,
+      0.291866028708134
+    ],
+    "pectoralNear": [
+      0.7799043062200957,
+      0.5478468899521531
+    ],
+    "pectoralFar": [
+      0.7878787878787878,
+      0.5629984051036683
+    ]
+  },
+  "materials": {
+    "surface": "plain slate-blue painted scales with translucent fin rays"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/10-tang/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Two visible pectorals (broad near fan and small far fan below gill), two pelvic fins bundled with body0/body1, anal distributed over posterior body bands, one continuous dorsal, crescent caudal. Manual presence; no hidden/absent/folded anatomy.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending",
+    "correction": "Fold diagnosis showed lower caudal fringe mislabeled root, pinning moving fin pixels. Caudal polygon now encloses the complete visible tail fringe; no master pixels changed.",
+    "headCorrection": "Cast fold now localized to root-owned forehead fringe above head polygon; expanded head to include that actual forehead paint.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "7ca39db0dde7740e946443b2d9749c47cdb7de746cb3be6abf7d810fca21f7e4",
+    "subjectSourceSha256": "e5d01372f9f7e3bfe5efcc1b051641766219c18a9cb1b70dc67fd17041f301be",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.09987222491332466,
+      "jaw": 0.12267490148998775,
+      "spine0": 0.06666685744346686,
+      "spine1": 0.09091258842148654,
+      "spine2": 0.09251773532550667,
+      "spine3": 0.09330484324260774,
+      "spine4": 0.09014339393475959,
+      "spine5": 0.09730174827859421,
+      "caudal": 0.07097736666684729,
+      "dorsal": 0.20301282482014424,
+      "pectoralFar": 0.06450956432585869,
+      "pectoralNear": 0.05171130091506697
+    },
+    "measures": {
+      "body": 0.46417032174576806,
+      "bone-min": 0.05171130091506697,
+      "bone-max": 0.20301282482014424,
+      "caudal/body": 0.15291233269696738,
+      "head/body": 0.2151628836106974
+    }
+  },
+  "recipeHash": "39c215dcd308b64ad3a10267c0fc9f1087c1e0bdb02cf56d159495fec4b4bd2b"
+}

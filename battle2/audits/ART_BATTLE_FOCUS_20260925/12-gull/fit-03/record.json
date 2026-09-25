@@ -1,0 +1,201 @@
+{
+  "kind": "biped-bird",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Gull\"]],[\"accent\",[\"number\",\"6\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"9\"]],[\"color\",[\"number\",\"0\"]],[\"detail\",[\"number\",\"4\"]],[\"diet\",[\"number\",\"4\"]],[\"eyes\",[\"number\",\"4\"]],[\"form\",[\"number\",\"5\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"9\"]],[\"head\",[\"number\",\"6\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"1\"]],[\"limbs\",[\"number\",\"4\"]],[\"loco\",[\"number\",\"9\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"1\"]],[\"pattern\",[\"number\",\"6\"]],[\"repro\",[\"number\",\"5\"]],[\"seed\",[\"number\",\"1975074140\"]],[\"sense\",[\"number\",\"3\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"7\"]],[\"tail\",[\"number\",\"5\"]],[\"temper\",[\"number\",\"8\"]],[\"trait\",[\"number\",\"24\"]]]]",
+    "seed": 1975074140,
+    "ownerId": "authored:archetype-sprint/gull",
+    "earthName": "Gull"
+  },
+  "template": {
+    "id": "biped-bird",
+    "version": 1
+  },
+  "clipSetId": "biped-bird-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 1975074140,
+    "kingdom": "fauna",
+    "color": 0,
+    "form": 5,
+    "body": 9,
+    "loco": 9,
+    "trait": 24,
+    "size": 3,
+    "diet": 4,
+    "head": 6,
+    "limbs": 4,
+    "skin": 7,
+    "tail": 5,
+    "pattern": 6,
+    "eyes": 4,
+    "behavior": 10,
+    "habitat": 9,
+    "detail": 4,
+    "accent": 6,
+    "temper": 8,
+    "sense": 3,
+    "repro": 5,
+    "life": 1,
+    "metab": 1,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Gull"
+  },
+  "geometry": {
+    "cutoutAssetHash": "27a5d97e9058cde243f1ad8964871b09b0b888870ea767bb367fb8ad1d9199c9",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.80622009569378,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.5781499202551834,
+      0.5709728867623605
+    ],
+    "pelvis": [
+      0.5709728867623605,
+      0.6291866028708134
+    ],
+    "spine": [
+      0.6379585326953748,
+      0.5478468899521531
+    ],
+    "chest": [
+      0.7177033492822966,
+      0.48325358851674644
+    ],
+    "neck0": [
+      0.7232854864433812,
+      0.4178628389154705
+    ],
+    "neck1": [
+      0.7017543859649122,
+      0.3580542264752791
+    ],
+    "head": [
+      0.733652312599681,
+      0.30462519936204147
+    ],
+    "beak": [
+      0.8078149920255183,
+      0.33014354066985646
+    ],
+    "legNearKnee": [
+      0.5454545454545454,
+      0.682615629984051
+    ],
+    "legNearAnkle": [
+      0.5382775119617225,
+      0.773524720893142
+    ],
+    "legNearFoot": [
+      0.5797448165869219,
+      0.7942583732057417
+    ],
+    "legFarKnee": [
+      0.5980861244019139,
+      0.6802232854864434
+    ],
+    "legFarAnkle": [
+      0.6196172248803827,
+      0.7575757575757576
+    ],
+    "legFarFoot": [
+      0.6698564593301436,
+      0.777511961722488
+    ],
+    "wingNearRoot": [
+      0.6515151515151515,
+      0.48963317384370014
+    ],
+    "wingNearTip": [
+      0.20015948963317384,
+      0.6323763955342903
+    ],
+    "wingFarRoot": [
+      0.6419457735247209,
+      0.4314194577352472
+    ],
+    "wingFarTip": [
+      0.18421052631578946,
+      0.5917065390749602
+    ],
+    "tailFan": [
+      0.2631578947368421,
+      0.6570972886762361
+    ]
+  },
+  "materials": {
+    "surface": "plain white and softly shaded grey painted gull feathers; yellow bill and scaled pink webbed feet"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/12-gull/master.png",
+  "habitat": {
+    "realm": "land",
+    "source": "Manually declared standing Gull master: both wings folded at rest, ground locomotion in this battle asset; flight is not evidenced by this master."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Two wings visibly present, BOTH FOLDED against the body, with separately readable distal feather groups. Two visible standing leg chains and webbed feet; no leg chain folded. Full tail and bill visible. anatomy.folded schema enumerates leg chains only, so remains []; folded wings explicitly declared here, never inferred absent or hidden. All landmarks and labels newly authored against this exact master.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending, no flight-surface or family-wide acceptance",
+    "wingPose": "Both folded, visible. This master provides no unpainted underside or unfolded flight surface.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "9d5ce3cc7a41cf6a139848982114319c2374828a04e313c38619d8dce938aa73",
+    "subjectSourceSha256": "56cedb9916df8c2ffc9d7bb9e15b61408f429fe3911bba492334cad5b4f68a9f",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.05865446745911735,
+      "spine": 0.10537184471552746,
+      "chest": 0.10262324474897054,
+      "neck0": 0.06562857905441753,
+      "neck1": 0.06356617347170537,
+      "head": 0.062226510924719015,
+      "beak": 0.07843015212736523,
+      "legFarKnee": 0.05779161381816089,
+      "legFarAnkle": 0.08029317048256378,
+      "legFarFoot": 0.05405028134874185,
+      "legNearKnee": 0.059210190688505804,
+      "legNearAnkle": 0.09119195479687045,
+      "legNearFoot": 0.04636185599281868,
+      "wingFarRoot": 0.09179317729841574,
+      "wingFarTip": 0.48498814932101725,
+      "wingNearRoot": 0.06649493689452302,
+      "wingNearTip": 0.4733894388888783,
+      "tailFan": 0.3090777826014011
+    },
+    "measures": {
+      "body": 0.20694509733206706,
+      "bone-min": 0.04636185599281868,
+      "bone-max": 0.48498814932101725,
+      "leg/torso:legFar": 0.9284349720117498,
+      "leg/torso:legNear": 0.9508029135015681,
+      "wing/torso": 2.7871224496510854
+    }
+  },
+  "recipeHash": "d4d0f9974c19f3ed15bce209e68dd35614f221f445e04a8a3225691195da5f3f"
+}

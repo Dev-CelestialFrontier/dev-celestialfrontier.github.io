@@ -284,36 +284,6 @@
    "sha256": "9625d7f7e4f275edccddc7c7e27362b13d8eabb9dd9582a9d7285a3232745b1d"
   },
   {
-   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/coconut-crab-master.png",
-   "bytes": 69451,
-   "sha256": "a0f681a8e44f374407424e5e60b2e5deffb8a23162cfefe3ace96b8cfb4d4832"
-  },
-  {
-   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/crab-master.png",
-   "bytes": 48886,
-   "sha256": "dd419ae94d47663e22cc7ca598247d5c2d539b78dff24bb2b881bf16ecae5655"
-  },
-  {
-   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/freshwater-crab-master.png",
-   "bytes": 66259,
-   "sha256": "65cd0220488bbdda7cd220c67a33817c8155e7fec87087692d02279f6df11a57"
-  },
-  {
-   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/mud-crab-master.png",
-   "bytes": 69361,
-   "sha256": "c08d616382e86c4dfa21fd895a25f4eda1dd3ee9efa8ed9751ea978bc9ae3379"
-  },
-  {
-   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/vent-crab-master.png",
-   "bytes": 55183,
-   "sha256": "148bb4b6e0c937a43c5f822f561f1e76c44acdf55235ffe427867a3f831a363c"
-  },
-  {
-   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/candidate-04-fit/master.png",
-   "bytes": 1178774,
-   "sha256": "cb070ea758ceed1738c1f25119b4367c98661f8a1dfbdba0f7341bad78a941fb"
-  },
-  {
    "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/binding.json.gz",
    "bytes": 101403,
    "sha256": "3f0b4a31bb8aae104f62f6de63a89ac6d1fdea16dbdd08a6ca31d4e21d16f36d",
@@ -347,11 +317,6 @@
    "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/record.json",
    "bytes": 7370,
    "sha256": "4e935e3ab068c2ed17e5d993bb542cc4f7551e549772b0d3cce772df610d50b9"
-  },
-  {
-   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/candidate-08/master.png",
-   "bytes": 716805,
-   "sha256": "aa1ad50d8ac1e354d0f0ba5beeb211a22519461ac36802ca621022f2418c65eb"
   },
   {
    "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/binding.json.gz",
@@ -389,11 +354,6 @@
    "sha256": "ee6e5a17d974560efd023d80c3035536ae553ced395f86e851d108ca5a7f23b8"
   },
   {
-   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/candidate-02/master.png",
-   "bytes": 1847210,
-   "sha256": "27331ceeb3353de388c97e1c4ecc62b11fd75fa6421852ae4e7a22cba971c408"
-  },
-  {
    "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/binding.json.gz",
    "bytes": 113147,
    "sha256": "13289e044bd67d322371ba1c5a24f47184d9a6a22abc9ce310a15f47efa0c91a",
@@ -427,11 +387,6 @@
    "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/record.json",
    "bytes": 7590,
    "sha256": "333cacf0dac7834c820887404a7ba3f03593206110e51b639c7a33a89e49e7a2"
-  },
-  {
-   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/candidate-08/master.png",
-   "bytes": 1295128,
-   "sha256": "55d8a5d00e4eabd761fc64cc42d82da1d3837b0448651d8c78820b9cfe9fb19b"
   },
   {
    "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/binding.json.gz",
@@ -469,11 +424,6 @@
    "sha256": "12b5ac9ce9d1f3986628253ecabdb97f7e4a772562703eebf9f543d56e6ed64a"
   },
   {
-   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/candidate-02/master.png",
-   "bytes": 883104,
-   "sha256": "ba6037964ac289b10cb7ccac9c44bdf05395deeec827a412fa4e97be5f7ca1a7"
-  },
-  {
    "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/binding.json.gz",
    "bytes": 91879,
    "sha256": "0fb11d3cf4e977f1d7185f60520654c95654e5965e7ffb0ac69db44b0432dedb",
@@ -509,11 +459,6 @@
    "sha256": "474df06b02888a7e086ddb0a867c6f2357c64a40431e4df7defb2e6da057f27f"
   },
   {
-   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/candidate-13/master.png",
-   "bytes": 511163,
-   "sha256": "e8173ea57501d604451cde79ec04715f28b683393c5de423750b4403abe4246e"
-  },
-  {
    "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/binding.json.gz",
    "bytes": 532278,
    "sha256": "0071365305feda8158890cdb3c1616d33feb2c67e13472f0b706a78f6af9ad47",
@@ -547,11 +492,6 @@
    "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/record.json",
    "bytes": 23771,
    "sha256": "19f7988daaa9054bed677f00abf2adb88b5b69dd91e5776e0462a9009e260d54"
-  },
-  {
-   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/candidate-12/master.png",
-   "bytes": 1602781,
-   "sha256": "78ad63443cf8a1a3e48ac89ef320db995697a798be56366164999814ae61b50a"
   },
   {
    "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/binding.json.gz",
@@ -624,11 +564,6 @@
    "sha256": "50f548ed56044ae8ff66941ff762ad547da48a87ea984fc3f89c6484cae9ec06"
   },
   {
-   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/master.png",
-   "bytes": 1647339,
-   "sha256": "89d45d5d3410191fe0e0364216ab9005ee28db1910fb4c509e03f8b38c738687"
-  },
-  {
    "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/binding.json.gz",
    "bytes": 168779,
    "sha256": "979ffcb54ad2de6ef7c7d3823e69aa2c7585c28ed1c593b7e5784038c8157fe4",
@@ -664,11 +599,6 @@
    "sha256": "9ab4e752cd10d0a6c174c749a9e3c93ec8d9e950c02a1b6210ea812a06d87311"
   },
   {
-   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/master.png",
-   "bytes": 1735401,
-   "sha256": "48a6ab472bdf161913f540a2ade5907be2bebedaa600348877adb269c01b0a2e"
-  },
-  {
    "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/binding.json.gz",
    "bytes": 189176,
    "sha256": "0576e6e45f75c18ae5bb569715d021a4cd8612ca031ecb980d5516805aaf8ea5",
@@ -702,11 +632,6 @@
    "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/record.json",
    "bytes": 5010,
    "sha256": "0d55904876d7638af2b8a43eea96e48328de0950e241cf1c32509c62ab1b6696"
-  },
-  {
-   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/master.png",
-   "bytes": 863009,
-   "sha256": "52da01243b6720bf4715b0895a9e95a1913d14489484e5e3340d31dc7b47a0b4"
   },
   {
    "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings.json",
@@ -784,6 +709,36 @@
    "sha256": "efe2405f0168299d429debc35ed72ee0dbbca7f602ee03f957a8bec3f49e26c2"
   },
   {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/banded.png",
+   "bytes": 36875,
+   "sha256": "3197308fbd767ef2c21c2186c8446f3979ab38346f9da9ed814fe479eeb17111"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/eye-spotted.png",
+   "bytes": 17664,
+   "sha256": "4fd7f34652faa49bd919eb462d674416f7350e34f2aa8420863bc4d182a6a23c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/marbled.png",
+   "bytes": 39495,
+   "sha256": "ed2f865f75573ede195aa6ef9cb2f40fe5b528589a1e55a55f73ef9d9c3335f2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/mottled.png",
+   "bytes": 39229,
+   "sha256": "8c80c72f2ea2646eed16afcc00c61ef5f2b96d3746f4b36e9ed078cada17c9df"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/spotted.png",
+   "bytes": 21702,
+   "sha256": "42fddc14365a345985c0dd3582a4ef04cbc6d29cda0d4ee2c8c94b0da34c7a6c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/04-wall-lizard/markings/striped.png",
+   "bytes": 30599,
+   "sha256": "e3fbf1bc3a39100103dbf3ff7b93d776176203c231770fb3eeda1f47af5a6649"
+  },
+  {
    "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/banded.png",
    "bytes": 19202,
    "sha256": "f81bb965cef65dd6824fc2967bd401249b219f5de8313bf02b01958fb1629f10"
@@ -812,6 +767,36 @@
    "path": "audits/ART_BATTLE_FOCUS_20260925/06-impala/markings/striped.png",
    "bytes": 35669,
    "sha256": "363319f5961632df69e3e44bc4fba16343531364ba22007e8519c5607cb3ac4b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/banded.png",
+   "bytes": 42499,
+   "sha256": "29d4b405f645fe8e0cf1d50995c4216154aaaf91cd3c72309f831bc23f208bd0"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/eye-spotted.png",
+   "bytes": 29585,
+   "sha256": "ecb3289af98b66053962444b24bb3f2ef8caf56e80a6172f4d9ef61d21f69834"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/marbled.png",
+   "bytes": 60748,
+   "sha256": "1284bf7b4586663d5d75dab78d758ac6db9acfe9ce598e12a7f9d764e49f2e0d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/mottled.png",
+   "bytes": 44474,
+   "sha256": "45a9fa627eb78eaed87c09d6a1bb6d5bf06731eb7ea6794460c83fb07c064a2a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/spotted.png",
+   "bytes": 38395,
+   "sha256": "19e2d2ed6bd109ec7e2854704043af558ea0a108fd2fd7bf2b6c2aa0dd0cec3d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/07-marmot/markings/striped.png",
+   "bytes": 55859,
+   "sha256": "751d8124ac7503428e261b981ffeb882ce4e678a03425fabf5d4d35f98f76576"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/binding.json.gz",
@@ -884,11 +869,6 @@
    "sha256": "6d184960858ffd1813e00c705c903107785180746c843fa059b0fa2906172aba"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/08-bass/master.png",
-   "bytes": 1111759,
-   "sha256": "8e3ff13f2dd2b8b65e775e9a720760725eaf0087b2fecb9caa3ce9736ea1d1e8"
-  },
-  {
    "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/fit-06/binding.json.gz",
    "bytes": 288539,
    "sha256": "d130e49ee363d628228d11fec7946b62cd8befb27e2b9b8877b54a506beecf5a",
@@ -957,11 +937,6 @@
    "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/markings/striped.png",
    "bytes": 64165,
    "sha256": "6b5bdb78662db4bbe2cbc0073ef5e58957602dd4a330ddbb1eb98ac5c76c907c"
-  },
-  {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/10-tang/master.png",
-   "bytes": 1319605,
-   "sha256": "e6970b7e7d2320aca6022ae2b74117f10f7d38e66fc5b81568b0061ce65f8ffe"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/binding.json.gz",
@@ -1034,9 +1009,74 @@
    "sha256": "f0e905f76aff8adf8fdb0c9ef3ddfbb6496126019b5b96ac95f5cff32da17d14"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/master.png",
-   "bytes": 609200,
-   "sha256": "ab7a9c80a6b5ea2344f88d7d14038ad1df0fe9d5cf942fae59a5860543bb1e43"
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/binding.json.gz",
+   "bytes": 155697,
+   "sha256": "0f1dd4f9553f0fb0e601c8cbce9218250dce03d5a995172cfa0aa15554818bc3",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/binding.json",
+    "sha256": "d65339b62e84e807e2a4512a67837d9ae8b4b7e68cb3f65033e924e138a2a13b",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/parts/alpha.png",
+   "bytes": 60675,
+   "sha256": "9dd1acfffe7f8ae213d60b73dd8d3d2a29da2f6e0e0cbbff9bb09fcdf85ed2b2",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/parts/keyed.png",
+    "sha256": "6f7e997a5b11b994ca27ca184f7797ef2b36248bb650595c8bc99708011bb28a",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/parts/atlas/gull.png",
+   "bytes": 529896,
+   "sha256": "95775e5b9dc0614d3033480742553debb9fe93b9a32aac1b88efbea15d6e670d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/parts/manifest.json",
+   "bytes": 2846,
+   "sha256": "23295f90e84407e45d59d4c8c14bf72bfbaaf9573d5301d82bb397356425fd99"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/fit-03/record.json",
+   "bytes": 6329,
+   "sha256": "7f7a1d10d7a58f722b48ee3e6ab033c71ce84eb8d46320aca62a07cfb9530c48"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings.json",
+   "bytes": 25913,
+   "sha256": "317c2d299fa5f5f4cf4af61d62eb531c9b839e5ae709dfbea48e19d6b987b462"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/banded.png",
+   "bytes": 28991,
+   "sha256": "7c0c0c7297385b88fbe527500fa28a0fc15a0567b7349f8dbcfb36a3cde0d8d7"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/eye-spotted.png",
+   "bytes": 27823,
+   "sha256": "a387a9c0d9dff4ea416efb32c20e73f91485b5d2e7da3ccfaf020834967323de"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/marbled.png",
+   "bytes": 47690,
+   "sha256": "9b731d47854002ffa9cb01346b886f842ce05952bbf08845cb7fe7ea68d5ca65"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/mottled.png",
+   "bytes": 34146,
+   "sha256": "174eec7577a9d3dfcfe2631d2cb315536cff0b007d75e8c9a6f0ed9d2426e465"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/spotted.png",
+   "bytes": 18573,
+   "sha256": "e5f3c59fd072c015add13136cc32bbcb7549723385afa0b4caf098da485609f2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/12-gull/markings/striped.png",
+   "bytes": 25361,
+   "sha256": "483fe021ad0b6e1d6bf3b17a840f24c6be8c134bbd3c89b5bccbca39ea5a704b"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/fit-02/binding.json.gz",
@@ -1109,9 +1149,39 @@
    "sha256": "591974ef7418e64e4e1f62a45c3b0bdd552ba0113ea15f4ad9bf49cf8b40636b"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/13-river-otter/master.png",
-   "bytes": 457140,
-   "sha256": "12b5d7092a86a53c7769a1719c0eda38d5369f3ca3056b80a6275dbf1cd3411e"
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings.json",
+   "bytes": 27046,
+   "sha256": "8c2ed5a05b926c8bb2c487d43b598dae2a6ae40019b3f68f790fcc8b91c50e5e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/banded.png",
+   "bytes": 14997,
+   "sha256": "d330d111b60013843c1ff4c8dc6ad3a0c21c6b3bfcc470b509e5429c3b0d51d9"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/eye-spotted.png",
+   "bytes": 21983,
+   "sha256": "8359adbe6e4149e340af006651ba3f0dfac4e07d387d58f3aebfe22a21f47c86"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/marbled.png",
+   "bytes": 16162,
+   "sha256": "7e3541af79e779ee0deb8e9bbe058b8406a6305b2e00a4128e996b74f490d82d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/mottled.png",
+   "bytes": 20613,
+   "sha256": "78ecf6dd0deebcc725eae4ae30d86255868bd6caf87751cac481e655049342c4"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/spotted.png",
+   "bytes": 14860,
+   "sha256": "e6a39eac220ac12630532372e89a4e9a6dc991450197aa6acc7678cc6358d368"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/15-goose/markings/striped.png",
+   "bytes": 17122,
+   "sha256": "cbcd7f824c0ba9e01425517e39785529aadd9d31542bb52c5c740cb93bf2c925"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/fit-01/binding.json.gz",
@@ -1184,9 +1254,249 @@
    "sha256": "9ccf9feeba1980ecf03c63463dcbc9a164eefa7cfe9b3cf0be830c207a37f424"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/16-heron/master.png",
-   "bytes": 609674,
-   "sha256": "15618869db6ea85407c2566b5dacd469513bffd1db2fa0a76247918cb51c491c"
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/binding.json.gz",
+   "bytes": 239665,
+   "sha256": "6bf1155d8a06dc788e40904a03a2727fae1daa22ac1a3935f80d9756e7b1e1d2",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/binding.json",
+    "sha256": "a923e722a2aee41b13becac868f48f782f537ca0c2c9b64a2b3ceb73fd270399",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/parts/alpha.png",
+   "bytes": 82860,
+   "sha256": "76ba6667cb56879de28d33d243da7aa4be7e8ea8a6d4ee26c6e27429dde30d58",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/parts/keyed.png",
+    "sha256": "fd4c67288115491bfde534d92a1aa57f2bdc81d18a152d6bd24a823443cce8e8",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/parts/atlas/ibex.png",
+   "bytes": 751418,
+   "sha256": "b5c7a17da4c02b91b90e21dd5dd4514932feb73687dfaea34ec708c32101494f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/parts/manifest.json",
+   "bytes": 5200,
+   "sha256": "117fa7336089be5276414e857eeb1c0ff0fa8e4eb65af2a9141c4f78b74a23a3"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/fit-02/record.json",
+   "bytes": 7535,
+   "sha256": "7a5f4168230a467c170d5f5b750c4be394109b0539a7236da89f1645d5cf6a5f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings.json",
+   "bytes": 26839,
+   "sha256": "530cd992b87ba2143b14719026150e329dca872d6bdbc86986c2417c17944fd1"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/banded.png",
+   "bytes": 47699,
+   "sha256": "6c91e2a3ba1c0e330a36cbd1e8f90eb1ca373dcacb29e9086854a9b84229e917"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/eye-spotted.png",
+   "bytes": 63492,
+   "sha256": "59a65b0e6c5c7ca41d39bcb6aff5161ba9021372ec84a3b5d933e289c03eaceb"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/marbled.png",
+   "bytes": 46538,
+   "sha256": "3f46d43f2c7a5503b05eb92b4f118fd13bf7c81adb3717c6c7a521ff4c6ee3c2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/mottled.png",
+   "bytes": 46816,
+   "sha256": "e39efd3fe13faf2f566b2c29e7da93aa8b84ecfc7dbc7171940d9f84baafbb55"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/spotted.png",
+   "bytes": 32961,
+   "sha256": "3a9bca23340d992a52cb70472d784f41c31419fb79689a5fa7b49c2af95376aa"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/18-ibex/markings/striped.png",
+   "bytes": 52090,
+   "sha256": "5a11f1514a5fdad525bd15ecd2e8a881541bac4f09aeb72c5f48107b64114bd8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/binding.json.gz",
+   "bytes": 126959,
+   "sha256": "2491a51c95a35cf0ca191c997cdfb5a9a071f47d9e291062ad1ec0b4522e2ff3",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/binding.json",
+    "sha256": "d366a37f47c00cb3e781aa49fe3ae97df26ad289146c4440ea90347bb3d73ecb",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/parts/alpha.png",
+   "bytes": 41043,
+   "sha256": "bbccaf4201b6ecf5fc997da658bc378be4d55574ab52c48752699045e7c25fb1",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/parts/keyed.png",
+    "sha256": "3f0ec10b83119cabe967b1baa91d75208f4c2ca49b5ce951296607321e5ca591",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/parts/atlas/pike.png",
+   "bytes": 389931,
+   "sha256": "ebfbe34d8d689d6a522cb41225ea07333c507adaf696bf0eae8a99d0b687bf4f"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/parts/manifest.json",
+   "bytes": 2148,
+   "sha256": "7b4900c559852f2aeea4006627f847b6ccb92c75cb9b72de9a516508097b2be9"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/fit-02/record.json",
+   "bytes": 5314,
+   "sha256": "907079113cc888853f6dfeff9d85dd8c797802a1380fc132eee5fc3ca50ea47c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings.json",
+   "bytes": 25676,
+   "sha256": "695bf7c3691ebb24e113bce3110457f2b79a034fba4adbdab747e0736479bded"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/banded.png",
+   "bytes": 40969,
+   "sha256": "cdf0c557626832d4595df805512d40b60e06995906937db5a0fa4e99e5ca27a7"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/eye-spotted.png",
+   "bytes": 20910,
+   "sha256": "4f74e6572efb6b6ab8f2deee02bd1430d95e869f089a1b54be0ed1d5278a8dd3"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/marbled.png",
+   "bytes": 31431,
+   "sha256": "025d2ef85ad4b07692f0448c2f2e7b0219048aabcc82fe8de82fb956588c078a"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/mottled.png",
+   "bytes": 28846,
+   "sha256": "fe813a25e38707cd56d5bb7115a004b31563a8c720ac3769b0f1a335046ede29"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/spotted.png",
+   "bytes": 22432,
+   "sha256": "447072057afd112d9e8d342b891990a50051f25341c572a993caa9e784fcc2ca"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/20-pike/markings/striped.png",
+   "bytes": 20966,
+   "sha256": "6388c22c3ef4ca15174b899f80485f058305657d0448409571ab83568031d0f2"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/binding.json.gz",
+   "bytes": 167190,
+   "sha256": "47455bb5058b0f72fde6089e8d11161bf03633bae70a129a4b385170593af5c2",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/binding.json",
+    "sha256": "83b81ab6050ed80e9cbd978b60af9446689b9cd713cf653772fcfd421d33c620",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/parts/alpha.png",
+   "bytes": 76476,
+   "sha256": "b65052a61593cec425d605ed16070b77d1c2a474df9d0143dd6b3cd63f79e955",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/parts/keyed.png",
+    "sha256": "486a2bab390c2615e3a42e49a6c0688f40e9b94c9dc440d67fe49ff74996985f",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/parts/atlas/goose.png",
+   "bytes": 928893,
+   "sha256": "d97cb07ab477784d24779e13b10bc5a5fadb62beefff35882d9befe91c7c12ea"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/parts/manifest.json",
+   "bytes": 2847,
+   "sha256": "a26516b67f92c491518bb42bb5cf8a6dd0d8d4ecff87dcb4d91972a0ac8ee75b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/record.json",
+   "bytes": 6169,
+   "sha256": "01b649a3999f9ce27d7dc05050711db5a5e8006eafc1b22a1065c67f1700b5a0"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/binding.json.gz",
+   "bytes": 308139,
+   "sha256": "20dde7eeb67d54b95cf7f341b8caedc065e9c1fd9fff678fc3133859fd5d21a8",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/binding.json",
+    "sha256": "b2b60503766ba28f8c9efd7d0585d4416a23e0fbeee4f5e5cb41e97dc02c6065",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/parts/alpha.png",
+   "bytes": 75784,
+   "sha256": "71f01b2c27e5a934bae1c16c4e289d583a7cc073dfaa157d0d80b5099b750a7b",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/parts/keyed.png",
+    "sha256": "5d2ad2f37eb59469e567e793350a55dec56cd6b12b015323a99b245b82cb6201",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/parts/atlas/cougar.png",
+   "bytes": 937642,
+   "sha256": "cb2be21a26aa37efc196c9cc576f353ea8b9f2ab5da94d18654c5783a1b8b420"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/parts/manifest.json",
+   "bytes": 5202,
+   "sha256": "ed0cdf7844684963faf940122f62a68f10a06e71e1e7d30a839028b894a5de55"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/fit-03/record.json",
+   "bytes": 7556,
+   "sha256": "77595449583b8877f9f0ef1ea10f1de8ed5369c77bc8e3c251797d31326b4fcd"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings.json",
+   "bytes": 25475,
+   "sha256": "ee681c62de148063c0611151c362d88e9beeb36d7869c81b27d705fc6df7d13c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/banded.png",
+   "bytes": 33933,
+   "sha256": "3dafbf18cb2c5cd18206f1d91192f07060ace9ed58366c8cbef69f289ac3e03d"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/eye-spotted.png",
+   "bytes": 31293,
+   "sha256": "674154fd888d1dc7a5dceef95875646338684395180191b475e8aa62cd2fc927"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/marbled.png",
+   "bytes": 44433,
+   "sha256": "47233a3c01eb599440b2b912d5d762c02c371d29d9af4e0caea064a3c0c18bd1"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/mottled.png",
+   "bytes": 26902,
+   "sha256": "86b614c729a509297b8b9915f5d20959d27ec69da43b702a5b942d9b11d77911"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/spotted.png",
+   "bytes": 29491,
+   "sha256": "eef5d223133b759165812319d6fccf3a4b777165b141abeba86cb37900ebe4da"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/cougar-repair-03/markings/striped.png",
+   "bytes": 41782,
+   "sha256": "d6256b4a1164a626c7748f23c20e4deffab19cb105913aca67affedab8888fff"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/fit-03/binding.json.gz",
@@ -1259,11 +1569,6 @@
    "sha256": "f8fb8b68d2de927a8cec600174955c59822d04940a57a46334c961102a8c4d21"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/master.png",
-   "bytes": 975776,
-   "sha256": "8b09ab3ef579a7860bec17e3fdaa82040b748d9541d2429c84d8f5e7f0d1383a"
-  },
-  {
    "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/binding.json.gz",
    "bytes": 284826,
    "sha256": "bb6d496e8ce137710da8f46639b7d0a4eff96d8f22b664a902a4cff741b0a3b1",
@@ -1302,11 +1607,6 @@
    "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/record.json",
    "bytes": 7582,
    "sha256": "e41b53418ccd6ac0875c98a0abd166df27afbe06e1f258ef05bad42b3c089000"
-  },
-  {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-input-01/master.png",
-   "bytes": 971622,
-   "sha256": "abad16f380bf27e2a17123882dd1ba027e196f10a180f299dbb470663e2b031a"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/fit-06/binding.json.gz",
@@ -1379,14 +1679,89 @@
    "sha256": "5595f76e112592875bb87eee446427181ba5c070f309ec9688967f5a8e2089ef"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/master.png",
-   "bytes": 950211,
-   "sha256": "5c878a70e83b232ef7aa1d716f6deab99626a8292e2a9714d87d945b1187e2ee"
-  },
-  {
    "path": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/weapon-declaration.json",
    "bytes": 450,
    "sha256": "0a8c29b926576ff1ccfada6c249963f245154cfb9928979f4ea0ab9f546f26d8"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/binding.json.gz",
+   "bytes": 150836,
+   "sha256": "c12f2e4a53bd4fc47a7931aae170a2447c7ea1beb0851c6c2d107b3e682b9dec",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/binding.json",
+    "sha256": "aac2d89a80939c348b5f92833ef3674d100ea7eec975f2c44bf093bf5658cfe9",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/markings.json",
+   "bytes": 25263,
+   "sha256": "1c5774046a71ad129bd13d20d939f08ca4d09d76ddf6f5392c7d5ea63786169b"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/parts/alpha.png",
+   "bytes": 56578,
+   "sha256": "48559dcc9d14b489f555c3dde56732ed2a4290bda2049ed404bac2700685d985",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/parts/keyed.png",
+    "sha256": "2ef51fc8475f4a4e5767188fac9afbe000e56e1c68b5d9f9ac8246e08ea7f2dc",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/parts/atlas/wall-lizard.png",
+   "bytes": 385648,
+   "sha256": "d524998b70a7ff5cb485f2b073e4a8adbb627935461d641764db0178e0406c1c"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/parts/manifest.json",
+   "bytes": 4527,
+   "sha256": "a65c48e12d916504348d335f98041ea42c7a1eaad558f4d3fa7463d013a46c14"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/lizard-fit-03/record.json",
+   "bytes": 7745,
+   "sha256": "b05f90d7f729c163b9f10dfde31626ef4bc79f5ab4403371a21284027c79e5a9"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/binding.json.gz",
+   "bytes": 321269,
+   "sha256": "9ce2c2ec864229c8339568cfbf641eeba45040809a0e784d83e69a3cdd379bd7",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/binding.json",
+    "sha256": "761e4dc8548341c4d9420791745ff4c25084944e9b28b9ea86bacbaeb5e5a7de",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/markings.json",
+   "bytes": 24955,
+   "sha256": "2e252eb1d950f71f601152802b518574fd523045edc72a1a57cb261ed5073087"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/parts/alpha.png",
+   "bytes": 79659,
+   "sha256": "1a384ac3572b36858511fe31986ac39a4886634d77f8d7dce77267bff6f7cc07",
+   "derivedFrom": {
+    "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/parts/keyed.png",
+    "sha256": "817005627aafda8573d3514343819080168c5c9404ea2bdf9cbdde3ba4630e00",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/parts/atlas/marmot.png",
+   "bytes": 1254824,
+   "sha256": "b6cafb130de63a4830593e093bd8ac484d7b84a0ee8d75210fcb5ce196d9428e"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/parts/manifest.json",
+   "bytes": 5202,
+   "sha256": "0536cf7919ba83e132c1fbdc4528309603bed87dc3e36ded6eb6b2768eae5e44"
+  },
+  {
+   "path": "audits/ART_BATTLE_FOCUS_20260925/quadruped-repair-04/marmot-fit-02/record.json",
+   "bytes": 7422,
+   "sha256": "30849c158873308156df12bfd6ddf21ef734df679367da6ec9ef277f04462e00"
   },
   {
    "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/binding.json.gz",
@@ -1459,11 +1834,6 @@
    "sha256": "53e5a5a13cee8df6b53103ded57d16aa10e29e871cc85bf2a93ff1dca4fa0269"
   },
   {
-   "path": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/master.png",
-   "bytes": 536008,
-   "sha256": "cd1a2cd6aecb629019d576abe64b50f549f95a4efa2cb8c58744aa5b0a9601f2"
-  },
-  {
    "path": "audits/ART_KIT_ENGINE_FIRST_20260912/masters/civet.png",
    "bytes": 1931944,
    "sha256": "a5e62568dfa010d8d646124ce641c72d42686bff5329bba40cfdfc21fa25a76b"
@@ -1507,11 +1877,6 @@
    "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/record.json",
    "bytes": 5617,
    "sha256": "6f6e63380f15841030dd15177acf15cfcb2f052a9eeb52d186418adb26d6bd77"
-  },
-  {
-   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/master.png",
-   "bytes": 410585,
-   "sha256": "d0a777d5186a6787461d795b41b34b8ce4569af1efd10b14f98524fc92ef8cae"
   }
  ]
 }

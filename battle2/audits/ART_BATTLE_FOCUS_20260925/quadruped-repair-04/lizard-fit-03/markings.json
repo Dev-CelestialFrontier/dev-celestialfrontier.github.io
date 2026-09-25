@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "../../04-wall-lizard/master.png",
+  "sourceSha256": "7490cbe04da1e945b33dd2fcb693454e2e0c07a0347df31e2ddcede20d8eedff",
+  "keyedAlphaFile": "parts/keyed.png",
+  "keyedSha256": "2ef51fc8475f4a4e5767188fac9afbe000e56e1c68b5d9f9ac8246e08ea7f2dc",
+  "recordRecipeHash": "d21a8c87db8f91d25bfad6ada673b2e83e50d9d858d3ee39b3c533fd33080179",
+  "compiledPrompt": {
+    "file": "../../04-wall-lizard/prompt.txt",
+    "sha256": "c6ac4fd0577baec63ac5099c3aa8d2ef661d719137b4ee8fc610e39009c7a404",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBXYWxsIExpemFyZDsgcmVhbCBuYW1lZCBhbmF0b215IGFuZCBuYXR1cmFsIG1hdGVyaWFscyB0YWtlIHByaW9yaXR5IG92ZXIgcmF3IHByb2NlZHVyYWwgZ2VuZXMuIHRhaWwgcm91Z2hseSB0d2ljZSB0aGUgYm9keSBsZW5ndGg7IGZsYXR0ZW5lZCBzbGVuZGVyIGJvZHkgcHJlc3NlZCB0byB0aGUgc3VyZmFjZTsgbG9uZyBzcGxheWVkIHRvZXMuIElzb2xhdGVkIGxpYnJhcnkgYXJjaGV0eXBlLCBub3QgYSBsYW5kaW5nIHJlc2lkZW50IGNsYWltLgogIE9uZSBzaWduYXR1cmU6IG5vIGJpb21lIGhhemFyZCBpbiBzb3VyY2U7IG5vIGFkZGVkIGhhemFyZCBtb3RpZi4KClNVQkpFQ1QKT25lIEVhcnRoIFdhbGwgTGl6YXJkLiB0YWlsIHJvdWdobHkgdHdpY2UgdGhlIGJvZHkgbGVuZ3RoOyBmbGF0dGVuZWQgc2xlbmRlciBib2R5IHByZXNzZWQgdG8gdGhlIHN1cmZhY2U7IGxvbmcgc3BsYXllZCB0b2VzLiAKR2Vub21pYyBpZGVudGl0eSBhbmQgdHJhaXRzIChFYXJ0aCBhbmF0b215IHRha2VzIHByaW9yaXR5KTogeyJzZWVkIjoxMzgwMDczOTIzLCJraW5nZG9tIjoiZmF1bmEiLCJjb2xvciI6MywiZm9ybSI6OCwiYm9keSI6OSwibG9jbyI6MTQsInRyYWl0Ijo0LCJzaXplIjowLCJkaWV0Ijo0LCJoZWFkIjowLCJsaW1icyI6MCwic2tpbiI6MSwidGFpbCI6MCwicGF0dGVybiI6NywiZXllcyI6MiwiYmVoYXZpb3IiOjAsImhhYml0YXQiOjgsImRldGFpbCI6OSwiYWNjZW50IjoxLCJ0ZW1wZXIiOjksInNlbnNlIjo1LCJyZXBybyI6NiwibGlmZSI6MSwibWV0YWIiOjUsImx1bWluIjp0cnVlLCJnZW4iOjAsImhlYXQiOjEsIl9lYXJ0aE5hbWUiOiJXYWxsIExpemFyZCJ9CkZhbWlseSBjb250cmFjdCBxdWFkcnVwZWQsIGNsaXAgc2V0IHF1YWRydXBlZC1sYW5kLXYxLiBSZXF1aXJlZCByaWcgam9pbnQvcGFydCBpbnZlbnRvcnk6IHJvb3QsIHBlbHZpcywgc3BpbmUsIGNoZXN0LCBuZWNrLCBoZWFkLCBqYXcsIGhpbmRGYXJSb290LCBoaW5kRmFyS25lZSwgaGluZEZhckFua2xlLCBoaW5kRmFyUGF3LCBmb3JlRmFyUm9vdCwgZm9yZUZhcktuZWUsIGZvcmVGYXJBbmtsZSwgZm9yZUZhclBhdywgaGluZE5lYXJSb290LCBoaW5kTmVhcktuZWUsIGhpbmROZWFyQW5rbGUsIGhpbmROZWFyUGF3LCBmb3JlTmVhclJvb3QsIGZvcmVOZWFyS25lZSwgZm9yZU5lYXJBbmtsZSwgZm9yZU5lYXJQYXcsIHRhaWwwLCB0YWlsMSwgdGFpbDIsIHRhaWwzLiBDb25uZWN0ZWQgb3JnYW5pYyBwYWludGVkIHN1YmplY3QsIG5vIGVxdWlwbWVudCwgbm8gZmFudGFzeSBhZGRlZCBsaW1icy4KT25lIHBsYWluLWNvYXRlZCBXYWxsIExpemFyZCwgc3RyaWN0IHNpZGUtb24gUklHSFQtZmFjaW5nLCBub3NlIFJJR0hUIGFuZCBsb25nIHRhcGVyaW5nIHRhaWwgTEVGVCwgaW4gYSBsb3cgcGxhbnRlZCBmb3VyLWxlZ2dlZCByZXN0IHN0YW5jZS4gU21hbGwgd2VkZ2Utc2hhcGVkIHNjYWx5IGhlYWQsIG5vIGZ1ciwgbm8gZXh0ZXJuYWwgZWFyIGZsYXBzLiBGb3VyIHNwbGF5ZWQgbGVncyB3aXRoIGVsYm93cyBvdXQgYW5kIGJlbGx5IG5lYXIgdGhlIGZlZXQgbGV2ZWwsIGVhY2ggbG93ZXIgbGltYiBhbmQgYWxsIEZPVVIgc2VwYXJhdGUgZmVldCBjbGVhcmx5IHZpc2libGUuIEZhciBmZWV0IHZpc2libHkgb2Zmc2V0IGZyb20gbmVhciBmZWV0IHNvIGZvdXIgY2hhaW5zIGNhbiBiZSB0cmFjZWQgd2l0aG91dCBvdmVybGFwLiBTbGVuZGVyIGxvbmcgdGFpbCByb3VnaGx5IDEuNSB0aW1lcyB0cnVuayBsZW5ndGgsIHN3ZWVwaW5nIGdlbnRseSBiZWhpbmQgdG8gdGhlIGxlZnQsIG5vdCBjb2lsZWQgb3Igd3JhcHBlZCBhcm91bmQgbGVncy4gUGxhaW4gbWlkLXRvbmUgd2FybSBzdG9uZS1icm93biBmaW5lIHNjYWxlcyB3aXRoIHN1YnRsZSBuYXR1cmFsIHRvbmFsIHNoYWRpbmc7IE5PIHN0cmlwZXMsIHNwb3RzLCBiYW5kcywgbWFyYmxpbmcsIGJlbGx5IG1hcmtpbmdzIG9yIGV5ZSBzcG90cy4gQSBzaW5nbGUgY29ubmVjdGVkIG9yZ2FuaWMgYW5pbWFsLCBzaWRlLW9uIGFuYXRvbXksIGVub3VnaCBzcGFjZSBhcm91bmQgdG9lcyBhbmQgdGFpbCBmb3IgdGhlIGZ1bGwgb3V0bGluZSB0byBzdGF5IHVuY3JvcHBlZC4gUmlnaHQtZmFjaW5nIGlzIFJFUVVJUkVEIGZvciB0aGUgYmF0dGxlIHN0YWdlLgoKQUNDVVJBQ1kKICBDb21wbGV0ZSByZWFsIFdhbGwgTGl6YXJkLCBvbmUgY3JlYXR1cmUsIGFuYXRvbWljYWxseSBhY2N1cmF0ZSBzcGVjaWVzIHByb3BvcnRpb25zLgogIEFsbCBub3JtYWxseSB2aXNpYmxlIGxpbWJzIHNlcGFyYXRlbHkgcmVhZGFibGUgd2l0aCBmYXIgYXBwZW5kYWdlcyB2aXNpYmx5IG9mZnNldCB3aGVyZSB0aGUgdmlldyBwZXJtaXRzOyBuZXZlciBpbnZlbnQgZXh0cmEgYW5hdG9teS4KICBObyBzY2VuZXJ5LCBncm91bmQsIHNoYWRvdywgdGV4dCwgZHVwbGljYXRlIGNyZWF0dXJlLCBjcm9wcGVkIGFuYXRvbXkuCiAgCgpMQVlPVVQKICBPbmUgcGxhaW4tY29hdGVkIFdhbGwgTGl6YXJkLCBzdHJpY3Qgc2lkZS1vbiBSSUdIVC1mYWNpbmcsIG5vc2UgUklHSFQgYW5kIGxvbmcgdGFwZXJpbmcgdGFpbCBMRUZULCBpbiBhIGxvdyBwbGFudGVkIGZvdXItbGVnZ2VkIHJlc3Qgc3RhbmNlLiBTbWFsbCB3ZWRnZS1zaGFwZWQgc2NhbHkgaGVhZCwgbm8gZnVyLCBubyBleHRlcm5hbCBlYXIgZmxhcHMuIEZvdXIgc3BsYXllZCBsZWdzIHdpdGggZWxib3dzIG91dCBhbmQgYmVsbHkgbmVhciB0aGUgZmVldCBsZXZlbCwgZWFjaCBsb3dlciBsaW1iIGFuZCBhbGwgRk9VUiBzZXBhcmF0ZSBmZWV0IGNsZWFybHkgdmlzaWJsZS4gRmFyIGZlZXQgdmlzaWJseSBvZmZzZXQgZnJvbSBuZWFyIGZlZXQgc28gZm91ciBjaGFpbnMgY2FuIGJlIHRyYWNlZCB3aXRob3V0IG92ZXJsYXAuIFNsZW5kZXIgbG9uZyB0YWlsIHJvdWdobHkgMS41IHRpbWVzIHRydW5rIGxlbmd0aCwgc3dlZXBpbmcgZ2VudGx5IGJlaGluZCB0byB0aGUgbGVmdCwgbm90IGNvaWxlZCBvciB3cmFwcGVkIGFyb3VuZCBsZWdzLiBQbGFpbiBtaWQtdG9uZSB3YXJtIHN0b25lLWJyb3duIGZpbmUgc2NhbGVzIHdpdGggc3VidGxlIG5hdHVyYWwgdG9uYWwgc2hhZGluZzsgTk8gc3RyaXBlcywgc3BvdHMsIGJhbmRzLCBtYXJibGluZywgYmVsbHkgbWFya2luZ3Mgb3IgZXllIHNwb3RzLiBBIHNpbmdsZSBjb25uZWN0ZWQgb3JnYW5pYyBhbmltYWwsIHNpZGUtb24gYW5hdG9teSwgZW5vdWdoIHNwYWNlIGFyb3VuZCB0b2VzIGFuZCB0YWlsIGZvciB0aGUgZnVsbCBvdXRsaW5lIHRvIHN0YXkgdW5jcm9wcGVkLiBSaWdodC1mYWNpbmcgaXMgUkVRVUlSRUQgZm9yIHRoZSBiYXR0bGUgc3RhZ2UuCiAgT25lIHdob2xlIGNyZWF0dXJlIGNlbnRlcmVkLCBlbnRpcmUgYW5hdG9teSBpbiBmcmFtZSwgYXQgbGVhc3QgOCBwZXJjZW50IHNhZmUgbWFyZ2luLiBObyBmbG9vciBwbGFuZS4KClRFQ0hOSUNBTCBPVVRQVVQKICBDcmVhdGUgYSBzcXVhcmUgMTI1NCB4IDEyNTQgUE5HLiBFdmVyeSBwaXhlbCB0aGF0IGlzIG5vdCB0aGUgc3ViamVjdCBpcyBvbmUKICBmbGF0LCB1bmlmb3JtLCBwdXJlIG1hZ2VudGEgZmlsbCAoI0ZGMDBGRik6IG5vIGdyYWRpZW50LCB2aWduZXR0ZSwgdGV4dHVyZSwKICBub2lzZSwgY2hlY2tlcmJvYXJkIG9yIHRyYW5zcGFyZW5jeSBwYXR0ZXJuLCBhbmQgbm8gZ3JvdW5kLCBiYXNlLCBmcmFtZSwKICBzY2VuZXJ5IG9yIGNhc3Qgc2hhZG93LiBUaGUgc3ViamVjdCdzIG91dGxpbmUgaXMgY3Jpc3AgYW5kIGZ1bGx5IG9wYXF1ZQogIGFnYWluc3QgdGhlIG1hZ2VudGEsIHdpdGggbm8gZ2xvdywgaGF6ZSwgc21va2Ugb3Igc29mdCBmZWF0aGVyaW5nIGJsZWVkaW5nCiAgaW50byBpdCwgYW5kIG5vdGhpbmcgb24gdGhlIHN1YmplY3QgaXMgbWFnZW50YSBvciBwaW5rLiBUaGUgbWFnZW50YSBpcyBrZXllZAogIG91dCBhZnRlcndhcmRzIHRvIHByb2R1Y2UgdGhlIHRyYW5zcGFyZW50IGFzc2V0LgoKTkVHQVRJVkUKICBObyB0ZXh0LCBsZXR0ZXJzLCBudW1iZXJzLCB3YXRlcm1hcmssIHNpZ25hdHVyZSwgYm9yZGVyLCBmcmFtZSwgZ3JpZCwgVUkKICBlbGVtZW50LCBoZWFsdGggYmFyLCBtaW5pbWFwLCB3YXlwb2ludCwgdG9rZW4gcmluZywgYmFzZSwgcGVkZXN0YWwsCiAgcGhvdG9yZWFsaXNtLCBhbmltZSwgY2hpYmkgc3R5bGluZywgY2VsIHNoYWRpbmcsIDNEIHJlbmRlciwgcGxhc3RpYyB0b3kKICBzaGVlbiwgYWlyYnJ1c2hlZCBncmFkaWVudHMsIGR1cGxpY2F0ZSBzdWJqZWN0LCB1bmludGVuZGVkIGNvbXBhbmlvbiwgZXh0cmEKICBsaW1icywgbWlzc2luZyBsaW1icywgbWFsZm9ybWVkIGhhbmRzLCBjcm9wcGVkIGFuYXRvbXksIG9yIGNvbnRhY3Qtc2hlZXQKICBsYXlvdXQuIE5vIGxlbnMgZmxhcmUsIG5vIGNocm9tYXRpYyBhYmVycmF0aW9uLCBubyBob2xvZ3JhcGhpYyBVSQogIHByb2plY3Rpb25zLCBubyBnbG93aW5nIG91dGxpbmVzIG9yIHJpbSBsaWdodCB1c2VkIGFzIGFuIGVmZmVjdC4KICBObyBzY2VuZXJ5LCBubyBmbG9vciBwbGFuZSwgbm8gY2FzdCBzaGFkb3csIG5vIGRyb3Agc2hhZG93LCBubyB3aGl0ZQogIGJhY2tncm91bmQsIG5vIGNoZWNrZXJlZCBiYWNrZ3JvdW5kLCBubyBiYWtlZCB0cmFuc3BhcmVuY3kgcGF0dGVybi4KICBCYWNrZ3JvdW5kIG11c3QgYmUgb25lIGZsYXQgdW5pZm9ybSBtYWdlbnRhIGZpbGwgYW5kIG5vdGhpbmcgZWxzZS4KICBObyBkZWZhdWx0IGJpcGVkYWwgaHVtYW5vaWQgc3RhbmNlIHVubGVzcyBuYW1lZCwgbm8gYXJtb3VyIHBsYXRpbmcgdGhlIGJyaWVmIGRpZAogIG5vdCBhc2sgZm9yLCBubyBodW1hbiBleWVzLCBubyB3ZWFwb25zIGhlbGQgaW4gaGFuZHMgdW5sZXNzIG5hbWVkLCBubyByaWRlciwKICBubyBzZWNvbmQgY3JlYXR1cmUuCiAgRG8gbm90IGFkZCBhIGJsYW5rZXQgb3ZlcnNpemVkLWhlYWQgYmFuIHRoYXQgd291bGQgZmlnaHQgYSBkYXRhLW93bmVkCiAgY29tcGFuaW9uIGJyaWVmLg=="
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "../../04-wall-lizard/markings/striped.png",
+      "sha256": "e3fbf1bc3a39100103dbf3ff7b93d776176203c231770fb3eeda1f47af5a6649",
+      "promptFile": "../../04-wall-lizard/prompts/striped.txt",
+      "promptSha256": "2d088c0e1233300d6fb13eb21b22848c3a47a1a7934fddd6a8564e724a3bcb42",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nExactly THREE separate very thin gently waving horizontal white strokes across x=150–1150; centre y=535,590,645. Each stroke 6 pixels wide. Broad transparent gaps. Do not fill white between lines.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KRXhhY3RseSBUSFJFRSBzZXBhcmF0ZSB2ZXJ5IHRoaW4gZ2VudGx5IHdhdmluZyBob3Jpem9udGFsIHdoaXRlIHN0cm9rZXMgYWNyb3NzIHg9MTUw4oCTMTE1MDsgY2VudHJlIHk9NTM1LDU5MCw2NDUuIEVhY2ggc3Ryb2tlIDYgcGl4ZWxzIHdpZGUuIEJyb2FkIHRyYW5zcGFyZW50IGdhcHMuIERvIG5vdCBmaWxsIHdoaXRlIGJldHdlZW4gbGluZXMuCkFsbCBvdGhlciBwaXhlbHMgbXVzdCBoYXZlIGFscGhhIHplcm8uIFdoaXRlIGlzIHRoZSBtYXJrOyB0cmFuc3BhcmVuY3kgaXMgYSByZWFsIGFscGhhIGhvbGUuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/striped.png",
+      "rawSha256": "778dc69bf7fb8155b009f3c5096a0efeb759a005fb973af9e843e29fa1cff7cd",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "../../04-wall-lizard/markings/spotted.png",
+      "sha256": "42fddc14365a345985c0dd3582a4ef04cbc6d29cda0d4ee2c8c94b0da34c7a6c",
+      "promptFile": "../../04-wall-lizard/prompts/spotted.txt",
+      "promptSha256": "c6c8c56e3f82ac994a1f57b28056cbf25cb70d1ecee0460208e8a87877db8552",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nSparse white rounded spots, varied radius 8–18 pixels, in x=150–1150,y=490–700. About 30 spots separated by ample transparent gaps. No touching spots.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KU3BhcnNlIHdoaXRlIHJvdW5kZWQgc3BvdHMsIHZhcmllZCByYWRpdXMgOOKAkzE4IHBpeGVscywgaW4geD0xNTDigJMxMTUwLHk9NDkw4oCTNzAwLiBBYm91dCAzMCBzcG90cyBzZXBhcmF0ZWQgYnkgYW1wbGUgdHJhbnNwYXJlbnQgZ2Fwcy4gTm8gdG91Y2hpbmcgc3BvdHMuCkFsbCBvdGhlciBwaXhlbHMgbXVzdCBoYXZlIGFscGhhIHplcm8uIFdoaXRlIGlzIHRoZSBtYXJrOyB0cmFuc3BhcmVuY3kgaXMgYSByZWFsIGFscGhhIGhvbGUuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/spotted.png",
+      "rawSha256": "5fc8fd40970731448d3f8abafa99cfd38f0621ab437a59a0409dc05eb040f298",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "../../04-wall-lizard/markings/banded.png",
+      "sha256": "3197308fbd767ef2c21c2186c8446f3979ab38346f9da9ed814fe479eeb17111",
+      "promptFile": "../../04-wall-lizard/prompts/banded.txt",
+      "promptSha256": "179bd508612af85806a6358fad29f22582f39e03936af7efb20cf32c39db0762",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nEIGHT separate curved vertical white bands in x=140–1160,y=480–730. Centres x=190,330,470,600,720,850,990,1120. Width 16–24 pixels, with large transparent gaps.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KRUlHSFQgc2VwYXJhdGUgY3VydmVkIHZlcnRpY2FsIHdoaXRlIGJhbmRzIGluIHg9MTQw4oCTMTE2MCx5PTQ4MOKAkzczMC4gQ2VudHJlcyB4PTE5MCwzMzAsNDcwLDYwMCw3MjAsODUwLDk5MCwxMTIwLiBXaWR0aCAxNuKAkzI0IHBpeGVscywgd2l0aCBsYXJnZSB0cmFuc3BhcmVudCBnYXBzLgpBbGwgb3RoZXIgcGl4ZWxzIG11c3QgaGF2ZSBhbHBoYSB6ZXJvLiBXaGl0ZSBpcyB0aGUgbWFyazsgdHJhbnNwYXJlbmN5IGlzIGEgcmVhbCBhbHBoYSBob2xlLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/banded.png",
+      "rawSha256": "f8017e7209c46abbb48780b269dfa6a2a60a052df54aa1a8e23ef073893414b7",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "../../04-wall-lizard/markings/mottled.png",
+      "sha256": "8c80c72f2ea2646eed16afcc00c61ef5f2b96d3746f4b36e9ed078cada17c9df",
+      "promptFile": "../../04-wall-lizard/prompts/mottled.txt",
+      "promptSha256": "59d98a268dbf43b3c64c1f844b0940ea7fdebc0a82ad862c9d625f6897ff2e59",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nSparse irregular soft-edged white islands in x=140–1160,y=500–720. Organic rounded blotches 20–40 pixels wide, separated by transparent gaps, no opaque rectangular fill.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KU3BhcnNlIGlycmVndWxhciBzb2Z0LWVkZ2VkIHdoaXRlIGlzbGFuZHMgaW4geD0xNDDigJMxMTYwLHk9NTAw4oCTNzIwLiBPcmdhbmljIHJvdW5kZWQgYmxvdGNoZXMgMjDigJM0MCBwaXhlbHMgd2lkZSwgc2VwYXJhdGVkIGJ5IHRyYW5zcGFyZW50IGdhcHMsIG5vIG9wYXF1ZSByZWN0YW5ndWxhciBmaWxsLgpBbGwgb3RoZXIgcGl4ZWxzIG11c3QgaGF2ZSBhbHBoYSB6ZXJvLiBXaGl0ZSBpcyB0aGUgbWFyazsgdHJhbnNwYXJlbmN5IGlzIGEgcmVhbCBhbHBoYSBob2xlLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/mottled.png",
+      "rawSha256": "0c654fef4f21c674874fddbbf531aeb063c3b8aeb79ca3cbe3611783311f3b51",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "../../04-wall-lizard/markings/marbled.png",
+      "sha256": "ed2f865f75573ede195aa6ef9cb2f40fe5b528589a1e55a55f73ef9d9c3335f2",
+      "promptFile": "../../04-wall-lizard/prompts/marbled.txt",
+      "promptSha256": "a4a7427cba886e1f7da3c12a44b42561fcd3826edf746b587c75b5b4c190a1eb",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nSparse branching wavy white veins in x=140–1160,y=500–720. Thin organic sinuous veins 6–10 pixels wide, large transparent spaces between them. No filled block.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KU3BhcnNlIGJyYW5jaGluZyB3YXZ5IHdoaXRlIHZlaW5zIGluIHg9MTQw4oCTMTE2MCx5PTUwMOKAkzcyMC4gVGhpbiBvcmdhbmljIHNpbnVvdXMgdmVpbnMgNuKAkzEwIHBpeGVscyB3aWRlLCBsYXJnZSB0cmFuc3BhcmVudCBzcGFjZXMgYmV0d2VlbiB0aGVtLiBObyBmaWxsZWQgYmxvY2suCkFsbCBvdGhlciBwaXhlbHMgbXVzdCBoYXZlIGFscGhhIHplcm8uIFdoaXRlIGlzIHRoZSBtYXJrOyB0cmFuc3BhcmVuY3kgaXMgYSByZWFsIGFscGhhIGhvbGUuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/marbled.png",
+      "rawSha256": "c43329133997338f064ea6b85910e18bd368b10e3576c06d63de3f35886ff1d9",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "../../04-wall-lizard/markings/eye-spotted.png",
+      "sha256": "4fd7f34652faa49bd919eb462d674416f7350e34f2aa8420863bc4d182a6a23c",
+      "promptFile": "../../04-wall-lizard/prompts/eye-spotted.txt",
+      "promptSha256": "fc782a39068e0a7bc31f56eccd196738743d176bd2b612533bb27cde78a72523",
+      "prompt": "Create a transparent 1254 x 1254 PNG marking-mask texture. No creature, silhouette, background, checkerboard, text or labels. Draw only the following white pigment shapes on an otherwise empty alpha-zero canvas. Maintain exact canvas coordinates; no cropping or centering.\nTHREE white hollow rings centred at (730,550),(850,555),(970,555). Each outer radius 26 pixels, inner radius 15, centres fully transparent. Three rings only.\nAll other pixels must have alpha zero. White is the mark; transparency is a real alpha hole.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgdHJhbnNwYXJlbnQgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmctbWFzayB0ZXh0dXJlLiBObyBjcmVhdHVyZSwgc2lsaG91ZXR0ZSwgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCB0ZXh0IG9yIGxhYmVscy4gRHJhdyBvbmx5IHRoZSBmb2xsb3dpbmcgd2hpdGUgcGlnbWVudCBzaGFwZXMgb24gYW4gb3RoZXJ3aXNlIGVtcHR5IGFscGhhLXplcm8gY2FudmFzLiBNYWludGFpbiBleGFjdCBjYW52YXMgY29vcmRpbmF0ZXM7IG5vIGNyb3BwaW5nIG9yIGNlbnRlcmluZy4KVEhSRUUgd2hpdGUgaG9sbG93IHJpbmdzIGNlbnRyZWQgYXQgKDczMCw1NTApLCg4NTAsNTU1KSwoOTcwLDU1NSkuIEVhY2ggb3V0ZXIgcmFkaXVzIDI2IHBpeGVscywgaW5uZXIgcmFkaXVzIDE1LCBjZW50cmVzIGZ1bGx5IHRyYW5zcGFyZW50LiBUaHJlZSByaW5ncyBvbmx5LgpBbGwgb3RoZXIgcGl4ZWxzIG11c3QgaGF2ZSBhbHBoYSB6ZXJvLiBXaGl0ZSBpcyB0aGUgbWFyazsgdHJhbnNwYXJlbmN5IGlzIGEgcmVhbCBhbHBoYSBob2xlLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "../../04-wall-lizard/raw/eye-spotted.png",
+      "rawSha256": "ccd3184e99e73b857bc9f71b8fddd1e817e2f66588e60b5aa2a4d36de5417b2e",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "kind": "biped-bird",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Goose\"]],[\"accent\",[\"number\",\"11\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"15\"]],[\"color\",[\"number\",\"11\"]],[\"detail\",[\"number\",\"7\"]],[\"diet\",[\"number\",\"2\"]],[\"eyes\",[\"number\",\"1\"]],[\"form\",[\"number\",\"6\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"10\"]],[\"head\",[\"number\",\"8\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"4\"]],[\"limbs\",[\"number\",\"2\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"0\"]],[\"pattern\",[\"number\",\"3\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"3293194866\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"5\"]],[\"skin\",[\"number\",\"0\"]],[\"tail\",[\"number\",\"5\"]],[\"temper\",[\"number\",\"5\"]],[\"trait\",[\"number\",\"16\"]]]]",
+    "seed": 3293194866,
+    "ownerId": "authored:archetype-sprint/goose",
+    "earthName": "Goose"
+  },
+  "template": {
+    "id": "biped-bird",
+    "version": 1
+  },
+  "clipSetId": "biped-bird-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3293194866,
+    "kingdom": "fauna",
+    "color": 11,
+    "form": 6,
+    "body": 15,
+    "loco": 6,
+    "trait": 16,
+    "size": 5,
+    "diet": 2,
+    "head": 8,
+    "limbs": 2,
+    "skin": 0,
+    "tail": 5,
+    "pattern": 3,
+    "eyes": 1,
+    "behavior": 10,
+    "habitat": 10,
+    "detail": 7,
+    "accent": 11,
+    "temper": 5,
+    "sense": 1,
+    "repro": 4,
+    "life": 4,
+    "metab": 0,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Goose"
+  },
+  "geometry": {
+    "cutoutAssetHash": "0f3575a5fe537ced0a819a5bb181a1115914c3eef824bcad3440bf541e16cfd1",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.8181818181818182,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.5534290271132376,
+      0.6116427432216905
+    ],
+    "pelvis": [
+      0.5,
+      0.6881977671451356
+    ],
+    "spine": [
+      0.5980861244019139,
+      0.5885167464114832
+    ],
+    "chest": [
+      0.6842105263157895,
+      0.5629984051036683
+    ],
+    "neck0": [
+      0.6985645933014354,
+      0.47926634768740034
+    ],
+    "neck1": [
+      0.69377990430622,
+      0.3883572567783094
+    ],
+    "head": [
+      0.7352472089314195,
+      0.3118022328548644
+    ],
+    "beak": [
+      0.7926634768740032,
+      0.3277511961722488
+    ],
+    "legNearKnee": [
+      0.4665071770334928,
+      0.7304625199362041
+    ],
+    "legNearAnkle": [
+      0.46012759170653905,
+      0.7743221690590112
+    ],
+    "legNearFoot": [
+      0.49920255183413076,
+      0.8046251993620415
+    ],
+    "legFarKnee": [
+      0.5374800637958532,
+      0.7312599681020734
+    ],
+    "legFarAnkle": [
+      0.5518341307814992,
+      0.7695374800637959
+    ],
+    "legFarFoot": [
+      0.6028708133971292,
+      0.7918660287081339
+    ],
+    "wingNearRoot": [
+      0.5964912280701754,
+      0.5
+    ],
+    "wingNearTip": [
+      0.21929824561403508,
+      0.20893141945773525
+    ],
+    "wingFarRoot": [
+      0.6164274322169059,
+      0.4696969696969697
+    ],
+    "wingFarTip": [
+      0.5414673046251993,
+      0.23365231259968103
+    ],
+    "tailFan": [
+      0.291866028708134,
+      0.6395534290271132
+    ]
+  },
+  "materials": {
+    "surface": "plain grey-brown painted waterfowl feathers with orange bill and webbed feet"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/15-goose/master.png",
+  "habitat": {
+    "realm": "land",
+    "source": "Manually declared Goose standing on two webbed feet, both wings spread above back. Ground battle locomotion; visible spread wings permit feather-surface review but do not infer hidden undersides."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Two spread wings separately visible, no folded or hidden wing declaration. Both leg chains and webbed feet, complete short tail, upright neck and bill visible. No hidden/absent/folded anatomy. Manual own-master labels and joints; no transferred labels.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; no family-wide or airborne acceptance",
+    "wingPose": "Both wings spread upward/back, visible feather fans; unseen undersides not supplied.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "6ccbeeab12e74a3a24bd29b59b5b1e3a995219c1757613677ffaa66573ca02cf",
+    "subjectSourceSha256": "33b483f1e93a774d0cf9b2e253781601ec1c3b7f842c8cd997f5429a7711cb54",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.09335594585341805,
+      "spine": 0.1398470367747939,
+      "chest": 0.08982537697179407,
+      "neck0": 0.08495349715102728,
+      "neck1": 0.09103491670067203,
+      "head": 0.08706439594230422,
+      "beak": 0.05959024463243826,
+      "legFarKnee": 0.05708860073076693,
+      "legFarAnkle": 0.0408804006952992,
+      "legFarFoot": 0.05570733396036038,
+      "legNearKnee": 0.0539266030708029,
+      "legNearAnkle": 0.044321190531388395,
+      "legNearFoot": 0.04944821689929024,
+      "wingFarRoot": 0.1153243499637802,
+      "wingFarTip": 0.24766126235796654,
+      "wingNearRoot": 0.1079975663166022,
+      "wingNearTip": 0.47644041032751094,
+      "tailFan": 0.21374288675103034
+    },
+    "measures": {
+      "body": 0.22272942836798773,
+      "bone-min": 0.0408804006952992,
+      "bone-max": 0.47644041032751094,
+      "leg/torso:legFar": 0.6899687055835589,
+      "leg/torso:legNear": 0.6631185271910367,
+      "wing/torso": 1.6297155476106706
+    }
+  },
+  "recipeHash": "887857dd7213d86fe5278ab6dd4ef3ebbf5a06a86f12a9f241b56c4e14eb26a0"
+}

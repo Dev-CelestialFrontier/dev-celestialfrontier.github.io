@@ -1,0 +1,169 @@
+{
+  "kind": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Pike\"]],[\"accent\",[\"number\",\"16\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"12\"]],[\"color\",[\"number\",\"7\"]],[\"detail\",[\"number\",\"1\"]],[\"diet\",[\"number\",\"2\"]],[\"eyes\",[\"number\",\"4\"]],[\"form\",[\"number\",\"6\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"6\"]],[\"head\",[\"number\",\"8\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"2\"]],[\"limbs\",[\"number\",\"5\"]],[\"loco\",[\"number\",\"16\"]],[\"lumin\",[\"boolean\",true]],[\"metab\",[\"number\",\"0\"]],[\"pattern\",[\"number\",\"4\"]],[\"repro\",[\"number\",\"7\"]],[\"seed\",[\"number\",\"2356672504\"]],[\"sense\",[\"number\",\"7\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"2\"]],[\"tail\",[\"number\",\"4\"]],[\"temper\",[\"number\",\"4\"]],[\"trait\",[\"number\",\"14\"]]]]",
+    "seed": 2356672504,
+    "ownerId": "authored:archetype-sprint/pike",
+    "earthName": "Pike"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 2356672504,
+    "kingdom": "fauna",
+    "color": 7,
+    "form": 6,
+    "body": 12,
+    "loco": 16,
+    "trait": 14,
+    "size": 3,
+    "diet": 2,
+    "head": 8,
+    "limbs": 5,
+    "skin": 2,
+    "tail": 4,
+    "pattern": 4,
+    "eyes": 4,
+    "behavior": 10,
+    "habitat": 6,
+    "detail": 1,
+    "accent": 16,
+    "temper": 4,
+    "sense": 7,
+    "repro": 7,
+    "life": 2,
+    "metab": 0,
+    "lumin": true,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Pike"
+  },
+  "geometry": {
+    "cutoutAssetHash": "964a23d815434e6f36196eb71c3574951ca74d9d08998d8f40d458fcc7e24468",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.85,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.6382814992025518,
+      0.4890622009569378
+    ],
+    "head": [
+      0.7523437001594896,
+      0.49218740031897923
+    ],
+    "jaw": [
+      0.8210940988835727,
+      0.5101562998405104
+    ],
+    "spine0": [
+      0.5851562998405103,
+      0.4914059011164274
+    ],
+    "spine1": [
+      0.5234377990430622,
+      0.49218740031897923
+    ],
+    "spine2": [
+      0.4601562998405103,
+      0.49218740031897923
+    ],
+    "spine3": [
+      0.39687480063795855,
+      0.49218740031897923
+    ],
+    "spine4": [
+      0.3312503987240829,
+      0.4914059011164274
+    ],
+    "spine5": [
+      0.2617185007974482,
+      0.49062519936204146
+    ],
+    "caudal": [
+      0.19375039872408292,
+      0.49062519936204146
+    ],
+    "dorsal": [
+      0.29531259968102075,
+      0.4289059011164274
+    ],
+    "pectoralNear": [
+      0.6046874003189793,
+      0.5593748006379585
+    ],
+    "pectoralFar": [
+      0.6304688995215311,
+      0.5703125996810208
+    ]
+  },
+  "materials": {
+    "surface": "plain olive painted fish scales, low-contrast fine scale structure, soft pale belly shading and plain fin rays"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/20-pike/master.png",
+  "habitat": {
+    "realm": "aquatic",
+    "source": "Manually declared Earth Pike swimming fish; source has both pectorals/pelvics, anal and rear-set dorsal. No terrestrial support inferred."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Thirteen existing fish joints manually located. Both pectorals separately visible; pelvic pair and anal fin follow observed axial body regions. Complete forked caudal, rear-set dorsal and long flattened toothy snout. No absent, hidden or folded contracted anatomy. No source labels/landmarks reused and no new joint invented.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; no family-wide acceptance",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "b5974d1845e94522efb7d24e51fb05d83f4c63d0847483d367745e71a25c3bb2",
+    "subjectSourceSha256": "c1c6b7cb50d6b0625ef972edfc0b2359ce84160c24f0bf91fca2312dd6b687ee",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.1141050067183441,
+      "jaw": 0.07105982461796034,
+      "spine0": 0.05317687220676155,
+      "spine1": 0.06172344839433546,
+      "spine2": 0.06328149920255188,
+      "spine3": 0.06328149920255177,
+      "spine4": 0.06562905505610662,
+      "spine5": 0.06953628063471076,
+      "caudal": 0.06796810207336526,
+      "dorsal": 0.2367396348846,
+      "pectoralFar": 0.08162514322559165,
+      "pectoralNear": 0.07792576694330781
+    },
+    "measures": {
+      "body": 0.3234387412556658,
+      "bone-min": 0.05317687220676155,
+      "bone-max": 0.2367396348846,
+      "caudal/body": 0.21014211782267328,
+      "head/body": 0.35278707267831133
+    }
+  },
+  "recipeHash": "fa92dcff65635213e21d7d0ed48de6794c2a6aad26ad37988e539d47a5109bc5"
+}

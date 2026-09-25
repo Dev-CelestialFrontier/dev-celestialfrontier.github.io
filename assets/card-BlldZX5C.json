@@ -1,0 +1,221 @@
+{
+ "schema": "cf.card-master/v1",
+ "earthName": "Tree Frog",
+ "recordRecipeHash": "5357c3e397fbd0d70587424b527de754e7d7fc15988324ba93d85e5e3d692b97",
+ "source": {
+  "master": "audits/ARCHETYPE_FINISH_20260923/06-hopper/candidate-08/master.png",
+  "masterSha256": "aa1ad50d8ac1e354d0f0ba5beeb211a22519461ac36802ca621022f2418c65eb",
+  "keyedSha256": "8ee181697ff1a4f303bebda057ed86ce61932c0e9a0efd6c6395c63098d509df",
+  "alpha": "parts/keyed.png",
+  "labelsSha256": "03f28532d7c074afebf5c5803df3ac913aaf16bb5efd67fd49e2a75ba4fb65ae",
+  "labelSource": "labels.png + declaration.json",
+  "width": 1254,
+  "height": 1254
+ },
+ "labels": [
+  {
+   "label": 1,
+   "id": "near-front-foot",
+   "joint": "foreNearPaw",
+   "layer": "near"
+  },
+  {
+   "label": 2,
+   "id": "far-front-foot",
+   "joint": "foreFarPaw",
+   "layer": "far"
+  },
+  {
+   "label": 3,
+   "id": "near-hind-foot",
+   "joint": "hindNearPaw",
+   "layer": "near"
+  },
+  {
+   "label": 4,
+   "id": "far-hind-foot",
+   "joint": "hindFarPaw",
+   "layer": "far"
+  },
+  {
+   "label": 5,
+   "id": "near-front-lower",
+   "joint": "foreNearAnkle",
+   "layer": "near"
+  },
+  {
+   "label": 6,
+   "id": "near-front-upper",
+   "joint": "foreNearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 7,
+   "id": "near-hind-lower",
+   "joint": "hindNearAnkle",
+   "layer": "near"
+  },
+  {
+   "label": 8,
+   "id": "near-hind-upper",
+   "joint": "hindNearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 9,
+   "id": "far-hind-lower",
+   "joint": "hindFarAnkle",
+   "layer": "far"
+  },
+  {
+   "label": 10,
+   "id": "far-hind-upper",
+   "joint": "hindFarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 11,
+   "id": "far-front-lower",
+   "joint": "foreFarAnkle",
+   "layer": "far"
+  },
+  {
+   "label": 12,
+   "id": "far-front-upper",
+   "joint": "foreFarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 13,
+   "id": "jaw",
+   "joint": "jaw",
+   "layer": "near"
+  },
+  {
+   "label": 14,
+   "id": "head",
+   "joint": "head",
+   "layer": "near"
+  },
+  {
+   "label": 15,
+   "id": "neck",
+   "joint": "neck",
+   "layer": "near"
+  },
+  {
+   "label": 16,
+   "id": "chest",
+   "joint": "chest",
+   "layer": "near"
+  },
+  {
+   "label": 17,
+   "id": "body",
+   "joint": "root",
+   "layer": "near"
+  }
+ ],
+ "landmarks": {
+  "root": [
+   0.6076555023923444,
+   0.38995215311004783
+  ],
+  "pelvis": [
+   0.4649122807017544,
+   0.40271132376395535
+  ],
+  "spine": [
+   0.5988835725677831,
+   0.3572567783094099
+  ],
+  "chest": [
+   0.740829346092504,
+   0.37161084529505584
+  ],
+  "neck": [
+   0.7918660287081339,
+   0.33811802232854865
+  ],
+  "head": [
+   0.8564593301435407,
+   0.28548644338118023
+  ],
+  "jaw": [
+   0.8779904306220095,
+   0.32615629984051037
+  ],
+  "hindFarRoot": [
+   0.4585326953748006,
+   0.41068580542264754
+  ],
+  "hindFarKnee": [
+   0.3835725677830941,
+   0.48564593301435405
+  ],
+  "hindFarAnkle": [
+   0.24003189792663476,
+   0.4314194577352472
+  ],
+  "hindFarPaw": [
+   0.13237639553429026,
+   0.5191387559808612
+  ],
+  "hindNearRoot": [
+   0.46730462519936206,
+   0.4098883572567783
+  ],
+  "hindNearKnee": [
+   0.43859649122807015,
+   0.5390749601275917
+  ],
+  "hindNearAnkle": [
+   0.23125996810207336,
+   0.5765550239234449
+  ],
+  "hindNearPaw": [
+   0.15311004784688995,
+   0.6889952153110048
+  ],
+  "foreFarRoot": [
+   0.7639553429027113,
+   0.3843700159489633
+  ],
+  "foreFarKnee": [
+   0.8891547049441786,
+   0.42025518341307816
+  ],
+  "foreFarAnkle": [
+   0.8692185007974481,
+   0.48564593301435405
+  ],
+  "foreFarPaw": [
+   0.9098883572567783,
+   0.5191387559808612
+  ],
+  "foreNearRoot": [
+   0.7456140350877193,
+   0.3700159489633174
+  ],
+  "foreNearKnee": [
+   0.6674641148325359,
+   0.44657097288676234
+  ],
+  "foreNearAnkle": [
+   0.8006379585326954,
+   0.49521531100478466
+  ],
+  "foreNearPaw": [
+   0.810207336523126,
+   0.5470494417862839
+  ]
+ },
+ "card": {
+  "width": 512,
+  "height": 512,
+  "scale": 0.4082934609250399,
+  "masterSha256": "ee399cb184b6bdb8487ae733574f51dc0e2c6f1b989844edcf97912d1dcfbd4a",
+  "labelsSha256": "d27ab677a7ea9c3eb4d6cc84092d8adb9bda1eb28ed851d9c0a3d8c9110e462b",
+  "filter": "alpha-weighted box; labels nearest"
+ }
+}

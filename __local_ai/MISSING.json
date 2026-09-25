@@ -1,0 +1,9 @@
+{
+ "schema": "cf.local-ai-runtime-assets/v1",
+ "missing": [
+  "node_modules/onnxruntime-web/dist/ort.webgpu.min.mjs",
+  "node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.asyncify.mjs",
+  "node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.asyncify.wasm",
+  "node_modules/@huggingface/tokenizers/dist/tokenizers.mjs"
+ ]
+}

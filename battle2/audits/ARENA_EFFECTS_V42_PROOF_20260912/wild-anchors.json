@@ -1,0 +1,109 @@
+{
+  "schema": "cf.effect-sequence-anchors/v1",
+  "sequenceId": "wild-maw-proof-v1",
+  "theme": "wild",
+  "abilityId": "maw",
+  "abilityName": "Savage Maw",
+  "canvasSize": {
+    "width": 1254,
+    "height": 1254
+  },
+  "coordinateSpace": "normalized full canvas; top-left origin",
+  "phaseOrder": [
+    "launch",
+    "travel",
+    "impact"
+  ],
+  "direction": "left-to-right",
+  "originAnchor": [
+    0.2,
+    0.55
+  ],
+  "contactAnchor": [
+    0.8,
+    0.55
+  ],
+  "groundRegistration": "Map selected impact anchor to the arena recipe ground line y=0.78 for a ground strike; no creature target staged yet.",
+  "phases": [
+    {
+      "phase": "launch",
+      "image": "wild-launch.png",
+      "keyedImage": "keyed/wild-launch.png",
+      "imageSha256": "17b0ca11a91720fe020c6ce7140e7a876a3f32848f139d68c1e78f2c7ec76580",
+      "canvasSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originAnchor": [
+        0.18,
+        0.66
+      ],
+      "contactAnchor": [
+        0.82,
+        0.43
+      ],
+      "alphaBoundsPixels": {
+        "x": 77,
+        "y": 225,
+        "width": 950,
+        "height": 820
+      },
+      "anchorMethod": "visual placement on the delivered master; bounds measured from keyed pixels",
+      "qualityAccepted": false
+    },
+    {
+      "phase": "travel",
+      "image": "wild-travel.png",
+      "keyedImage": "keyed/wild-travel.png",
+      "imageSha256": "cdfc251351e09485f51f43ead64b7809f1267be52e1836279b6e6392125fb2ea",
+      "canvasSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originAnchor": [
+        0.15,
+        0.62
+      ],
+      "contactAnchor": [
+        0.96,
+        0.62
+      ],
+      "alphaBoundsPixels": {
+        "x": 42,
+        "y": 301,
+        "width": 1161,
+        "height": 648
+      },
+      "anchorMethod": "visual placement on the delivered master; bounds measured from keyed pixels",
+      "qualityAccepted": false
+    },
+    {
+      "phase": "impact",
+      "image": "wild-impact.png",
+      "keyedImage": "keyed/wild-impact.png",
+      "imageSha256": "2bfd550532bd0b212a33c4fd084c5b69d62e1616653568e07b4c02638ec1a64d",
+      "canvasSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originAnchor": [
+        0.22,
+        0.52
+      ],
+      "contactAnchor": [
+        0.8,
+        0.55
+      ],
+      "alphaBoundsPixels": {
+        "x": 52,
+        "y": 215,
+        "width": 1166,
+        "height": 836
+      },
+      "anchorMethod": "visual placement on the delivered master; bounds measured from keyed pixels",
+      "qualityAccepted": false
+    }
+  ],
+  "layoutDeviation": "Generator enlarged/repositioned phases versus requested anchors. Per-phase anchors are recorded for review; common-canvas registration is not claimed verified.",
+  "qualityAccepted": false
+}

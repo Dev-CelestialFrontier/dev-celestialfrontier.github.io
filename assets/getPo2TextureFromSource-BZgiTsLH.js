@@ -1,0 +1,2 @@
+import{w as e,z as t}from"./Geometry-BhLxjYlb.js";var n=new t;function r(t,r,i,a,o=!1){let s=n;s.minX=0,s.minY=0,s.maxX=t.width/a|0,s.maxY=t.height/a|0;let c=e.getOptimalTexture(s.width,s.height,a,!1,o);return c.source.uploadMethodId=`image`,c.source.resource=t,c.source.alphaMode=`premultiply-alpha-on-upload`,c.frame.width=r/a,c.frame.height=i/a,c.source.emit(`update`,c.source),c.updateUvs(),c}export{r as t};
+//# sourceMappingURL=getPo2TextureFromSource-BZgiTsLH.js.map

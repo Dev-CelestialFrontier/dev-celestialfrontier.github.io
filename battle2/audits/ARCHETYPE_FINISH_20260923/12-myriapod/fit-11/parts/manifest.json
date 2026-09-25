@@ -1,0 +1,165 @@
+{
+  "creatureId": "centipede",
+  "parts": [
+    {
+      "name": "leg0-near.png",
+      "path": "parts/leg0-near.png",
+      "sha256": "598337320246906aa1c982224b3f0c73d6fcf2bb94b86cd5b7f1e0cd5233fce9"
+    },
+    {
+      "name": "leg1-near.png",
+      "path": "parts/leg1-near.png",
+      "sha256": "66e4d594d899c84b2851b0b82b8fcbb074292758e407230fa3d0a5344df38ee5"
+    },
+    {
+      "name": "leg2-near.png",
+      "path": "parts/leg2-near.png",
+      "sha256": "71a642c711e4f31c0d32502b1d7d84d366e92b63d6304b6e835fb319fc94cde9"
+    },
+    {
+      "name": "leg3-near.png",
+      "path": "parts/leg3-near.png",
+      "sha256": "e2cb527fa7dccaf8ef420488aa20700132faec1ca4fea7c02096b9d6d59623de"
+    },
+    {
+      "name": "leg4-near.png",
+      "path": "parts/leg4-near.png",
+      "sha256": "3d85127605f59166573c8cc33ab788ed32402e3fb7952e39c2c5a291c9a3cf28"
+    },
+    {
+      "name": "leg5-near.png",
+      "path": "parts/leg5-near.png",
+      "sha256": "c3cefabb3eafc2bb012f3b0e1d6c2b728ab70a32cc1de413bf2a7b504039bc50"
+    },
+    {
+      "name": "leg6-near.png",
+      "path": "parts/leg6-near.png",
+      "sha256": "488113d0c756ad0a1551cb81dfca595269f18a8c64683368608e62795b8e6af0"
+    },
+    {
+      "name": "leg7-near.png",
+      "path": "parts/leg7-near.png",
+      "sha256": "63f450d37cbc88cb531569ffd2a0a3cbe04ae4f33b2150da374cd97aa2c373ff"
+    },
+    {
+      "name": "leg8-near.png",
+      "path": "parts/leg8-near.png",
+      "sha256": "f526c99fa04999ba8f7b83cc61685627e70806fb5389be7513a315fd5b97b4d4"
+    },
+    {
+      "name": "leg9-near.png",
+      "path": "parts/leg9-near.png",
+      "sha256": "14edfd81d96252b5fe9a73032a5be736aeb26c2d740e9230e0c45be217fa1c48"
+    },
+    {
+      "name": "leg10-near.png",
+      "path": "parts/leg10-near.png",
+      "sha256": "8ea246c3727a7257e24bf34beee2ef337fc6fce7df3cebf0f593c92fed122502"
+    },
+    {
+      "name": "leg11-near.png",
+      "path": "parts/leg11-near.png",
+      "sha256": "8b3beb7bf9c3f8d69f61ab85f149c5d0dc719d469c78d15c73522a9e336ac412"
+    },
+    {
+      "name": "leg12-near.png",
+      "path": "parts/leg12-near.png",
+      "sha256": "90b59cce9209ab9c04986cdc50babe078b288a6531e4c820ce41f473ad456ec4"
+    },
+    {
+      "name": "leg13-near.png",
+      "path": "parts/leg13-near.png",
+      "sha256": "c5ef3ed8c17f4cccff95ed9db71d45ce4f9c221117371b17b7104ca01cda8e5a"
+    },
+    {
+      "name": "leg0-far.png",
+      "path": "parts/leg0-far.png",
+      "sha256": "a236d564bae395edbcca6141db8ef7372654b482f3b291a6d6723417efcf6e1e"
+    },
+    {
+      "name": "leg1-far.png",
+      "path": "parts/leg1-far.png",
+      "sha256": "926bc67f40b2ddd96642088dfbedff7c9147ef338a841d98061080df84409c9e"
+    },
+    {
+      "name": "leg2-far.png",
+      "path": "parts/leg2-far.png",
+      "sha256": "7a4f5b95ae9fdd0955c9d6bbbca03284222ee0fff48fd9ba11d338f3abec55fc"
+    },
+    {
+      "name": "leg3-far.png",
+      "path": "parts/leg3-far.png",
+      "sha256": "908aeee791ef786e50c07674a45329dfd40c81f3c279dac932cd3ee1133d39c7"
+    },
+    {
+      "name": "leg4-far.png",
+      "path": "parts/leg4-far.png",
+      "sha256": "ec8d62fe0c62456f6351561e70d8ee0b9f0af640922466d22940e50280daa06e"
+    },
+    {
+      "name": "leg5-far.png",
+      "path": "parts/leg5-far.png",
+      "sha256": "bcba84b005eb58e5aeb3a7552549dec12ffa930b3aa1e8d599c5f704d9fb323a"
+    },
+    {
+      "name": "leg6-far.png",
+      "path": "parts/leg6-far.png",
+      "sha256": "78f9b0d714f630c6bdf77386b9943e5007a857688ae39b50a02c6ca19069191b"
+    },
+    {
+      "name": "leg7-far.png",
+      "path": "parts/leg7-far.png",
+      "sha256": "2b9e9b5f57db015b7afff518b8d5331cd8fcb8468210e8060a9d4e6a902a8f11"
+    },
+    {
+      "name": "leg8-far.png",
+      "path": "parts/leg8-far.png",
+      "sha256": "1303e5a89ce8e654d599dee4dd314eedb59dcf6c3891461f753c0850ba4a7165"
+    },
+    {
+      "name": "leg9-far.png",
+      "path": "parts/leg9-far.png",
+      "sha256": "1a38d31dc63896103b6ff443f7da5c98b8af614efa35f210841f9055b9e91536"
+    },
+    {
+      "name": "leg10-far.png",
+      "path": "parts/leg10-far.png",
+      "sha256": "0469e02a4e194be90ebe303ad58f9d4dec73efbc82a826560bcaecbccded0b4f"
+    },
+    {
+      "name": "leg11-far.png",
+      "path": "parts/leg11-far.png",
+      "sha256": "760f615f20b15174e0c426b8db2da2e4f8e9c07f2f1f81dced1e1fe4da4febd6"
+    },
+    {
+      "name": "leg12-far.png",
+      "path": "parts/leg12-far.png",
+      "sha256": "a2c8ada04b3c7f3e2e62b376444c443eedbdc0fab19284fb73438ae02e340eca"
+    },
+    {
+      "name": "leg13-far.png",
+      "path": "parts/leg13-far.png",
+      "sha256": "6bf19dbfd37464cb078a5ad47fb2163bf6536c192a01be1389b56b3d66313d1b"
+    },
+    {
+      "name": "ultimate-near.png",
+      "path": "parts/ultimate-near.png",
+      "sha256": "077c8bf5e4c7904ce1e4101516dee74461fb3ba9e1fadc12c135132c35efa80e"
+    },
+    {
+      "name": "ultimate-far.png",
+      "path": "parts/ultimate-far.png",
+      "sha256": "b79612c74404ec3db167413beb7df6f15c318f4879531a7ac6b3f460ca094955"
+    },
+    {
+      "name": "head.png",
+      "path": "parts/head.png",
+      "sha256": "4e140b32f38ca874742f3d13cf9d068428512ebeab701976562573ab2763fbb6"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "98b0d5ab336b67ee1e5268f5e94ab856f24ce03a8c754812e12f2ebdd77e2bd8"
+    }
+  ]
+}

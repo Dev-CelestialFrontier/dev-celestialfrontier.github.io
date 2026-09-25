@@ -1,0 +1,58 @@
+{
+  "schema": "cf.arena.authoring-proof/v1",
+  "battleContext": {
+    "schema": "cf.arena.proof-context/v1",
+    "encounterKind": "wild",
+    "worldKey": "CF1|g:999@90,-60|s:424242@560,170|p:133#2",
+    "combatants": [
+      "Civet",
+      "Platypus"
+    ],
+    "round": 0,
+    "biomeFamily": "temperate"
+  },
+  "seed": 593405465,
+  "seedDerivation": "first4bytes big-endian SHA256 of sorted compact battleContext JSON; no clock",
+  "groundLineNormalized": 0.78,
+  "horizonBandNormalized": 0.66,
+  "standsNormalizedX": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "systemCard": "SYSTEM CARD - Sol / Earth; CF1|g:999@90,-60|s:424242@560,170|p:133#2\n  Star: G; a yellow sun-like star; #fff4d8; radius 26. #fff4d8  yellow sun-like star; Sol pinned. Pigment: ivory, warm white.\n         Light: near-neutral yellow-white, natural diffuse fill.\n  Light: day; rain; one primary, no companions; diffuse cloud-filtered light, soft neutral contact shadows; directional sun position absent from source, do not invent a visible second light.\n  Mineral palette: terran; seaHue 210, landHue 115, iceAmt 0.5; blue water, green land, pale ice; hue absent from source.\n  Atmosphere: vista palette rain, climate temperate, weather rain, water liquid; rain softens distant blue-grey layers.\n  Flora pigment: temperate; forms tree, shrub, flower, grass, fern; Persimmon: green leaves, orange fruit, brown wood; Devil's Club: green leaves and red berry cones; Cranberry: green leaves and red berries.\n  Fauna adaptation: families mammal, bird, insect, amphibian; Earth named anatomy and natural materials take priority over raw procedural genes: Civet: low long body, spotted natural fur; one pointed muzzle, small round ears, dark face mask; four short legs with paws; one long ringed tail; matte warm grey-ochre fur (#a8996f), dark spots, face mask and tail rings | Platypus: low sleek dark-brown furred body; broad flat rubbery duck bill; four short limbs with webbed clawed feet; broad flat blunt paddle tail; sleek dark-brown fur and a dark rubbery bill | Frog: small green crouched body; wide mouth and two domed eyes; four limbs, long folded hind legs; green skin.\n  One signature: no biome hazard in source; no added hazard motif.",
+  "systemCardSource": "audits/ART_KIT_CONTACT_REVISION_20260912/prepared/compiler-final/earth-temperate-prompt.txt",
+  "systemCardSourceSha256": "330d2b8dd758982dec9f39f99e2fe4e99f3be74adf2e45e309c03d757c1b46a4",
+  "kitSha256": "f613d7c8119a1e1554fd963a1e5ca6661d6c24a89efd924268aeb5688335871b",
+  "layers": {
+    "far": "opaque scene",
+    "mid": "magenta-keyed terrain",
+    "near": "magenta-keyed terrain"
+  },
+  "extractedMasks": false,
+  "qualityAccepted": false,
+  "scope": "authored proof recipe, not live-game arena implementation",
+  "canvasSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "plates": [
+    {
+      "image": "arena-far.png",
+      "sha256": "c0738eb03f60aa43e367d93ba03e79153c281d4ac5e9acfb7e655573b37807e2",
+      "kind": "scene",
+      "groundLineNormalized": 0.78
+    },
+    {
+      "image": "arena-mid.png",
+      "sha256": "189d0fc31a81330249fbce3cf03c8c3a0319cce47b9480f8623d8779dec96391",
+      "kind": "key-painted terrain",
+      "groundLineNormalized": 0.78
+    },
+    {
+      "image": "arena-near.png",
+      "sha256": "8fc1191f88eaae7561316c1c43d84b1d907ce459852b13935228e3b23e7559c4",
+      "kind": "key-painted terrain",
+      "groundLineNormalized": 0.78
+    }
+  ]
+}

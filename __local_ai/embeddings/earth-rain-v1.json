@@ -1,0 +1,15 @@
+{
+  "schema": "cf.kit-text-embedding.v1",
+  "modelId": "cgb/flux2-klein-4b-onnx-webgpu",
+  "modelRevision": "3bffc0efef1d9f84727036cdbc44df3b6ab51131",
+  "type": "float16",
+  "byteOrder": "little-endian",
+  "width": 7680,
+  "sequence": 416,
+  "tokenCount": 402,
+  "promptSha256": "741e3078a4a12a669a0fc9846f68789e1717bfc31cd584910568067ff541194c",
+  "chatPromptSha256": "18ec22841a2ed28356a8092fdd9fd59c5ebd86641b9c536b4f4e89f0bffe1dde",
+  "dataSha256": "46f0533d51e3c436b6d6cf6bcfa3e8af0c5d402b51e6d4570e13dda0724a20c7",
+  "bytes": 6389760,
+  "sourceHead": "f725f63306e8cca96f7b30e929b3b1bfb4a33477"
+}

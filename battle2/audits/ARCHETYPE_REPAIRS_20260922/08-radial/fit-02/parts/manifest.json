@@ -1,0 +1,90 @@
+{
+  "creatureId": "starfish",
+  "parts": [
+    {
+      "name": "central-disc-upper.png",
+      "path": "parts/central-disc-upper.png",
+      "sha256": "1ff3da78300aadfa79514bd45d38a91ef15f2dfd4def2f02d9ec638682336f50"
+    },
+    {
+      "name": "arm0-base.png",
+      "path": "parts/arm0-base.png",
+      "sha256": "0f514eac766b00edd8dc2fe34f09ad16bc2c451edf0f69bacfafcf4b00224c29"
+    },
+    {
+      "name": "arm0-middle.png",
+      "path": "parts/arm0-middle.png",
+      "sha256": "21448a751c27bc91c14ba22a179e8fbd9a6af228f45564bd64277c0c20cd3b9d"
+    },
+    {
+      "name": "arm0-tip.png",
+      "path": "parts/arm0-tip.png",
+      "sha256": "25e062e175a64c4332f7ac4686aab740acdf63cf9e5845c47fcf2c4e1be6623c"
+    },
+    {
+      "name": "arm4-base.png",
+      "path": "parts/arm4-base.png",
+      "sha256": "8925f2b3b6f0eff6a07f60731183a020c68bec6a120a255ddaf1c5eaad6e351c"
+    },
+    {
+      "name": "arm4-middle.png",
+      "path": "parts/arm4-middle.png",
+      "sha256": "a7a44c319dd4123068a5388197547186ab536d3ac3d3f42984f88dc83080c9fe"
+    },
+    {
+      "name": "arm4-tip.png",
+      "path": "parts/arm4-tip.png",
+      "sha256": "92808f9fee4a6a85b2c9ceb3923d8ef8c6d792d7577efd8ff2cdfa04f4732cf2"
+    },
+    {
+      "name": "arm2-base.png",
+      "path": "parts/arm2-base.png",
+      "sha256": "c5cd27213b2e6b2ce665dee9be89e041a5335ad57e372f13ee3c0b2179d4f557"
+    },
+    {
+      "name": "arm2-middle.png",
+      "path": "parts/arm2-middle.png",
+      "sha256": "033a126370d5c98581d86aa24aaf6784579866defe8b96c5abfb89651b6cc381"
+    },
+    {
+      "name": "arm2-tip.png",
+      "path": "parts/arm2-tip.png",
+      "sha256": "3b619943a00e54708f2d27fa52b179c36c97815454370d81ca61d685efbf6ec4"
+    },
+    {
+      "name": "arm3-base.png",
+      "path": "parts/arm3-base.png",
+      "sha256": "16df348aaa0e8861d7df3b3f0e27d73bf8080ddcd488add151f501dc8cde4944"
+    },
+    {
+      "name": "arm3-middle.png",
+      "path": "parts/arm3-middle.png",
+      "sha256": "674d5bc35807715a74f239c842664a9b2e0db74bf002138973f5e348438c2d11"
+    },
+    {
+      "name": "arm3-tip.png",
+      "path": "parts/arm3-tip.png",
+      "sha256": "23a2f397c79f14da0ed73e2d1f46a8a8ceed8c06253e443dce1307e0e0c5cd89"
+    },
+    {
+      "name": "arm1-base.png",
+      "path": "parts/arm1-base.png",
+      "sha256": "76f6ba0c85b8e6579dc05910bcb6b62c7a7bd074cacc432739613f010340b937"
+    },
+    {
+      "name": "arm1-middle.png",
+      "path": "parts/arm1-middle.png",
+      "sha256": "dd39e03edbc2b27e07b5e6d61a041db0cb4682472dc6df19d46db8ed4e448cb2"
+    },
+    {
+      "name": "arm1-tip.png",
+      "path": "parts/arm1-tip.png",
+      "sha256": "74c3d5c0c53658b98d52c3c62ac2e7faa3e2567edf07b0efb684a6bb937651a9"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "bd08107fb1301df9e78b0715714cba0316a1dbd4c859e4b58bae9cd3699060c7"
+    }
+  ]
+}

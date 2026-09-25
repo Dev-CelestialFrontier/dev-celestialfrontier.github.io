@@ -1,0 +1,70 @@
+{
+  "creatureId": "chimpanzee",
+  "parts": [
+    {
+      "name": "near-arm-lower-hand.png",
+      "path": "parts/near-arm-lower-hand.png",
+      "sha256": "8f4314a0c731baec8efd4e161912027505a2d9032fce03d62c0a785f95156bd4"
+    },
+    {
+      "name": "far-arm-lower-hand.png",
+      "path": "parts/far-arm-lower-hand.png",
+      "sha256": "fac448fa488d377451ca0cf6571a96402ce3db8ce69b72e45cf111fbd4f93312"
+    },
+    {
+      "name": "near-leg-lower-foot.png",
+      "path": "parts/near-leg-lower-foot.png",
+      "sha256": "91858f166327d789f79610827fdc7adb61629a0f148ecf6ede7d23be976446e3"
+    },
+    {
+      "name": "far-leg-lower-foot.png",
+      "path": "parts/far-leg-lower-foot.png",
+      "sha256": "5ca72d0ac3933d5823d418cf62a2f55a84b83b93f76d24864cd31adb5eec3e8a"
+    },
+    {
+      "name": "near-arm-upper.png",
+      "path": "parts/near-arm-upper.png",
+      "sha256": "6ee2a58506589db024d01b4dec85789ea51818fef8be91faccaa23020ceb0343"
+    },
+    {
+      "name": "far-arm-upper.png",
+      "path": "parts/far-arm-upper.png",
+      "sha256": "d7531fe3b0b7839c47d786c2a2afd0f984567a5997c358716a27bdabd9b8c555"
+    },
+    {
+      "name": "near-leg-upper.png",
+      "path": "parts/near-leg-upper.png",
+      "sha256": "bd2c337538c349f0c08869839176165bd38c3df508983dac041a96221da0e596"
+    },
+    {
+      "name": "far-leg-upper.png",
+      "path": "parts/far-leg-upper.png",
+      "sha256": "7cc264847db4b132c5a9d8036720371bab24e4fcd7991f0fc0e1983be3f2095d"
+    },
+    {
+      "name": "jaw.png",
+      "path": "parts/jaw.png",
+      "sha256": "c5752b02c40bbac14d8d69bf7c76106feaa632aa1b9c2e1b3ec5d9fc30be10cf"
+    },
+    {
+      "name": "head.png",
+      "path": "parts/head.png",
+      "sha256": "e06912515c6ae056d40d639c0fdc7be8f94aa6c5bf29d1918c6706c678238cfc"
+    },
+    {
+      "name": "neck.png",
+      "path": "parts/neck.png",
+      "sha256": "99928af02b891fc6ca997d7c146bdfc183f205161f03b3cfb3e4c41565e482a9"
+    },
+    {
+      "name": "chest.png",
+      "path": "parts/chest.png",
+      "sha256": "b4e855b9a5809da1bfa66649810cd27132603ac26cedc25df17c8badd64e0fc2"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "b25e435cce846a418f468d0d4fc36ff054cce84baf9d51e59386a30ff1b058b3"
+    }
+  ]
+}

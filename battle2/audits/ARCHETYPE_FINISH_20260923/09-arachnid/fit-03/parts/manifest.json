@@ -1,0 +1,105 @@
+{
+  "creatureId": "tarantula",
+  "parts": [
+    {
+      "name": "chelicera-near.png",
+      "path": "parts/chelicera-near.png",
+      "sha256": "5f92abec3a63be0c0ae150b5dc39c375ca69a3d00c1ea31ef1d7bede3681b9cc"
+    },
+    {
+      "name": "chelicera-far.png",
+      "path": "parts/chelicera-far.png",
+      "sha256": "3b4ac22512859e77b742be950b7150da90102a8cd9969c9229225416dff4678c"
+    },
+    {
+      "name": "leg1-near-distal.png",
+      "path": "parts/leg1-near-distal.png",
+      "sha256": "8538e405e3ea84d4a6dd5b9d6a02cfbebd259f4cca81fc38a8cf2319d434fa8d"
+    },
+    {
+      "name": "leg1-near-upper.png",
+      "path": "parts/leg1-near-upper.png",
+      "sha256": "2ffbfbb0bdbc0b6623b9c7d86417b66071875729e77f2251a0d4fde5d6f8cdc4"
+    },
+    {
+      "name": "leg2-near-distal.png",
+      "path": "parts/leg2-near-distal.png",
+      "sha256": "d96d55093174970f00f872087725b28903229a935a6f14edf55903b2ebbf2c14"
+    },
+    {
+      "name": "leg2-near-upper.png",
+      "path": "parts/leg2-near-upper.png",
+      "sha256": "b1e4d70825e54d8b2e95e18df071a59e04b8adde900e0a8ee50677e48d196bfa"
+    },
+    {
+      "name": "leg3-near-distal.png",
+      "path": "parts/leg3-near-distal.png",
+      "sha256": "eafe55ba849878886dd3419f8fb59f1ac13be1e3b4aa8983463f3b846b7a7aff"
+    },
+    {
+      "name": "leg3-near-upper.png",
+      "path": "parts/leg3-near-upper.png",
+      "sha256": "9a9d2c4f81fbb20254c228324c9a86bebff9f3adfd8565b2883fa66874b5e13d"
+    },
+    {
+      "name": "leg4-near-distal.png",
+      "path": "parts/leg4-near-distal.png",
+      "sha256": "7272f5031e7bf10d2b6987b966eabde9c925cc163ed463fb101dd7ff73b8ba2e"
+    },
+    {
+      "name": "leg4-near-upper.png",
+      "path": "parts/leg4-near-upper.png",
+      "sha256": "fe519ffdc532bfaea017997182cee22d1e67c952ed04527f9a24d73418139a83"
+    },
+    {
+      "name": "abdomen.png",
+      "path": "parts/abdomen.png",
+      "sha256": "baf074bcb84128dccc3167f0820dd429bf28605d661e39327a8e6552d79289eb"
+    },
+    {
+      "name": "leg1-far-distal.png",
+      "path": "parts/leg1-far-distal.png",
+      "sha256": "b6d75234ce6bba4c11c8c860f333d6bde7072ba75312d6b3d620437185650ab6"
+    },
+    {
+      "name": "leg1-far-upper.png",
+      "path": "parts/leg1-far-upper.png",
+      "sha256": "557e8e08e5644f45ed710fd6b4b8f3784f661141a31968bca8499d10cb16d77b"
+    },
+    {
+      "name": "leg2-far-distal.png",
+      "path": "parts/leg2-far-distal.png",
+      "sha256": "284447876a7897de6f4c3e83fbeff7259c6316cbf1dc90ace94a25633a7c2756"
+    },
+    {
+      "name": "leg2-far-upper.png",
+      "path": "parts/leg2-far-upper.png",
+      "sha256": "edf207fadd6ec10d4fd69f09073682f1714a9d80e7daa13be6e396179dc4c576"
+    },
+    {
+      "name": "leg3-far-distal.png",
+      "path": "parts/leg3-far-distal.png",
+      "sha256": "04559d4229139836bcee201ddabf7561a263476e3cd8edf3399873756c9f1388"
+    },
+    {
+      "name": "leg3-far-upper.png",
+      "path": "parts/leg3-far-upper.png",
+      "sha256": "e7191d4e24268a77bd43219fc9ec94fa0686bdc4c21dbb57926934886a168ed6"
+    },
+    {
+      "name": "leg4-far-distal.png",
+      "path": "parts/leg4-far-distal.png",
+      "sha256": "8d16567f05695ec745b4099d065ee7a58da9517673179aeeafbe1ac7d60628c5"
+    },
+    {
+      "name": "leg4-far-upper.png",
+      "path": "parts/leg4-far-upper.png",
+      "sha256": "66d3ec334533cde07ab36f0a5bf2e4e31a34f87f68f763aa3ec84572e7fbc2b7"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "e9e5b158f89994c79c6e9c6bdc3690b0c46f6a488635f1a7c60f18b0a85b5ebc"
+    }
+  ]
+}

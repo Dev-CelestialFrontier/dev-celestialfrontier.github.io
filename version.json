@@ -2,8 +2,8 @@
   "schema": "cf-development-site-version/v1",
   "v": "2.0",
   "version": "2.0",
-  "build": "develop-652790a4586c",
-  "sourceCommit": "652790a4586cc0a8cb86f4c61b4d2b07e76d09dc",
+  "build": "develop-7aaea99fda0b",
+  "sourceCommit": "7aaea99fda0bc4d0a0466ab76f8dc22f921a0519",
   "sourceBranch": "anthropic/mac",
   "channel": "development"
 }

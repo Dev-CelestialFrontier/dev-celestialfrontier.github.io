@@ -1,0 +1,166 @@
+{
+  "kind": "serpent",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Python\"]],[\"accent\",[\"number\",\"0\"]],[\"behavior\",[\"number\",\"8\"]],[\"body\",[\"number\",\"2\"]],[\"color\",[\"number\",\"3\"]],[\"detail\",[\"number\",\"3\"]],[\"diet\",[\"number\",\"5\"]],[\"eyes\",[\"number\",\"2\"]],[\"form\",[\"number\",\"13\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"13\"]],[\"head\",[\"number\",\"1\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"5\"]],[\"limbs\",[\"number\",\"2\"]],[\"loco\",[\"number\",\"14\"]],[\"lumin\",[\"boolean\",true]],[\"metab\",[\"number\",\"4\"]],[\"pattern\",[\"number\",\"2\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"1896382194\"]],[\"sense\",[\"number\",\"9\"]],[\"size\",[\"number\",\"4\"]],[\"skin\",[\"number\",\"6\"]],[\"tail\",[\"number\",\"4\"]],[\"temper\",[\"number\",\"8\"]],[\"trait\",[\"number\",\"6\"]]]]",
+    "seed": 1896382194,
+    "ownerId": "authored:archetype-sprint/python-open",
+    "earthName": "Python"
+  },
+  "template": {
+    "id": "serpent",
+    "version": 1
+  },
+  "clipSetId": "serpent-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 1896382194,
+    "kingdom": "fauna",
+    "color": 3,
+    "form": 13,
+    "body": 2,
+    "loco": 14,
+    "trait": 6,
+    "size": 4,
+    "diet": 5,
+    "head": 1,
+    "limbs": 2,
+    "skin": 6,
+    "tail": 4,
+    "pattern": 2,
+    "eyes": 2,
+    "behavior": 8,
+    "habitat": 13,
+    "detail": 3,
+    "accent": 0,
+    "temper": 8,
+    "sense": 9,
+    "repro": 4,
+    "life": 5,
+    "metab": 4,
+    "lumin": true,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Python"
+  },
+  "geometry": {
+    "cutoutAssetHash": "d0a777d5186a6787461d795b41b34b8ce4569af1efd10b14f98524fc92ef8cae",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.6,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.8724082934609251,
+      0.4218500797448166
+    ],
+    "head": [
+      0.9314194577352473,
+      0.4019138755980861
+    ],
+    "jaw": [
+      0.960127591706539,
+      0.423444976076555
+    ],
+    "seg0": [
+      0.8205741626794258,
+      0.4784688995215311
+    ],
+    "seg1": [
+      0.75518341307815,
+      0.5143540669856459
+    ],
+    "seg2": [
+      0.6658692185007975,
+      0.5055821371610846
+    ],
+    "seg3": [
+      0.5773524720893142,
+      0.4800637958532695
+    ],
+    "seg4": [
+      0.49122807017543857,
+      0.49760765550239233
+    ],
+    "seg5": [
+      0.40271132376395535,
+      0.5430622009569378
+    ],
+    "seg6": [
+      0.3149920255183413,
+      0.518341307814992
+    ],
+    "seg7": [
+      0.22807017543859648,
+      0.47926634768740034
+    ],
+    "seg8": [
+      0.13157894736842105,
+      0.5159489633173844
+    ],
+    "seg9": [
+      0.043859649122807015,
+      0.48724082934609253
+    ]
+  },
+  "materials": {
+    "surface": "Brown, black and cream net-like python scale pattern; pale ventral scales; no self-overlapping coils"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/PYTHON_OPEN_POSE_20260923/candidate-02/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "One head and closed lower jaw, one continuous limbless open body and pointed tail. Root and seg0 through seg9 follow manually observed visible centerline from neck to tail. No hidden, absent or folded contract groups. Vertical mask cuts partition the open profile without self-occlusion. Source fringes/alpha specks remain with their declared lateral owner.",
+    "visualAcceptance": "New open-pose candidate; Nick retains art acceptance; delivered safe margin missed.",
+    "landmarkMethod": "Manual observation of new master only; approximate internal hinges, not measured skeletal anatomy. No coordinates or labels copied from original coiled master.",
+    "poseOverride": "Nick approved open non-overlapping profile instead of source species coiled posture hint.",
+    "jawCorrection": "The first polygon extended the jaw onto the neck-root cut. This manual correction confines it to the visible lower jaw in the head, leaving head-owned skin between jaw and neck-root.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "3a6a75b2524550a4d80a2fabba037ba7f1d4ae2ec3502b42ed11f7c66d8fc5c9",
+    "subjectSourceSha256": "7045ce9b8ff117638dd975e66b2b3f1888750da731412e8f43b0b07a6050d72f",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.06228779771986767,
+      "jaw": 0.03588516746411478,
+      "seg0": 0.07676241180930705,
+      "seg1": 0.07459018284831004,
+      "seg2": 0.08974392517517941,
+      "seg3": 0.09212165944215826,
+      "seg4": 0.08789311472698472,
+      "seg5": 0.09950542747887758,
+      "seg6": 0.09113615003081099,
+      "seg7": 0.0953008946981009,
+      "seg8": 0.103228733325309,
+      "seg9": 0.0922975202311342
+    },
+    "measures": {
+      "body": 0.7767640454619034,
+      "bone-min": 0.03588516746411478,
+      "bone-max": 0.103228733325309,
+      "head/body": 0.08018882707531627
+    }
+  },
+  "recipeHash": "b287ddc58c565fb9cfaae5f8c474177e38ad9dd07b4bf9ad959dbeb9aecf9b41"
+}

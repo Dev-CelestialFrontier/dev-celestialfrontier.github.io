@@ -1,0 +1,90 @@
+{
+  "creatureId": "fruit-bat",
+  "parts": [
+    {
+      "name": "ear-near.png",
+      "path": "parts/ear-near.png",
+      "sha256": "f6b074a64d3f9d05c5c88485c588fc96157dff761c75a37958f738a640dddee6"
+    },
+    {
+      "name": "ear-far.png",
+      "path": "parts/ear-far.png",
+      "sha256": "2be18312a18a9068ab810794b608d4b19b062ff1deb5387631071955cbb87ad1"
+    },
+    {
+      "name": "jaw.png",
+      "path": "parts/jaw.png",
+      "sha256": "4d8731a6febc006fef3f2bef44162006252df10cb2635e9b13622682e25847e7"
+    },
+    {
+      "name": "head.png",
+      "path": "parts/head.png",
+      "sha256": "659a180421a13cd614814548bdd49a16fd9e400174895a1289b63f317a1056b2"
+    },
+    {
+      "name": "wing-near-distal.png",
+      "path": "parts/wing-near-distal.png",
+      "sha256": "4068f5ca6094e1d959fb11f09be51dff8950e121f7a5d64e84bbade7581e015a"
+    },
+    {
+      "name": "wing-near-wrist.png",
+      "path": "parts/wing-near-wrist.png",
+      "sha256": "37305adc57f84eb50a3516cabf6a5bc3b249f9e3d2524133e7d45e82abe5e824"
+    },
+    {
+      "name": "wing-near-elbow.png",
+      "path": "parts/wing-near-elbow.png",
+      "sha256": "ad0f69d213b0071e4fade4b23f5730db316a23a8f8b768ff64ff608bb81966fe"
+    },
+    {
+      "name": "wing-near-base.png",
+      "path": "parts/wing-near-base.png",
+      "sha256": "010fc8863e3983157c1f3b9652da4f2e3cd3846104ef2b6d789df03243ec0683"
+    },
+    {
+      "name": "leg-near-foot.png",
+      "path": "parts/leg-near-foot.png",
+      "sha256": "4e5c02f455b764f4e4998d16eef771d45f7e6726aaeb6f61f9010100b4aaa2d4"
+    },
+    {
+      "name": "leg-near-upper.png",
+      "path": "parts/leg-near-upper.png",
+      "sha256": "1848595e2f735c4d9b47b94a91d6c30c6557b52ae6c2eb9d5b5836df58dae181"
+    },
+    {
+      "name": "leg-far-foot.png",
+      "path": "parts/leg-far-foot.png",
+      "sha256": "3bce024dd9cff109d7b589f6d6a35839e60a5ff739e432f78ecbf8ff51ea5f9c"
+    },
+    {
+      "name": "leg-far-upper.png",
+      "path": "parts/leg-far-upper.png",
+      "sha256": "d225be13f17e6e6c1dccaf3f1142315ba6f6c5e7786cdf291c2c765f763abaad"
+    },
+    {
+      "name": "wing-far-distal.png",
+      "path": "parts/wing-far-distal.png",
+      "sha256": "687b98abfabb1995b67aa344ad4ced16e6afe62b6b87fd3ae2919a079ee2f6c3"
+    },
+    {
+      "name": "wing-far-wrist.png",
+      "path": "parts/wing-far-wrist.png",
+      "sha256": "56e2b8299f0d653b43251dce926ceb7567e6a79b5ab2c6c7b3a41cd3a1a2904f"
+    },
+    {
+      "name": "wing-far-elbow.png",
+      "path": "parts/wing-far-elbow.png",
+      "sha256": "c5f9b7f560a08fe4554b502d3430ecb96484ebe120be8d638f0c27e309e5dff5"
+    },
+    {
+      "name": "wing-far-base.png",
+      "path": "parts/wing-far-base.png",
+      "sha256": "053cfe8f46d4c8791eb2efbe46282d3c4c8397739415191bb49e4e3d4050c8b4"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "cad4ec77fcebac26c39a20b9619baf84598bcd41d23a97cb50f2bcf2951a4df5"
+    }
+  ]
+}

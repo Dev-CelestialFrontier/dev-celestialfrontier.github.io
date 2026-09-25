@@ -1,0 +1,199 @@
+{
+  "kind": "radial",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Starfish\"]],[\"accent\",[\"number\",\"11\"]],[\"behavior\",[\"number\",\"8\"]],[\"body\",[\"number\",\"14\"]],[\"color\",[\"number\",\"6\"]],[\"detail\",[\"number\",\"4\"]],[\"diet\",[\"number\",\"1\"]],[\"eyes\",[\"number\",\"2\"]],[\"form\",[\"number\",\"11\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"11\"]],[\"head\",[\"number\",\"1\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"5\"]],[\"limbs\",[\"number\",\"5\"]],[\"loco\",[\"number\",\"0\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"3\"]],[\"pattern\",[\"number\",\"2\"]],[\"repro\",[\"number\",\"5\"]],[\"seed\",[\"number\",\"3930800215\"]],[\"sense\",[\"number\",\"3\"]],[\"size\",[\"number\",\"1\"]],[\"skin\",[\"number\",\"3\"]],[\"tail\",[\"number\",\"0\"]],[\"temper\",[\"number\",\"6\"]],[\"trait\",[\"number\",\"1\"]]]]",
+    "seed": 3930800215,
+    "ownerId": "authored:archetype-sprint/starfish",
+    "earthName": "Starfish"
+  },
+  "template": {
+    "id": "radial",
+    "version": 1
+  },
+  "clipSetId": "radial-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": [],
+    "appendages": {
+      "arms": 5
+    }
+  },
+  "genome": {
+    "seed": 3930800215,
+    "kingdom": "fauna",
+    "color": 6,
+    "form": 11,
+    "body": 14,
+    "loco": 0,
+    "trait": 1,
+    "size": 1,
+    "diet": 1,
+    "head": 1,
+    "limbs": 5,
+    "skin": 3,
+    "tail": 0,
+    "pattern": 2,
+    "eyes": 2,
+    "behavior": 8,
+    "habitat": 11,
+    "detail": 4,
+    "accent": 11,
+    "temper": 6,
+    "sense": 3,
+    "repro": 5,
+    "life": 5,
+    "metab": 3,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Starfish"
+  },
+  "geometry": {
+    "cutoutAssetHash": "89d45d5d3410191fe0e0364216ab9005ee28db1910fb4c509e03f8b38c738687",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.97,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.48963317384370014,
+      0.5207336523125997
+    ],
+    "centre": [
+      0.507177033492823,
+      0.48325358851674644
+    ],
+    "bell": [
+      0.511164274322169,
+      0.40669856459330145
+    ],
+    "arm0Seg0": [
+      0.5151515151515151,
+      0.34290271132376393
+    ],
+    "arm0Seg1": [
+      0.518341307814992,
+      0.19537480063795853
+    ],
+    "arm0Seg2": [
+      0.5151515151515151,
+      0.06060606060606061
+    ],
+    "arm1Seg0": [
+      0.34688995215311,
+      0.4481658692185008
+    ],
+    "arm1Seg1": [
+      0.19617224880382775,
+      0.3843700159489633
+    ],
+    "arm1Seg2": [
+      0.04864433811802233,
+      0.3078149920255183
+    ],
+    "arm2Seg0": [
+      0.5988835725677831,
+      0.5956937799043063
+    ],
+    "arm2Seg1": [
+      0.7129186602870813,
+      0.7559808612440191
+    ],
+    "arm2Seg2": [
+      0.8524720893141946,
+      0.9154704944178629
+    ],
+    "arm3Seg0": [
+      0.4059011164274322,
+      0.6100478468899522
+    ],
+    "arm3Seg1": [
+      0.2647527910685805,
+      0.7655502392344498
+    ],
+    "arm3Seg2": [
+      0.14433811802232854,
+      0.8915470494417863
+    ],
+    "arm4Seg0": [
+      0.664274322169059,
+      0.44258373205741625
+    ],
+    "arm4Seg1": [
+      0.8133971291866029,
+      0.38596491228070173
+    ],
+    "arm4Seg2": [
+      0.9433811802232854,
+      0.31100478468899523
+    ]
+  },
+  "materials": {
+    "surface": "warty"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_REPAIRS_20260922/08-radial/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Five visible arms: arm0 upper (nearly centred), arm4 upper-right, arm2 lower-right, arm3 lower-left, arm1 upper-left. Swap original1/4 identities to existing even-right/odd-left motion semantics; do not claim a strong handedness for the nearly central upper arm. No absent, hidden or folded chains. Bell is the existing template upper-core slot, not a jellyfish anatomy claim.",
+    "visualAcceptance": "candidate for Nick; first acceptable paint",
+    "landmarkMethod": "Manual observation of this face-on master. The species reference expressly has no true side profile. No other master coordinates, hidden surfaces or anatomy are copied.",
+    "materialAuthority": "warty is accepted by materialFromSkinName in motion/secondary.ts; it represents the painted pebbled/granular surface.",
+    "repair": "Manual coherent disc defined by five visible inter-arm valleys. Continuous outer sectors and shared cross-lines replace narrow arm polygons so complete arm edges and tube feet remain on their arm. Bell pivot641,510 and patch are inside upper central disc. Coordinates are authored visual choices, not measured anatomical hinges.",
+    "supportPolicy": "Root-owned central core remains fixed. Bell and five arm tips keep shape joints; continuous soft arm base/middle surfaces use existing flexible observed collars/weights. No pin deletion after compilation, solver/gate change or contact invention.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "5f1995bdccf09d6e49e15549c7c6f13a3b1b81fef154ec4c51fe2e227fcf8763",
+    "subjectSourceSha256": "a6ad4b171fe23f5a8892c303d35bdac2c9f11019fcf4a5ccaacb5bc05daf6d3b",
+    "presenceSha256": "301237f98346c6f5301d071ed5e4eb0990f026f41a334b7e3149d3c3410fa563",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "centre": 0.0413828731908425,
+      "bell": 0.07665878799818349,
+      "arm0Seg0": 0.14057724242054428,
+      "arm0Seg1": 0.14756239090145884,
+      "arm0Seg2": 0.13480648377218826,
+      "arm1Seg0": 0.16408259045357684,
+      "arm1Seg1": 0.1636634870619303,
+      "arm1Seg2": 0.16620817103631882,
+      "arm2Seg0": 0.1450961265795138,
+      "arm2Seg1": 0.19671286098156301,
+      "arm2Seg2": 0.2119247570321901,
+      "arm3Seg0": 0.16227629319727252,
+      "arm3Seg1": 0.2100091516493277,
+      "arm3Seg2": 0.1742839340480337,
+      "arm4Seg0": 0.16227629319727255,
+      "arm4Seg1": 0.15950956813213343,
+      "arm4Seg2": 0.1500495726500806
+    },
+    "measures": {
+      "body": 0.07665878799818349,
+      "bone-min": 0.0413828731908425,
+      "bone-max": 0.2119247570321901,
+      "arm/bell:arm0": 5.517255465925362,
+      "arm/bell:arm1": 6.443543675169123,
+      "arm/bell:arm2": 7.223356369870968,
+      "arm/bell:arm3": 7.12989851740919,
+      "arm/bell:arm4": 6.1550077466743565
+    }
+  },
+  "recipeHash": "7b02d178f4c3ff04c7801e70613a66f3f82a238647dcd4fe73ba593e37470dca"
+}

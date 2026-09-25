@@ -1,0 +1,244 @@
+{
+  "kind": "hopper",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Tree Frog\"]],[\"accent\",[\"number\",\"15\"]],[\"behavior\",[\"number\",\"2\"]],[\"body\",[\"number\",\"6\"]],[\"color\",[\"number\",\"3\"]],[\"detail\",[\"number\",\"5\"]],[\"diet\",[\"number\",\"3\"]],[\"eyes\",[\"number\",\"0\"]],[\"form\",[\"number\",\"1\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"17\"]],[\"head\",[\"number\",\"7\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"4\"]],[\"limbs\",[\"number\",\"3\"]],[\"loco\",[\"number\",\"2\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"5\"]],[\"pattern\",[\"number\",\"7\"]],[\"repro\",[\"number\",\"5\"]],[\"seed\",[\"number\",\"3965697315\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"1\"]],[\"skin\",[\"number\",\"8\"]],[\"tail\",[\"number\",\"1\"]],[\"temper\",[\"number\",\"2\"]],[\"trait\",[\"number\",\"8\"]]]]",
+    "seed": 3965697315,
+    "ownerId": "authored:archetype-sprint/tree-frog",
+    "earthName": "Tree Frog"
+  },
+  "template": {
+    "id": "hopper",
+    "version": 1
+  },
+  "clipSetId": "hopper-land-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [
+      "tail",
+      "external-ears"
+    ],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3965697315,
+    "kingdom": "fauna",
+    "color": 3,
+    "form": 1,
+    "body": 6,
+    "loco": 2,
+    "trait": 8,
+    "size": 1,
+    "diet": 3,
+    "head": 7,
+    "limbs": 3,
+    "skin": 8,
+    "tail": 1,
+    "pattern": 7,
+    "eyes": 0,
+    "behavior": 2,
+    "habitat": 17,
+    "detail": 5,
+    "accent": 15,
+    "temper": 2,
+    "sense": 1,
+    "repro": 5,
+    "life": 4,
+    "metab": 5,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Tree Frog"
+  },
+  "geometry": {
+    "cutoutAssetHash": "aa1ad50d8ac1e354d0f0ba5beeb211a22519461ac36802ca621022f2418c65eb",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.81,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ],
+    "contactPads": {
+      "schema": "cf.terminal-pad-support/v1",
+      "kind": "adhesive",
+      "points": {
+        "hindFarAnkle": [
+          0.06818181818181818,
+          0.629585326953748
+        ],
+        "foreFarAnkle": [
+          0.9374003189792663,
+          0.5657894736842105
+        ],
+        "hindNearAnkle": [
+          0.07615629984051037,
+          0.7970494417862839
+        ],
+        "foreNearAnkle": [
+          0.7994417862838915,
+          0.6032695374800638
+        ]
+      }
+    }
+  },
+  "landmarks": {
+    "root": [
+      0.6076555023923444,
+      0.38995215311004783
+    ],
+    "pelvis": [
+      0.4649122807017544,
+      0.40271132376395535
+    ],
+    "spine": [
+      0.5988835725677831,
+      0.3572567783094099
+    ],
+    "chest": [
+      0.740829346092504,
+      0.37161084529505584
+    ],
+    "neck": [
+      0.7918660287081339,
+      0.33811802232854865
+    ],
+    "head": [
+      0.8564593301435407,
+      0.28548644338118023
+    ],
+    "jaw": [
+      0.8779904306220095,
+      0.32615629984051037
+    ],
+    "hindFarRoot": [
+      0.4585326953748006,
+      0.41068580542264754
+    ],
+    "hindFarKnee": [
+      0.3835725677830941,
+      0.48564593301435405
+    ],
+    "hindFarAnkle": [
+      0.24003189792663476,
+      0.4314194577352472
+    ],
+    "hindFarPaw": [
+      0.13237639553429026,
+      0.5191387559808612
+    ],
+    "hindNearRoot": [
+      0.46730462519936206,
+      0.4098883572567783
+    ],
+    "hindNearKnee": [
+      0.43859649122807015,
+      0.5390749601275917
+    ],
+    "hindNearAnkle": [
+      0.23125996810207336,
+      0.5765550239234449
+    ],
+    "hindNearPaw": [
+      0.15311004784688995,
+      0.6889952153110048
+    ],
+    "foreFarRoot": [
+      0.7639553429027113,
+      0.3843700159489633
+    ],
+    "foreFarKnee": [
+      0.8891547049441786,
+      0.42025518341307816
+    ],
+    "foreFarAnkle": [
+      0.8692185007974481,
+      0.48564593301435405
+    ],
+    "foreFarPaw": [
+      0.9098883572567783,
+      0.5191387559808612
+    ],
+    "foreNearRoot": [
+      0.7456140350877193,
+      0.3700159489633174
+    ],
+    "foreNearKnee": [
+      0.6674641148325359,
+      0.44657097288676234
+    ],
+    "foreNearAnkle": [
+      0.8006379585326954,
+      0.49521531100478466
+    ],
+    "foreNearPaw": [
+      0.810207336523126,
+      0.5470494417862839
+    ]
+  },
+  "materials": {
+    "surface": "smooth skin"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_FINISH_20260923/06-hopper/candidate-08/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Adult Tree Frog: tail and external ears absent. Four visible connected limb chains, four distinct orange pad-bearing extremities. Hind limbs explicitly not folded in extended half-launch. Proximal far attachments partly occluded; no entire chain hidden.",
+    "visualAcceptance": "Candidate for Nick: half-launch pose chosen to expose hind segments; requested safe margin was not delivered.",
+    "landmarkMethod": "Parent manual visual inspection of generation6: near elbow now837,560 and wrist1004,621; all other landmarks rechecked against closely preserved painting. Far shoulder958,482 and hind hip575,515 remain explicitly estimated occluded anatomical attachments inside chest/pelvis, not observed exact internal joints or exposed skin edges. Near forearm polygons redrawn around actual new contours; other visible chains retained after visual review. No automated presence inference.",
+    "contactObservation": "Parent explicitly authors one adhesive toe-pad anchor per visible foot: lowest retained toe-pad painted row, manually identified with independent pixel/triangle review. Coordinates retain alpha1 fringes and are not inferred internal joints. Each is a source-local adhesive anchor; the airborne perspective source establishes no global horizontal terrain plane. Terminal joint may rock while this exact pad point remains fixed; all joint/length/contact bounds remain. No source pixels removed.",
+    "meshObservation": "Existing legal refinement region near near-front lowest pad samples its actual terminal ownership: x970 y700 width70 height70 boundary12 interior24. Fit04 coarse triangle at the authored pad was mixed/unpinned, not a valid terminal-rigid support. No alpha removal, sourcepoint substitution or rig weight override.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "32721da56092a2cfdbfe32d1ca0193638d003baa10a0c1d618786f7ff6ca6adc",
+    "subjectSourceSha256": "b60c3c4508b9572e0508c29315c0cfb45c661f47133b7da17a65d1e91a4954d0",
+    "presenceSha256": "8c9cd234ecc9032420ec0d08f03ff60fe7777c361d20a919926df2577fa186c4",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.14331232945697475,
+      "spine": 0.1414723391576318,
+      "chest": 0.1426696949620337,
+      "neck": 0.06104516494100364,
+      "head": 0.08332093190080386,
+      "jaw": 0.0460176652193094,
+      "hindFarRoot": 0.01021231935794714,
+      "hindFarKnee": 0.106009629077409,
+      "hindFarAnkle": 0.15344195816020026,
+      "hindFarPaw": 0.13886821983467304,
+      "foreFarRoot": 0.026412272985134263,
+      "foreFarKnee": 0.13024064457579276,
+      "foreFarAnkle": 0.06836228762407585,
+      "foreFarPaw": 0.05268592235776378,
+      "hindNearRoot": 0.007565257560211421,
+      "hindNearKnee": 0.1323379587171228,
+      "hindNearAnkle": 0.2106969126591992,
+      "hindNearPaw": 0.13693139404520288,
+      "foreNearRoot": 0.005043505040140976,
+      "foreNearKnee": 0.1093987281635886,
+      "foreNearAnkle": 0.14177991492737957,
+      "foreNearPaw": 0.05271005700051277
+    },
+    "measures": {
+      "body": 0.2776643058350094,
+      "bone-min": 0.005043505040140976,
+      "bone-max": 0.2106969126591992,
+      "leg/torso:hindFar": 1.4345373125091834,
+      "leg/torso:foreFar": 0.9050095719071304,
+      "leg/torso:hindNear": 1.7285846806205085,
+      "leg/torso:foreNear": 1.0944464005829195
+    }
+  },
+  "recipeHash": "5357c3e397fbd0d70587424b527de754e7d7fc15988324ba93d85e5e3d692b97"
+}

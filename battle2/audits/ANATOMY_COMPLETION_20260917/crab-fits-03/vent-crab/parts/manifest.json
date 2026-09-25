@@ -1,0 +1,135 @@
+{
+  "creatureId": "vent-crab",
+  "parts": [
+    {
+      "name": "shadow.png",
+      "path": "parts/shadow.png",
+      "sha256": "051831d57c055ddff42f1aa2425cdf57819482f8daf270c479f27ce48e2a151b"
+    },
+    {
+      "name": "leg0far-upper.png",
+      "path": "parts/leg0far-upper.png",
+      "sha256": "15bfd76aeacd337d443832860f7ae4653f5c470a2ef802715d8498ab12e13208"
+    },
+    {
+      "name": "leg0far-lower.png",
+      "path": "parts/leg0far-lower.png",
+      "sha256": "0f60e5d19adba4d1f4b5d032c0a7e95a035d4a61d90c21a4e9b6e4f44057a6f7"
+    },
+    {
+      "name": "leg1far-upper.png",
+      "path": "parts/leg1far-upper.png",
+      "sha256": "f4a51d804542cd2753de45d3c1e8f934cab0726627bf82e8a7fef671b9960a36"
+    },
+    {
+      "name": "leg1far-lower.png",
+      "path": "parts/leg1far-lower.png",
+      "sha256": "0a14f7415c8557b5aa6e8a5485d6b9ee2abfa161364c83ed642d8fa54fe661cc"
+    },
+    {
+      "name": "leg2far-upper.png",
+      "path": "parts/leg2far-upper.png",
+      "sha256": "e7ae61e4deb3194b4a30463c29ed225cd00d513e35d70e5cce1605f852cd34a3"
+    },
+    {
+      "name": "leg2far-lower.png",
+      "path": "parts/leg2far-lower.png",
+      "sha256": "a408fd683737fe6ce5c38c4be1f2aa8a206efb37ae5dc4c16a6b412b088b7a45"
+    },
+    {
+      "name": "leg3far-upper.png",
+      "path": "parts/leg3far-upper.png",
+      "sha256": "9911115c4557aa54b57ca38bc386d8a6c9e18b186e1afcd2e1ab7ca81afc9935"
+    },
+    {
+      "name": "leg3far-lower.png",
+      "path": "parts/leg3far-lower.png",
+      "sha256": "409a29957a47c0c58d981595fcb6a6c3803a2f35149ad8931d64f462f776745f"
+    },
+    {
+      "name": "leg0near-upper.png",
+      "path": "parts/leg0near-upper.png",
+      "sha256": "2333e03b4c3fe4c65a7bec440fac5b1edb35d5ef57b417de14a3b72722d8ceaf"
+    },
+    {
+      "name": "leg0near-lower.png",
+      "path": "parts/leg0near-lower.png",
+      "sha256": "237ce0315054d19d8fe058ce4d2d33910cf25f12bf74e996b04fe455c5d6eb09"
+    },
+    {
+      "name": "leg1near-upper.png",
+      "path": "parts/leg1near-upper.png",
+      "sha256": "751edb93adcca54950ade0a40662dd882090a6d9c8c9e90bfd88dc634d4471ef"
+    },
+    {
+      "name": "leg1near-lower.png",
+      "path": "parts/leg1near-lower.png",
+      "sha256": "9b3d34bd83d2b8b324297bf0c835be339b2a808593524606056b7113fdec4e7f"
+    },
+    {
+      "name": "leg2near-upper.png",
+      "path": "parts/leg2near-upper.png",
+      "sha256": "19eb484d8a6c106dfa5d92356727ba3f3e69cfaa8a35578f350743b9b7d5f8a8"
+    },
+    {
+      "name": "leg2near-lower.png",
+      "path": "parts/leg2near-lower.png",
+      "sha256": "9d074bfe26f2ba2bd5e8bbf9ad2b48d6b0b8f8635cc59f38c56386096268f5dc"
+    },
+    {
+      "name": "leg3near-upper.png",
+      "path": "parts/leg3near-upper.png",
+      "sha256": "2e853c7fde85699658b9cf73936618177ebc3e0c9c5efe975bf08fca64f9c06f"
+    },
+    {
+      "name": "leg3near-lower.png",
+      "path": "parts/leg3near-lower.png",
+      "sha256": "443e5416fc878517c53d0db006d1be00044f3a075df0d95dec149d5319a1d090"
+    },
+    {
+      "name": "claw-far-upper.png",
+      "path": "parts/claw-far-upper.png",
+      "sha256": "f10aefc8f193e1b3e223fd708e814a30151034436317a175691310a9a2f248df"
+    },
+    {
+      "name": "claw-far-palm.png",
+      "path": "parts/claw-far-palm.png",
+      "sha256": "3357ff89eee0cd848b2ca3b1678c18bd02aa95078022aa0e82d86b4a029485ef"
+    },
+    {
+      "name": "claw-far-dactyl.png",
+      "path": "parts/claw-far-dactyl.png",
+      "sha256": "ab7ca37d06f3f600abeb29ebe787e32be0a046a3e94bae52a2de96addd0265db"
+    },
+    {
+      "name": "claw-near-upper.png",
+      "path": "parts/claw-near-upper.png",
+      "sha256": "9d96c49a7162ff027327baecde5bb44f7eba35144675b435ac96f2a6dab5e317"
+    },
+    {
+      "name": "claw-near-palm.png",
+      "path": "parts/claw-near-palm.png",
+      "sha256": "c542481f852de7d3a008ef6144c138c61aefbc3f98303aea7bb88da179f9af1b"
+    },
+    {
+      "name": "claw-near-dactyl.png",
+      "path": "parts/claw-near-dactyl.png",
+      "sha256": "75d8c806619fedbe75859535b8385cd86ff7d65e0c8f3ebe4a61a21abcac38ed"
+    },
+    {
+      "name": "carapace.png",
+      "path": "parts/carapace.png",
+      "sha256": "9c8b476671451c8d94cdfb4e4fcda4dce35839420f936785ad0dd8a25748deff"
+    },
+    {
+      "name": "eye-far.png",
+      "path": "parts/eye-far.png",
+      "sha256": "ccfd6213326b9de0774624972e9261070e8005def0fcff261b9fe6eae5b45bd1"
+    },
+    {
+      "name": "eye-near.png",
+      "path": "parts/eye-near.png",
+      "sha256": "097e3b31052fd439ba6866f1fb110cb6d867975a9d481728ddcc89c6f9af7c06"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+ "schema": "cf.card-master/v1",
+ "earthName": "Octopus",
+ "recordRecipeHash": "fa37f83a3595df918d6c56e2fb26644cf26b4f03705ff72451dc676dcb5e9e11",
+ "source": {
+  "master": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/master.png",
+  "masterSha256": "48a6ab472bdf161913f540a2ade5907be2bebedaa600348877adb269c01b0a2e",
+  "keyedSha256": "ff4bbe1c798744b79927777aa88e4d88d6533e53c76698127fc9c450b1db5aab",
+  "alpha": "parts/keyed.png",
+  "labelsSha256": "1108a8dac4d7686c83359121eb9b159486f89bfff92a97a3c60861abeed1331a",
+  "labelSource": "labels.png + declaration.json",
+  "width": 1254,
+  "height": 1254
+ },
+ "labels": [
+  {
+   "label": 1,
+   "id": "near-eye",
+   "joint": "eyeNear",
+   "layer": "near"
+  },
+  {
+   "label": 2,
+   "id": "far-eye-rim",
+   "joint": "eyeFar",
+   "layer": "far"
+  },
+  {
+   "label": 3,
+   "id": "siphon",
+   "joint": "siphon",
+   "layer": "near"
+  },
+  {
+   "label": 4,
+   "id": "arm4-tip",
+   "joint": "arm4Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 5,
+   "id": "arm4-middle",
+   "joint": "arm4Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 6,
+   "id": "arm4-base",
+   "joint": "arm4Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 7,
+   "id": "arm2-tip",
+   "joint": "arm2Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 8,
+   "id": "arm2-middle",
+   "joint": "arm2Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 9,
+   "id": "arm2-base",
+   "joint": "arm2Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 10,
+   "id": "arm6-tip",
+   "joint": "arm6Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 11,
+   "id": "arm6-middle",
+   "joint": "arm6Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 12,
+   "id": "arm6-base",
+   "joint": "arm6Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 13,
+   "id": "arm0-tip",
+   "joint": "arm0Seg2",
+   "layer": "far"
+  },
+  {
+   "label": 14,
+   "id": "arm0-middle",
+   "joint": "arm0Seg1",
+   "layer": "far"
+  },
+  {
+   "label": 15,
+   "id": "arm0-base",
+   "joint": "arm0Seg0",
+   "layer": "far"
+  },
+  {
+   "label": 16,
+   "id": "arm7-tip",
+   "joint": "arm7Seg2",
+   "layer": "far"
+  },
+  {
+   "label": 17,
+   "id": "arm7-middle",
+   "joint": "arm7Seg1",
+   "layer": "far"
+  },
+  {
+   "label": 18,
+   "id": "arm7-base",
+   "joint": "arm7Seg0",
+   "layer": "far"
+  },
+  {
+   "label": 19,
+   "id": "arm1-tip",
+   "joint": "arm1Seg2",
+   "layer": "far"
+  },
+  {
+   "label": 20,
+   "id": "arm1-middle",
+   "joint": "arm1Seg1",
+   "layer": "far"
+  },
+  {
+   "label": 21,
+   "id": "arm1-base",
+   "joint": "arm1Seg0",
+   "layer": "far"
+  },
+  {
+   "label": 22,
+   "id": "arm3-tip",
+   "joint": "arm3Seg2",
+   "layer": "far"
+  },
+  {
+   "label": 23,
+   "id": "arm3-middle",
+   "joint": "arm3Seg1",
+   "layer": "far"
+  },
+  {
+   "label": 24,
+   "id": "arm3-base",
+   "joint": "arm3Seg0",
+   "layer": "far"
+  },
+  {
+   "label": 25,
+   "id": "arm5-tip",
+   "joint": "arm5Seg2",
+   "layer": "far"
+  },
+  {
+   "label": 26,
+   "id": "arm5-middle",
+   "joint": "arm5Seg1",
+   "layer": "far"
+  },
+  {
+   "label": 27,
+   "id": "arm5-base",
+   "joint": "arm5Seg0",
+   "layer": "far"
+  },
+  {
+   "label": 28,
+   "id": "mantle",
+   "joint": "mantle",
+   "layer": "far"
+  },
+  {
+   "label": 29,
+   "id": "head",
+   "joint": "head",
+   "layer": "near"
+  },
+  {
+   "label": 30,
+   "id": "body",
+   "joint": "root",
+   "layer": "near"
+  }
+ ],
+ "landmarks": {
+  "root": [
+   0.5191387559808612,
+   0.47368421052631576
+  ],
+  "mantle": [
+   0.36443381180223283,
+   0.26555023923444976
+  ],
+  "head": [
+   0.5749601275917066,
+   0.4218500797448166
+  ],
+  "eyeFar": [
+   0.6291866028708134,
+   0.3405103668261563
+  ],
+  "eyeNear": [
+   0.5614035087719298,
+   0.35566188197767146
+  ],
+  "siphon": [
+   0.48484848484848486,
+   0.43301435406698563
+  ],
+  "arm0Seg0": [
+   0.3309409888357257,
+   0.4768740031897927
+  ],
+  "arm0Seg1": [
+   0.1371610845295056,
+   0.37719298245614036
+  ],
+  "arm0Seg2": [
+   0.05901116427432217,
+   0.32615629984051037
+  ],
+  "arm1Seg0": [
+   0.2822966507177033,
+   0.569377990430622
+  ],
+  "arm1Seg1": [
+   0.09090909090909091,
+   0.6236044657097288
+  ],
+  "arm1Seg2": [
+   0.09569377990430622,
+   0.5526315789473685
+  ],
+  "arm2Seg0": [
+   0.3532695374800638,
+   0.6028708133971292
+  ],
+  "arm2Seg1": [
+   0.2113237639553429,
+   0.7647527910685805
+  ],
+  "arm2Seg2": [
+   0.14832535885167464,
+   0.7137161084529505
+  ],
+  "arm3Seg0": [
+   0.47208931419457734,
+   0.594896331738437
+  ],
+  "arm3Seg1": [
+   0.4130781499202552,
+   0.70414673046252
+  ],
+  "arm3Seg2": [
+   0.4370015948963317,
+   0.7488038277511961
+  ],
+  "arm4Seg0": [
+   0.5701754385964912,
+   0.6036682615629984
+  ],
+  "arm4Seg1": [
+   0.5159489633173844,
+   0.835725677830941
+  ],
+  "arm4Seg2": [
+   0.4218500797448166,
+   0.8277511961722488
+  ],
+  "arm5Seg0": [
+   0.6355661881977671,
+   0.6794258373205742
+  ],
+  "arm5Seg1": [
+   0.7137161084529505,
+   0.7567783094098883
+  ],
+  "arm5Seg2": [
+   0.7456140350877193,
+   0.8094098883572568
+  ],
+  "arm6Seg0": [
+   0.6858054226475279,
+   0.6299840510366826
+  ],
+  "arm6Seg1": [
+   0.8843700159489634,
+   0.7280701754385965
+  ],
+  "arm6Seg2": [
+   0.9234449760765551,
+   0.6395534290271132
+  ],
+  "arm7Seg0": [
+   0.7440191387559809,
+   0.5263157894736842
+  ],
+  "arm7Seg1": [
+   0.9330143540669856,
+   0.47368421052631576
+  ],
+  "arm7Seg2": [
+   0.879585326953748,
+   0.3963317384370016
+  ]
+ },
+ "card": {
+  "width": 512,
+  "height": 512,
+  "scale": 0.4082934609250399,
+  "masterSha256": "4c49685e49a164672ad72e62fde31ac76d300c36f8f1c885272987971b4a4c80",
+  "labelsSha256": "7e04eb466060a06ab061e2dd1d4c98fe3500f79c893a863a49cef5c8d1ae3d7f",
+  "filter": "alpha-weighted box; labels nearest"
+ }
+}

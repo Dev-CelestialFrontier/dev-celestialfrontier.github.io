@@ -1,0 +1,202 @@
+{
+  "kind": "primate",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Chimpanzee\"]],[\"accent\",[\"number\",\"4\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"8\"]],[\"color\",[\"number\",\"7\"]],[\"detail\",[\"number\",\"8\"]],[\"diet\",[\"number\",\"0\"]],[\"eyes\",[\"number\",\"1\"]],[\"form\",[\"number\",\"16\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"0\"]],[\"head\",[\"number\",\"9\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"3\"]],[\"limbs\",[\"number\",\"0\"]],[\"loco\",[\"number\",\"14\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"4\"]],[\"pattern\",[\"number\",\"1\"]],[\"repro\",[\"number\",\"1\"]],[\"seed\",[\"number\",\"3074712006\"]],[\"sense\",[\"number\",\"3\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"0\"]],[\"tail\",[\"number\",\"3\"]],[\"temper\",[\"number\",\"2\"]],[\"trait\",[\"number\",\"11\"]]]]",
+    "seed": 3074712006,
+    "ownerId": "authored:archetype-sprint/chimpanzee",
+    "earthName": "Chimpanzee"
+  },
+  "template": {
+    "id": "primate",
+    "version": 1
+  },
+  "clipSetId": "primate-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [
+      "tail"
+    ],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3074712006,
+    "kingdom": "fauna",
+    "color": 7,
+    "form": 16,
+    "body": 8,
+    "loco": 14,
+    "trait": 11,
+    "size": 3,
+    "diet": 0,
+    "head": 9,
+    "limbs": 0,
+    "skin": 0,
+    "tail": 3,
+    "pattern": 1,
+    "eyes": 1,
+    "behavior": 10,
+    "habitat": 0,
+    "detail": 8,
+    "accent": 4,
+    "temper": 2,
+    "sense": 3,
+    "repro": 1,
+    "life": 3,
+    "metab": 4,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Chimpanzee"
+  },
+  "geometry": {
+    "cutoutAssetHash": "27331ceeb3353de388c97e1c4ecc62b11fd75fa6421852ae4e7a22cba971c408",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.95,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.5454545454545454,
+      0.34290271132376393
+    ],
+    "pelvis": [
+      0.28309409888357256,
+      0.39314194577352474
+    ],
+    "spine": [
+      0.4298245614035088,
+      0.2862838915470494
+    ],
+    "chest": [
+      0.6323763955342903,
+      0.24481658692185007
+    ],
+    "neck": [
+      0.7280701754385965,
+      0.22807017543859648
+    ],
+    "head": [
+      0.8301435406698564,
+      0.20574162679425836
+    ],
+    "jaw": [
+      0.8644338118022329,
+      0.2966507177033493
+    ],
+    "armFarShoulder": [
+      0.7416267942583732,
+      0.3405103668261563
+    ],
+    "armFarElbow": [
+      0.7862838915470495,
+      0.5518341307814992
+    ],
+    "armFarHand": [
+      0.9098883572567783,
+      0.8580542264752791
+    ],
+    "armNearShoulder": [
+      0.6180223285486444,
+      0.2719298245614035
+    ],
+    "armNearElbow": [
+      0.6347687400318979,
+      0.5350877192982456
+    ],
+    "armNearHand": [
+      0.7304625199362041,
+      0.8620414673046252
+    ],
+    "legFarHip": [
+      0.2551834130781499,
+      0.43859649122807015
+    ],
+    "legFarKnee": [
+      0.2511961722488038,
+      0.6164274322169059
+    ],
+    "legFarFoot": [
+      0.11802232854864433,
+      0.8333333333333334
+    ],
+    "legNearHip": [
+      0.24401913875598086,
+      0.43460925039872406
+    ],
+    "legNearKnee": [
+      0.40350877192982454,
+      0.5964912280701754
+    ],
+    "legNearFoot": [
+      0.3843700159489633,
+      0.8580542264752791
+    ]
+  },
+  "materials": {
+    "surface": "fur"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_FINISH_20260923/07-primate/candidate-02/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Tail absent in this ape. Both long arms, both chunky knuckle-bearing hands, both bent hind legs and both feet are separately painted. Nineteen resolved primate joints are manually authored; far hip and far knee are explicitly occluded estimates, not directly observed joint centers. No hidden or folded chain declaration is made. The near arm and near hind leg take foreground ownership before their far counterparts. Ears remain head-attached because the primate contract has no independent ear slots.",
+    "visualAcceptance": "candidate for Nick; first acceptable paint",
+    "landmarkMethod": "Manual coordinates from this source master only. Distal arm owners include their forearms and hands because the existing primate graph has an Elbow-to-Hand segment without a separate wrist joint. Distal leg owners likewise include the shin and foot under the Knee-to-Foot segment. Far hip and far knee are hidden internal centers inferred from the source anatomy; no chain is entirely hidden and no presence state is automatically inferred.",
+    "materialAuthority": "The exact surface token fur is accepted by materialFromSkinName in motion/secondary.ts and maps to furred.",
+    "historicalRepair20260922": "Manually authored candidate knee pivots within the painted bend/emergence regions: near(506,748), far(315,773). Fur/occlusion prevents an exact internal joint-center observation; these are explicit rig-fit hypotheses, not a claim that the original coordinates were objectively wrong. All other landmarks, polygons, source pixels, presence and numeric limits unchanged. Static/native acceptance required.",
+    "repair": "2026-09-23: retain the two previously hypothesized knee pivots, assign the continuous proximal near-haunch rim to near-leg-upper (anatomy-review-01.md), and place the occluded far hip at320550 within the paired pelvic haunch. These are explicitly authored fitting hypotheses, not observed internal centers. No source pixels, other landmarks, other masks, numerical limits, or presence change.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "ac304cd1dc056f630dcb726403eee76ca8b3d98956c2e6bff4cb267bea43370e",
+    "subjectSourceSha256": "9652f406d364002c708254c8e3abdc4828d9d408f4ac421cadfeeaffc9a7bbbe",
+    "presenceSha256": "d986f997305b8791db32ac13a99a9368060f4df703b93b8cae4f9a6583b299ee",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.2671272816524331,
+      "spine": 0.18151714074539282,
+      "chest": 0.2067529512791116,
+      "neck": 0.09714804069017687,
+      "head": 0.10448701342366305,
+      "jaw": 0.09716113165381128,
+      "armFarShoulder": 0.14523411835290254,
+      "armFarElbow": 0.21599071635258724,
+      "armFarHand": 0.3302253941629795,
+      "armNearShoulder": 0.030678443479539623,
+      "armNearElbow": 0.26369019674590355,
+      "armNearHand": 0.3406700057941599,
+      "legFarHip": 0.05333968583154908,
+      "legFarKnee": 0.17787563538159457,
+      "legFarFoot": 0.25452591731492474,
+      "legNearHip": 0.05697709945102469,
+      "legNearKnee": 0.22725034166035368,
+      "legNearFoot": 0.2622622620873297
+    },
+    "measures": {
+      "body": 0.3794713886870498,
+      "bone-min": 0.030678443479539623,
+      "bone-max": 0.3406700057941599,
+      "arm/torso:armFar": 1.8221406131852236,
+      "arm/torso:armNear": 1.673482283385849,
+      "leg/torso:legFar": 1.2800470681299752,
+      "leg/torso:legNear": 1.4401341431551204
+    }
+  },
+  "recipeHash": "7b6ee65a8fd5789aa3b62aa0e582c619883fd105a8cd1e7fa8019731d912f532"
+}

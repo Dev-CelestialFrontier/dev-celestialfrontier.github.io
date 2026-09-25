@@ -1,0 +1,201 @@
+{
+  "kind": "biped-bird",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Eagle\"]],[\"accent\",[\"number\",\"16\"]],[\"behavior\",[\"number\",\"9\"]],[\"body\",[\"number\",\"7\"]],[\"color\",[\"number\",\"3\"]],[\"detail\",[\"number\",\"9\"]],[\"diet\",[\"number\",\"1\"]],[\"eyes\",[\"number\",\"0\"]],[\"form\",[\"number\",\"15\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"3\"]],[\"head\",[\"number\",\"7\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"4\"]],[\"limbs\",[\"number\",\"3\"]],[\"loco\",[\"number\",\"17\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"4\"]],[\"pattern\",[\"number\",\"5\"]],[\"repro\",[\"number\",\"6\"]],[\"seed\",[\"number\",\"3837331972\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"1\"]],[\"tail\",[\"number\",\"2\"]],[\"temper\",[\"number\",\"1\"]],[\"trait\",[\"number\",\"5\"]]]]",
+    "seed": 3837331972,
+    "ownerId": "authored:archetype-sprint/eagle",
+    "earthName": "Eagle"
+  },
+  "template": {
+    "id": "biped-bird",
+    "version": 1
+  },
+  "clipSetId": "biped-bird-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3837331972,
+    "kingdom": "fauna",
+    "color": 3,
+    "form": 15,
+    "body": 7,
+    "loco": 17,
+    "trait": 5,
+    "size": 3,
+    "diet": 1,
+    "head": 7,
+    "limbs": 3,
+    "skin": 1,
+    "tail": 2,
+    "pattern": 5,
+    "eyes": 0,
+    "behavior": 9,
+    "habitat": 3,
+    "detail": 9,
+    "accent": 16,
+    "temper": 1,
+    "sense": 1,
+    "repro": 6,
+    "life": 4,
+    "metab": 4,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Eagle"
+  },
+  "geometry": {
+    "cutoutAssetHash": "78ad63443cf8a1a3e48ac89ef320db995697a798be56366164999814ae61b50a",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.9,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.6499202551834131,
+      0.511164274322169
+    ],
+    "pelvis": [
+      0.583732057416268,
+      0.562200956937799
+    ],
+    "spine": [
+      0.6794258373205742,
+      0.43859649122807015
+    ],
+    "chest": [
+      0.7791068580542265,
+      0.36921850079744817
+    ],
+    "neck0": [
+      0.8118022328548644,
+      0.3014354066985646
+    ],
+    "neck1": [
+      0.8301435406698564,
+      0.24561403508771928
+    ],
+    "head": [
+      0.8700159489633174,
+      0.19138755980861244
+    ],
+    "beak": [
+      0.9370015948963317,
+      0.22488038277511962
+    ],
+    "legFarKnee": [
+      0.6905901116427432,
+      0.6722488038277512
+    ],
+    "legFarAnkle": [
+      0.7416267942583732,
+      0.7822966507177034
+    ],
+    "legFarFoot": [
+      0.7902711323763956,
+      0.8165869218500797
+    ],
+    "legNearKnee": [
+      0.5502392344497608,
+      0.6810207336523126
+    ],
+    "legNearAnkle": [
+      0.5614035087719298,
+      0.7990430622009569
+    ],
+    "legNearFoot": [
+      0.5853269537480064,
+      0.8381180223285486
+    ],
+    "wingFarRoot": [
+      0.6539074960127592,
+      0.30462519936204147
+    ],
+    "wingFarTip": [
+      0.09968102073365231,
+      0.4481658692185008
+    ],
+    "wingNearRoot": [
+      0.6953748006379585,
+      0.38118022328548645
+    ],
+    "wingNearTip": [
+      0.12200956937799043,
+      0.5964912280701754
+    ],
+    "tailFan": [
+      0.1674641148325359,
+      0.6961722488038278
+    ]
+  },
+  "materials": {
+    "surface": "feathers",
+    "joints": {
+      "beak": "plates",
+      "legNearFoot": "scales",
+      "legFarFoot": "scales"
+    }
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/candidate-12/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "One head and hooked beak, two independently visible spread wing surfaces, two feathered legs with distinct taloned feet, and one visible tail fan. All nineteen contracted joints are explicitly located on this master. No contracted appendage is declared hidden or absent; no leg chain is declared folded. Far eye is naturally out of view and has no separate biped-bird joint. Priority polygons are manually observed ownership regions of this painting, with root-owned body as the explicit remainder.",
+    "visualAcceptance": "candidate for Nick; first acceptable paint",
+    "landmarkMethod": "Manual observation of this 1254-square master; no transferred painter or other-species coordinates. Wing-tip joints follow the distal feather groups, while wing-root joints follow the visible shoulder masses.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "8588281d427a16ec162caf08a750cae15499809597ce5598bc52b0b01dd5af8a",
+    "subjectSourceSha256": "3e3483e93129a8d505d59c9d5b9cb2767fc0e38a0267184230eae79f9f868e67",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.08358002450389246,
+      "spine": 0.15631814819707063,
+      "chest": 0.12144797837219978,
+      "neck0": 0.0752564640344754,
+      "neck1": 0.05875737486375966,
+      "head": 0.06730764863160828,
+      "beak": 0.07489222891147623,
+      "legFarKnee": 0.1533922173976981,
+      "legFarAnkle": 0.1213065191056231,
+      "legFarFoot": 0.05951549651370111,
+      "legNearKnee": 0.12345002441778886,
+      "legNearAnkle": 0.11854919256234843,
+      "legNearFoot": 0.04581684983165303,
+      "wingFarRoot": 0.14088000158260833,
+      "wingFarTip": 0.57251280317836,
+      "wingNearRoot": 0.08458215085963493,
+      "wingNearTip": 0.6124594004496862,
+      "tailFan": 0.4372954459711945
+    },
+    "measures": {
+      "body": 0.27461526014095516,
+      "bone-min": 0.04581684983165303,
+      "bone-max": 0.6124594004496862,
+      "leg/torso:legFar": 1.2170271704692452,
+      "leg/torso:legNear": 1.0480701861362673,
+      "wing/torso": 2.597790102395608
+    }
+  },
+  "recipeHash": "bb719111f61528fc2c5dad6d8a125cdefac14cd009076cf0b9fff855334d471d"
+}

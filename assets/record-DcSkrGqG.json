@@ -1,0 +1,223 @@
+{
+  "kind": "flyer-membrane",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Fruit Bat\"]],[\"accent\",[\"number\",\"1\"]],[\"behavior\",[\"number\",\"9\"]],[\"body\",[\"number\",\"2\"]],[\"color\",[\"number\",\"10\"]],[\"detail\",[\"number\",\"7\"]],[\"diet\",[\"number\",\"4\"]],[\"eyes\",[\"number\",\"5\"]],[\"form\",[\"number\",\"2\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"18\"]],[\"head\",[\"number\",\"3\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"0\"]],[\"limbs\",[\"number\",\"0\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"4\"]],[\"pattern\",[\"number\",\"1\"]],[\"repro\",[\"number\",\"0\"]],[\"seed\",[\"number\",\"3695426012\"]],[\"sense\",[\"number\",\"5\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"7\"]],[\"tail\",[\"number\",\"4\"]],[\"temper\",[\"number\",\"6\"]],[\"trait\",[\"number\",\"14\"]]]]",
+    "seed": 3695426012,
+    "ownerId": "authored:archetype-sprint/fruit-bat",
+    "earthName": "Fruit Bat"
+  },
+  "template": {
+    "id": "flyer-membrane",
+    "version": 1
+  },
+  "clipSetId": "flyer-membrane-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [
+      "tail"
+    ],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3695426012,
+    "kingdom": "fauna",
+    "color": 10,
+    "form": 2,
+    "body": 2,
+    "loco": 6,
+    "trait": 14,
+    "size": 3,
+    "diet": 4,
+    "head": 3,
+    "limbs": 0,
+    "skin": 7,
+    "tail": 4,
+    "pattern": 1,
+    "eyes": 5,
+    "behavior": 9,
+    "habitat": 18,
+    "detail": 7,
+    "accent": 1,
+    "temper": 6,
+    "sense": 5,
+    "repro": 0,
+    "life": 0,
+    "metab": 4,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Fruit Bat"
+  },
+  "geometry": {
+    "cutoutAssetHash": "ba6037964ac289b10cb7ccac9c44bdf05395deeec827a412fa4e97be5f7ca1a7",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.78,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.6993620414673046,
+      0.5215311004784688
+    ],
+    "pelvis": [
+      0.6084529505582137,
+      0.5829346092503987
+    ],
+    "spine": [
+      0.7105263157894737,
+      0.5167464114832536
+    ],
+    "chest": [
+      0.7854864433811802,
+      0.4569377990430622
+    ],
+    "neck": [
+      0.8508771929824561,
+      0.4529505582137161
+    ],
+    "head": [
+      0.905103668261563,
+      0.44178628389154706
+    ],
+    "jaw": [
+      0.9401913875598086,
+      0.48564593301435405
+    ],
+    "wingFarRoot": [
+      0.6626794258373205,
+      0.35964912280701755
+    ],
+    "wingFarElbow": [
+      0.48165869218500795,
+      0.24003189792663476
+    ],
+    "wingFarWrist": [
+      0.3141945773524721,
+      0.28309409888357256
+    ],
+    "wingFarTip": [
+      0.037480063795853266,
+      0.42503987240829344
+    ],
+    "wingNearRoot": [
+      0.6977671451355661,
+      0.45933014354066987
+    ],
+    "wingNearElbow": [
+      0.5191387559808612,
+      0.34290271132376393
+    ],
+    "wingNearWrist": [
+      0.34688995215311,
+      0.3803827751196172
+    ],
+    "wingNearTip": [
+      0.051834130781499205,
+      0.5502392344497608
+    ],
+    "legFarKnee": [
+      0.45534290271132377,
+      0.7017543859649122
+    ],
+    "legFarFoot": [
+      0.44577352472089316,
+      0.7344497607655502
+    ],
+    "legNearKnee": [
+      0.5757575757575758,
+      0.6905901116427432
+    ],
+    "legNearFoot": [
+      0.5717703349282297,
+      0.7344497607655502
+    ],
+    "earFarTip": [
+      0.9178628389154705,
+      0.34609250398724084
+    ],
+    "earNearTip": [
+      0.8652312599681021,
+      0.3365231259968102
+    ]
+  },
+  "materials": {
+    "surface": "fur",
+    "joints": {
+      "wingFarRoot": "smooth skin",
+      "wingFarElbow": "smooth skin",
+      "wingFarWrist": "smooth skin",
+      "wingFarTip": "smooth skin",
+      "wingNearRoot": "smooth skin",
+      "wingNearElbow": "smooth skin",
+      "wingNearWrist": "smooth skin",
+      "wingNearTip": "smooth skin"
+    }
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/candidate-02/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Parent-owned presence.json explicitly declares tail absent, hidden [], folded []. Two rearward membrane wings, two ears and two distinct hind feet are visually supported. No automatic declaration inference or hidden-pixel invention.",
+    "visualAcceptance": "Manual source authoring prototype from actual paint03 master. Both outer wing tips and feet appear enclosed by background. Required 8% margin is missed; all delivered RGBA and fringe retained. No intake or rig acceptance claimed.",
+    "landmarkMethod": "All 21 coordinates manually reviewed against the actual current master; previous authoring used only for JSON schema, graph names and 17-part inventory. No previous/guide coordinate copying, solver search, coordinate grid, pose tests or numeric gate tuning. Round wing-base joints, raised elbow bends, wrist/thumb hubs and outer tips provide the wing references. Internal torso centers and occluded leg roots are approximate; leg Knee names are the existing two-span fit at visible lower-limb bends, not an assertion that exact biological knees are observable.",
+    "ownershipMethod": "All 17 polygons newly authored from this master. Each wing has distal, wrist, elbow and base owners matching its existing child-joint graph; distal starts from the wrist pivot, wrist region connects elbow to wrist, elbow region connects base to elbow, and base region lies at the body-side attachment. Shared cuts partition each membrane without intentional gaps: near wrist [435,477] to scallop [503,791], near elbow [651,430] to lower tip [694,831], near base [822,540] to inner edge [763,760]; corresponding far cuts [394,355] to [342,612], [604,301] to [600,680], [785,419] to [808,531]. Hidden portions of far polygons are occluded by higher-priority near masks and do not create paint. The complete visible scalloped edges are included in membrane polygons rather than deliberately assigned to fixed body remainder. Actual raster labels still require subsequent review.",
+    "materialAuthority": "Body surface fur and all eight wing owners smooth skin use the existing material vocabulary. Ear/head/body fur remains body-derived; no mixed-material description substitutes for explicit wing overrides.",
+    "uncertainty": "Wing-base landmarks are approximate visible bony/root features, not an internal skeleton measurement. Far root continues toward the fur behind the nearer wing. The proximal hind legs are partly covered by the membrane; shared pelvis is estimated inside the body. Finger ribs and multiple scallops are surfaces within four wing owners, not new graph joints. groundLineY is a framing reference, not an inferred common contact plane.",
+    "ownershipRepair": "Candidate02: observed root-owned outer wing strips, lower membrane tips/scallops and ankle/foot fringes are reassigned through local outer-envelope corrections; near-thumb polygon follows the observed curved claw rather than owning the far-membrane wedge behind it. Internal wing cross-cut start points and all21 anatomical landmarks/materials are unchanged. Near lower cut ends extend into retained outer-edge fringe while remaining shared. Original authoring/fit01 retained. These are source-ownership hypotheses pending changed labels and static qualification, not alpha removal or numerical solver tuning.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "3d619e738f1411ce37ea22ca58576e2f827a1918ee74c7f19abc8ac58727345b",
+    "subjectSourceSha256": "11b0449e8b28659334e36aba28200712f679e0c4d7ca886b188c16cd58baa9e3",
+    "presenceSha256": "90cf2f6724cac8198eb24d82d7fedff1b33d8f3038c794e394002d4a404f95db",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.10970348079902403,
+      "spine": 0.12165463169685284,
+      "chest": 0.09589625045113051,
+      "neck": 0.06551219903840785,
+      "head": 0.05536381166733581,
+      "jaw": 0.056167756468709175,
+      "wingFarRoot": 0.15667370577662285,
+      "wingFarElbow": 0.21697185647015504,
+      "wingFarWrist": 0.17291206698174783,
+      "wingFarTip": 0.31099762802054864,
+      "wingNearRoot": 0.08775191506114399,
+      "wingNearElbow": 0.21322159455511752,
+      "wingNearWrist": 0.17627933969195694,
+      "wingNearTip": 0.3404543354129135,
+      "legFarKnee": 0.19380615596560333,
+      "legFarFoot": 0.03406700057941603,
+      "legNearKnee": 0.11251086493624635,
+      "legNearFoot": 0.044040514422596766,
+      "earFarTip": 0.09654064402182812,
+      "earNearTip": 0.11256172241527197
+    },
+    "measures": {
+      "body": 0.21729255340099193,
+      "bone-min": 0.03406700057941603,
+      "bone-max": 0.3404543354129135,
+      "wing/torso:wingFar": 3.9465469194728495,
+      "wing/torso:wingNear": 3.763162482665175,
+      "leg/torso:legFar": 1.0486928934214417,
+      "leg/torso:legNear": 0.7204636187874465
+    }
+  },
+  "recipeHash": "4526e0b0039a61f300dd8bf388146bf61fec5d43dd90445fdd563e3e7deef756"
+}

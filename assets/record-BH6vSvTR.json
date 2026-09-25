@@ -1,0 +1,263 @@
+{
+  "kind": "cephalopod",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Octopus\"]],[\"accent\",[\"number\",\"10\"]],[\"behavior\",[\"number\",\"4\"]],[\"body\",[\"number\",\"8\"]],[\"color\",[\"number\",\"12\"]],[\"detail\",[\"number\",\"5\"]],[\"diet\",[\"number\",\"3\"]],[\"eyes\",[\"number\",\"3\"]],[\"form\",[\"number\",\"13\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"3\"]],[\"head\",[\"number\",\"1\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"5\"]],[\"limbs\",[\"number\",\"3\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"5\"]],[\"pattern\",[\"number\",\"1\"]],[\"repro\",[\"number\",\"3\"]],[\"seed\",[\"number\",\"6160491\"]],[\"sense\",[\"number\",\"8\"]],[\"size\",[\"number\",\"1\"]],[\"skin\",[\"number\",\"6\"]],[\"tail\",[\"number\",\"4\"]],[\"temper\",[\"number\",\"4\"]],[\"trait\",[\"number\",\"19\"]]]]",
+    "seed": 6160491,
+    "ownerId": "authored:archetype-sprint/octopus",
+    "earthName": "Octopus"
+  },
+  "template": {
+    "id": "cephalopod",
+    "version": 1
+  },
+  "clipSetId": "cephalopod-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [
+      "fins"
+    ],
+    "hidden": [],
+    "folded": [],
+    "appendages": {
+      "arms": 8,
+      "feedingTentacles": 0
+    }
+  },
+  "genome": {
+    "seed": 6160491,
+    "kingdom": "fauna",
+    "color": 12,
+    "form": 13,
+    "body": 8,
+    "loco": 6,
+    "trait": 19,
+    "size": 1,
+    "diet": 3,
+    "head": 1,
+    "limbs": 3,
+    "skin": 6,
+    "tail": 4,
+    "pattern": 1,
+    "eyes": 3,
+    "behavior": 4,
+    "habitat": 3,
+    "detail": 5,
+    "accent": 10,
+    "temper": 4,
+    "sense": 8,
+    "repro": 3,
+    "life": 5,
+    "metab": 5,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Octopus"
+  },
+  "geometry": {
+    "cutoutAssetHash": "48a6ab472bdf161913f540a2ade5907be2bebedaa600348877adb269c01b0a2e",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.94,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.5191387559808612,
+      0.47368421052631576
+    ],
+    "mantle": [
+      0.36443381180223283,
+      0.26555023923444976
+    ],
+    "head": [
+      0.5749601275917066,
+      0.4218500797448166
+    ],
+    "eyeFar": [
+      0.6291866028708134,
+      0.3405103668261563
+    ],
+    "eyeNear": [
+      0.5614035087719298,
+      0.35566188197767146
+    ],
+    "siphon": [
+      0.48484848484848486,
+      0.43301435406698563
+    ],
+    "arm0Seg0": [
+      0.3309409888357257,
+      0.4768740031897927
+    ],
+    "arm0Seg1": [
+      0.1371610845295056,
+      0.37719298245614036
+    ],
+    "arm0Seg2": [
+      0.05901116427432217,
+      0.32615629984051037
+    ],
+    "arm1Seg0": [
+      0.2822966507177033,
+      0.569377990430622
+    ],
+    "arm1Seg1": [
+      0.09090909090909091,
+      0.6236044657097288
+    ],
+    "arm1Seg2": [
+      0.09569377990430622,
+      0.5526315789473685
+    ],
+    "arm2Seg0": [
+      0.3532695374800638,
+      0.6028708133971292
+    ],
+    "arm2Seg1": [
+      0.2113237639553429,
+      0.7647527910685805
+    ],
+    "arm2Seg2": [
+      0.14832535885167464,
+      0.7137161084529505
+    ],
+    "arm3Seg0": [
+      0.47208931419457734,
+      0.594896331738437
+    ],
+    "arm3Seg1": [
+      0.4130781499202552,
+      0.70414673046252
+    ],
+    "arm3Seg2": [
+      0.4370015948963317,
+      0.7488038277511961
+    ],
+    "arm4Seg0": [
+      0.5701754385964912,
+      0.6036682615629984
+    ],
+    "arm4Seg1": [
+      0.5159489633173844,
+      0.835725677830941
+    ],
+    "arm4Seg2": [
+      0.4218500797448166,
+      0.8277511961722488
+    ],
+    "arm5Seg0": [
+      0.6355661881977671,
+      0.6794258373205742
+    ],
+    "arm5Seg1": [
+      0.7137161084529505,
+      0.7567783094098883
+    ],
+    "arm5Seg2": [
+      0.7456140350877193,
+      0.8094098883572568
+    ],
+    "arm6Seg0": [
+      0.6858054226475279,
+      0.6299840510366826
+    ],
+    "arm6Seg1": [
+      0.8843700159489634,
+      0.7280701754385965
+    ],
+    "arm6Seg2": [
+      0.9234449760765551,
+      0.6395534290271132
+    ],
+    "arm7Seg0": [
+      0.7440191387559809,
+      0.5263157894736842
+    ],
+    "arm7Seg1": [
+      0.9330143540669856,
+      0.47368421052631576
+    ],
+    "arm7Seg2": [
+      0.879585326953748,
+      0.3963317384370016
+    ]
+  },
+  "materials": {
+    "surface": "smooth skin"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Eight independently visible curling arm tips are traced. Arm0 is upper-left, arm1 middle-left, arm2 lower-left foreground, arm3 the short lower-left inner curl, arm4 the lowest foreground curl, arm5 the narrow lower-right inner curl, arm6 outer lower-right, and arm7 upper-right. Fins are absent, feedingTentacles is zero, and hidden/folded are explicitly empty. Curling soft arms are not declared folded chains. The near eye is visible face-on; the far eye is represented only by the visible rim on the right head silhouette, not an invented far pupil.",
+    "visualAcceptance": "candidate for Nick; first acceptable paint",
+    "landmarkMethod": "Manual first coarse fit from this master. Three source-observed points per arm follow each visible arm from web to curled tip. Part priority retains foreground arm ownership at overlaps; no hidden arm or duplicate endpoint is introduced.",
+    "materialAuthority": "smooth skin is the supported exact input mapped to slick by materialFromSkinName.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "9c4189e0d64249c8f2528d032679dbd83aacb884227db90dc79cd1122de6d98e",
+    "subjectSourceSha256": "ce8465b898ede8a650598d284ee22f7f55852411a7f673c3c80bc2a194eb08f1",
+    "presenceSha256": "de7d6290a7c816fca319bbb7b8b78e35f73a4f9df99bd99f7329966b717100df",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "mantle": 0.25933254666361455,
+      "head": 0.0761761290850989,
+      "eyeFar": 0.09775816855325009,
+      "eyeNear": 0.06756226341299884,
+      "siphon": 0.0908006012040816,
+      "arm0Seg0": 0.2501459018862576,
+      "arm0Seg1": 0.21791502290441253,
+      "arm0Seg2": 0.09333891475852972,
+      "arm1Seg0": 0.32774440518077375,
+      "arm1Seg1": 0.19892136303245758,
+      "arm1Seg2": 0.07113398557766716,
+      "arm2Seg0": 0.28620835724358207,
+      "arm2Seg1": 0.2153006672454863,
+      "arm2Seg2": 0.0810773829006243,
+      "arm3Seg0": 0.20131420610087744,
+      "arm3Seg1": 0.12416910698874391,
+      "arm3Seg2": 0.050661499758432434,
+      "arm4Seg0": 0.18188112735644216,
+      "arm4Seg1": 0.2383089487747969,
+      "arm4Seg2": 0.0944361808171449,
+      "arm5Seg0": 0.2646098363117118,
+      "arm5Seg1": 0.10995824195675218,
+      "arm5Seg2": 0.061543162301673865,
+      "arm6Seg0": 0.2358101555101803,
+      "arm6Seg1": 0.22146960403891142,
+      "arm6Seg2": 0.09675777438659762,
+      "arm7Seg0": 0.19873105888360346,
+      "arm7Seg1": 0.1961868357279512,
+      "arm7Seg2": 0.09401098806307275
+    },
+    "measures": {
+      "body": 0.262204061340505,
+      "bone-min": 0.050661499758432434,
+      "bone-max": 0.32774440518077375,
+      "arm/body:arm0": 2.1410798775544193,
+      "arm/body:arm1": 2.2799027243692467,
+      "arm/body:arm2": 2.2218817069851973,
+      "arm/body:arm3": 1.4345499109549733,
+      "arm/body:arm4": 1.9626936910030426,
+      "arm/body:arm5": 1.663251279711463,
+      "arm/body:arm6": 2.113001343698494,
+      "arm/body:arm7": 1.8646884421812662
+    }
+  },
+  "recipeHash": "fa37f83a3595df918d6c56e2fb26644cf26b4f03705ff72451dc676dcb5e9e11"
+}

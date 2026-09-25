@@ -1,0 +1,165 @@
+{
+  "kind": "fish",
+  "family": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Salmon\"]],[\"accent\",[\"number\",\"2\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"2\"]],[\"color\",[\"number\",\"16\"]],[\"detail\",[\"number\",\"6\"]],[\"diet\",[\"number\",\"3\"]],[\"eyes\",[\"number\",\"0\"]],[\"form\",[\"number\",\"6\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"8\"]],[\"head\",[\"number\",\"4\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"0\"]],[\"limbs\",[\"number\",\"2\"]],[\"loco\",[\"number\",\"13\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"5\"]],[\"pattern\",[\"number\",\"3\"]],[\"repro\",[\"number\",\"5\"]],[\"seed\",[\"number\",\"3927271512\"]],[\"sense\",[\"number\",\"4\"]],[\"size\",[\"number\",\"0\"]],[\"skin\",[\"number\",\"8\"]],[\"tail\",[\"number\",\"3\"]],[\"temper\",[\"number\",\"5\"]],[\"trait\",[\"number\",\"20\"]]]]",
+    "seed": 3927271512,
+    "ownerId": "authored:archetype-sprint/salmon",
+    "earthName": "Salmon"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 3927271512,
+    "kingdom": "fauna",
+    "color": 16,
+    "form": 6,
+    "body": 2,
+    "loco": 13,
+    "trait": 20,
+    "size": 0,
+    "diet": 3,
+    "head": 4,
+    "limbs": 2,
+    "skin": 8,
+    "tail": 3,
+    "pattern": 3,
+    "eyes": 0,
+    "behavior": 10,
+    "habitat": 8,
+    "detail": 6,
+    "accent": 2,
+    "temper": 5,
+    "sense": 4,
+    "repro": 5,
+    "life": 0,
+    "metab": 5,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Salmon"
+  },
+  "geometry": {
+    "cutoutAssetHash": "52da01243b6720bf4715b0895a9e95a1913d14489484e5e3340d31dc7b47a0b4",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.9,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7527910685805422,
+      0.511164274322169
+    ],
+    "head": [
+      0.8668261562998405,
+      0.49920255183413076
+    ],
+    "jaw": [
+      0.9354066985645934,
+      0.5303030303030303
+    ],
+    "spine0": [
+      0.7177033492822966,
+      0.4944178628389155
+    ],
+    "spine1": [
+      0.5996810207336523,
+      0.4864433811802233
+    ],
+    "spine2": [
+      0.4984051036682616,
+      0.48165869218500795
+    ],
+    "spine3": [
+      0.39712918660287083,
+      0.48086124401913877
+    ],
+    "spine4": [
+      0.29904306220095694,
+      0.48724082934609253
+    ],
+    "spine5": [
+      0.20015948963317384,
+      0.49362041467304624
+    ],
+    "caudal": [
+      0.0861244019138756,
+      0.4944178628389155
+    ],
+    "dorsal": [
+      0.48165869218500795,
+      0.3405103668261563
+    ],
+    "pectoralNear": [
+      0.6921850079744817,
+      0.6148325358851675
+    ],
+    "pectoralFar": [
+      0.773524720893142,
+      0.6220095693779905
+    ]
+  },
+  "materials": {
+    "surface": "silvery scales, painted natural salmon"
+  },
+  "source": "/Users/nick/Projects/celestial-frontier-openai-mac/audits/ARCHETYPE_SPRINT_20260922/02-fish/master.png",
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "One head, jaw, forked caudal, dorsal and both pectoral fins visible. Small adipose/pelvic/anal fins stay body-attached. No hidden contracted appendages or folded chains. Far eye naturally occluded; no separate eye joint in fish contract.",
+    "visualAcceptance": "candidate for Nick; first acceptable paint",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "b973fe0595d98ed9c27e3c272d03163fbbf777f810e6a92c93f2962a61a7f390",
+    "subjectSourceSha256": "c238c6f79ddc58d2b8d46cd5c914765ffc77a66a7a28786bcc06135cde7e2813",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.11466073449977934,
+      "jaw": 0.0753029251644452,
+      "spine0": 0.03887917621451005,
+      "spine1": 0.11829142992528652,
+      "spine2": 0.10138887821756795,
+      "spine3": 0.10127905657643713,
+      "spine4": 0.09829337164392933,
+      "spine5": 0.09908915194264158,
+      "caudal": 0.1140378759655111,
+      "dorsal": 0.18768514782610918,
+      "pectoralFar": 0.11276774261388707,
+      "pectoralNear": 0.12008414981869901
+    },
+    "measures": {
+      "body": 0.5175444740156039,
+      "bone-min": 0.03887917621451005,
+      "bone-max": 0.18768514782610918,
+      "caudal/body": 0.220344108943327,
+      "head/body": 0.2215475968859873
+    }
+  },
+  "recipeHash": "4bbfb883782353bd86e0e9751b3bf48ff79c0c47ea545d054876ad584e694bd9"
+}

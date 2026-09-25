@@ -1,0 +1,135 @@
+{
+  "creatureId": "mud-crab",
+  "parts": [
+    {
+      "name": "shadow.png",
+      "path": "parts/shadow.png",
+      "sha256": "b249a9eb1d108c1b5eb179c1f934015085ed7aa31adeeac0cbc15efe3af9f098"
+    },
+    {
+      "name": "leg0far-upper.png",
+      "path": "parts/leg0far-upper.png",
+      "sha256": "2aa8468b74dc0d1caa22f43bbf1865c68a2e3c87ad988ceafdeefaece41e5ce5"
+    },
+    {
+      "name": "leg0far-lower.png",
+      "path": "parts/leg0far-lower.png",
+      "sha256": "4beb85aaf34b5a4d3ca79607a44350fe22164cdbbdc75416e8d3338fd04bbe30"
+    },
+    {
+      "name": "leg1far-upper.png",
+      "path": "parts/leg1far-upper.png",
+      "sha256": "02d2fc1e401f076e60e6a8fba5f3aed9a14922c5a510b15f03ce4294a10050e1"
+    },
+    {
+      "name": "leg1far-lower.png",
+      "path": "parts/leg1far-lower.png",
+      "sha256": "85df838bb0872698d42a4ee6a7be52702ec2c14704c2d7d217c7d2e36af106b2"
+    },
+    {
+      "name": "leg2far-upper.png",
+      "path": "parts/leg2far-upper.png",
+      "sha256": "4af346dcae4e2883f0a34184775238e37b01814fa39243b1125c75e16cb8d8bd"
+    },
+    {
+      "name": "leg2far-lower.png",
+      "path": "parts/leg2far-lower.png",
+      "sha256": "0c72fb935811720fca560b2b702251dc26c8505b71aaa356efc21589dd4c007d"
+    },
+    {
+      "name": "leg3far-upper.png",
+      "path": "parts/leg3far-upper.png",
+      "sha256": "b96ea1932b088e83007927fcc6f248636633554ffc2827b08b0280d4a8d711f8"
+    },
+    {
+      "name": "leg3far-lower.png",
+      "path": "parts/leg3far-lower.png",
+      "sha256": "e413040f515da4b0788a5de210799613cbf0d943fbb55906fcdbc6794f2324a7"
+    },
+    {
+      "name": "leg0near-upper.png",
+      "path": "parts/leg0near-upper.png",
+      "sha256": "0c75eb744561f5e8fb2a7daacea8aea8214487d5d92bf62c084d5c1471c5d03e"
+    },
+    {
+      "name": "leg0near-lower.png",
+      "path": "parts/leg0near-lower.png",
+      "sha256": "5614fb048773f23bbf62785d2fa065a22c8517c739c05838b16457d32b4f9542"
+    },
+    {
+      "name": "leg1near-upper.png",
+      "path": "parts/leg1near-upper.png",
+      "sha256": "2f477d153123af2cd795e6b1b90ccdefad90a9a6c1dca85e5221ab9b779e2b73"
+    },
+    {
+      "name": "leg1near-lower.png",
+      "path": "parts/leg1near-lower.png",
+      "sha256": "8ccc29346b618e4b892919064dd7027ae026fff02c3131a93b0cdda69d355654"
+    },
+    {
+      "name": "leg2near-upper.png",
+      "path": "parts/leg2near-upper.png",
+      "sha256": "f8a0b15826a440a44903a6beef99a27726c1a14b886a6df3c48f4b29f43676ec"
+    },
+    {
+      "name": "leg2near-lower.png",
+      "path": "parts/leg2near-lower.png",
+      "sha256": "b82ca986ba7171f1d6877d87ba4445ad6a72bcba05812a4894100fb5dbe218be"
+    },
+    {
+      "name": "leg3near-upper.png",
+      "path": "parts/leg3near-upper.png",
+      "sha256": "61e5ffc0a1d41a1952d745840a8a5286779d9c74e4bafd8e7a79852caebdd036"
+    },
+    {
+      "name": "leg3near-lower.png",
+      "path": "parts/leg3near-lower.png",
+      "sha256": "62f66328f27d61e1c103e6d8dbdc2d78fd87a09bd1aab8e54b7f37c621d6261d"
+    },
+    {
+      "name": "claw-far-upper.png",
+      "path": "parts/claw-far-upper.png",
+      "sha256": "50b57b9b6876bbf35094983dfa35bb59cacd02155d689629fdde78982b7e71b5"
+    },
+    {
+      "name": "claw-far-palm.png",
+      "path": "parts/claw-far-palm.png",
+      "sha256": "cdff743eff5bbdd06dbeafb01446cbd9a46a8ee95bf429df7feee68f067fb779"
+    },
+    {
+      "name": "claw-far-dactyl.png",
+      "path": "parts/claw-far-dactyl.png",
+      "sha256": "322818fec8d5e74a98df19c3d278eed3f71c42fadaadda18f205e4da4c14e232"
+    },
+    {
+      "name": "claw-near-upper.png",
+      "path": "parts/claw-near-upper.png",
+      "sha256": "947296ebce325ec44116894c55d633d5980c4e8a639bfb8e5e9b444eeefe952b"
+    },
+    {
+      "name": "claw-near-palm.png",
+      "path": "parts/claw-near-palm.png",
+      "sha256": "7660023364619f33209cc59688f3995c78e7fa5d79b20866d7e977a49878bb28"
+    },
+    {
+      "name": "claw-near-dactyl.png",
+      "path": "parts/claw-near-dactyl.png",
+      "sha256": "e8967b43ecc581076ce0d10ad44d9038c7365ece4791250dc4ad9e5577e76788"
+    },
+    {
+      "name": "carapace.png",
+      "path": "parts/carapace.png",
+      "sha256": "6e49848388d733af8c7c1c658941f9e3d76a52f36a6f8dfe30168a4f913faf3b"
+    },
+    {
+      "name": "eye-far.png",
+      "path": "parts/eye-far.png",
+      "sha256": "59f1f20005f2081b3b47a4d5b20ec3501231cc47e303c9308435cb9e672533d1"
+    },
+    {
+      "name": "eye-near.png",
+      "path": "parts/eye-near.png",
+      "sha256": "c4007b6fad955d61312901e8a41ae42d671861a859135315987d7cebfa769744"
+    }
+  ]
+}

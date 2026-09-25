@@ -1,0 +1,231 @@
+{
+ "schema": "cf.card-master/v1",
+ "earthName": "Tarantula",
+ "recordRecipeHash": "4165e4c57c508d442b8cf09991bd9925a34620bf5c3895d7a73d9962ec9a6a4c",
+ "source": {
+  "master": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/candidate-08/master.png",
+  "masterSha256": "55d8a5d00e4eabd761fc64cc42d82da1d3837b0448651d8c78820b9cfe9fb19b",
+  "keyedSha256": "81b4de42b2d0629f441a8861823fbacfc21c1e6bee99aaaef4bdc54b7a83c199",
+  "alpha": "parts/keyed.png",
+  "labelsSha256": "4a04124fcc308c96121eb658d7f2db3becb55c4a4b54901ba72a4d50bc62ff84",
+  "labelSource": "labels.png + declaration.json",
+  "width": 1254,
+  "height": 1254
+ },
+ "labels": [
+  {
+   "label": 1,
+   "id": "chelicera-near",
+   "joint": "cheliceraNear",
+   "layer": "near"
+  },
+  {
+   "label": 2,
+   "id": "chelicera-far",
+   "joint": "cheliceraFar",
+   "layer": "far"
+  },
+  {
+   "label": 3,
+   "id": "leg1-near-distal",
+   "joint": "leg1NearFoot",
+   "layer": "near"
+  },
+  {
+   "label": 4,
+   "id": "leg1-near-upper",
+   "joint": "leg1NearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 5,
+   "id": "leg2-near-distal",
+   "joint": "leg2NearFoot",
+   "layer": "near"
+  },
+  {
+   "label": 6,
+   "id": "leg2-near-upper",
+   "joint": "leg2NearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 7,
+   "id": "leg3-near-distal",
+   "joint": "leg3NearFoot",
+   "layer": "near"
+  },
+  {
+   "label": 8,
+   "id": "leg3-near-upper",
+   "joint": "leg3NearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 9,
+   "id": "leg4-near-distal",
+   "joint": "leg4NearFoot",
+   "layer": "near"
+  },
+  {
+   "label": 10,
+   "id": "leg4-near-upper",
+   "joint": "leg4NearKnee",
+   "layer": "near"
+  },
+  {
+   "label": 11,
+   "id": "abdomen",
+   "joint": "abdomen",
+   "layer": "far"
+  },
+  {
+   "label": 12,
+   "id": "leg1-far-distal",
+   "joint": "leg1FarFoot",
+   "layer": "far"
+  },
+  {
+   "label": 13,
+   "id": "leg1-far-upper",
+   "joint": "leg1FarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 14,
+   "id": "leg2-far-distal",
+   "joint": "leg2FarFoot",
+   "layer": "far"
+  },
+  {
+   "label": 15,
+   "id": "leg2-far-upper",
+   "joint": "leg2FarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 16,
+   "id": "leg3-far-distal",
+   "joint": "leg3FarFoot",
+   "layer": "far"
+  },
+  {
+   "label": 17,
+   "id": "leg3-far-upper",
+   "joint": "leg3FarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 18,
+   "id": "leg4-far-distal",
+   "joint": "leg4FarFoot",
+   "layer": "far"
+  },
+  {
+   "label": 19,
+   "id": "leg4-far-upper",
+   "joint": "leg4FarKnee",
+   "layer": "far"
+  },
+  {
+   "label": 20,
+   "id": "body",
+   "joint": "root",
+   "layer": "near"
+  }
+ ],
+ "landmarks": {
+  "root": [
+   0.5311004784688995,
+   0.4370015948963317
+  ],
+  "cephalothorax": [
+   0.5861244019138756,
+   0.4266347687400319
+  ],
+  "abdomen": [
+   0.35406698564593303,
+   0.41467304625199364
+  ],
+  "cheliceraFar": [
+   0.7097288676236044,
+   0.529505582137161
+  ],
+  "cheliceraNear": [
+   0.6842105263157895,
+   0.5350877192982456
+  ],
+  "leg1FarKnee": [
+   0.8022328548644339,
+   0.31738437001594894
+  ],
+  "leg1FarFoot": [
+   0.9720893141945773,
+   0.539872408293461
+  ],
+  "leg1NearKnee": [
+   0.8397129186602871,
+   0.5933014354066986
+  ],
+  "leg1NearFoot": [
+   0.9800637958532695,
+   0.7783094098883573
+  ],
+  "leg2FarKnee": [
+   0.6778309409888357,
+   0.1850079744816587
+  ],
+  "leg2FarFoot": [
+   0.8516746411483254,
+   0.27910685805422647
+  ],
+  "leg2NearKnee": [
+   0.7137161084529505,
+   0.6618819776714514
+  ],
+  "leg2NearFoot": [
+   0.7344497607655502,
+   0.8819776714513556
+  ],
+  "leg3FarKnee": [
+   0.42503987240829344,
+   0.17304625199362042
+  ],
+  "leg3FarFoot": [
+   0.32057416267942584,
+   0.2607655502392344
+  ],
+  "leg3NearKnee": [
+   0.4218500797448166,
+   0.6586921850079744
+  ],
+  "leg3NearFoot": [
+   0.4194577352472089,
+   0.8755980861244019
+  ],
+  "leg4FarKnee": [
+   0.26156299840510366,
+   0.2982456140350877
+  ],
+  "leg4FarFoot": [
+   0.10925039872408293,
+   0.48883572567783096
+  ],
+  "leg4NearKnee": [
+   0.27910685805422647,
+   0.5940988835725678
+  ],
+  "leg4NearFoot": [
+   0.08373205741626795,
+   0.784688995215311
+  ]
+ },
+ "card": {
+  "width": 512,
+  "height": 512,
+  "scale": 0.4082934609250399,
+  "masterSha256": "105c7015910a1b5571b35ba155bddb8ddab2e38e3c29c508f614f4373e5d5068",
+  "labelsSha256": "335eb2a391a1d527329df211326aff1998da3035434e917a7f387d98ec9171f2",
+  "filter": "alpha-weighted box; labels nearest"
+ }
+}

@@ -1,0 +1,200 @@
+{
+  "kind": "quadruped",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_cradle\",[\"number\",\"1\"]],[\"_earthName\",[\"string\",\"Civet\"]],[\"accent\",[\"number\",\"3\"]],[\"behavior\",[\"number\",\"9\"]],[\"body\",[\"number\",\"13\"]],[\"color\",[\"number\",\"14\"]],[\"detail\",[\"number\",\"4\"]],[\"diet\",[\"number\",\"5\"]],[\"eyes\",[\"number\",\"5\"]],[\"form\",[\"number\",\"12\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"5\"]],[\"head\",[\"number\",\"5\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"5\"]],[\"limbs\",[\"number\",\"3\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",true]],[\"metab\",[\"number\",\"4\"]],[\"pattern\",[\"number\",\"0\"]],[\"repro\",[\"number\",\"7\"]],[\"seed\",[\"number\",\"3212817920\"]],[\"sense\",[\"number\",\"7\"]],[\"size\",[\"number\",\"4\"]],[\"skin\",[\"number\",\"8\"]],[\"tail\",[\"number\",\"1\"]],[\"temper\",[\"number\",\"1\"]],[\"trait\",[\"number\",\"14\"]]]]",
+    "seed": 3212817920,
+    "ownerId": "authored:Civet/faunaResetViverridD",
+    "earthName": "Civet"
+  },
+  "template": {
+    "id": "quadruped",
+    "version": 1
+  },
+  "geometry": {
+    "cutoutAssetHash": "a5e62568dfa010d8d646124ce641c72d42686bff5329bba40cfdfc21fa25a76b",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.837,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ],
+    "contactPolicy": "preserve authored perspective and raised-paw offsets"
+  },
+  "landmarks": {
+    "root": [
+      0.59,
+      0.47
+    ],
+    "pelvis": [
+      0.45,
+      0.46
+    ],
+    "spine": [
+      0.59,
+      0.43
+    ],
+    "chest": [
+      0.73,
+      0.47
+    ],
+    "neck": [
+      0.8,
+      0.4
+    ],
+    "head": [
+      0.846,
+      0.316
+    ],
+    "jaw": [
+      0.8,
+      0.387
+    ],
+    "tail0": [
+      0.35,
+      0.48
+    ],
+    "tail1": [
+      0.265,
+      0.595
+    ],
+    "tail2": [
+      0.151,
+      0.68
+    ],
+    "tail3": [
+      0.078,
+      0.785
+    ],
+    "earFarRoot": [
+      0.777,
+      0.236
+    ],
+    "earFarTip": [
+      0.773,
+      0.181
+    ],
+    "earNearRoot": [
+      0.906,
+      0.245
+    ],
+    "earNearTip": [
+      0.935,
+      0.193
+    ],
+    "hindFarRoot": [
+      0.59,
+      0.52
+    ],
+    "hindFarKnee": [
+      0.532,
+      0.661
+    ],
+    "hindFarAnkle": [
+      0.555,
+      0.715
+    ],
+    "hindFarPaw": [
+      0.614,
+      0.739
+    ],
+    "hindNearRoot": [
+      0.45,
+      0.52
+    ],
+    "hindNearKnee": [
+      0.372,
+      0.67
+    ],
+    "hindNearAnkle": [
+      0.386,
+      0.75
+    ],
+    "hindNearPaw": [
+      0.424,
+      0.78
+    ],
+    "foreFarRoot": [
+      0.83,
+      0.54
+    ],
+    "foreFarKnee": [
+      0.905,
+      0.662
+    ],
+    "foreFarAnkle": [
+      0.906,
+      0.72
+    ],
+    "foreFarPaw": [
+      0.889,
+      0.768
+    ],
+    "foreNearRoot": [
+      0.71,
+      0.54
+    ],
+    "foreNearKnee": [
+      0.739,
+      0.689
+    ],
+    "foreNearAnkle": [
+      0.774,
+      0.797
+    ],
+    "foreNearPaw": [
+      0.813,
+      0.823
+    ]
+  },
+  "materials": {
+    "surface": "fur",
+    "sheenTier": "painted",
+    "paletteSource": "authored named master"
+  },
+  "clipSetId": "quadruped-land-v1",
+  "source": "audits/ART_KIT_ENGINE_FIRST_20260912/masters/civet.png",
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "pelvis": 0.14035668847618196,
+      "spine": 0.1431782106327635,
+      "chest": 0.14560219778561037,
+      "neck": 0.09899494936611666,
+      "head": 0.09577055915050302,
+      "jaw": 0.08459905436823743,
+      "hindFarRoot": 0.15231546211727812,
+      "hindFarKnee": 0.1524631102922933,
+      "hindFarAnkle": 0.058694122363316704,
+      "hindFarPaw": 0.06369458375717668,
+      "foreFarRoot": 0.12206555615733705,
+      "foreFarKnee": 0.14320963654726593,
+      "foreFarAnkle": 0.05800862004909264,
+      "foreFarPaw": 0.0509215082258961,
+      "hindNearRoot": 0.06,
+      "hindNearKnee": 0.16906803364326448,
+      "hindNearAnkle": 0.08121576201698777,
+      "hindNearPaw": 0.04841487374764082,
+      "foreNearRoot": 0.07280109889280525,
+      "foreNearKnee": 0.15179591562357655,
+      "foreNearAnkle": 0.11352973178863773,
+      "foreNearPaw": 0.04687216658103175,
+      "tail0": 0.10198039027185571,
+      "tail1": 0.1430034964607509,
+      "tail2": 0.14220056258679153,
+      "tail3": 0.12788275880665068,
+      "earFarRoot": 0.10564563407921783,
+      "earFarTip": 0.05514526271584894,
+      "earNearRoot": 0.09295697929687693,
+      "earNearTip": 0.05953990258641678
+    }
+  },
+  "recipeHash": "d092bfccbce7913467ff6cb926d299ca8cdc197dc0960b3aa4db922317f32a7f"
+}

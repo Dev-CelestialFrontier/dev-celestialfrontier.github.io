@@ -1,0 +1,837 @@
+{
+ "schema": "cf.shipped-battle2/v1",
+ "mirroredBy": "tools/morph/build-shipped-battle2.mjs",
+ "recipe": "/battle2/audits/ARENA_EFFECTS_V42_PROOF_20260912/arena-recipe.json",
+ "files": [
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/binding.json.gz",
+   "bytes": 319004,
+   "sha256": "9c28e5b397c76302dae6890041f3e9c2d8ab877917c0382b55da5f6ca839bfd2",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/binding.json",
+    "sha256": "65ff9709ee1f1a8cbc0f2afee0a2c547724728afdff18da757bfaa5b0d694178",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings.json",
+   "bytes": 57470,
+   "sha256": "25a147d2bd9af1c2cdb5ef4ab4b7f0a1785057de3df9e9f6aaf0f1c0394aa7cd"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/banded.png",
+   "bytes": 143624,
+   "sha256": "37f87c9c8ad56bd534fa430fedb9e56761f540c8d3fd32b82f0493a3e4d4d54f"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/eye-spotted.png",
+   "bytes": 41434,
+   "sha256": "5fc556bcff69d51aa89d02da4808190038dce7f409abf5c930ccda8a2d277de0"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/marbled.png",
+   "bytes": 191752,
+   "sha256": "a11163de8e240bb5552f0776e4c11e2f85b69e761084b96b058cac10590bc349"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/mottled.png",
+   "bytes": 214899,
+   "sha256": "2818b5b1240fe96951b7fb5fa4c25cb90bf5bb8b6ca7176739ff6d9069384d97"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/spotted.png",
+   "bytes": 165105,
+   "sha256": "2019bf581d322f62440f93c53262d0a193feca5a449ffdfb6950724bbeec1523"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/markings/striped.png",
+   "bytes": 153137,
+   "sha256": "dcdb3eb5a11eeeb9fc3a3758018100cb474fc08456c49f20d53510129ccb05ac"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/parts/alpha.png",
+   "bytes": 14043,
+   "sha256": "51d6fdba3ee24b0c73568562957b8790f68d9ef15fefa3e3b7ed734dcc05d11d",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/parts/keyed.png",
+    "sha256": "b1888b586cb67809420eb0ed3a85c67a9c7327843307afee9c6971db88630a0a",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/parts/atlas/civet.png",
+   "bytes": 2349625,
+   "sha256": "f8303ad0cf3a04797cd6df501571ff7b2b54d8796f0af86cd25a755e2d890d79"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/parts/manifest.json",
+   "bytes": 95,
+   "sha256": "df34c15b5f86540a00d3aef900a44338f2b1ed94ac1d61cc0624dfd72833053a"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/record.json",
+   "bytes": 4720,
+   "sha256": "b38684ec741e22cb44016b4bce18ca95701d1d2f0535bfcbf51746d0e1120cc8"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/binding.json.gz",
+   "bytes": 197954,
+   "sha256": "f2fb5d50258d1ca9ac5fe63ac2dba0db25749b4b4da28e45fabf1fa115b06830",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/binding.json",
+    "sha256": "7ac8b5345f1155a97acb9de087b0c3ba0b34320d73419bad673752e04e9e34f7",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/parts/alpha.png",
+   "bytes": 13548,
+   "sha256": "9db295a498a4f2369cb2ef1d0fdedb9e1931a96ab2cb0b401ca6d0a4b6507ebc",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/parts/keyed.png",
+    "sha256": "36c25de134d09c0a99037baebcc08f3aa60a83a12bfc416b29ba2cb741b1bf14",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/parts/atlas/coconut-crab.png",
+   "bytes": 55028,
+   "sha256": "b1bb0a484e5fc531aee512b2fd92fe4ff6797f2a5bb3e3ec3e6ad2c1386722e2"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/parts/manifest.json",
+   "bytes": 4512,
+   "sha256": "8bacd3f3d1c430d536d394932d2708688fe61b950a9a69c270eca5215f664204"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/coconut-crab/record.json",
+   "bytes": 8024,
+   "sha256": "65a117c20f6de4bea7c7074d7b1214abebc42813e57f4b95818723d5bd0ff5ef"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/binding.json.gz",
+   "bytes": 120759,
+   "sha256": "1cf301d9561107b29665fc4608ff160c3ae4c65c76fa56198cecbf4128c64c10",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/binding.json",
+    "sha256": "227ec4b53559c38424ed8b243d88b2caf664e2804ba7f65986afb69f8482009b",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings.json",
+   "bytes": 62718,
+   "sha256": "e5adaf5705f1cecd383450bd07b1e53684255b731354f5dcd3a249e1b499024a"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/banded.png",
+   "bytes": 15990,
+   "sha256": "19ea3564dc5f8b3d4a2fc70526c71f476699bc83d171623aa4407baaa471ace5"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/eye-spotted.png",
+   "bytes": 7935,
+   "sha256": "ce9a7d41a59c559cecee83f8d3e34bc97116ba61bd6e767defb572b5dca66f51"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/marbled.png",
+   "bytes": 17442,
+   "sha256": "b6a1ffe77ef569e1ff5a73bc426c0950ad5d87f3395ef6879a591e7ab603d204"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/mottled.png",
+   "bytes": 19781,
+   "sha256": "4af1a86c92e33b6e6bab4ad008540ace4d1240693ccb8bf94ec2e0e84bb58ddb"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/spotted.png",
+   "bytes": 13237,
+   "sha256": "917b6d4f8d9f92a9d33ae733912ad7895f49960685cc219d78c764bb0652c023"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/markings/striped.png",
+   "bytes": 15888,
+   "sha256": "5c3ac9188d3a06b2a02fa11b2180453c650f2356ab6c29ed23796a5ebd780b39"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/parts/alpha.png",
+   "bytes": 9464,
+   "sha256": "f2ab97a025924d9d667e5056f34c17baa61f8fa1fe5d93aba9c44932b8a65daa",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/parts/keyed.png",
+    "sha256": "018862eaf6d1cbc4ea45e18537910832eb2542ed9708c519ee60e3f91bb5cdb2",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/parts/atlas/crab.png",
+   "bytes": 31913,
+   "sha256": "7d4ebb89db341e158a74f919d4e608691ce4b48a714cb116ba142ee2bfe73d15"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/parts/manifest.json",
+   "bytes": 4504,
+   "sha256": "245090b1e969f83a35901688f13322162383f347b05ab71f8aec6092f497b77c"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/crab/record.json",
+   "bytes": 8011,
+   "sha256": "625309b27b17aff36a12ed6eedc4b882c14e1b4dd93c9e94e90c603dc021f2b4"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/binding.json.gz",
+   "bytes": 147335,
+   "sha256": "8f85aaf63fda3f23b15886ec1d7cf64fe83e78159bd0640787bc8664525dcb63",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/binding.json",
+    "sha256": "075341dac4101bf8b0d641424cb7a7514277f9044a71b96a2b546228850a5f40",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/parts/alpha.png",
+   "bytes": 15465,
+   "sha256": "4f6949fc7609849d540ecb0e300c4aa6823d161911a90b4505d642ddcd1d07a6",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/parts/keyed.png",
+    "sha256": "13792f715eeb0574982b8f7c963ab25b494a198895d9d9d0095f05e40478e449",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/parts/atlas/freshwater-crab.png",
+   "bytes": 47389,
+   "sha256": "61e3f21fc2ad035d06975af33c03188c1ffee6d107a2ed8e714821b6cda49d4c"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/parts/manifest.json",
+   "bytes": 4515,
+   "sha256": "19a6947bc31649e2eafd591acb34dd7803a1aa5f94eec8836114828d3ce95de2"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/record.json",
+   "bytes": 7351,
+   "sha256": "3ed3407e87adf664775629811a7845f1a3c3b2b94bad402fadb2262f4edf6202"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/binding.json.gz",
+   "bytes": 162617,
+   "sha256": "69dc4a312818045b69515562acc7761b6f484b9c27a78efede46949df38bfffc",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/binding.json",
+    "sha256": "6d89da7ba04b98fd5c4d45ef38acbe4a44e28dd2e903d0cc057a6cd5792b4c04",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/parts/alpha.png",
+   "bytes": 15651,
+   "sha256": "4b23a100e629a493930e9c4d18ebe3b9d043c6b66f3830a32d2d6d0da1b7bd26",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/parts/keyed.png",
+    "sha256": "e4047a05dd7214cc72b3a6c1d5e6bccbb9dd3016f02627589521aeb55ef16e45",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/parts/atlas/mud-crab.png",
+   "bytes": 51702,
+   "sha256": "4502aafee3ba0e9cd82dd6e5bfa173dd098bf7f917d5c6792bcc2386bb070251"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/parts/manifest.json",
+   "bytes": 4508,
+   "sha256": "9f41ae1633c42f72e46fac9c06918e07cd0375bb79ba2e9f825eb482f8f8c3e0"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/mud-crab/record.json",
+   "bytes": 8231,
+   "sha256": "c2ac58531ad3585b433343a9f03e3c1bae766efb1f69e68dd6c11fe062debdd0"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/binding.json.gz",
+   "bytes": 139950,
+   "sha256": "1575be5967a6293eb8506e3149f73f35d82fab9278d1ab7b1631838c6fbb806d",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/binding.json",
+    "sha256": "d0c46782a73d9cc94a28ae258dd940af078787a287e2d8b7b5fc96fa9f9673dd",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/parts/alpha.png",
+   "bytes": 14798,
+   "sha256": "5aab2b5fd9f86ca83b6149558acf78275be7267c1ed3c63a25af48481cffea3d",
+   "derivedFrom": {
+    "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/parts/keyed.png",
+    "sha256": "5c0c0584b452b90e61ff7d1ccde5a21bc3fb4de65018f72ce1a6e161a32e8f71",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/parts/atlas/vent-crab.png",
+   "bytes": 42833,
+   "sha256": "89f839d7a6e195d6bf25ef5cd04a91fc0ae08022bd38078a3333422e2a024288"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/parts/manifest.json",
+   "bytes": 4509,
+   "sha256": "2feca05961706f387d3af7659b6c0de296653265c406553b139ed019b4c07b29"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/record.json",
+   "bytes": 7662,
+   "sha256": "9625d7f7e4f275edccddc7c7e27362b13d8eabb9dd9582a9d7285a3232745b1d"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/coconut-crab-master.png",
+   "bytes": 69451,
+   "sha256": "a0f681a8e44f374407424e5e60b2e5deffb8a23162cfefe3ace96b8cfb4d4832"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/crab-master.png",
+   "bytes": 48886,
+   "sha256": "dd419ae94d47663e22cc7ca598247d5c2d539b78dff24bb2b881bf16ecae5655"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/freshwater-crab-master.png",
+   "bytes": 66259,
+   "sha256": "65cd0220488bbdda7cd220c67a33817c8155e7fec87087692d02279f6df11a57"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/mud-crab-master.png",
+   "bytes": 69361,
+   "sha256": "c08d616382e86c4dfa21fd895a25f4eda1dd3ee9efa8ed9751ea978bc9ae3379"
+  },
+  {
+   "path": "audits/ANATOMY_COMPLETION_20260917/crab-masks-05/vent-crab-master.png",
+   "bytes": 55183,
+   "sha256": "148bb4b6e0c937a43c5f822f561f1e76c44acdf55235ffe427867a3f831a363c"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/candidate-04-fit/master.png",
+   "bytes": 1178774,
+   "sha256": "cb070ea758ceed1738c1f25119b4367c98661f8a1dfbdba0f7341bad78a941fb"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/binding.json.gz",
+   "bytes": 101403,
+   "sha256": "3f0b4a31bb8aae104f62f6de63a89ac6d1fdea16dbdd08a6ca31d4e21d16f36d",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/binding.json",
+    "sha256": "d23162df16d6c89d1f1b16d19acf52984ff73dc5e1bddf31e6430bb955464c8e",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/parts/alpha.png",
+   "bytes": 194204,
+   "sha256": "ba5f94002fce5a413cbb424033fcbb2b03ca5b1ea794cd326320eaa596440e07",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/parts/keyed.png",
+    "sha256": "174c2c38171d473825d38b3539507265431a63c95173bec621ff9fbd4c1c777a",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/parts/atlas/beetle.png",
+   "bytes": 1233279,
+   "sha256": "380f4a36492e964eb94c835ff5659db7d15d50c28f97ec7a63c2974a4d1521aa"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/parts/manifest.json",
+   "bytes": 3614,
+   "sha256": "6ec819bca286c07ba2749338a3fe8c91d4c6da2a3a4d4e1173d20141312895f5"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/04-insect/fit-04/record.json",
+   "bytes": 7370,
+   "sha256": "4e935e3ab068c2ed17e5d993bb542cc4f7551e549772b0d3cce772df610d50b9"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/candidate-08/master.png",
+   "bytes": 716805,
+   "sha256": "aa1ad50d8ac1e354d0f0ba5beeb211a22519461ac36802ca621022f2418c65eb"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/binding.json.gz",
+   "bytes": 83790,
+   "sha256": "a041787cd18e9ee8e1a0932cd023ddd64e60c03dd8ed266b8d69bb5ee8374fcb",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/binding.json",
+    "sha256": "3e1c8a51b676614db4002339c6b6d02901f4bb9e914abff85b8de26a7158d8c4",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/parts/alpha.png",
+   "bytes": 87645,
+   "sha256": "8f554b7cb61a7c5ae9d987e094ca62d11329ac54670c47900101e7ddc950e67c",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/parts/keyed.png",
+    "sha256": "8ee181697ff1a4f303bebda057ed86ce61932c0e9a0efd6c6395c63098d509df",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/parts/atlas/tree-frog.png",
+   "bytes": 726291,
+   "sha256": "f72f94efa9e4de5012186be9f4450e128a03dc7f8d343c4753e6395877363b42"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/parts/manifest.json",
+   "bytes": 2923,
+   "sha256": "d93c6f5b5f655dd33d4c6d29ace2d4bd7b9d4b5543873de53cff0ddbac20febf"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/06-hopper/fit-05/record.json",
+   "bytes": 8362,
+   "sha256": "ee6e5a17d974560efd023d80c3035536ae553ced395f86e851d108ca5a7f23b8"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/candidate-02/master.png",
+   "bytes": 1847210,
+   "sha256": "27331ceeb3353de388c97e1c4ecc62b11fd75fa6421852ae4e7a22cba971c408"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/binding.json.gz",
+   "bytes": 113147,
+   "sha256": "13289e044bd67d322371ba1c5a24f47184d9a6a22abc9ce310a15f47efa0c91a",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/binding.json",
+    "sha256": "2d40f5cb65fad7ae0e020794ca38f333aff4a308faecebb93bbede039b8d0451",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/parts/alpha.png",
+   "bytes": 232131,
+   "sha256": "d312ee870f97845fed4f6f1980dd1f7170b19de07f6a68856fcc3aff56240487",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/parts/keyed.png",
+    "sha256": "0298be8bc262084da12c70bdf0847ee9c1f44111475125e7d870bbb0f986d85d",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/parts/atlas/chimpanzee.png",
+   "bytes": 1897535,
+   "sha256": "b00b3da86d0a31906a9f6894109f9298a06587959f7459628f33419e87386484"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/parts/manifest.json",
+   "bytes": 2244,
+   "sha256": "03aa316adc3f85e199d220d1ce0a4c60428a3c8ef7a99f4b40a77bc2293ad7c8"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/07-primate/fit-02/record.json",
+   "bytes": 7590,
+   "sha256": "333cacf0dac7834c820887404a7ba3f03593206110e51b639c7a33a89e49e7a2"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/candidate-08/master.png",
+   "bytes": 1295128,
+   "sha256": "55d8a5d00e4eabd761fc64cc42d82da1d3837b0448651d8c78820b9cfe9fb19b"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/binding.json.gz",
+   "bytes": 117999,
+   "sha256": "d41eb8f2d5c541e06087f8113f8297b7bc20aa3cd432c796cb27b73b1e850f32",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/binding.json",
+    "sha256": "1340a8f5f1b7b52e2e75fd6c0c756edcf196544c0183038826275b9ffd320f22",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/parts/alpha.png",
+   "bytes": 191050,
+   "sha256": "7eb85f073d4d14d7c24ee753512a6da06a6b77fbb6637b63751ee0338a31606a",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/parts/keyed.png",
+    "sha256": "81b4de42b2d0629f441a8861823fbacfc21c1e6bee99aaaef4bdc54b7a83c199",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/parts/atlas/tarantula.png",
+   "bytes": 1350000,
+   "sha256": "00852a20606dda93f40d6bda50597fa8c920802755d0be93448d0b622adf1cf1"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/parts/manifest.json",
+   "bytes": 3525,
+   "sha256": "4539ce836b4d6f85914f48f347564406a4675f6be9ae11aa2b29343fc0b9a83d"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/09-arachnid/fit-03/record.json",
+   "bytes": 8481,
+   "sha256": "12b5ac9ce9d1f3986628253ecabdb97f7e4a772562703eebf9f543d56e6ed64a"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/candidate-02/master.png",
+   "bytes": 883104,
+   "sha256": "ba6037964ac289b10cb7ccac9c44bdf05395deeec827a412fa4e97be5f7ca1a7"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/binding.json.gz",
+   "bytes": 91879,
+   "sha256": "0fb11d3cf4e977f1d7185f60520654c95654e5965e7ffb0ac69db44b0432dedb",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/binding.json",
+    "sha256": "ffc7fc4056e51b9d36edc228063adbab50a6c79c369ccd4fc671016368504240",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/parts/alpha.png",
+   "bytes": 107473,
+   "sha256": "2ba6fbe6f2ad5483a303c4c50dba0bbe87468cdeebef59b68b22eef0529ca1e1",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/parts/keyed.png",
+    "sha256": "eb7ba63e96ff654995676a968bbf5914ad36ed75ce2702dd2699df3500c0d39c",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/parts/atlas/fruit-bat.png",
+   "bytes": 915183,
+   "sha256": "675a84500f3b80f151f78e843cec0e63106e0290040a940b538d694abb6689fd"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/parts/manifest.json",
+   "bytes": 2919,
+   "sha256": "2e5ad10d38895c5932639554eb9ae50306917158a5c402fe9fe10f9957f46bc3"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/11-flyer-membrane/fit-02/record.json",
+   "bytes": 9455,
+   "sha256": "474df06b02888a7e086ddb0a867c6f2357c64a40431e4df7defb2e6da057f27f"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/candidate-13/master.png",
+   "bytes": 511163,
+   "sha256": "e8173ea57501d604451cde79ec04715f28b683393c5de423750b4403abe4246e"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/binding.json.gz",
+   "bytes": 532278,
+   "sha256": "0071365305feda8158890cdb3c1616d33feb2c67e13472f0b706a78f6af9ad47",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/binding.json",
+    "sha256": "4ebf5d0067f2062b1fd1ec4128a2b6f0f837d4f950aa6ac39ffd4bbf019ff56c",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/parts/alpha.png",
+   "bytes": 127271,
+   "sha256": "61a4697ba488187c0a79d3200943b296a06e54a049c818476987aeb984bd6776",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/parts/keyed.png",
+    "sha256": "2e5b90fe110deefac59fa32e471a540b9e35e3d98d2a687be548ba13ec44fdd3",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/parts/atlas/centipede.png",
+   "bytes": 519944,
+   "sha256": "979bc56d1662543762d4e25e09d83d1c77098ea36333c3b1053edb0d1e9d6341"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/parts/manifest.json",
+   "bytes": 5279,
+   "sha256": "cba4b9f805629dd4dc6c27ad9a919c40f25ed11c46ad64af58e6ee4ffa747a18"
+  },
+  {
+   "path": "audits/ARCHETYPE_FINISH_20260923/12-myriapod/fit-11/record.json",
+   "bytes": 23771,
+   "sha256": "19f7988daaa9054bed677f00abf2adb88b5b69dd91e5776e0462a9009e260d54"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/candidate-12/master.png",
+   "bytes": 1602781,
+   "sha256": "78ad63443cf8a1a3e48ac89ef320db995697a798be56366164999814ae61b50a"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/binding.json.gz",
+   "bytes": 130688,
+   "sha256": "cae06ee1284284ffdc7cd06711176399f0a697e392f34c061ee2f9a3615cf2eb",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/binding.json",
+    "sha256": "2ca72744f94ad11896b15dcdc0261e177dd4016cea5e19d384bb98e0b8fba74f",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/parts/alpha.png",
+   "bytes": 200957,
+   "sha256": "25dc2cca3aa8f61355f47a510a1aee6b84424d82eceea1324681a023f1af8dc9",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/parts/keyed.png",
+    "sha256": "9fa51a95834205a5faf850b98ea60e77f57da16b1d4dbdb3669c55d19a452735",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/parts/atlas/eagle.png",
+   "bytes": 1654281,
+   "sha256": "b77d7b20a1dd776f53ee92c4a8e253af37a70214501a571a57d0ed40bb301137"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/parts/manifest.json",
+   "bytes": 2847,
+   "sha256": "5f8497a2eb1abe849cf2e965710bd9723d6e5880026cacc570404bd25c8ef30f"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/03-biped-bird/fit-12/record.json",
+   "bytes": 6370,
+   "sha256": "5327906d70d258adef8e40514643df9aa17516c98c11e328c2f2a3e9216683bb"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/binding.json.gz",
+   "bytes": 335603,
+   "sha256": "40b32fbe49b3f5b360e92a260c1bd69994a0e5fcf3c0b7cf476931e2256349c6",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/binding.json",
+    "sha256": "34ef6423127b867f9aaa7a6317b8be26c07bcb153820818c3588a8ad7f686050",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/parts/alpha.png",
+   "bytes": 205309,
+   "sha256": "6427aa27c6cb63cdd07adb48bc37630f1aadff83c6ffdfccd4fb7cb8705a0819",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/parts/keyed.png",
+    "sha256": "97f4a9f92095823d6ca725ac4ba949f62245d4efb769df10dcfa772e537fa4e0",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/parts/atlas/starfish.png",
+   "bytes": 1684409,
+   "sha256": "f3db8ab96f2490e93bd7b96bb75abd4a0bd4f2d5797a9635e38c47cd1dad4ae2"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/parts/manifest.json",
+   "bytes": 2854,
+   "sha256": "8fa2da69e8e25a8f30d251706d7a5d31bb2c88cfd6064f5ad8c524a47060fe6b"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/fit-02/record.json",
+   "bytes": 6828,
+   "sha256": "50f548ed56044ae8ff66941ff762ad547da48a87ea984fc3f89c6484cae9ec06"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/08-radial/master.png",
+   "bytes": 1647339,
+   "sha256": "89d45d5d3410191fe0e0364216ab9005ee28db1910fb4c509e03f8b38c738687"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/binding.json.gz",
+   "bytes": 168779,
+   "sha256": "979ffcb54ad2de6ef7c7d3823e69aa2c7585c28ed1c593b7e5784038c8157fe4",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/binding.json",
+    "sha256": "978a7f26cdeedfa58792fe1a976d3db6db27d2f4e6f35689b48a9d65386a3015",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/parts/alpha.png",
+   "bytes": 222075,
+   "sha256": "333ceafaf511bb51ef35055ff1c0f0dac5f504c4ae14f712e3f149aa12e64f9c",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/parts/keyed.png",
+    "sha256": "ff4bbe1c798744b79927777aa88e4d88d6533e53c76698127fc9c450b1db5aab",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/parts/atlas/octopus.png",
+   "bytes": 1812477,
+   "sha256": "9b3be6b71f6736f6640009923c58c2b9fe3a9bf796c8cbdd411a5973795f762e"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/parts/manifest.json",
+   "bytes": 4953,
+   "sha256": "3fd0e6f511b44112e37faa29797f862fb869b95b84c85a167a5b2a38728fd763"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/fit-02/record.json",
+   "bytes": 7982,
+   "sha256": "9ab4e752cd10d0a6c174c749a9e3c93ec8d9e950c02a1b6210ea812a06d87311"
+  },
+  {
+   "path": "audits/ARCHETYPE_REPAIRS_20260922/10-cephalopod/master.png",
+   "bytes": 1735401,
+   "sha256": "48a6ab472bdf161913f540a2ade5907be2bebedaa600348877adb269c01b0a2e"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/binding.json.gz",
+   "bytes": 189176,
+   "sha256": "0576e6e45f75c18ae5bb569715d021a4cd8612ca031ecb980d5516805aaf8ea5",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/binding.json",
+    "sha256": "4d9eb64b3af20f1a78cae84b7a77ca5f2b2b27d7361e5b6620fca65f44ed3734",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/parts/alpha.png",
+   "bytes": 111832,
+   "sha256": "b4c51c3770396dafc946a7fca73d96ed4ce1bdae76436c9594d710942201f3f4",
+   "derivedFrom": {
+    "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/parts/keyed.png",
+    "sha256": "8010343d7137839570b2852ce5480e1f0104a645de52392a9132a47ce6b01574",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/parts/atlas/salmon.png",
+   "bytes": 880530,
+   "sha256": "5aaa0e3364d85357c81120245a9bcf0707456fe59ca28a71d38fde1eae52894b"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/parts/manifest.json",
+   "bytes": 2112,
+   "sha256": "0ec4474557c8b3f7916211c74f6d24342602728d7924b3dfb869d8b814f94510"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/fit-01/record.json",
+   "bytes": 5010,
+   "sha256": "0d55904876d7638af2b8a43eea96e48328de0950e241cf1c32509c62ab1b6696"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/02-fish/master.png",
+   "bytes": 863009,
+   "sha256": "52da01243b6720bf4715b0895a9e95a1913d14489484e5e3340d31dc7b47a0b4"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings.json",
+   "bytes": 140725,
+   "sha256": "938705f7cba6e854600510f3495e5cdcb415f0b92125db6eeb2a7de7e22fa924"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/banded.png",
+   "bytes": 92231,
+   "sha256": "5bc2e8296c60c0954eff873cdbb78fc671d1008f13b7ccdcca6656958e788600"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/eye-spotted.png",
+   "bytes": 43585,
+   "sha256": "0668dd14e0c76b1cb80186120f78ecea2a0659d280d951cb3f5a0f6d23c7d66a"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/marbled.png",
+   "bytes": 30182,
+   "sha256": "e318bab2e04b050dfaab0f0e5660927c226e48b96e3c020acd5d3928aed656df"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/mottled.png",
+   "bytes": 36017,
+   "sha256": "64f04894485f6030998777ad20a74bd297049f32e1f14542a08e3ae4fc180f7d"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/spotted.png",
+   "bytes": 23582,
+   "sha256": "907034cc101216b3b02c0aac317cbfa9e5aba556f99c47d5b2c896fcfd871ccc"
+  },
+  {
+   "path": "audits/ARCHETYPE_SPRINT_20260922/13-fish-markings/markings/striped.png",
+   "bytes": 38388,
+   "sha256": "e36778f8072f7e8ab69247d1fcb5762b4b6024ea5a9e7354380c283ba5e8610e"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/arena-far.png",
+   "bytes": 2560302,
+   "sha256": "c0738eb03f60aa43e367d93ba03e79153c281d4ac5e9acfb7e655573b37807e2"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/arena-recipe.json",
+   "bytes": 3449,
+   "sha256": "720895b37016290da37260d4b03d0cdbb5e33173d5e1245ff37fde0aac6714f4"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/keyed/arena-mid.png",
+   "bytes": 2865724,
+   "sha256": "f60de65e6f4592a4b7d8890e92d986930be8521e1c7d768d8b39548d4c5fa377"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/keyed/arena-near.png",
+   "bytes": 1686808,
+   "sha256": "83eca67c68d9a7d72a009d26ee3734c83b4ee547446b0e2241ba8fc4ec51f5d2"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/keyed/wild-impact.png",
+   "bytes": 2179349,
+   "sha256": "f2339b0a20db313735e5c8c5aba3133d414e307eec19e42e4367d47d9f03c1db"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/keyed/wild-launch.png",
+   "bytes": 1912383,
+   "sha256": "7ba832b64c4da426d7329be77f433888bc0242fdcba3813f6b4da9599abf64b3"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/keyed/wild-travel.png",
+   "bytes": 1987496,
+   "sha256": "7134cd4576c5db8db79de92079af01842ca63a56c5d2cfc654fda5d79036166b"
+  },
+  {
+   "path": "audits/ARENA_EFFECTS_V42_PROOF_20260912/wild-anchors.json",
+   "bytes": 2800,
+   "sha256": "efe2405f0168299d429debc35ed72ee0dbbca7f602ee03f957a8bec3f49e26c2"
+  },
+  {
+   "path": "audits/ART_KIT_ENGINE_FIRST_20260912/masters/civet.png",
+   "bytes": 1931944,
+   "sha256": "a5e62568dfa010d8d646124ce641c72d42686bff5329bba40cfdfc21fa25a76b"
+  },
+  {
+   "path": "audits/CIVET_2D_PROOF_20260912/civet.landmarks.json",
+   "bytes": 4720,
+   "sha256": "b38684ec741e22cb44016b4bce18ca95701d1d2f0535bfcbf51746d0e1120cc8"
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/binding.json.gz",
+   "bytes": 116356,
+   "sha256": "6b5bd6764bdc244768892888d25f4405870f23a053761994c870a29e92b635e9",
+   "derivedFrom": {
+    "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/binding.json",
+    "sha256": "e6dc380c4414359c1420fa34240393aad0d9f231d0899f69fe67f8643a5cb396",
+    "encoding": "gzip"
+   }
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/parts/alpha.png",
+   "bytes": 48759,
+   "sha256": "eb0ceaaef8b6016dad0c9b0ac6921a1ce10e3b776e182c3f33a8f30a7af861e2",
+   "derivedFrom": {
+    "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/parts/keyed.png",
+    "sha256": "773cfdda8aab476d6b2b6c66e3cf4c8dd352128f62016b28aaef344b6942d3f1",
+    "keep": "alpha"
+   }
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/parts/atlas/python-open.png",
+   "bytes": 401552,
+   "sha256": "7db569301d8a4d8c460f74e0f6932c75b976d45a8a75d58e2ac5a0808dc5ee78"
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/parts/manifest.json",
+   "bytes": 2261,
+   "sha256": "039e469806d79a340cda468d3d16b38381322f8851c48c39cab35d6a93ce6709"
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/fit-01/record.json",
+   "bytes": 5617,
+   "sha256": "6f6e63380f15841030dd15177acf15cfcb2f052a9eeb52d186418adb26d6bd77"
+  },
+  {
+   "path": "audits/PYTHON_OPEN_POSE_20260923/candidate-02/master.png",
+   "bytes": 410585,
+   "sha256": "d0a777d5186a6787461d795b41b34b8ce4569af1efd10b14f98524fc92ef8cae"
+  }
+ ]
+}

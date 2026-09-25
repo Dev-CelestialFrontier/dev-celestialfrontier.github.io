@@ -132,6 +132,11 @@
     [data-combat-champion] { width: 100%; min-height: 44px; box-sizing: border-box;
       padding: 8px 34px 8px 10px; border: 1px solid #647ba4; border-radius: 10px;
       background: #101c30; color: #eef6ff; font: 12px var(--ui); }
+    /* §20 plan pickers (stance, Guardian party slots): the same phone touch target and look as the champion picker */
+    [data-combat-stance], [data-combat-party-slot] { width: 100%; min-height: 44px; box-sizing: border-box; margin: 4px 0;
+      padding: 8px 34px 8px 10px; border: 1px solid #647ba4; border-radius: 10px;
+      background: #101c30; color: #eef6ff; font: 12px var(--ui); }
+    [data-combat-stance]:focus-visible, [data-combat-party-slot]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
     [data-combat-champion]:focus-visible,
     [data-combat-challenge]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
     .combat-card-forecast { margin: 8px 0 2px; color: var(--combat-odds-color, #dce9fa); }
@@ -854,7 +859,7 @@
     }
   </style>
   <script type="module" data-cf-dev-loader>
-const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"d813137f7849f6a2568aa867cf310cf480aba02d","shortCommit":"d813137f7849","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-d813137f7849","channel":"development","entry":"./assets/main-D5swadXI.js"});
+const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"76c8b2f823dfd4160be3ec744f9464aef24d8424","shortCommit":"76c8b2f823df","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-76c8b2f823df","channel":"development","entry":"./assets/main-DvBj18YJ.js"});
 window.__CF_DEV_PREVIEW__=info;
 const local=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
 if((location.origin===info.expectedOrigin&&info.publishable)||local){
@@ -868,16 +873,16 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/Geometry-BhLxjYlb.js">
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
   <link rel="modulepreload" crossorigin href="./assets/src-PpYgFp_O.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-App-IaSp.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-CCoyTm6A.js">
   <link rel="modulepreload" crossorigin href="./assets/speciesidentity-Dv9PKGDT.js">
   <link rel="modulepreload" crossorigin href="./assets/repeated-anatomy-CjJiumbW.js">
   <link rel="modulepreload" crossorigin href="./assets/secondary-BoGqcmCO.js">
   <link rel="modulepreload" crossorigin href="./assets/src-DDq_m0Mw.js">
-  <link rel="modulepreload" crossorigin href="./assets/png-decode-Bkv1oZ3m.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-CewFbsmX.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-CoJqSmVu.js">
-  <link rel="modulepreload" crossorigin href="./assets/world-roster-ogx-giA9.js">
-  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-BRIFsfnP.js">
+  <link rel="modulepreload" crossorigin href="./assets/png-decode-DUCD4ESF.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-qL6B_u2k.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-B6vpzXm7.js">
+  <link rel="modulepreload" crossorigin href="./assets/world-roster-3cXF8dj6.js">
+  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-BauWRNt0.js">
   <link rel="modulepreload" crossorigin href="./assets/canvasUtils-BdWL41L6.js">
   <link rel="modulepreload" crossorigin href="./assets/init-CDdLwmtt.js">
   <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-DUsRdIdr.js">
@@ -889,7 +894,7 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/surface-polish-CBmmi-Kj.js">
   <link rel="modulepreload" crossorigin href="./assets/visual-effect-policy-DOpWhvoj.js">
   <link rel="modulepreload" crossorigin href="./assets/earth-layered-recipe-DTHL9JNN.js">
-  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-B19DW_oj.js">
+  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-Btd8lf8m.js">
   <link rel="modulepreload" crossorigin href="./assets/release-identity-CIuedefi.js">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/celestial-frontier.svg" type="image/svg+xml">

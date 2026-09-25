@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "master.png",
+  "sourceSha256": "964a23d815434e6f36196eb71c3574951ca74d9d08998d8f40d458fcc7e24468",
+  "keyedAlphaFile": "fit-02/parts/keyed.png",
+  "keyedSha256": "3f0ec10b83119cabe967b1baa91d75208f4c2ca49b5ce951296607321e5ca591",
+  "recordRecipeHash": "fa92dcff65635213e21d7d0ed48de6794c2a6aad26ad37988e539d47a5109bc5",
+  "compiledPrompt": {
+    "file": "prompt.txt",
+    "sha256": "3efb51463b8862155784d4fd7d433ba475971e2e72a716b818b2605e9c6e974b",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBQaWtlOyByZWFsIG5hbWVkIGFuYXRvbXkgYW5kIG5hdHVyYWwgbWF0ZXJpYWxzIHRha2UgcHJpb3JpdHkgb3ZlciByYXcgcHJvY2VkdXJhbCBnZW5lcy4gbG9uZyBmbGF0dGVuZWQgZHVjay1iaWxsIHNub3V0IGZ1bGwgb2YgdGVldGg7IGRvcnNhbCBmaW4gc2V0IGZhciBiYWNrIG5lYXIgdGhlIHRhaWw7IGVsb25nYXRlIHRvcnBlZG8gYm9keSB3aXRoIHBhbGUgYmVhbiBtYXJraW5ncy4gSXNvbGF0ZWQgbGlicmFyeSBhcmNoZXR5cGUsIG5vdCBhIGxhbmRpbmcgcmVzaWRlbnQgY2xhaW0uCiAgT25lIHNpZ25hdHVyZTogbm8gYmlvbWUgaGF6YXJkIGluIHNvdXJjZTsgbm8gYWRkZWQgaGF6YXJkIG1vdGlmLgoKU1VCSkVDVApPbmUgRWFydGggUGlrZS4gbG9uZyBmbGF0dGVuZWQgZHVjay1iaWxsIHNub3V0IGZ1bGwgb2YgdGVldGg7IGRvcnNhbCBmaW4gc2V0IGZhciBiYWNrIG5lYXIgdGhlIHRhaWw7IGVsb25nYXRlIHRvcnBlZG8gYm9keSB3aXRoIHBhbGUgYmVhbiBtYXJraW5ncy4gCkdlbm9taWMgaWRlbnRpdHkgYW5kIHRyYWl0cyAoRWFydGggYW5hdG9teSB0YWtlcyBwcmlvcml0eSk6IHsic2VlZCI6MjM1NjY3MjUwNCwia2luZ2RvbSI6ImZhdW5hIiwiY29sb3IiOjcsImZvcm0iOjYsImJvZHkiOjEyLCJsb2NvIjoxNiwidHJhaXQiOjE0LCJzaXplIjozLCJkaWV0IjoyLCJoZWFkIjo4LCJsaW1icyI6NSwic2tpbiI6MiwidGFpbCI6NCwicGF0dGVybiI6NCwiZXllcyI6NCwiYmVoYXZpb3IiOjEwLCJoYWJpdGF0Ijo2LCJkZXRhaWwiOjEsImFjY2VudCI6MTYsInRlbXBlciI6NCwic2Vuc2UiOjcsInJlcHJvIjo3LCJsaWZlIjoyLCJtZXRhYiI6MCwibHVtaW4iOnRydWUsImdlbiI6MCwiaGVhdCI6MSwiX2VhcnRoTmFtZSI6IlBpa2UifQpGYW1pbHkgY29udHJhY3QgZmlzaCwgY2xpcCBzZXQgZmlzaC1hcXVhdGljLXYxLiBSZXF1aXJlZCByaWcgam9pbnQvcGFydCBpbnZlbnRvcnk6IHJvb3QsIGhlYWQsIGphdywgc3BpbmUwLCBzcGluZTEsIHNwaW5lMiwgc3BpbmUzLCBzcGluZTQsIHNwaW5lNSwgY2F1ZGFsLCBkb3JzYWwsIHBlY3RvcmFsRmFyLCBwZWN0b3JhbE5lYXIuIENvbm5lY3RlZCBvcmdhbmljIHBhaW50ZWQgc3ViamVjdCwgbm8gZXF1aXBtZW50LCBubyBmYW50YXN5IGFkZGVkIGxpbWJzLgpTdHJpY3Qgc2lkZS1vbiBSSUdIVC1mYWNpbmcgUGlrZSBpbiBuZXV0cmFsIHN3aW1taW5nIHJlc3QsIG9uZSBjb25uZWN0ZWQgZnVsbCBib2R5LiBFbG9uZ2F0ZWQgdG9ycGVkbyBib2R5IGFib3V0IGZpdmUgdGltZXMgYXMgbG9uZyBhcyBkZWVwLCBsb25nIGZsYXR0ZW5lZCB0b290aHkgZHVja2JpbGwtbGlrZSBzbm91dCwgZG9yc2FsIGZpbiBmYXIgYmFjayBuZWFyIHRoZSB0YWlsLiBGb3JrZWQgY2F1ZGFsIGZpbiwgYm90aCBwZWN0b3JhbCBmaW5zIHNlcGFyYXRlbHkgdmlzaWJsZSwgYm90aCBwZWx2aWMgZmlucyB2aXNpYmx5IG9mZnNldCwgYW5hbCBmaW4uIFBsYWluIHVubWFya2VkIG9saXZlLWdyZWVuIHNjYWxlIGJhc2Ugd2l0aCBzb2Z0bHkgc2hhZGVkIHBhbGUgYmVsbHksIE5PIGJlYW4gc3BvdHMsIHN0cmlwZXMgb3IgY29udHJhc3RpbmcgbW90dGxlZCBwaWdtZW50IHBhdGNoZXM7IG1hcmtpbmdzIGFyZSBzZXBhcmF0ZSBtYXNrcy4gQWxsIGZpbiBiYXNlcyBzb2xpZGx5IGF0dGFjaGVkLiBQYWludCBhIGNvbXBhY3Qgd2hvbGUgZmlzaCB3aXRoIEFMTCB0aXBzIGluc2lkZSB4PTE5MC4uMTA2MCx5PTQ3MC4uODA1IG9uIGV4YWN0bHkxMjU0LXNxdWFyZSB0cmFuc3BhcmVudCBjYW52YXMuIEtlZXAgaHVnZSBlbXB0eSBtYXJnaW5zLCBuZXZlciBzdHJldGNoIHRvIGZpbGwgY2FudmFzLiBObyBmb3Jlc2hvcnRlbmluZyBvciBwZXJzcGVjdGl2ZSBiZW5kLiBObyB3YXRlciwgc2NlbmVyeSwgc2hhZG93LCB0ZXh0IG9yIGZsb29yLiBGaW5lIHBhaW50ZXJseSBzY2FsZXMgYW5kIHJlc3RyYWluZWQgcmVhbCBhbmF0b215IGluIHRoZSBraXQgc3R5bGUuCgpBQ0NVUkFDWQogIENvbXBsZXRlIHJlYWwgUGlrZSwgb25lIGNyZWF0dXJlLCBhbmF0b21pY2FsbHkgYWNjdXJhdGUgc3BlY2llcyBwcm9wb3J0aW9ucy4KICBBbGwgbm9ybWFsbHkgdmlzaWJsZSBsaW1icyBzZXBhcmF0ZWx5IHJlYWRhYmxlIHdpdGggZmFyIGFwcGVuZGFnZXMgdmlzaWJseSBvZmZzZXQgd2hlcmUgdGhlIHZpZXcgcGVybWl0czsgbmV2ZXIgaW52ZW50IGV4dHJhIGFuYXRvbXkuCiAgTm8gc2NlbmVyeSwgZ3JvdW5kLCBzaGFkb3csIHRleHQsIGR1cGxpY2F0ZSBjcmVhdHVyZSwgY3JvcHBlZCBhbmF0b215LgogIAoKTEFZT1VUCiAgU3RyaWN0IHNpZGUtb24gUklHSFQtZmFjaW5nIFBpa2UgaW4gbmV1dHJhbCBzd2ltbWluZyByZXN0LCBvbmUgY29ubmVjdGVkIGZ1bGwgYm9keS4gRWxvbmdhdGVkIHRvcnBlZG8gYm9keSBhYm91dCBmaXZlIHRpbWVzIGFzIGxvbmcgYXMgZGVlcCwgbG9uZyBmbGF0dGVuZWQgdG9vdGh5IGR1Y2tiaWxsLWxpa2Ugc25vdXQsIGRvcnNhbCBmaW4gZmFyIGJhY2sgbmVhciB0aGUgdGFpbC4gRm9ya2VkIGNhdWRhbCBmaW4sIGJvdGggcGVjdG9yYWwgZmlucyBzZXBhcmF0ZWx5IHZpc2libGUsIGJvdGggcGVsdmljIGZpbnMgdmlzaWJseSBvZmZzZXQsIGFuYWwgZmluLiBQbGFpbiB1bm1hcmtlZCBvbGl2ZS1ncmVlbiBzY2FsZSBiYXNlIHdpdGggc29mdGx5IHNoYWRlZCBwYWxlIGJlbGx5LCBOTyBiZWFuIHNwb3RzLCBzdHJpcGVzIG9yIGNvbnRyYXN0aW5nIG1vdHRsZWQgcGlnbWVudCBwYXRjaGVzOyBtYXJraW5ncyBhcmUgc2VwYXJhdGUgbWFza3MuIEFsbCBmaW4gYmFzZXMgc29saWRseSBhdHRhY2hlZC4gUGFpbnQgYSBjb21wYWN0IHdob2xlIGZpc2ggd2l0aCBBTEwgdGlwcyBpbnNpZGUgeD0xOTAuLjEwNjAseT00NzAuLjgwNSBvbiBleGFjdGx5MTI1NC1zcXVhcmUgdHJhbnNwYXJlbnQgY2FudmFzLiBLZWVwIGh1Z2UgZW1wdHkgbWFyZ2lucywgbmV2ZXIgc3RyZXRjaCB0byBmaWxsIGNhbnZhcy4gTm8gZm9yZXNob3J0ZW5pbmcgb3IgcGVyc3BlY3RpdmUgYmVuZC4gTm8gd2F0ZXIsIHNjZW5lcnksIHNoYWRvdywgdGV4dCBvciBmbG9vci4gRmluZSBwYWludGVybHkgc2NhbGVzIGFuZCByZXN0cmFpbmVkIHJlYWwgYW5hdG9teSBpbiB0aGUga2l0IHN0eWxlLgogIE9uZSB3aG9sZSBjcmVhdHVyZSBjZW50ZXJlZCwgZW50aXJlIGFuYXRvbXkgaW4gZnJhbWUsIGF0IGxlYXN0IDggcGVyY2VudCBzYWZlIG1hcmdpbi4gTm8gZmxvb3IgcGxhbmUuCgpURUNITklDQUwgT1VUUFVUCiAgQ3JlYXRlIGEgc3F1YXJlIDEyNTQgeCAxMjU0IFBORy4gRXZlcnkgcGl4ZWwgdGhhdCBpcyBub3QgdGhlIHN1YmplY3QgaXMgb25lCiAgZmxhdCwgdW5pZm9ybSwgcHVyZSBtYWdlbnRhIGZpbGwgKCNGRjAwRkYpOiBubyBncmFkaWVudCwgdmlnbmV0dGUsIHRleHR1cmUsCiAgbm9pc2UsIGNoZWNrZXJib2FyZCBvciB0cmFuc3BhcmVuY3kgcGF0dGVybiwgYW5kIG5vIGdyb3VuZCwgYmFzZSwgZnJhbWUsCiAgc2NlbmVyeSBvciBjYXN0IHNoYWRvdy4gVGhlIHN1YmplY3QncyBvdXRsaW5lIGlzIGNyaXNwIGFuZCBmdWxseSBvcGFxdWUKICBhZ2FpbnN0IHRoZSBtYWdlbnRhLCB3aXRoIG5vIGdsb3csIGhhemUsIHNtb2tlIG9yIHNvZnQgZmVhdGhlcmluZyBibGVlZGluZwogIGludG8gaXQsIGFuZCBub3RoaW5nIG9uIHRoZSBzdWJqZWN0IGlzIG1hZ2VudGEgb3IgcGluay4gVGhlIG1hZ2VudGEgaXMga2V5ZWQKICBvdXQgYWZ0ZXJ3YXJkcyB0byBwcm9kdWNlIHRoZSB0cmFuc3BhcmVudCBhc3NldC4KCk5FR0FUSVZFCiAgTm8gdGV4dCwgbGV0dGVycywgbnVtYmVycywgd2F0ZXJtYXJrLCBzaWduYXR1cmUsIGJvcmRlciwgZnJhbWUsIGdyaWQsIFVJCiAgZWxlbWVudCwgaGVhbHRoIGJhciwgbWluaW1hcCwgd2F5cG9pbnQsIHRva2VuIHJpbmcsIGJhc2UsIHBlZGVzdGFsLAogIHBob3RvcmVhbGlzbSwgYW5pbWUsIGNoaWJpIHN0eWxpbmcsIGNlbCBzaGFkaW5nLCAzRCByZW5kZXIsIHBsYXN0aWMgdG95CiAgc2hlZW4sIGFpcmJydXNoZWQgZ3JhZGllbnRzLCBkdXBsaWNhdGUgc3ViamVjdCwgdW5pbnRlbmRlZCBjb21wYW5pb24sIGV4dHJhCiAgbGltYnMsIG1pc3NpbmcgbGltYnMsIG1hbGZvcm1lZCBoYW5kcywgY3JvcHBlZCBhbmF0b215LCBvciBjb250YWN0LXNoZWV0CiAgbGF5b3V0LiBObyBsZW5zIGZsYXJlLCBubyBjaHJvbWF0aWMgYWJlcnJhdGlvbiwgbm8gaG9sb2dyYXBoaWMgVUkKICBwcm9qZWN0aW9ucywgbm8gZ2xvd2luZyBvdXRsaW5lcyBvciByaW0gbGlnaHQgdXNlZCBhcyBhbiBlZmZlY3QuCiAgTm8gc2NlbmVyeSwgbm8gZmxvb3IgcGxhbmUsIG5vIGNhc3Qgc2hhZG93LCBubyBkcm9wIHNoYWRvdywgbm8gd2hpdGUKICBiYWNrZ3JvdW5kLCBubyBjaGVja2VyZWQgYmFja2dyb3VuZCwgbm8gYmFrZWQgdHJhbnNwYXJlbmN5IHBhdHRlcm4uCiAgQmFja2dyb3VuZCBtdXN0IGJlIG9uZSBmbGF0IHVuaWZvcm0gbWFnZW50YSBmaWxsIGFuZCBub3RoaW5nIGVsc2UuCiAgTm8gZGVmYXVsdCBiaXBlZGFsIGh1bWFub2lkIHN0YW5jZSB1bmxlc3MgbmFtZWQsIG5vIGFybW91ciBwbGF0aW5nIHRoZSBicmllZiBkaWQKICBub3QgYXNrIGZvciwgbm8gaHVtYW4gZXllcywgbm8gd2VhcG9ucyBoZWxkIGluIGhhbmRzIHVubGVzcyBuYW1lZCwgbm8gcmlkZXIsCiAgbm8gc2Vjb25kIGNyZWF0dXJlLgogIERvIG5vdCBhZGQgYSBibGFua2V0IG92ZXJzaXplZC1oZWFkIGJhbiB0aGF0IHdvdWxkIGZpZ2h0IGEgZGF0YS1vd25lZAogIGNvbXBhbmlvbiBicmllZi4="
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "6388c22c3ef4ca15174b899f80485f058305657d0448409571ab83568031d0f2",
+      "promptFile": "prompts/striped.txt",
+      "promptSha256": "678595c2f655414a09fcf15d78c1d48009003d837f9944b85684a8366ce853ec",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: five thin tapering vertical stripes. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IGZpdmUgdGhpbiB0YXBlcmluZyB2ZXJ0aWNhbCBzdHJpcGVzLiBDb25maW5lIGl0IHRvIGEgY29tcGFjdCBob3Jpem9udGFsIHBhdGNoIG9uIFVQUEVSIEZMQU5LIHg9NDIwLi43ODAseT01NjguLjYyNS4gVHJhbnNwYXJlbnQgZXZlcnl3aGVyZSBlbHNlLCBlc3BlY2lhbGx5IGhlYWQsIGZpbnMgYW5kIHBhbGUgdW5kZXJzaWRlLiBEbyBub3QgZXh0ZW5kIG1hcmtpbmdzIHRvd2FyZHMgdGhlIGxvbmcgc25vdXQgb3IgdGFpbC4gU29mdCBwYWludGVybHkgZWRnZXMsIHJlYWRhYmxlIHRyYW5zcGFyZW50IGdhcHMsIG5vIGNyb3BwaW5nL3RyYW5zbGF0aW9uL3Jlc2l6aW5nLiBUaGlzIGlzIGEgbWFzaywgbm90IGEgcmVwYWludGVkIGZpc2guCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "2f5f4c8d23b337da3fd27d00ca75a3a43117c3a312774ebaecd610e12469f7ca",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "447072057afd112d9e8d342b891990a50051f25341c572a993caa9e784fcc2ca",
+      "promptFile": "prompts/spotted.txt",
+      "promptSha256": "8187c450517d496e3bc0525ad250e2fab303489053b70ba23b7bb89e28a50ff8",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: small separated oval bean spots in staggered rows. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IHNtYWxsIHNlcGFyYXRlZCBvdmFsIGJlYW4gc3BvdHMgaW4gc3RhZ2dlcmVkIHJvd3MuIENvbmZpbmUgaXQgdG8gYSBjb21wYWN0IGhvcml6b250YWwgcGF0Y2ggb24gVVBQRVIgRkxBTksgeD00MjAuLjc4MCx5PTU2OC4uNjI1LiBUcmFuc3BhcmVudCBldmVyeXdoZXJlIGVsc2UsIGVzcGVjaWFsbHkgaGVhZCwgZmlucyBhbmQgcGFsZSB1bmRlcnNpZGUuIERvIG5vdCBleHRlbmQgbWFya2luZ3MgdG93YXJkcyB0aGUgbG9uZyBzbm91dCBvciB0YWlsLiBTb2Z0IHBhaW50ZXJseSBlZGdlcywgcmVhZGFibGUgdHJhbnNwYXJlbnQgZ2Fwcywgbm8gY3JvcHBpbmcvdHJhbnNsYXRpb24vcmVzaXppbmcuIFRoaXMgaXMgYSBtYXNrLCBub3QgYSByZXBhaW50ZWQgZmlzaC4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "cb92db5a5e984632426b9a2c791b2a52e9f6ea20a03b62dd2d329eb724dacfde",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "cdf0c557626832d4595df805512d40b60e06995906937db5a0fa4e99e5ca27a7",
+      "promptFile": "prompts/banded.txt",
+      "promptSha256": "03ea436ffed756059783d1ea1793b9bde0ae27f14e892aaed13e144ca149c694",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: three broad soft vertical bands. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IHRocmVlIGJyb2FkIHNvZnQgdmVydGljYWwgYmFuZHMuIENvbmZpbmUgaXQgdG8gYSBjb21wYWN0IGhvcml6b250YWwgcGF0Y2ggb24gVVBQRVIgRkxBTksgeD00MjAuLjc4MCx5PTU2OC4uNjI1LiBUcmFuc3BhcmVudCBldmVyeXdoZXJlIGVsc2UsIGVzcGVjaWFsbHkgaGVhZCwgZmlucyBhbmQgcGFsZSB1bmRlcnNpZGUuIERvIG5vdCBleHRlbmQgbWFya2luZ3MgdG93YXJkcyB0aGUgbG9uZyBzbm91dCBvciB0YWlsLiBTb2Z0IHBhaW50ZXJseSBlZGdlcywgcmVhZGFibGUgdHJhbnNwYXJlbnQgZ2Fwcywgbm8gY3JvcHBpbmcvdHJhbnNsYXRpb24vcmVzaXppbmcuIFRoaXMgaXMgYSBtYXNrLCBub3QgYSByZXBhaW50ZWQgZmlzaC4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "0d6ed641f12af5abdeab559d6cafc89834179567f685ab91838714fc5738a04b",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "fe813a25e38707cd56d5bb7115a004b31563a8c720ac3769b0f1a335046ede29",
+      "promptFile": "prompts/mottled.txt",
+      "promptSha256": "ececd6ab0e62a805fe65a5e988b121b9e64c3a5a6f9e047282f4b884c617c178",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: an irregular scattered cluster of soft mottled patches. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IGFuIGlycmVndWxhciBzY2F0dGVyZWQgY2x1c3RlciBvZiBzb2Z0IG1vdHRsZWQgcGF0Y2hlcy4gQ29uZmluZSBpdCB0byBhIGNvbXBhY3QgaG9yaXpvbnRhbCBwYXRjaCBvbiBVUFBFUiBGTEFOSyB4PTQyMC4uNzgwLHk9NTY4Li42MjUuIFRyYW5zcGFyZW50IGV2ZXJ5d2hlcmUgZWxzZSwgZXNwZWNpYWxseSBoZWFkLCBmaW5zIGFuZCBwYWxlIHVuZGVyc2lkZS4gRG8gbm90IGV4dGVuZCBtYXJraW5ncyB0b3dhcmRzIHRoZSBsb25nIHNub3V0IG9yIHRhaWwuIFNvZnQgcGFpbnRlcmx5IGVkZ2VzLCByZWFkYWJsZSB0cmFuc3BhcmVudCBnYXBzLCBubyBjcm9wcGluZy90cmFuc2xhdGlvbi9yZXNpemluZy4gVGhpcyBpcyBhIG1hc2ssIG5vdCBhIHJlcGFpbnRlZCBmaXNoLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "fe7144514e245ae3d993504ebe1fb72f68c0d9ece87cf729f012f1fd0e184db0",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "025d2ef85ad4b07692f0448c2f2e7b0219048aabcc82fe8de82fb956588c078a",
+      "promptFile": "prompts/marbled.txt",
+      "promptSha256": "471340589d159858f9eba74b9ebeeaea7c3696b19e39d28f4f58e19d83d11e05",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: thin branching marbled veins. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IHRoaW4gYnJhbmNoaW5nIG1hcmJsZWQgdmVpbnMuIENvbmZpbmUgaXQgdG8gYSBjb21wYWN0IGhvcml6b250YWwgcGF0Y2ggb24gVVBQRVIgRkxBTksgeD00MjAuLjc4MCx5PTU2OC4uNjI1LiBUcmFuc3BhcmVudCBldmVyeXdoZXJlIGVsc2UsIGVzcGVjaWFsbHkgaGVhZCwgZmlucyBhbmQgcGFsZSB1bmRlcnNpZGUuIERvIG5vdCBleHRlbmQgbWFya2luZ3MgdG93YXJkcyB0aGUgbG9uZyBzbm91dCBvciB0YWlsLiBTb2Z0IHBhaW50ZXJseSBlZGdlcywgcmVhZGFibGUgdHJhbnNwYXJlbnQgZ2Fwcywgbm8gY3JvcHBpbmcvdHJhbnNsYXRpb24vcmVzaXppbmcuIFRoaXMgaXMgYSBtYXNrLCBub3QgYSByZXBhaW50ZWQgZmlzaC4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "205208a32834871426979778674c3b9e63c988363c0f670d9c74be076cbbe146",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "4f74e6572efb6b6ab8f2deee02bd1430d95e869f089a1b54be0ed1d5278a8dd3",
+      "promptFile": "prompts/eye-spotted.txt",
+      "promptSha256": "23a966b273221bcd661e6d7df344b6e65d3506fdfecbdb49a39f5f78cff2e91e",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached exact Pike master. EXACT 1254 x 1254 canvas, exact registration. Output ONLY white painted marks on transparent background, no creature pixels or text. Pattern: five small oval rings with transparent centres. Confine it to a compact horizontal patch on UPPER FLANK x=420..780,y=568..625. Transparent everywhere else, especially head, fins and pale underside. Do not extend markings towards the long snout or tail. Soft painterly edges, readable transparent gaps, no cropping/translation/resizing. This is a mask, not a repainted fish.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBleGFjdCBQaWtlIG1hc3Rlci4gRVhBQ1QgMTI1NCB4IDEyNTQgY2FudmFzLCBleGFjdCByZWdpc3RyYXRpb24uIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gdHJhbnNwYXJlbnQgYmFja2dyb3VuZCwgbm8gY3JlYXR1cmUgcGl4ZWxzIG9yIHRleHQuIFBhdHRlcm46IGZpdmUgc21hbGwgb3ZhbCByaW5ncyB3aXRoIHRyYW5zcGFyZW50IGNlbnRyZXMuIENvbmZpbmUgaXQgdG8gYSBjb21wYWN0IGhvcml6b250YWwgcGF0Y2ggb24gVVBQRVIgRkxBTksgeD00MjAuLjc4MCx5PTU2OC4uNjI1LiBUcmFuc3BhcmVudCBldmVyeXdoZXJlIGVsc2UsIGVzcGVjaWFsbHkgaGVhZCwgZmlucyBhbmQgcGFsZSB1bmRlcnNpZGUuIERvIG5vdCBleHRlbmQgbWFya2luZ3MgdG93YXJkcyB0aGUgbG9uZyBzbm91dCBvciB0YWlsLiBTb2Z0IHBhaW50ZXJseSBlZGdlcywgcmVhZGFibGUgdHJhbnNwYXJlbnQgZ2Fwcywgbm8gY3JvcHBpbmcvdHJhbnNsYXRpb24vcmVzaXppbmcuIFRoaXMgaXMgYSBtYXNrLCBub3QgYSByZXBhaW50ZWQgZmlzaC4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "9ce0a29ea7dd88473398c091aea97429f84a2b19bc978455bf36a3ac048f1ba3",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

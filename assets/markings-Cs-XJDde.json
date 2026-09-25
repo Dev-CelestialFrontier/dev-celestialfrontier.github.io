@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "master.png",
+  "sourceSha256": "0f3575a5fe537ced0a819a5bb181a1115914c3eef824bcad3440bf541e16cfd1",
+  "keyedAlphaFile": "fit-02/parts/keyed.png",
+  "keyedSha256": "486a2bab390c2615e3a42e49a6c0688f40e9b94c9dc440d67fe49ff74996985f",
+  "recordRecipeHash": "887857dd7213d86fe5278ab6dd4ef3ebbf5a06a86f12a9f241b56c4e14eb26a0",
+  "compiledPrompt": {
+    "file": "prompt.txt",
+    "sha256": "bd8c372a78482e041d1727a627c8d3cdf847d64fe0e4432aaf6c8ed687531b04",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBHb29zZTsgcmVhbCBuYW1lZCBhbmF0b215IGFuZCBuYXR1cmFsIG1hdGVyaWFscyB0YWtlIHByaW9yaXR5IG92ZXIgcmF3IHByb2NlZHVyYWwgZ2VuZXMuIGxvbmcgdGhpY2sgbmVjayBoZWxkIHVwcmlnaHQ7IGZsYXQgcm91bmRlZCBiaWxsOyBoZWF2eSBib2R5IG9uIHdlYmJlZCBmZWV0LiBJc29sYXRlZCBsaWJyYXJ5IGFyY2hldHlwZSwgbm90IGEgbGFuZGluZyByZXNpZGVudCBjbGFpbS4KICBPbmUgc2lnbmF0dXJlOiBubyBiaW9tZSBoYXphcmQgaW4gc291cmNlOyBubyBhZGRlZCBoYXphcmQgbW90aWYuCgpTVUJKRUNUCk9uZSBFYXJ0aCBHb29zZS4gbG9uZyB0aGljayBuZWNrIGhlbGQgdXByaWdodDsgZmxhdCByb3VuZGVkIGJpbGw7IGhlYXZ5IGJvZHkgb24gd2ViYmVkIGZlZXQuIFJlYWQgYXMgQ2FuYWRhIGdvb3NlOiBibGFjayBuZWNrIGFuZCBoZWFkIHdpdGggYSB3aGl0ZSBjaGluc3RyYXAuCkdlbm9taWMgaWRlbnRpdHkgYW5kIHRyYWl0cyAoRWFydGggYW5hdG9teSB0YWtlcyBwcmlvcml0eSk6IHsic2VlZCI6MzI5MzE5NDg2Niwia2luZ2RvbSI6ImZhdW5hIiwiY29sb3IiOjExLCJmb3JtIjo2LCJib2R5IjoxNSwibG9jbyI6NiwidHJhaXQiOjE2LCJzaXplIjo1LCJkaWV0IjoyLCJoZWFkIjo4LCJsaW1icyI6Miwic2tpbiI6MCwidGFpbCI6NSwicGF0dGVybiI6MywiZXllcyI6MSwiYmVoYXZpb3IiOjEwLCJoYWJpdGF0IjoxMCwiZGV0YWlsIjo3LCJhY2NlbnQiOjExLCJ0ZW1wZXIiOjUsInNlbnNlIjoxLCJyZXBybyI6NCwibGlmZSI6NCwibWV0YWIiOjAsImx1bWluIjpmYWxzZSwiZ2VuIjowLCJoZWF0IjoxLCJfZWFydGhOYW1lIjoiR29vc2UifQpGYW1pbHkgY29udHJhY3QgYmlwZWQtYmlyZCwgY2xpcCBzZXQgYmlwZWQtYmlyZC12MS4gUmVxdWlyZWQgcmlnIGpvaW50L3BhcnQgaW52ZW50b3J5OiByb290LCBwZWx2aXMsIHNwaW5lLCBjaGVzdCwgbmVjazAsIG5lY2sxLCBoZWFkLCBiZWFrLCBsZWdGYXJLbmVlLCBsZWdGYXJBbmtsZSwgbGVnRmFyRm9vdCwgbGVnTmVhcktuZWUsIGxlZ05lYXJBbmtsZSwgbGVnTmVhckZvb3QsIHdpbmdGYXJSb290LCB3aW5nRmFyVGlwLCB3aW5nTmVhclJvb3QsIHdpbmdOZWFyVGlwLCB0YWlsRmFuLiBDb25uZWN0ZWQgb3JnYW5pYyBwYWludGVkIHN1YmplY3QsIG5vIGVxdWlwbWVudCwgbm8gZmFudGFzeSBhZGRlZCBsaW1icy4KU3RyaWN0IFNJREUgUFJPRklMRSBmYWNpbmcgUklHSFQsIG9uZSBhZHVsdCBHb29zZTogaGVhdnkgcm91bmRlZCB3YXRlcmZvd2wgYm9keSwgbWVkaXVtLWxvbmcgVVBSSUdIVCBuZWNrIGJldHdlZW4gZHVjayBhbmQgc3dhbiwgc21hbGwgaGVhZCBhbmQgRkxBVCByb3VuZGVkIG9yYW5nZSBiaWxsLCBubyBob29rIG9yIHJhcHRvciBiZWFrLiBQbGFpbiB1bm1hcmtlZCB3YXJtIGdyZXktYnJvd24gZmVhdGhlcnMsIG5vIHN0cmlwZXMsIHdoaXRlIHBhdGNoZXMsIGJsYWNrIHRpcHMgb3IgcmluZ3MuIFR3byBzaG9ydCBzdHVyZHkgbGVncyBzZXQgd2VsbCBCQUNLIHVuZGVyIHRoZSBoZWF2eSBib2R5LCBCT1RIIGJyb2FkIFdFQkJFRCBGRUVUIHNlcGFyYXRlbHkgdmlzaWJsZSBpbiBhIGdyb3VuZGVkIHN0YW5jZSwgdG9lcyBnZW50bHkgb2Zmc2V0IGFuZCBhbmtsZXMgbmF0dXJhbGx5IGJlbnQuIEJvdGggV0lOR1MgdmlzaWJseSBzcHJlYWQgcGFydGlhbGx5IHVwd2FyZCBhbmQgYmFja3dhcmQgYWJvdmUgaXRzIGJhY2s6IG5lYXIgd2luZyBmdWxseSByZWFkYWJsZSBhcyBhIGNvbnRpbnVvdXMgYnJvYWQgZmVhdGhlciBmYW4sIGZhciB3aW5nIG9mZnNldCBoaWdoZXIgc28gYWxsIGl0cyBmZWF0aGVyIGZhbiBpcyBzZXBhcmF0ZWx5IHJlYWRhYmxlOyBwcmVzZXJ2ZSB0d28gd2luZ3Mgb25seSwgbm8gZXh0cmEgYXBwZW5kYWdlcy4gVGhpcyBwcm92aWRlcyB2aXNpYmxlIHdpbmcgc3VyZmFjZXMgZm9yIGFuaW1hdGlvbjsgbm8gaGlkZGVuIHN1cmZhY2VzIHNob3VsZCBiZSBpbnZlbnRlZC4gU2hvcnQgaW50YWN0IGZhbiB0YWlsIGV4dGVuZGluZyB0byBMRUZULiBGdWxsIGJvZHksIGJpbGwsIHdpbmd0aXBzIGFuZCBib3RoIGZlZXQgY29udGFpbmVkIGluIG1pZGRsZSA3MCBwZXJjZW50IG9mIHRoZSAxMjU0LXNxdWFyZSBjYW52YXMgd2l0aCBhbXBsZSBlbXB0eSBwYWRkaW5nLiBObyBzY2VuZXJ5LCBmbG9vciwgc2hhZG93LCB0ZXh0IG9yIGdlYXIuIE1hZ2VudGEga2V5IG9yIGdlbnVpbmUgYWxwaGEgYmFja2dyb3VuZC4gSW1hZ2UgMSBPTkxZIHN1cHBsaWVzIHRoZSBlc3RhYmxpc2hlZCBwYWludGVkIHN0eWxlLgoKQUNDVVJBQ1kKICBDb21wbGV0ZSByZWFsIEdvb3NlLCBvbmUgY3JlYXR1cmUsIGFuYXRvbWljYWxseSBhY2N1cmF0ZSBzcGVjaWVzIHByb3BvcnRpb25zLgogIEFsbCBub3JtYWxseSB2aXNpYmxlIGxpbWJzIHNlcGFyYXRlbHkgcmVhZGFibGUgd2l0aCBmYXIgYXBwZW5kYWdlcyB2aXNpYmx5IG9mZnNldCB3aGVyZSB0aGUgdmlldyBwZXJtaXRzOyBuZXZlciBpbnZlbnQgZXh0cmEgYW5hdG9teS4KICBObyBzY2VuZXJ5LCBncm91bmQsIHNoYWRvdywgdGV4dCwgZHVwbGljYXRlIGNyZWF0dXJlLCBjcm9wcGVkIGFuYXRvbXkuCiAgUmVhZCBhcyBDYW5hZGEgZ29vc2U6IGJsYWNrIG5lY2sgYW5kIGhlYWQgd2l0aCBhIHdoaXRlIGNoaW5zdHJhcC4KCkxBWU9VVAogIFN0cmljdCBTSURFIFBST0ZJTEUgZmFjaW5nIFJJR0hULCBvbmUgYWR1bHQgR29vc2U6IGhlYXZ5IHJvdW5kZWQgd2F0ZXJmb3dsIGJvZHksIG1lZGl1bS1sb25nIFVQUklHSFQgbmVjayBiZXR3ZWVuIGR1Y2sgYW5kIHN3YW4sIHNtYWxsIGhlYWQgYW5kIEZMQVQgcm91bmRlZCBvcmFuZ2UgYmlsbCwgbm8gaG9vayBvciByYXB0b3IgYmVhay4gUGxhaW4gdW5tYXJrZWQgd2FybSBncmV5LWJyb3duIGZlYXRoZXJzLCBubyBzdHJpcGVzLCB3aGl0ZSBwYXRjaGVzLCBibGFjayB0aXBzIG9yIHJpbmdzLiBUd28gc2hvcnQgc3R1cmR5IGxlZ3Mgc2V0IHdlbGwgQkFDSyB1bmRlciB0aGUgaGVhdnkgYm9keSwgQk9USCBicm9hZCBXRUJCRUQgRkVFVCBzZXBhcmF0ZWx5IHZpc2libGUgaW4gYSBncm91bmRlZCBzdGFuY2UsIHRvZXMgZ2VudGx5IG9mZnNldCBhbmQgYW5rbGVzIG5hdHVyYWxseSBiZW50LiBCb3RoIFdJTkdTIHZpc2libHkgc3ByZWFkIHBhcnRpYWxseSB1cHdhcmQgYW5kIGJhY2t3YXJkIGFib3ZlIGl0cyBiYWNrOiBuZWFyIHdpbmcgZnVsbHkgcmVhZGFibGUgYXMgYSBjb250aW51b3VzIGJyb2FkIGZlYXRoZXIgZmFuLCBmYXIgd2luZyBvZmZzZXQgaGlnaGVyIHNvIGFsbCBpdHMgZmVhdGhlciBmYW4gaXMgc2VwYXJhdGVseSByZWFkYWJsZTsgcHJlc2VydmUgdHdvIHdpbmdzIG9ubHksIG5vIGV4dHJhIGFwcGVuZGFnZXMuIFRoaXMgcHJvdmlkZXMgdmlzaWJsZSB3aW5nIHN1cmZhY2VzIGZvciBhbmltYXRpb247IG5vIGhpZGRlbiBzdXJmYWNlcyBzaG91bGQgYmUgaW52ZW50ZWQuIFNob3J0IGludGFjdCBmYW4gdGFpbCBleHRlbmRpbmcgdG8gTEVGVC4gRnVsbCBib2R5LCBiaWxsLCB3aW5ndGlwcyBhbmQgYm90aCBmZWV0IGNvbnRhaW5lZCBpbiBtaWRkbGUgNzAgcGVyY2VudCBvZiB0aGUgMTI1NC1zcXVhcmUgY2FudmFzIHdpdGggYW1wbGUgZW1wdHkgcGFkZGluZy4gTm8gc2NlbmVyeSwgZmxvb3IsIHNoYWRvdywgdGV4dCBvciBnZWFyLiBNYWdlbnRhIGtleSBvciBnZW51aW5lIGFscGhhIGJhY2tncm91bmQuIEltYWdlIDEgT05MWSBzdXBwbGllcyB0aGUgZXN0YWJsaXNoZWQgcGFpbnRlZCBzdHlsZS4KICBPbmUgd2hvbGUgY3JlYXR1cmUgY2VudGVyZWQsIGVudGlyZSBhbmF0b215IGluIGZyYW1lLCBhdCBsZWFzdCA4IHBlcmNlbnQgc2FmZSBtYXJnaW4uIE5vIGZsb29yIHBsYW5lLgoKVEVDSE5JQ0FMIE9VVFBVVAogIENyZWF0ZSBhIHNxdWFyZSAxMjU0IHggMTI1NCBQTkcuIEV2ZXJ5IHBpeGVsIHRoYXQgaXMgbm90IHRoZSBzdWJqZWN0IGlzIG9uZQogIGZsYXQsIHVuaWZvcm0sIHB1cmUgbWFnZW50YSBmaWxsICgjRkYwMEZGKTogbm8gZ3JhZGllbnQsIHZpZ25ldHRlLCB0ZXh0dXJlLAogIG5vaXNlLCBjaGVja2VyYm9hcmQgb3IgdHJhbnNwYXJlbmN5IHBhdHRlcm4sIGFuZCBubyBncm91bmQsIGJhc2UsIGZyYW1lLAogIHNjZW5lcnkgb3IgY2FzdCBzaGFkb3cuIFRoZSBzdWJqZWN0J3Mgb3V0bGluZSBpcyBjcmlzcCBhbmQgZnVsbHkgb3BhcXVlCiAgYWdhaW5zdCB0aGUgbWFnZW50YSwgd2l0aCBubyBnbG93LCBoYXplLCBzbW9rZSBvciBzb2Z0IGZlYXRoZXJpbmcgYmxlZWRpbmcKICBpbnRvIGl0LCBhbmQgbm90aGluZyBvbiB0aGUgc3ViamVjdCBpcyBtYWdlbnRhIG9yIHBpbmsuIFRoZSBtYWdlbnRhIGlzIGtleWVkCiAgb3V0IGFmdGVyd2FyZHMgdG8gcHJvZHVjZSB0aGUgdHJhbnNwYXJlbnQgYXNzZXQuCgpORUdBVElWRQogIE5vIHRleHQsIGxldHRlcnMsIG51bWJlcnMsIHdhdGVybWFyaywgc2lnbmF0dXJlLCBib3JkZXIsIGZyYW1lLCBncmlkLCBVSQogIGVsZW1lbnQsIGhlYWx0aCBiYXIsIG1pbmltYXAsIHdheXBvaW50LCB0b2tlbiByaW5nLCBiYXNlLCBwZWRlc3RhbCwKICBwaG90b3JlYWxpc20sIGFuaW1lLCBjaGliaSBzdHlsaW5nLCBjZWwgc2hhZGluZywgM0QgcmVuZGVyLCBwbGFzdGljIHRveQogIHNoZWVuLCBhaXJicnVzaGVkIGdyYWRpZW50cywgZHVwbGljYXRlIHN1YmplY3QsIHVuaW50ZW5kZWQgY29tcGFuaW9uLCBleHRyYQogIGxpbWJzLCBtaXNzaW5nIGxpbWJzLCBtYWxmb3JtZWQgaGFuZHMsIGNyb3BwZWQgYW5hdG9teSwgb3IgY29udGFjdC1zaGVldAogIGxheW91dC4gTm8gbGVucyBmbGFyZSwgbm8gY2hyb21hdGljIGFiZXJyYXRpb24sIG5vIGhvbG9ncmFwaGljIFVJCiAgcHJvamVjdGlvbnMsIG5vIGdsb3dpbmcgb3V0bGluZXMgb3IgcmltIGxpZ2h0IHVzZWQgYXMgYW4gZWZmZWN0LgogIE5vIHNjZW5lcnksIG5vIGZsb29yIHBsYW5lLCBubyBjYXN0IHNoYWRvdywgbm8gZHJvcCBzaGFkb3csIG5vIHdoaXRlCiAgYmFja2dyb3VuZCwgbm8gY2hlY2tlcmVkIGJhY2tncm91bmQsIG5vIGJha2VkIHRyYW5zcGFyZW5jeSBwYXR0ZXJuLgogIEJhY2tncm91bmQgbXVzdCBiZSBvbmUgZmxhdCB1bmlmb3JtIG1hZ2VudGEgZmlsbCBhbmQgbm90aGluZyBlbHNlLgogIE5vIGRlZmF1bHQgYmlwZWRhbCBodW1hbm9pZCBzdGFuY2UgdW5sZXNzIG5hbWVkLCBubyBhcm1vdXIgcGxhdGluZyB0aGUgYnJpZWYgZGlkCiAgbm90IGFzayBmb3IsIG5vIGh1bWFuIGV5ZXMsIG5vIHdlYXBvbnMgaGVsZCBpbiBoYW5kcyB1bmxlc3MgbmFtZWQsIG5vIHJpZGVyLAogIG5vIHNlY29uZCBjcmVhdHVyZS4KICBEbyBub3QgYWRkIGEgYmxhbmtldCBvdmVyc2l6ZWQtaGVhZCBiYW4gdGhhdCB3b3VsZCBmaWdodCBhIGRhdGEtb3duZWQKICBjb21wYW5pb24gYnJpZWYu"
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "cbcd7f824c0ba9e01425517e39785529aadd9d31542bb52c5c740cb93bf2c925",
+      "promptFile": "prompts/striped.txt",
+      "promptSha256": "b84733bd57163892777b624bd032767935f0cc9d0995100fa7654966c13935a3",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw six separate narrow tapering vertical stripes, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IHNpeCBzZXBhcmF0ZSBuYXJyb3cgdGFwZXJpbmcgdmVydGljYWwgc3RyaXBlcywgd2l0aGluIHRoZSBmbGFuayByZWN0YW5nbGUgeD01MDAuLjcyMCwgeT02MzAuLjcxMCAoYWJvdmUgY2FudmFzIGNlbnRlciB2ZXJ0aWNhbGx5LCB1cHBlci1taWRkbGUgYWJkb21lbiBwbGFjZW1lbnQpLCBtZWFzdXJlZCBmcm9tIHRoZSB0b3AgbGVmdCBvZiB0aGUgZnVsbCAxMjU0LXNxdWFyZSBjYW52YXMuIEtlZXAgZXZlcnkgb3RoZXIgcGl4ZWwgdHJhbnNwYXJlbnQuIE1hcmtzIG11c3QgcmVtYWluIHNlcGFyYXRlZCB3aGVyZSBzcGVjaWZpZWQ7IG5vIGNvbm5lY3RpbmcgZmlsbC4gTm8gYmlyZCwgdGV4dHVyZSBiYWNrZ3JvdW5kLCBjaGVja2VyYm9hcmQsIGxhYmVscywgYm9yZGVyLCBzaGFkb3cgb3IgcHJldmlldy4gRG8gbm90IGNlbnRlciwgY3JvcCBvciBzY2FsZSB0aGUgcGF0dGVybiByZWdpb24uIEZ1bGwgbWFzdGVyLXNpemVkIGNhbnZhcyB3aXRoIHRpbnkgbG9jYXRlZCBwYXR0ZXJuIG9ubHkuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "e68acbd57c6a5d05b62c440f7561c7cd2a160597897bc8d6542c0003645d1d5a",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "e6a39eac220ac12630532372e89a4e9a6dc991450197aa6acc7678cc6358d368",
+      "promptFile": "prompts/spotted.txt",
+      "promptSha256": "a6bdf353cb86475772d40cbcea86787bfcac76cdffd1ecc01d4c7668631499f1",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw twelve small irregular solid dots with empty gaps, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IHR3ZWx2ZSBzbWFsbCBpcnJlZ3VsYXIgc29saWQgZG90cyB3aXRoIGVtcHR5IGdhcHMsIHdpdGhpbiB0aGUgZmxhbmsgcmVjdGFuZ2xlIHg9NTAwLi43MjAsIHk9NjMwLi43MTAgKGFib3ZlIGNhbnZhcyBjZW50ZXIgdmVydGljYWxseSwgdXBwZXItbWlkZGxlIGFiZG9tZW4gcGxhY2VtZW50KSwgbWVhc3VyZWQgZnJvbSB0aGUgdG9wIGxlZnQgb2YgdGhlIGZ1bGwgMTI1NC1zcXVhcmUgY2FudmFzLiBLZWVwIGV2ZXJ5IG90aGVyIHBpeGVsIHRyYW5zcGFyZW50LiBNYXJrcyBtdXN0IHJlbWFpbiBzZXBhcmF0ZWQgd2hlcmUgc3BlY2lmaWVkOyBubyBjb25uZWN0aW5nIGZpbGwuIE5vIGJpcmQsIHRleHR1cmUgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCBsYWJlbHMsIGJvcmRlciwgc2hhZG93IG9yIHByZXZpZXcuIERvIG5vdCBjZW50ZXIsIGNyb3Agb3Igc2NhbGUgdGhlIHBhdHRlcm4gcmVnaW9uLiBGdWxsIG1hc3Rlci1zaXplZCBjYW52YXMgd2l0aCB0aW55IGxvY2F0ZWQgcGF0dGVybiBvbmx5Lgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "f25497c896ac5ebbaaebbdc8ab0017e1fa566742b503a70842161d03509d1a3a",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "d330d111b60013843c1ff4c8dc6ad3a0c21c6b3bfcc470b509e5429c3b0d51d9",
+      "promptFile": "prompts/banded.txt",
+      "promptSha256": "d7082966cfa866ae296e4f552c8b31d78a18df1ef77264b1cfb6146618088ae1",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw three broad separated vertical bands, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IHRocmVlIGJyb2FkIHNlcGFyYXRlZCB2ZXJ0aWNhbCBiYW5kcywgd2l0aGluIHRoZSBmbGFuayByZWN0YW5nbGUgeD01MDAuLjcyMCwgeT02MzAuLjcxMCAoYWJvdmUgY2FudmFzIGNlbnRlciB2ZXJ0aWNhbGx5LCB1cHBlci1taWRkbGUgYWJkb21lbiBwbGFjZW1lbnQpLCBtZWFzdXJlZCBmcm9tIHRoZSB0b3AgbGVmdCBvZiB0aGUgZnVsbCAxMjU0LXNxdWFyZSBjYW52YXMuIEtlZXAgZXZlcnkgb3RoZXIgcGl4ZWwgdHJhbnNwYXJlbnQuIE1hcmtzIG11c3QgcmVtYWluIHNlcGFyYXRlZCB3aGVyZSBzcGVjaWZpZWQ7IG5vIGNvbm5lY3RpbmcgZmlsbC4gTm8gYmlyZCwgdGV4dHVyZSBiYWNrZ3JvdW5kLCBjaGVja2VyYm9hcmQsIGxhYmVscywgYm9yZGVyLCBzaGFkb3cgb3IgcHJldmlldy4gRG8gbm90IGNlbnRlciwgY3JvcCBvciBzY2FsZSB0aGUgcGF0dGVybiByZWdpb24uIEZ1bGwgbWFzdGVyLXNpemVkIGNhbnZhcyB3aXRoIHRpbnkgbG9jYXRlZCBwYXR0ZXJuIG9ubHkuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "a1e8338f8f1da0b10cb69f6cc9b4f7677d67b66b549165d8914f29823279cbc9",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "78ecf6dd0deebcc725eae4ae30d86255868bd6caf87751cac481e655049342c4",
+      "promptFile": "prompts/mottled.txt",
+      "promptSha256": "f5d633c9be201599c4b1f4011a37afc5f3d81dd108ca92eb331dc78890e9eda0",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw seven separate irregular softly edged blotches, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IHNldmVuIHNlcGFyYXRlIGlycmVndWxhciBzb2Z0bHkgZWRnZWQgYmxvdGNoZXMsIHdpdGhpbiB0aGUgZmxhbmsgcmVjdGFuZ2xlIHg9NTAwLi43MjAsIHk9NjMwLi43MTAgKGFib3ZlIGNhbnZhcyBjZW50ZXIgdmVydGljYWxseSwgdXBwZXItbWlkZGxlIGFiZG9tZW4gcGxhY2VtZW50KSwgbWVhc3VyZWQgZnJvbSB0aGUgdG9wIGxlZnQgb2YgdGhlIGZ1bGwgMTI1NC1zcXVhcmUgY2FudmFzLiBLZWVwIGV2ZXJ5IG90aGVyIHBpeGVsIHRyYW5zcGFyZW50LiBNYXJrcyBtdXN0IHJlbWFpbiBzZXBhcmF0ZWQgd2hlcmUgc3BlY2lmaWVkOyBubyBjb25uZWN0aW5nIGZpbGwuIE5vIGJpcmQsIHRleHR1cmUgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCBsYWJlbHMsIGJvcmRlciwgc2hhZG93IG9yIHByZXZpZXcuIERvIG5vdCBjZW50ZXIsIGNyb3Agb3Igc2NhbGUgdGhlIHBhdHRlcm4gcmVnaW9uLiBGdWxsIG1hc3Rlci1zaXplZCBjYW52YXMgd2l0aCB0aW55IGxvY2F0ZWQgcGF0dGVybiBvbmx5Lgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "d0956e6168ec49d64cfd32a5568374fd8ceef0feeaf5580dc5dfae4ec6547389",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "7e3541af79e779ee0deb8e9bbe058b8406a6305b2e00a4128e996b74f490d82d",
+      "promptFile": "prompts/marbled.txt",
+      "promptSha256": "c8af6eb53e9dc6d0695c844709f17d971cd61d0fb8452fec42847999cae6c59e",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw a sparse network of thin branching meandering marble veins, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IGEgc3BhcnNlIG5ldHdvcmsgb2YgdGhpbiBicmFuY2hpbmcgbWVhbmRlcmluZyBtYXJibGUgdmVpbnMsIHdpdGhpbiB0aGUgZmxhbmsgcmVjdGFuZ2xlIHg9NTAwLi43MjAsIHk9NjMwLi43MTAgKGFib3ZlIGNhbnZhcyBjZW50ZXIgdmVydGljYWxseSwgdXBwZXItbWlkZGxlIGFiZG9tZW4gcGxhY2VtZW50KSwgbWVhc3VyZWQgZnJvbSB0aGUgdG9wIGxlZnQgb2YgdGhlIGZ1bGwgMTI1NC1zcXVhcmUgY2FudmFzLiBLZWVwIGV2ZXJ5IG90aGVyIHBpeGVsIHRyYW5zcGFyZW50LiBNYXJrcyBtdXN0IHJlbWFpbiBzZXBhcmF0ZWQgd2hlcmUgc3BlY2lmaWVkOyBubyBjb25uZWN0aW5nIGZpbGwuIE5vIGJpcmQsIHRleHR1cmUgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCBsYWJlbHMsIGJvcmRlciwgc2hhZG93IG9yIHByZXZpZXcuIERvIG5vdCBjZW50ZXIsIGNyb3Agb3Igc2NhbGUgdGhlIHBhdHRlcm4gcmVnaW9uLiBGdWxsIG1hc3Rlci1zaXplZCBjYW52YXMgd2l0aCB0aW55IGxvY2F0ZWQgcGF0dGVybiBvbmx5Lgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "b2b907bae9182025855a96e707021dd5a44b78b3aa924813b67a0ec01039a173",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "8359adbe6e4149e340af006651ba3f0dfac4e07d387d58f3aebfe22a21f47c86",
+      "promptFile": "prompts/eye-spotted.txt",
+      "promptSha256": "b61804fde86ea5cb8d757274471bfa219e6671d03be0b665e7c5b6d571dab19e",
+      "prompt": "Create one standalone 1254 x 1254 RGBA marking mask for a painted Goose game master. Only pure white marks on genuine transparent alpha. Draw six separated open oval rings, each with a transparent center, within the flank rectangle x=500..720, y=630..710 (above canvas center vertically, upper-middle abdomen placement), measured from the top left of the full 1254-square canvas. Keep every other pixel transparent. Marks must remain separated where specified; no connecting fill. No bird, texture background, checkerboard, labels, border, shadow or preview. Do not center, crop or scale the pattern region. Full master-sized canvas with tiny located pattern only.\n",
+      "promptBytesBase64": "Q3JlYXRlIG9uZSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZyBtYXNrIGZvciBhIHBhaW50ZWQgR29vc2UgZ2FtZSBtYXN0ZXIuIE9ubHkgcHVyZSB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGFscGhhLiBEcmF3IHNpeCBzZXBhcmF0ZWQgb3BlbiBvdmFsIHJpbmdzLCBlYWNoIHdpdGggYSB0cmFuc3BhcmVudCBjZW50ZXIsIHdpdGhpbiB0aGUgZmxhbmsgcmVjdGFuZ2xlIHg9NTAwLi43MjAsIHk9NjMwLi43MTAgKGFib3ZlIGNhbnZhcyBjZW50ZXIgdmVydGljYWxseSwgdXBwZXItbWlkZGxlIGFiZG9tZW4gcGxhY2VtZW50KSwgbWVhc3VyZWQgZnJvbSB0aGUgdG9wIGxlZnQgb2YgdGhlIGZ1bGwgMTI1NC1zcXVhcmUgY2FudmFzLiBLZWVwIGV2ZXJ5IG90aGVyIHBpeGVsIHRyYW5zcGFyZW50LiBNYXJrcyBtdXN0IHJlbWFpbiBzZXBhcmF0ZWQgd2hlcmUgc3BlY2lmaWVkOyBubyBjb25uZWN0aW5nIGZpbGwuIE5vIGJpcmQsIHRleHR1cmUgYmFja2dyb3VuZCwgY2hlY2tlcmJvYXJkLCBsYWJlbHMsIGJvcmRlciwgc2hhZG93IG9yIHByZXZpZXcuIERvIG5vdCBjZW50ZXIsIGNyb3Agb3Igc2NhbGUgdGhlIHBhdHRlcm4gcmVnaW9uLiBGdWxsIG1hc3Rlci1zaXplZCBjYW52YXMgd2l0aCB0aW55IGxvY2F0ZWQgcGF0dGVybiBvbmx5Lgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "9823e1e00b78bc8104cf0999338a0c5aabc5d557d9fa4e459ebd02fb91149c7b",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

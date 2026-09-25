@@ -1,0 +1,166 @@
+{
+  "kind": "serpent",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Eel\"]],[\"accent\",[\"number\",\"4\"]],[\"behavior\",[\"number\",\"4\"]],[\"body\",[\"number\",\"15\"]],[\"color\",[\"number\",\"13\"]],[\"detail\",[\"number\",\"5\"]],[\"diet\",[\"number\",\"5\"]],[\"eyes\",[\"number\",\"5\"]],[\"form\",[\"number\",\"17\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"6\"]],[\"head\",[\"number\",\"7\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"3\"]],[\"limbs\",[\"number\",\"4\"]],[\"loco\",[\"number\",\"6\"]],[\"lumin\",[\"boolean\",true]],[\"metab\",[\"number\",\"0\"]],[\"pattern\",[\"number\",\"6\"]],[\"repro\",[\"number\",\"1\"]],[\"seed\",[\"number\",\"2072871458\"]],[\"sense\",[\"number\",\"0\"]],[\"size\",[\"number\",\"5\"]],[\"skin\",[\"number\",\"3\"]],[\"tail\",[\"number\",\"2\"]],[\"temper\",[\"number\",\"7\"]],[\"trait\",[\"number\",\"11\"]]]]",
+    "seed": 2072871458,
+    "ownerId": "authored:archetype-sprint/eel",
+    "earthName": "Eel"
+  },
+  "template": {
+    "id": "serpent",
+    "version": 1
+  },
+  "clipSetId": "serpent-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 2072871458,
+    "kingdom": "fauna",
+    "color": 13,
+    "form": 17,
+    "body": 15,
+    "loco": 6,
+    "trait": 11,
+    "size": 5,
+    "diet": 5,
+    "head": 7,
+    "limbs": 4,
+    "skin": 3,
+    "tail": 2,
+    "pattern": 6,
+    "eyes": 5,
+    "behavior": 4,
+    "habitat": 6,
+    "detail": 5,
+    "accent": 4,
+    "temper": 7,
+    "sense": 0,
+    "repro": 1,
+    "life": 3,
+    "metab": 0,
+    "lumin": true,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Eel"
+  },
+  "geometry": {
+    "cutoutAssetHash": "77890d5b4b55daf076bfc6ca2da0b03fce16930feaca08223bc2d0822e2571cb",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.5797448165869219,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7767145135566188,
+      0.5167464114832536
+    ],
+    "head": [
+      0.8381180223285486,
+      0.5119617224880383
+    ],
+    "jaw": [
+      0.84688995215311,
+      0.5247208931419458
+    ],
+    "seg0": [
+      0.7472089314194578,
+      0.5271132376395534
+    ],
+    "seg1": [
+      0.682615629984051,
+      0.539872408293461
+    ],
+    "seg2": [
+      0.6164274322169059,
+      0.5390749601275917
+    ],
+    "seg3": [
+      0.55103668261563,
+      0.518341307814992
+    ],
+    "seg4": [
+      0.4840510366826156,
+      0.4904306220095694
+    ],
+    "seg5": [
+      0.41706539074960125,
+      0.48484848484848486
+    ],
+    "seg6": [
+      0.35007974481658694,
+      0.5087719298245614
+    ],
+    "seg7": [
+      0.28548644338118023,
+      0.5406698564593302
+    ],
+    "seg8": [
+      0.22169059011164274,
+      0.5406698564593302
+    ],
+    "seg9": [
+      0.15869218500797447,
+      0.5119617224880383
+    ]
+  },
+  "materials": {
+    "surface": "plain olive-brown slick wet skin and fine fin membrane"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/27-eel/master.png",
+  "habitat": {
+    "realm": "aquatic",
+    "source": "Explicit freshwater eel; continuous dorsal/caudal/anal fringe and two visible small pectoral fins, no pelvic fins or legs."
+  },
+  "coverage": {
+    "scope": "One manually observed Eel painting; Lamprey/Moray/Oarfish remain documented caveats.",
+    "finOwnership": "Continuous fin fringe follows containing body segments; paired pectorals painted on proximal segment0, no independent fin articulation in serpent template.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "8067e8640d264788f033232c8abc5cd65e68721c480b7e6e429c2c06636ac3df",
+    "subjectSourceSha256": "f0221ad6aea42396d59f6ab3f186e58ed9753287b29f6978443cad38b9d64f70",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.061589643108930205,
+      "jaw": 0.01548364261479079,
+      "seg0": 0.03127379832715716,
+      "seg1": 0.0658414081418438,
+      "seg2": 0.06619300149743902,
+      "seg3": 0.06859908506413576,
+      "seg4": 0.07256778309409888,
+      "seg5": 0.06721783257699049,
+      "seg6": 0.0711295155374091,
+      "seg7": 0.07204007436088891,
+      "seg8": 0.06379585326953749,
+      "seg9": 0.06923117795993032
+    },
+    "measures": {
+      "body": 0.5887117539323847,
+      "bone-min": 0.01548364261479079,
+      "bone-max": 0.07256778309409888,
+      "head/body": 0.10461765490077841
+    }
+  },
+  "recipeHash": "9b55893072b7c53f8bc5ae4f9ccb7cb89974743bfcd7bd3297a030553741e37c"
+}

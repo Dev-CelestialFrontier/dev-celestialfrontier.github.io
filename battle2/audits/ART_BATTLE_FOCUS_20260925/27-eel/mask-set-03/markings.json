@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "../master.png",
+  "sourceSha256": "77890d5b4b55daf076bfc6ca2da0b03fce16930feaca08223bc2d0822e2571cb",
+  "keyedAlphaFile": "../fit-02/parts/keyed.png",
+  "keyedSha256": "295756e234973cc77918ce251151cbcbcf3b114ca1f9da21f773dc5ddf77aa7f",
+  "recordRecipeHash": "9b55893072b7c53f8bc5ae4f9ccb7cb89974743bfcd7bd3297a030553741e37c",
+  "compiledPrompt": {
+    "file": "../prompt.txt",
+    "sha256": "f3057446957dcd997d781e09b17cf638861249cfb2219329aa8a90dfafc83972",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBFZWw7IHJlYWwgbmFtZWQgYW5hdG9teSBhbmQgbmF0dXJhbCBtYXRlcmlhbHMgdGFrZSBwcmlvcml0eSBvdmVyIHJhdyBwcm9jZWR1cmFsIGdlbmVzLiBjb250aW51b3VzIGZpbiBmcmluZ2UgcnVubmluZyBhbG9uZyBiYWNrLCB0YWlsIGFuZCBiZWxseTsgbm8gcGVsdmljIGZpbnM7IHNuYWtlLWxpa2UgYm9keSB3aXRoIGEgYmx1bnQtamF3ZWQgaGVhZC4gSXNvbGF0ZWQgbGlicmFyeSBhcmNoZXR5cGUsIG5vdCBhIGxhbmRpbmcgcmVzaWRlbnQgY2xhaW0uCiAgT25lIHNpZ25hdHVyZTogbm8gYmlvbWUgaGF6YXJkIGluIHNvdXJjZTsgbm8gYWRkZWQgaGF6YXJkIG1vdGlmLgoKU1VCSkVDVApPbmUgRWFydGggRWVsLiBjb250aW51b3VzIGZpbiBmcmluZ2UgcnVubmluZyBhbG9uZyBiYWNrLCB0YWlsIGFuZCBiZWxseTsgbm8gcGVsdmljIGZpbnM7IHNuYWtlLWxpa2UgYm9keSB3aXRoIGEgYmx1bnQtamF3ZWQgaGVhZC4gCkdlbm9taWMgaWRlbnRpdHkgYW5kIHRyYWl0cyAoRWFydGggYW5hdG9teSB0YWtlcyBwcmlvcml0eSk6IHsic2VlZCI6MjA3Mjg3MTQ1OCwia2luZ2RvbSI6ImZhdW5hIiwiY29sb3IiOjEzLCJmb3JtIjoxNywiYm9keSI6MTUsImxvY28iOjYsInRyYWl0IjoxMSwic2l6ZSI6NSwiZGlldCI6NSwiaGVhZCI6NywibGltYnMiOjQsInNraW4iOjMsInRhaWwiOjIsInBhdHRlcm4iOjYsImV5ZXMiOjUsImJlaGF2aW9yIjo0LCJoYWJpdGF0Ijo2LCJkZXRhaWwiOjUsImFjY2VudCI6NCwidGVtcGVyIjo3LCJzZW5zZSI6MCwicmVwcm8iOjEsImxpZmUiOjMsIm1ldGFiIjowLCJsdW1pbiI6dHJ1ZSwiZ2VuIjowLCJoZWF0IjoxLCJfZWFydGhOYW1lIjoiRWVsIn0KRmFtaWx5IGNvbnRyYWN0IHNlcnBlbnQsIGNsaXAgc2V0IHNlcnBlbnQtdjEuIFJlcXVpcmVkIHJpZyBqb2ludC9wYXJ0IGludmVudG9yeTogcm9vdCwgaGVhZCwgamF3LCBzZWcwLCBzZWcxLCBzZWcyLCBzZWczLCBzZWc0LCBzZWc1LCBzZWc2LCBzZWc3LCBzZWc4LCBzZWc5LiBDb25uZWN0ZWQgb3JnYW5pYyBwYWludGVkIHN1YmplY3QsIG5vIGVxdWlwbWVudCwgbm8gZmFudGFzeSBhZGRlZCBsaW1icy4KU3RyaWN0IHNpZGUtb24gZmFjaW5nIFJJR0hULiBPbmUgY29tcGxldGUgRXVyb3BlYW4tdHlwZSBmcmVzaHdhdGVyIEVFTCB3aXRoIGEgbG9uZyBzbGVuZGVyIHNuYWtlLWxpa2Ugb2xpdmUtYnJvd24gYm9keSwgc21hbGwgYmx1bnQtamF3ZWQgaGVhZCBhbmQgdGlueSBleWVzLiBUaGUgYm9keSBoYXMgYSBnZW50bGUgaG9yaXpvbnRhbCBTLXdhdmUgd2l0aCBubyBjb2lscyBvciBzZWxmLW92ZXJsYXAsIHRhaWwgcG9pbnRpbmcgbGVmdCBhbmQgdGFwZXJpbmcgc21vb3RobHkuIENvbnRpbnVvdXMgbG93IHRyYW5zbHVjZW50IGZpbiBmcmluZ2UgYWxvbmcgdGhlIGJhY2ssIHRhaWwgYW5kIGJlbGx5LCBqb2luaW5nIGFyb3VuZCB0aGUgdGFpbDsgbm8gc2VwYXJhdGUgZm9ya2VkIGZpc2ggdGFpbCwgbm8gZG9yc2FsIHNwaW5lcyBvciBwZWx2aWMgZmlucy4gVHdvIHRpbnkgcGVjdG9yYWwgZmlucyBqdXN0IGJlaGluZCBoZWFkIGNhbiBiZSBvZmZzZXQgc2xpZ2h0bHkgdG8gc2hvdyBib3RoIHdpdGhvdXQgaW52ZW50aW5nIGxpbWJzLiBQbGFpbiB1bm1hcmtlZCBvbGl2ZS1icm93biBjb2F0LCBvbmx5IGJyb2FkIG5hdHVyYWwgZm9ybSBzaGFkaW5nOyBubyBzcG90cywgc3RyaXBlcywgYmFuZHMgb3IgbW90dGxpbmcuIE5vIGxlZ3MsIHNjYWxlcyB2aXNpYmx5IG91dGxpbmVkLCBnaWxscyBleHRlcm5hbCwgd2hpc2tlcnMsIGV4dGVybmFsIGVhcnMgb3IgdGVldGggb3V0c2lkZSBtb3V0aC4gRW50aXJlIGNyZWF0dXJlIHNtYWxsIGluc2lkZSB4PTE1MC4uMTEwMCBhbmQgeT00NTAuLjgxMCBvbiBleGFjdDEyNTQtc3F1YXJlIGNhbnZhcywgZ2VuZXJvdXMgZW1wdHkgbWFyZ2lucy4gQmFja2dyb3VuZCBtdXN0IGJlIE9QQVFVRSBzb2xpZCBtYWdlbnRhIFJHQjI1NSwwLDI1NSwgbm8gdHJhbnNwYXJlbnQgZXhwb3J0LCBubyBjYXN0IHNoYWRvdywgZ3JvdW5kLCBzY2VuZXJ5LCB0ZXh0IG9yIHNlY29uZCBhbmltYWwuIERldGFpbGVkIGVzdGFibGlzaGVkIHBhaW50ZXJseSBhdGxhcyBzdHlsZSwgcmVhbGlzdGljIGVlbCBhbmF0b215OyBtYXJraW5ncyB3aWxsIGJlIHNlcGFyYXRlIG1hc2tzLgoKQUNDVVJBQ1kKICBDb21wbGV0ZSByZWFsIEVlbCwgb25lIGNyZWF0dXJlLCBhbmF0b21pY2FsbHkgYWNjdXJhdGUgc3BlY2llcyBwcm9wb3J0aW9ucy4KICBBbGwgbm9ybWFsbHkgdmlzaWJsZSBsaW1icyBzZXBhcmF0ZWx5IHJlYWRhYmxlIHdpdGggZmFyIGFwcGVuZGFnZXMgdmlzaWJseSBvZmZzZXQgd2hlcmUgdGhlIHZpZXcgcGVybWl0czsgbmV2ZXIgaW52ZW50IGV4dHJhIGFuYXRvbXkuCiAgTm8gc2NlbmVyeSwgZ3JvdW5kLCBzaGFkb3csIHRleHQsIGR1cGxpY2F0ZSBjcmVhdHVyZSwgY3JvcHBlZCBhbmF0b215LgogIAoKTEFZT1VUCiAgU3RyaWN0IHNpZGUtb24gZmFjaW5nIFJJR0hULiBPbmUgY29tcGxldGUgRXVyb3BlYW4tdHlwZSBmcmVzaHdhdGVyIEVFTCB3aXRoIGEgbG9uZyBzbGVuZGVyIHNuYWtlLWxpa2Ugb2xpdmUtYnJvd24gYm9keSwgc21hbGwgYmx1bnQtamF3ZWQgaGVhZCBhbmQgdGlueSBleWVzLiBUaGUgYm9keSBoYXMgYSBnZW50bGUgaG9yaXpvbnRhbCBTLXdhdmUgd2l0aCBubyBjb2lscyBvciBzZWxmLW92ZXJsYXAsIHRhaWwgcG9pbnRpbmcgbGVmdCBhbmQgdGFwZXJpbmcgc21vb3RobHkuIENvbnRpbnVvdXMgbG93IHRyYW5zbHVjZW50IGZpbiBmcmluZ2UgYWxvbmcgdGhlIGJhY2ssIHRhaWwgYW5kIGJlbGx5LCBqb2luaW5nIGFyb3VuZCB0aGUgdGFpbDsgbm8gc2VwYXJhdGUgZm9ya2VkIGZpc2ggdGFpbCwgbm8gZG9yc2FsIHNwaW5lcyBvciBwZWx2aWMgZmlucy4gVHdvIHRpbnkgcGVjdG9yYWwgZmlucyBqdXN0IGJlaGluZCBoZWFkIGNhbiBiZSBvZmZzZXQgc2xpZ2h0bHkgdG8gc2hvdyBib3RoIHdpdGhvdXQgaW52ZW50aW5nIGxpbWJzLiBQbGFpbiB1bm1hcmtlZCBvbGl2ZS1icm93biBjb2F0LCBvbmx5IGJyb2FkIG5hdHVyYWwgZm9ybSBzaGFkaW5nOyBubyBzcG90cywgc3RyaXBlcywgYmFuZHMgb3IgbW90dGxpbmcuIE5vIGxlZ3MsIHNjYWxlcyB2aXNpYmx5IG91dGxpbmVkLCBnaWxscyBleHRlcm5hbCwgd2hpc2tlcnMsIGV4dGVybmFsIGVhcnMgb3IgdGVldGggb3V0c2lkZSBtb3V0aC4gRW50aXJlIGNyZWF0dXJlIHNtYWxsIGluc2lkZSB4PTE1MC4uMTEwMCBhbmQgeT00NTAuLjgxMCBvbiBleGFjdDEyNTQtc3F1YXJlIGNhbnZhcywgZ2VuZXJvdXMgZW1wdHkgbWFyZ2lucy4gQmFja2dyb3VuZCBtdXN0IGJlIE9QQVFVRSBzb2xpZCBtYWdlbnRhIFJHQjI1NSwwLDI1NSwgbm8gdHJhbnNwYXJlbnQgZXhwb3J0LCBubyBjYXN0IHNoYWRvdywgZ3JvdW5kLCBzY2VuZXJ5LCB0ZXh0IG9yIHNlY29uZCBhbmltYWwuIERldGFpbGVkIGVzdGFibGlzaGVkIHBhaW50ZXJseSBhdGxhcyBzdHlsZSwgcmVhbGlzdGljIGVlbCBhbmF0b215OyBtYXJraW5ncyB3aWxsIGJlIHNlcGFyYXRlIG1hc2tzLgogIE9uZSB3aG9sZSBjcmVhdHVyZSBjZW50ZXJlZCwgZW50aXJlIGFuYXRvbXkgaW4gZnJhbWUsIGF0IGxlYXN0IDggcGVyY2VudCBzYWZlIG1hcmdpbi4gTm8gZmxvb3IgcGxhbmUuCgpURUNITklDQUwgT1VUUFVUCiAgQ3JlYXRlIGEgc3F1YXJlIDEyNTQgeCAxMjU0IFBORy4gRXZlcnkgcGl4ZWwgdGhhdCBpcyBub3QgdGhlIHN1YmplY3QgaXMgb25lCiAgZmxhdCwgdW5pZm9ybSwgcHVyZSBtYWdlbnRhIGZpbGwgKCNGRjAwRkYpOiBubyBncmFkaWVudCwgdmlnbmV0dGUsIHRleHR1cmUsCiAgbm9pc2UsIGNoZWNrZXJib2FyZCBvciB0cmFuc3BhcmVuY3kgcGF0dGVybiwgYW5kIG5vIGdyb3VuZCwgYmFzZSwgZnJhbWUsCiAgc2NlbmVyeSBvciBjYXN0IHNoYWRvdy4gVGhlIHN1YmplY3QncyBvdXRsaW5lIGlzIGNyaXNwIGFuZCBmdWxseSBvcGFxdWUKICBhZ2FpbnN0IHRoZSBtYWdlbnRhLCB3aXRoIG5vIGdsb3csIGhhemUsIHNtb2tlIG9yIHNvZnQgZmVhdGhlcmluZyBibGVlZGluZwogIGludG8gaXQsIGFuZCBub3RoaW5nIG9uIHRoZSBzdWJqZWN0IGlzIG1hZ2VudGEgb3IgcGluay4gVGhlIG1hZ2VudGEgaXMga2V5ZWQKICBvdXQgYWZ0ZXJ3YXJkcyB0byBwcm9kdWNlIHRoZSB0cmFuc3BhcmVudCBhc3NldC4KCk5FR0FUSVZFCiAgTm8gdGV4dCwgbGV0dGVycywgbnVtYmVycywgd2F0ZXJtYXJrLCBzaWduYXR1cmUsIGJvcmRlciwgZnJhbWUsIGdyaWQsIFVJCiAgZWxlbWVudCwgaGVhbHRoIGJhciwgbWluaW1hcCwgd2F5cG9pbnQsIHRva2VuIHJpbmcsIGJhc2UsIHBlZGVzdGFsLAogIHBob3RvcmVhbGlzbSwgYW5pbWUsIGNoaWJpIHN0eWxpbmcsIGNlbCBzaGFkaW5nLCAzRCByZW5kZXIsIHBsYXN0aWMgdG95CiAgc2hlZW4sIGFpcmJydXNoZWQgZ3JhZGllbnRzLCBkdXBsaWNhdGUgc3ViamVjdCwgdW5pbnRlbmRlZCBjb21wYW5pb24sIGV4dHJhCiAgbGltYnMsIG1pc3NpbmcgbGltYnMsIG1hbGZvcm1lZCBoYW5kcywgY3JvcHBlZCBhbmF0b215LCBvciBjb250YWN0LXNoZWV0CiAgbGF5b3V0LiBObyBsZW5zIGZsYXJlLCBubyBjaHJvbWF0aWMgYWJlcnJhdGlvbiwgbm8gaG9sb2dyYXBoaWMgVUkKICBwcm9qZWN0aW9ucywgbm8gZ2xvd2luZyBvdXRsaW5lcyBvciByaW0gbGlnaHQgdXNlZCBhcyBhbiBlZmZlY3QuCiAgTm8gc2NlbmVyeSwgbm8gZmxvb3IgcGxhbmUsIG5vIGNhc3Qgc2hhZG93LCBubyBkcm9wIHNoYWRvdywgbm8gd2hpdGUKICBiYWNrZ3JvdW5kLCBubyBjaGVja2VyZWQgYmFja2dyb3VuZCwgbm8gYmFrZWQgdHJhbnNwYXJlbmN5IHBhdHRlcm4uCiAgQmFja2dyb3VuZCBtdXN0IGJlIG9uZSBmbGF0IHVuaWZvcm0gbWFnZW50YSBmaWxsIGFuZCBub3RoaW5nIGVsc2UuCiAgTm8gZGVmYXVsdCBiaXBlZGFsIGh1bWFub2lkIHN0YW5jZSB1bmxlc3MgbmFtZWQsIG5vIGFybW91ciBwbGF0aW5nIHRoZSBicmllZiBkaWQKICBub3QgYXNrIGZvciwgbm8gaHVtYW4gZXllcywgbm8gd2VhcG9ucyBoZWxkIGluIGhhbmRzIHVubGVzcyBuYW1lZCwgbm8gcmlkZXIsCiAgbm8gc2Vjb25kIGNyZWF0dXJlLgogIERvIG5vdCBhZGQgYSBibGFua2V0IG92ZXJzaXplZC1oZWFkIGJhbiB0aGF0IHdvdWxkIGZpZ2h0IGEgZGF0YS1vd25lZAogIGNvbXBhbmlvbiBicmllZi4="
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "0fa73ade8c7561a8d95938d181546ad4e2a50ab32320c95b41934a0ae7e3703e",
+      "promptFile": "prompts/striped.txt",
+      "promptSha256": "dc5e409be4b42c5c45a66926972a3bced84368ccdda3ab5e9e46df0092520495",
+      "prompt": "Create a fresh marking-only mask for an Eel master: EXACT 1254 x 1254 PNG, WHITE marks with TRANSPARENT background and open gaps. No animal, outline, silhouette, color, backdrop, shadow or text. Draw the requested pattern across the full fixed canvas; later it is clipped to the eel's exact alpha in master pixel coordinates without resizing. Sixteen thin organic white vertical wavy stripes from top to bottom, width8–15px, wide clear transparent gaps. Slightly irregular taper and curvature. No broad bands, dots, rings or fill.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgZnJlc2ggbWFya2luZy1vbmx5IG1hc2sgZm9yIGFuIEVlbCBtYXN0ZXI6IEVYQUNUIDEyNTQgeCAxMjU0IFBORywgV0hJVEUgbWFya3Mgd2l0aCBUUkFOU1BBUkVOVCBiYWNrZ3JvdW5kIGFuZCBvcGVuIGdhcHMuIE5vIGFuaW1hbCwgb3V0bGluZSwgc2lsaG91ZXR0ZSwgY29sb3IsIGJhY2tkcm9wLCBzaGFkb3cgb3IgdGV4dC4gRHJhdyB0aGUgcmVxdWVzdGVkIHBhdHRlcm4gYWNyb3NzIHRoZSBmdWxsIGZpeGVkIGNhbnZhczsgbGF0ZXIgaXQgaXMgY2xpcHBlZCB0byB0aGUgZWVsJ3MgZXhhY3QgYWxwaGEgaW4gbWFzdGVyIHBpeGVsIGNvb3JkaW5hdGVzIHdpdGhvdXQgcmVzaXppbmcuIFNpeHRlZW4gdGhpbiBvcmdhbmljIHdoaXRlIHZlcnRpY2FsIHdhdnkgc3RyaXBlcyBmcm9tIHRvcCB0byBib3R0b20sIHdpZHRoOOKAkzE1cHgsIHdpZGUgY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gU2xpZ2h0bHkgaXJyZWd1bGFyIHRhcGVyIGFuZCBjdXJ2YXR1cmUuIE5vIGJyb2FkIGJhbmRzLCBkb3RzLCByaW5ncyBvciBmaWxsLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "b8a48cdd52542adb1c81664793af03e2aa91363005331c463b98889a02036ed5",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "3d85673723197be47a9cdb80afa2b6fc302fa2182fb251bfc607187eb8463be9",
+      "promptFile": "prompts/spotted.txt",
+      "promptSha256": "fa5c92ec554745b35d7ab644b1b818cfa65ec5eb53cb8f0e72e0de0bc5c9f42a",
+      "prompt": "Create a fresh marking-only mask for an Eel master: EXACT 1254 x 1254 PNG, WHITE marks with TRANSPARENT background and open gaps. No animal, outline, silhouette, color, backdrop, shadow or text. Draw the requested pattern across the full fixed canvas; later it is clipped to the eel's exact alpha in master pixel coordinates without resizing. Scatter small irregular rounded white spots across the entire canvas, varied8–20px radius, spaced45–75px apart. Mostly transparent empty space. No rings, connected mottling or tiny speckle noise.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgZnJlc2ggbWFya2luZy1vbmx5IG1hc2sgZm9yIGFuIEVlbCBtYXN0ZXI6IEVYQUNUIDEyNTQgeCAxMjU0IFBORywgV0hJVEUgbWFya3Mgd2l0aCBUUkFOU1BBUkVOVCBiYWNrZ3JvdW5kIGFuZCBvcGVuIGdhcHMuIE5vIGFuaW1hbCwgb3V0bGluZSwgc2lsaG91ZXR0ZSwgY29sb3IsIGJhY2tkcm9wLCBzaGFkb3cgb3IgdGV4dC4gRHJhdyB0aGUgcmVxdWVzdGVkIHBhdHRlcm4gYWNyb3NzIHRoZSBmdWxsIGZpeGVkIGNhbnZhczsgbGF0ZXIgaXQgaXMgY2xpcHBlZCB0byB0aGUgZWVsJ3MgZXhhY3QgYWxwaGEgaW4gbWFzdGVyIHBpeGVsIGNvb3JkaW5hdGVzIHdpdGhvdXQgcmVzaXppbmcuIFNjYXR0ZXIgc21hbGwgaXJyZWd1bGFyIHJvdW5kZWQgd2hpdGUgc3BvdHMgYWNyb3NzIHRoZSBlbnRpcmUgY2FudmFzLCB2YXJpZWQ44oCTMjBweCByYWRpdXMsIHNwYWNlZDQ14oCTNzVweCBhcGFydC4gTW9zdGx5IHRyYW5zcGFyZW50IGVtcHR5IHNwYWNlLiBObyByaW5ncywgY29ubmVjdGVkIG1vdHRsaW5nIG9yIHRpbnkgc3BlY2tsZSBub2lzZS4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "620d93b878174653163eb18a117b4f082d020f560d5e76b929b3758d120baac4",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "d8400783a6f004b2796f7597079d8c5fb8456c7cdbf0570285f141038a7b2e06",
+      "promptFile": "prompts/banded.txt",
+      "promptSha256": "a42851897d0bf8079e5039bd531c1c0ac40354fdc45fab1a6bce4a02a02a3e81",
+      "prompt": "Create a fresh marking-only mask for an Eel master: EXACT 1254 x 1254 PNG, WHITE marks with TRANSPARENT background and open gaps. No animal, outline, silhouette, color, backdrop, shadow or text. Draw the requested pattern across the full fixed canvas; later it is clipped to the eel's exact alpha in master pixel coordinates without resizing. Eight broad smooth white vertical bands spanning the canvas height,30–45px wide, gentle curves, broad transparent spaces between. No extra fine stripes, texture, dots or rings.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgZnJlc2ggbWFya2luZy1vbmx5IG1hc2sgZm9yIGFuIEVlbCBtYXN0ZXI6IEVYQUNUIDEyNTQgeCAxMjU0IFBORywgV0hJVEUgbWFya3Mgd2l0aCBUUkFOU1BBUkVOVCBiYWNrZ3JvdW5kIGFuZCBvcGVuIGdhcHMuIE5vIGFuaW1hbCwgb3V0bGluZSwgc2lsaG91ZXR0ZSwgY29sb3IsIGJhY2tkcm9wLCBzaGFkb3cgb3IgdGV4dC4gRHJhdyB0aGUgcmVxdWVzdGVkIHBhdHRlcm4gYWNyb3NzIHRoZSBmdWxsIGZpeGVkIGNhbnZhczsgbGF0ZXIgaXQgaXMgY2xpcHBlZCB0byB0aGUgZWVsJ3MgZXhhY3QgYWxwaGEgaW4gbWFzdGVyIHBpeGVsIGNvb3JkaW5hdGVzIHdpdGhvdXQgcmVzaXppbmcuIEVpZ2h0IGJyb2FkIHNtb290aCB3aGl0ZSB2ZXJ0aWNhbCBiYW5kcyBzcGFubmluZyB0aGUgY2FudmFzIGhlaWdodCwzMOKAkzQ1cHggd2lkZSwgZ2VudGxlIGN1cnZlcywgYnJvYWQgdHJhbnNwYXJlbnQgc3BhY2VzIGJldHdlZW4uIE5vIGV4dHJhIGZpbmUgc3RyaXBlcywgdGV4dHVyZSwgZG90cyBvciByaW5ncy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "cbe3295460feba6477696bf06b482acfd88496c0a7654da03609a71b6f94ddb7",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "1675281b38cec4921cdc1b30d5cf83d295af96b8ad4679c97e222a379a1e1d44",
+      "promptFile": "prompts/mottled.txt",
+      "promptSha256": "fec72cdac36f63ba847153a9fb3db556d14e483c54fbda72da43fabd5f3e1837",
+      "prompt": "Use case: stylized-concept.\nGenerate a 1254 x 1254 PNG marking mask with real transparent background. This is a standalone pattern mask, not a creature picture. Cover the ENTIRE square uniformly from edge to edge with many irregular ragged white mottled patches. Each patch about 35 to 70 pixels wide, organic lobed shapes, varying sizes, about 45 percent white coverage and 55 percent truly transparent gaps. Spread patches uniformly in every region of the canvas, including its center. Solid white islands with a lightly feathered painted boundary. No black, no colored pixels, no animal silhouette, no central blank area, no text, no shadows, no border, no checkerboard artwork. The transparent spaces between the white patches must be genuine alpha zero. This will later be clipped to a very thin eel silhouette by a deterministic conservation tool; do not attempt to place or shape an eel.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuCkdlbmVyYXRlIGEgMTI1NCB4IDEyNTQgUE5HIG1hcmtpbmcgbWFzayB3aXRoIHJlYWwgdHJhbnNwYXJlbnQgYmFja2dyb3VuZC4gVGhpcyBpcyBhIHN0YW5kYWxvbmUgcGF0dGVybiBtYXNrLCBub3QgYSBjcmVhdHVyZSBwaWN0dXJlLiBDb3ZlciB0aGUgRU5USVJFIHNxdWFyZSB1bmlmb3JtbHkgZnJvbSBlZGdlIHRvIGVkZ2Ugd2l0aCBtYW55IGlycmVndWxhciByYWdnZWQgd2hpdGUgbW90dGxlZCBwYXRjaGVzLiBFYWNoIHBhdGNoIGFib3V0IDM1IHRvIDcwIHBpeGVscyB3aWRlLCBvcmdhbmljIGxvYmVkIHNoYXBlcywgdmFyeWluZyBzaXplcywgYWJvdXQgNDUgcGVyY2VudCB3aGl0ZSBjb3ZlcmFnZSBhbmQgNTUgcGVyY2VudCB0cnVseSB0cmFuc3BhcmVudCBnYXBzLiBTcHJlYWQgcGF0Y2hlcyB1bmlmb3JtbHkgaW4gZXZlcnkgcmVnaW9uIG9mIHRoZSBjYW52YXMsIGluY2x1ZGluZyBpdHMgY2VudGVyLiBTb2xpZCB3aGl0ZSBpc2xhbmRzIHdpdGggYSBsaWdodGx5IGZlYXRoZXJlZCBwYWludGVkIGJvdW5kYXJ5LiBObyBibGFjaywgbm8gY29sb3JlZCBwaXhlbHMsIG5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjZW50cmFsIGJsYW5rIGFyZWEsIG5vIHRleHQsIG5vIHNoYWRvd3MsIG5vIGJvcmRlciwgbm8gY2hlY2tlcmJvYXJkIGFydHdvcmsuIFRoZSB0cmFuc3BhcmVudCBzcGFjZXMgYmV0d2VlbiB0aGUgd2hpdGUgcGF0Y2hlcyBtdXN0IGJlIGdlbnVpbmUgYWxwaGEgemVyby4gVGhpcyB3aWxsIGxhdGVyIGJlIGNsaXBwZWQgdG8gYSB2ZXJ5IHRoaW4gZWVsIHNpbGhvdWV0dGUgYnkgYSBkZXRlcm1pbmlzdGljIGNvbnNlcnZhdGlvbiB0b29sOyBkbyBub3QgYXR0ZW1wdCB0byBwbGFjZSBvciBzaGFwZSBhbiBlZWwuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "0aedea38129adc514ff7da4aa8be7f6592d3ba798d693c10e09b84100d48b063",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "65e7ccd9fc6b28a55009ea3b7197a2321a25b2e46badc9b3853ae8fbebf9a930",
+      "promptFile": "prompts/marbled.txt",
+      "promptSha256": "de31be6d5ec03116d56210f7418dfc56d51ab98eef119cd4c8e2affc4f017c4d",
+      "prompt": "Create a fresh marking-only mask for an Eel master: EXACT 1254 x 1254 PNG, WHITE marks with TRANSPARENT background and open gaps. No animal, outline, silhouette, color, backdrop, shadow or text. Draw the requested pattern across the full fixed canvas; later it is clipped to the eel's exact alpha in master pixel coordinates without resizing. Fine branching flowing white marble veins3–6px wide across full canvas, sparse organic connected paths, mostly transparent spaces. No filled areas, circles, spots or bands.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgZnJlc2ggbWFya2luZy1vbmx5IG1hc2sgZm9yIGFuIEVlbCBtYXN0ZXI6IEVYQUNUIDEyNTQgeCAxMjU0IFBORywgV0hJVEUgbWFya3Mgd2l0aCBUUkFOU1BBUkVOVCBiYWNrZ3JvdW5kIGFuZCBvcGVuIGdhcHMuIE5vIGFuaW1hbCwgb3V0bGluZSwgc2lsaG91ZXR0ZSwgY29sb3IsIGJhY2tkcm9wLCBzaGFkb3cgb3IgdGV4dC4gRHJhdyB0aGUgcmVxdWVzdGVkIHBhdHRlcm4gYWNyb3NzIHRoZSBmdWxsIGZpeGVkIGNhbnZhczsgbGF0ZXIgaXQgaXMgY2xpcHBlZCB0byB0aGUgZWVsJ3MgZXhhY3QgYWxwaGEgaW4gbWFzdGVyIHBpeGVsIGNvb3JkaW5hdGVzIHdpdGhvdXQgcmVzaXppbmcuIEZpbmUgYnJhbmNoaW5nIGZsb3dpbmcgd2hpdGUgbWFyYmxlIHZlaW5zM+KAkzZweCB3aWRlIGFjcm9zcyBmdWxsIGNhbnZhcywgc3BhcnNlIG9yZ2FuaWMgY29ubmVjdGVkIHBhdGhzLCBtb3N0bHkgdHJhbnNwYXJlbnQgc3BhY2VzLiBObyBmaWxsZWQgYXJlYXMsIGNpcmNsZXMsIHNwb3RzIG9yIGJhbmRzLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "11ba9b67c9c16a4e3915335e6ba63653917066c1669fcc4301f7bfd2875999e6",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "b8b3683c36c0b922a2ca253d2a9917170e932b1e8796f16831238fc0cf259622",
+      "promptFile": "prompts/eye-spotted.txt",
+      "promptSha256": "ff1230e781926e86f00fad26e05a74ed3585856bfeaf19212c4d6eba7d71c8df",
+      "prompt": "Create a fresh marking-only mask for an Eel master: EXACT 1254 x 1254 PNG, WHITE marks with TRANSPARENT background and open gaps. No animal, outline, silhouette, color, backdrop, shadow or text. Draw the requested pattern across the full fixed canvas; later it is clipped to the eel's exact alpha in master pixel coordinates without resizing. White thin oval rings spread across full canvas,25–50px diameters,4–6px strokes and fully transparent open centers. About35 separated rings, no filled dots, eye pupils, noise or connecting bridges.\n",
+      "promptBytesBase64": "Q3JlYXRlIGEgZnJlc2ggbWFya2luZy1vbmx5IG1hc2sgZm9yIGFuIEVlbCBtYXN0ZXI6IEVYQUNUIDEyNTQgeCAxMjU0IFBORywgV0hJVEUgbWFya3Mgd2l0aCBUUkFOU1BBUkVOVCBiYWNrZ3JvdW5kIGFuZCBvcGVuIGdhcHMuIE5vIGFuaW1hbCwgb3V0bGluZSwgc2lsaG91ZXR0ZSwgY29sb3IsIGJhY2tkcm9wLCBzaGFkb3cgb3IgdGV4dC4gRHJhdyB0aGUgcmVxdWVzdGVkIHBhdHRlcm4gYWNyb3NzIHRoZSBmdWxsIGZpeGVkIGNhbnZhczsgbGF0ZXIgaXQgaXMgY2xpcHBlZCB0byB0aGUgZWVsJ3MgZXhhY3QgYWxwaGEgaW4gbWFzdGVyIHBpeGVsIGNvb3JkaW5hdGVzIHdpdGhvdXQgcmVzaXppbmcuIFdoaXRlIHRoaW4gb3ZhbCByaW5ncyBzcHJlYWQgYWNyb3NzIGZ1bGwgY2FudmFzLDI14oCTNTBweCBkaWFtZXRlcnMsNOKAkzZweCBzdHJva2VzIGFuZCBmdWxseSB0cmFuc3BhcmVudCBvcGVuIGNlbnRlcnMuIEFib3V0MzUgc2VwYXJhdGVkIHJpbmdzLCBubyBmaWxsZWQgZG90cywgZXllIHB1cGlscywgbm9pc2Ugb3IgY29ubmVjdGluZyBicmlkZ2VzLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "a178ee3d5125dae343c1bff233c14a60ce79d3c43e6eb082f61eb84bd861e5ce",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

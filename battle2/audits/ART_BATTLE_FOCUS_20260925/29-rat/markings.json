@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "master.png",
+  "sourceSha256": "41f8ed50d1e195f7cbd2096ac228dc48df5f9da6b1a95537d67ab3427e3c4701",
+  "keyedAlphaFile": "fit-03/parts/keyed.png",
+  "keyedSha256": "c9a542153555fb6a4da9f9994307739c6f3c679909a036cc8322441733f292df",
+  "recordRecipeHash": "93a34fe91c56f8f64ed72223a5e101380065fb312d06d57f3923d815466ce9b0",
+  "compiledPrompt": {
+    "file": "prompt.txt",
+    "sha256": "06fa0e790694ba971b91af2e1f7afcec6d1fa8af7347af3b8415ee60b0c29fcb",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBSYXQ7IHJlYWwgbmFtZWQgYW5hdG9teSBhbmQgbmF0dXJhbCBtYXRlcmlhbHMgdGFrZSBwcmlvcml0eSBvdmVyIHJhdyBwcm9jZWR1cmFsIGdlbmVzLiBsb25nIG5ha2VkIHNjYWx5IHRhaWwgYWJvdXQgYXMgbG9uZyBhcyB0aGUgYm9keTsgcG9pbnRlZCB0d2l0Y2hpbmcgc25vdXQgd2l0aCBsb25nIHdoaXNrZXJzOyByb3VuZGVkIGVhcnMgYW5kIGh1bmNoZWQgYXJjaGVkIGJhY2suIElzb2xhdGVkIGxpYnJhcnkgYXJjaGV0eXBlLCBub3QgYSBsYW5kaW5nIHJlc2lkZW50IGNsYWltLgogIE9uZSBzaWduYXR1cmU6IG5vIGJpb21lIGhhemFyZCBpbiBzb3VyY2U7IG5vIGFkZGVkIGhhemFyZCBtb3RpZi4KClNVQkpFQ1QKT25lIEVhcnRoIFJhdC4gbG9uZyBuYWtlZCBzY2FseSB0YWlsIGFib3V0IGFzIGxvbmcgYXMgdGhlIGJvZHk7IHBvaW50ZWQgdHdpdGNoaW5nIHNub3V0IHdpdGggbG9uZyB3aGlza2Vyczsgcm91bmRlZCBlYXJzIGFuZCBodW5jaGVkIGFyY2hlZCBiYWNrLiBhc3BlY3QgaW5jbHVkZXMgdGhlIHRhaWw7IGJvZHkgYWxvbmUgaXMgYWJvdXQgMi42IHdpZGUgdG8gdGFsbApHZW5vbWljIGlkZW50aXR5IGFuZCB0cmFpdHMgKEVhcnRoIGFuYXRvbXkgdGFrZXMgcHJpb3JpdHkpOiB7InNlZWQiOjI1NjkxNTA4OTEsImtpbmdkb20iOiJmYXVuYSIsImNvbG9yIjo3LCJmb3JtIjozLCJib2R5IjozLCJsb2NvIjo1LCJ0cmFpdCI6NSwic2l6ZSI6MywiZGlldCI6NCwiaGVhZCI6MSwibGltYnMiOjEsInNraW4iOjMsInRhaWwiOjEsInBhdHRlcm4iOjYsImV5ZXMiOjEsImJlaGF2aW9yIjo1LCJoYWJpdGF0IjoxMSwiZGV0YWlsIjoyLCJhY2NlbnQiOjksInRlbXBlciI6NSwic2Vuc2UiOjMsInJlcHJvIjoxLCJsaWZlIjo0LCJtZXRhYiI6NCwibHVtaW4iOmZhbHNlLCJnZW4iOjAsImhlYXQiOjEsIl9lYXJ0aE5hbWUiOiJSYXQifQpGYW1pbHkgY29udHJhY3QgcXVhZHJ1cGVkLCBjbGlwIHNldCBxdWFkcnVwZWQtbGFuZC12MS4gUmVxdWlyZWQgcmlnIGpvaW50L3BhcnQgaW52ZW50b3J5OiByb290LCBwZWx2aXMsIHNwaW5lLCBjaGVzdCwgbmVjaywgaGVhZCwgamF3LCBoaW5kRmFyUm9vdCwgaGluZEZhcktuZWUsIGhpbmRGYXJBbmtsZSwgaGluZEZhclBhdywgZm9yZUZhclJvb3QsIGZvcmVGYXJLbmVlLCBmb3JlRmFyQW5rbGUsIGZvcmVGYXJQYXcsIGhpbmROZWFyUm9vdCwgaGluZE5lYXJLbmVlLCBoaW5kTmVhckFua2xlLCBoaW5kTmVhclBhdywgZm9yZU5lYXJSb290LCBmb3JlTmVhcktuZWUsIGZvcmVOZWFyQW5rbGUsIGZvcmVOZWFyUGF3LCB0YWlsMCwgdGFpbDEsIHRhaWwyLCB0YWlsMywgZWFyRmFyUm9vdCwgZWFyRmFyVGlwLCBlYXJOZWFyUm9vdCwgZWFyTmVhclRpcC4gQ29ubmVjdGVkIG9yZ2FuaWMgcGFpbnRlZCBzdWJqZWN0LCBubyBlcXVpcG1lbnQsIG5vIGZhbnRhc3kgYWRkZWQgbGltYnMuCldob2xlIHJlYWwgUmF0IGluIHN0cmljdCByaWdodC1mYWNpbmcgc2lkZSBwcm9maWxlLCBuYXR1cmFsIHN0YW5kaW5nIGNyb3VjaCB3aXRoIGFsbCBmb3VyIGZlZXQgc2VwYXJhdGVseSB2aXNpYmxlIGFuZCBmYXIgbGVncyBvZmZzZXQuIEh1bmNoZWQgYXJjaGVkIGJhY2ssIHNob3J0IGxlZ3MsIHBvaW50ZWQgd2hpc2tlcmVkIHNub3V0LCByb3VuZGVkIHRoaW4gZWFycywgbG9uZyBuYWtlZCBzY2FseSBwaW5raXNoLWJyb3duIHRhaWwgYXBwcm94aW1hdGVseSBib2R5IGxlbmd0aCBzd2VlcGluZyBMRUZUIGJlaGluZCB0aGUgYm9keS4gVGFpbCBoYXMgbm8gZnVyIGFuZCBpcyBub3QgYSBjYXRzIHRhaWwuIFBsYWluIHVubWFya2VkIHdhcm0gZ3JheS1icm93biBmdXIsIG5vIGJhbmRzL3N0cmlwZXMvc3BvdHM7IHNoYWRpbmcgb25seS4gRm91ciB0b2VzIG9uIGVhY2ggZm9yZWZvb3QgYW5kIGZpdmUgb24gZWFjaCBoaW5kZm9vdC4gUHV0IGVudGlyZSBjcmVhdHVyZSBpbmNsdWRpbmcgd2hpc2tlcnMvZWFycy90YWlsIGluc2lkZSB4MTQwLi4xMTEwLHkyMzAuLjEwMzAgb24gYTEyNTQtc3F1YXJlIGNhbnZhcy4gQm9keSB0b3JzbyByb3VnaGx5IHg1NTAuLjg5MCx5NTUwLi43ODA7IGhlYWQgeDk1MCx5NjIwOyBmZWV0IG5lYXIgeTg0MDsgdGFpbCBzd2VlcHMgbGVmdCB0byB4MTYwIHRoZW4gY3VybHMgc2xpZ2h0bHkgdXAuIEF0IGxlYXN0MTAwcHggY2xlYW4gc2FmZSBtYXJnaW4gb24gZXZlcnkgc2lkZS4gRmxhdCBvcGFxdWUgbWFnZW50YSBSR0IyNTUsMCwyNTUgYmFja2dyb3VuZDsgYWxsIG91dHB1dCBhbHBoYTI1NS4gRXN0YWJsaXNoZWQgc29mdGx5IHBhaW50ZWQgbmF0dXJhbC1oaXN0b3J5IHN0eWxlLCBub3QgcGhvdG8gb3IgY2FydG9vbi4KCkFDQ1VSQUNZCiAgQ29tcGxldGUgcmVhbCBSYXQsIG9uZSBjcmVhdHVyZSwgYW5hdG9taWNhbGx5IGFjY3VyYXRlIHNwZWNpZXMgcHJvcG9ydGlvbnMuCiAgQWxsIG5vcm1hbGx5IHZpc2libGUgbGltYnMgc2VwYXJhdGVseSByZWFkYWJsZSB3aXRoIGZhciBhcHBlbmRhZ2VzIHZpc2libHkgb2Zmc2V0IHdoZXJlIHRoZSB2aWV3IHBlcm1pdHM7IG5ldmVyIGludmVudCBleHRyYSBhbmF0b215LgogIE5vIHNjZW5lcnksIGdyb3VuZCwgc2hhZG93LCB0ZXh0LCBkdXBsaWNhdGUgY3JlYXR1cmUsIGNyb3BwZWQgYW5hdG9teS4KICBhc3BlY3QgaW5jbHVkZXMgdGhlIHRhaWw7IGJvZHkgYWxvbmUgaXMgYWJvdXQgMi42IHdpZGUgdG8gdGFsbAoKTEFZT1VUCiAgV2hvbGUgcmVhbCBSYXQgaW4gc3RyaWN0IHJpZ2h0LWZhY2luZyBzaWRlIHByb2ZpbGUsIG5hdHVyYWwgc3RhbmRpbmcgY3JvdWNoIHdpdGggYWxsIGZvdXIgZmVldCBzZXBhcmF0ZWx5IHZpc2libGUgYW5kIGZhciBsZWdzIG9mZnNldC4gSHVuY2hlZCBhcmNoZWQgYmFjaywgc2hvcnQgbGVncywgcG9pbnRlZCB3aGlza2VyZWQgc25vdXQsIHJvdW5kZWQgdGhpbiBlYXJzLCBsb25nIG5ha2VkIHNjYWx5IHBpbmtpc2gtYnJvd24gdGFpbCBhcHByb3hpbWF0ZWx5IGJvZHkgbGVuZ3RoIHN3ZWVwaW5nIExFRlQgYmVoaW5kIHRoZSBib2R5LiBUYWlsIGhhcyBubyBmdXIgYW5kIGlzIG5vdCBhIGNhdHMgdGFpbC4gUGxhaW4gdW5tYXJrZWQgd2FybSBncmF5LWJyb3duIGZ1ciwgbm8gYmFuZHMvc3RyaXBlcy9zcG90czsgc2hhZGluZyBvbmx5LiBGb3VyIHRvZXMgb24gZWFjaCBmb3JlZm9vdCBhbmQgZml2ZSBvbiBlYWNoIGhpbmRmb290LiBQdXQgZW50aXJlIGNyZWF0dXJlIGluY2x1ZGluZyB3aGlza2Vycy9lYXJzL3RhaWwgaW5zaWRlIHgxNDAuLjExMTAseTIzMC4uMTAzMCBvbiBhMTI1NC1zcXVhcmUgY2FudmFzLiBCb2R5IHRvcnNvIHJvdWdobHkgeDU1MC4uODkwLHk1NTAuLjc4MDsgaGVhZCB4OTUwLHk2MjA7IGZlZXQgbmVhciB5ODQwOyB0YWlsIHN3ZWVwcyBsZWZ0IHRvIHgxNjAgdGhlbiBjdXJscyBzbGlnaHRseSB1cC4gQXQgbGVhc3QxMDBweCBjbGVhbiBzYWZlIG1hcmdpbiBvbiBldmVyeSBzaWRlLiBGbGF0IG9wYXF1ZSBtYWdlbnRhIFJHQjI1NSwwLDI1NSBiYWNrZ3JvdW5kOyBhbGwgb3V0cHV0IGFscGhhMjU1LiBFc3RhYmxpc2hlZCBzb2Z0bHkgcGFpbnRlZCBuYXR1cmFsLWhpc3Rvcnkgc3R5bGUsIG5vdCBwaG90byBvciBjYXJ0b29uLgogIE9uZSB3aG9sZSBjcmVhdHVyZSBjZW50ZXJlZCwgZW50aXJlIGFuYXRvbXkgaW4gZnJhbWUsIGF0IGxlYXN0IDggcGVyY2VudCBzYWZlIG1hcmdpbi4gTm8gZmxvb3IgcGxhbmUuCgpURUNITklDQUwgT1VUUFVUCiAgQ3JlYXRlIGEgc3F1YXJlIDEyNTQgeCAxMjU0IFBORy4gRXZlcnkgcGl4ZWwgdGhhdCBpcyBub3QgdGhlIHN1YmplY3QgaXMgb25lCiAgZmxhdCwgdW5pZm9ybSwgcHVyZSBtYWdlbnRhIGZpbGwgKCNGRjAwRkYpOiBubyBncmFkaWVudCwgdmlnbmV0dGUsIHRleHR1cmUsCiAgbm9pc2UsIGNoZWNrZXJib2FyZCBvciB0cmFuc3BhcmVuY3kgcGF0dGVybiwgYW5kIG5vIGdyb3VuZCwgYmFzZSwgZnJhbWUsCiAgc2NlbmVyeSBvciBjYXN0IHNoYWRvdy4gVGhlIHN1YmplY3QncyBvdXRsaW5lIGlzIGNyaXNwIGFuZCBmdWxseSBvcGFxdWUKICBhZ2FpbnN0IHRoZSBtYWdlbnRhLCB3aXRoIG5vIGdsb3csIGhhemUsIHNtb2tlIG9yIHNvZnQgZmVhdGhlcmluZyBibGVlZGluZwogIGludG8gaXQsIGFuZCBub3RoaW5nIG9uIHRoZSBzdWJqZWN0IGlzIG1hZ2VudGEgb3IgcGluay4gVGhlIG1hZ2VudGEgaXMga2V5ZWQKICBvdXQgYWZ0ZXJ3YXJkcyB0byBwcm9kdWNlIHRoZSB0cmFuc3BhcmVudCBhc3NldC4KCk5FR0FUSVZFCiAgTm8gdGV4dCwgbGV0dGVycywgbnVtYmVycywgd2F0ZXJtYXJrLCBzaWduYXR1cmUsIGJvcmRlciwgZnJhbWUsIGdyaWQsIFVJCiAgZWxlbWVudCwgaGVhbHRoIGJhciwgbWluaW1hcCwgd2F5cG9pbnQsIHRva2VuIHJpbmcsIGJhc2UsIHBlZGVzdGFsLAogIHBob3RvcmVhbGlzbSwgYW5pbWUsIGNoaWJpIHN0eWxpbmcsIGNlbCBzaGFkaW5nLCAzRCByZW5kZXIsIHBsYXN0aWMgdG95CiAgc2hlZW4sIGFpcmJydXNoZWQgZ3JhZGllbnRzLCBkdXBsaWNhdGUgc3ViamVjdCwgdW5pbnRlbmRlZCBjb21wYW5pb24sIGV4dHJhCiAgbGltYnMsIG1pc3NpbmcgbGltYnMsIG1hbGZvcm1lZCBoYW5kcywgY3JvcHBlZCBhbmF0b215LCBvciBjb250YWN0LXNoZWV0CiAgbGF5b3V0LiBObyBsZW5zIGZsYXJlLCBubyBjaHJvbWF0aWMgYWJlcnJhdGlvbiwgbm8gaG9sb2dyYXBoaWMgVUkKICBwcm9qZWN0aW9ucywgbm8gZ2xvd2luZyBvdXRsaW5lcyBvciByaW0gbGlnaHQgdXNlZCBhcyBhbiBlZmZlY3QuCiAgTm8gc2NlbmVyeSwgbm8gZmxvb3IgcGxhbmUsIG5vIGNhc3Qgc2hhZG93LCBubyBkcm9wIHNoYWRvdywgbm8gd2hpdGUKICBiYWNrZ3JvdW5kLCBubyBjaGVja2VyZWQgYmFja2dyb3VuZCwgbm8gYmFrZWQgdHJhbnNwYXJlbmN5IHBhdHRlcm4uCiAgQmFja2dyb3VuZCBtdXN0IGJlIG9uZSBmbGF0IHVuaWZvcm0gbWFnZW50YSBmaWxsIGFuZCBub3RoaW5nIGVsc2UuCiAgTm8gZGVmYXVsdCBiaXBlZGFsIGh1bWFub2lkIHN0YW5jZSB1bmxlc3MgbmFtZWQsIG5vIGFybW91ciBwbGF0aW5nIHRoZSBicmllZiBkaWQKICBub3QgYXNrIGZvciwgbm8gaHVtYW4gZXllcywgbm8gd2VhcG9ucyBoZWxkIGluIGhhbmRzIHVubGVzcyBuYW1lZCwgbm8gcmlkZXIsCiAgbm8gc2Vjb25kIGNyZWF0dXJlLgogIERvIG5vdCBhZGQgYSBibGFua2V0IG92ZXJzaXplZC1oZWFkIGJhbiB0aGF0IHdvdWxkIGZpZ2h0IGEgZGF0YS1vd25lZAogIGNvbXBhbmlvbiBicmllZi4="
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "8cb1148da4714cef1fe33cd9a1a2c16d54e81b3235fb3d41747255c0153ca304",
+      "promptFile": "prompts/striped.txt",
+      "promptSha256": "90ab3970e99da71042e08b96d503ab8f079c352b20bbc8765c663ad62e086fdd",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. Fine winding parallel white stripes with15px widths,40px transparent gaps, slanting slightly vertically. Sparse natural fur stripe pattern.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gRmluZSB3aW5kaW5nIHBhcmFsbGVsIHdoaXRlIHN0cmlwZXMgd2l0aDE1cHggd2lkdGhzLDQwcHggdHJhbnNwYXJlbnQgZ2Fwcywgc2xhbnRpbmcgc2xpZ2h0bHkgdmVydGljYWxseS4gU3BhcnNlIG5hdHVyYWwgZnVyIHN0cmlwZSBwYXR0ZXJuLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "7938b22bfba6abcbdad8bafc6cf15060ebefb56243464323a201a8daae9f53eb",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "9015db966c7c05cd5c23468a86f5321bcad2840e71835235d7a1a017adf2580f",
+      "promptFile": "prompts/spotted.txt",
+      "promptSha256": "9ff7180173340d09a167678c37d7030d0a5ef466991084d24d2cf5bb5b71780a",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. Many irregular round white spots20–35px wide with50–65px spacing, separated in loose offset rows. Uneven natural markings.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gTWFueSBpcnJlZ3VsYXIgcm91bmQgd2hpdGUgc3BvdHMyMOKAkzM1cHggd2lkZSB3aXRoNTDigJM2NXB4IHNwYWNpbmcsIHNlcGFyYXRlZCBpbiBsb29zZSBvZmZzZXQgcm93cy4gVW5ldmVuIG5hdHVyYWwgbWFya2luZ3MuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "ef80b1a5ed4c93c2c4b7c0b7f3467a30fb53fa1bc7ae18c9e802f62e6aa6966b",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "2cdc2ae0f215e369c2e50996ede3b8fe1df0bd44eea98fbb93aed62fefab1d9c",
+      "promptFile": "prompts/banded.txt",
+      "promptSha256": "34f67bbf83b5640627784b908047595b47d8f2b3473adc71dbe0df5c54579b7d",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. Broad smooth white horizontal curved bands about50px thick separated by80px transparent gaps. Distinct broad bands, no small stripes or dots.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gQnJvYWQgc21vb3RoIHdoaXRlIGhvcml6b250YWwgY3VydmVkIGJhbmRzIGFib3V0NTBweCB0aGljayBzZXBhcmF0ZWQgYnk4MHB4IHRyYW5zcGFyZW50IGdhcHMuIERpc3RpbmN0IGJyb2FkIGJhbmRzLCBubyBzbWFsbCBzdHJpcGVzIG9yIGRvdHMuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "78dd63d79d03e67d51634f15411e1e41419908af0ded53957dccef5ce3d59fbc",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "373cbd1d94bb899980aebefe6a55a9e92623c9344a211fc40c44da74a16c633a",
+      "promptFile": "prompts/mottled.txt",
+      "promptSha256": "4df76d963ccf98e24dd4a99e25de35c01d5218be6843531f43989130aae20f87",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. Irregular lobed ragged white islands25–65px across,45percent coverage and55percent transparent gaps, uniformly distributed organic mottling.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gSXJyZWd1bGFyIGxvYmVkIHJhZ2dlZCB3aGl0ZSBpc2xhbmRzMjXigJM2NXB4IGFjcm9zcyw0NXBlcmNlbnQgY292ZXJhZ2UgYW5kNTVwZXJjZW50IHRyYW5zcGFyZW50IGdhcHMsIHVuaWZvcm1seSBkaXN0cmlidXRlZCBvcmdhbmljIG1vdHRsaW5nLgo=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "bcac5374c1bb3a6605d637abcbb697486f9050f9585a08331bbf60461fab817b",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "536eec90ea4d9c5bbeaf98ade566d1624bd5e3cd41a6f5613a9e08d17302d161",
+      "promptFile": "prompts/marbled.txt",
+      "promptSha256": "e07cb9d87faee908768c5d1565f13c340386510b5a8b3f925f721ab2d89261c8",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. Thin branching white veins4–8px wide winding and forking organically throughout canvas. Mostly transparent gaps, no solid masses.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gVGhpbiBicmFuY2hpbmcgd2hpdGUgdmVpbnM04oCTOHB4IHdpZGUgd2luZGluZyBhbmQgZm9ya2luZyBvcmdhbmljYWxseSB0aHJvdWdob3V0IGNhbnZhcy4gTW9zdGx5IHRyYW5zcGFyZW50IGdhcHMsIG5vIHNvbGlkIG1hc3Nlcy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "a3c01603a0e7ee6e3d62f0f2bb24d6333d34e46d9150b2540314aa0a9573ba0d",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "8973a82cb9b9a3ace77047a6deb6c26499dc957e93f26e6874a918aafc528a2f",
+      "promptFile": "prompts/eye-spotted.txt",
+      "promptSha256": "5121c33132bb2902b117bc0fa1efdae68dec77fa3e7742187c1f8f4d1480745e",
+      "prompt": "Use case: stylized-concept. Generate a fresh Rat coat marking mask, EXACT 1254 x 1254 PNG with white marks on genuine transparent background. No animal silhouette, no color, no shadows, no text, no drawn checkerboard. Spread this pattern uniformly across the ENTIRE square, including all edges and its middle. Separate white marks with clear transparent gaps. This field will be clipped in fixed master pixel space to manually declared fur owners; do not draw an animal. White open rings about50px diameter with8px outlines and fully transparent centers, spaced90px apart in staggered rows. No filled dots or eyes.\n",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIEdlbmVyYXRlIGEgZnJlc2ggUmF0IGNvYXQgbWFya2luZyBtYXNrLCBFWEFDVCAxMjU0IHggMTI1NCBQTkcgd2l0aCB3aGl0ZSBtYXJrcyBvbiBnZW51aW5lIHRyYW5zcGFyZW50IGJhY2tncm91bmQuIE5vIGFuaW1hbCBzaWxob3VldHRlLCBubyBjb2xvciwgbm8gc2hhZG93cywgbm8gdGV4dCwgbm8gZHJhd24gY2hlY2tlcmJvYXJkLiBTcHJlYWQgdGhpcyBwYXR0ZXJuIHVuaWZvcm1seSBhY3Jvc3MgdGhlIEVOVElSRSBzcXVhcmUsIGluY2x1ZGluZyBhbGwgZWRnZXMgYW5kIGl0cyBtaWRkbGUuIFNlcGFyYXRlIHdoaXRlIG1hcmtzIHdpdGggY2xlYXIgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBmaWVsZCB3aWxsIGJlIGNsaXBwZWQgaW4gZml4ZWQgbWFzdGVyIHBpeGVsIHNwYWNlIHRvIG1hbnVhbGx5IGRlY2xhcmVkIGZ1ciBvd25lcnM7IGRvIG5vdCBkcmF3IGFuIGFuaW1hbC4gV2hpdGUgb3BlbiByaW5ncyBhYm91dDUwcHggZGlhbWV0ZXIgd2l0aDhweCBvdXRsaW5lcyBhbmQgZnVsbHkgdHJhbnNwYXJlbnQgY2VudGVycywgc3BhY2VkOTBweCBhcGFydCBpbiBzdGFnZ2VyZWQgcm93cy4gTm8gZmlsbGVkIGRvdHMgb3IgZXllcy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "b52b2002e35499a8c1db9c1b08f2c4dc0759a87ea2a93c6ce929b7ff22a98640",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded, then explicitly declared torso/upper-leg fur owners only; no automatic inference"
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "master.png",
+  "sourceSha256": "650d3a5d2fe3fe0b5fc986448a3a7818f89975642af68b51d27dac1366bc958e",
+  "keyedAlphaFile": "fit-02/parts/keyed.png",
+  "keyedSha256": "16d9e16cf1a894fbc23aedf6d42842db98855ffa3bf289b90292d4da82204539",
+  "recordRecipeHash": "e9dcb7f05109bf5d758eb6d7053792ea93ffc677f05978c2764fd3df5dda9335",
+  "compiledPrompt": {
+    "file": "prompt.txt",
+    "sha256": "2398da6036937d97498f234c0622da58622adaaf742e63317d3680d0b8b1d2ff",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBSYWNlcjsgcmVhbCBuYW1lZCBhbmF0b215IGFuZCBuYXR1cmFsIG1hdGVyaWFscyB0YWtlIHByaW9yaXR5IG92ZXIgcmF3IHByb2NlZHVyYWwgZ2VuZXMuIHZlcnkgc2xlbmRlciB3aGlwLXRoaW4gYm9keSBpbiBhIGZhc3QgUy1jdXJ2ZTsgc21vb3RoIGdsb3NzeSB1bmlmb3JtIHNjYWxlczsgbGFyZ2UgZXllIG9uIGEgbmFycm93IHJvdW5kZWQgaGVhZC4gSXNvbGF0ZWQgbGlicmFyeSBhcmNoZXR5cGUsIG5vdCBhIGxhbmRpbmcgcmVzaWRlbnQgY2xhaW0uCiAgT25lIHNpZ25hdHVyZTogbm8gYmlvbWUgaGF6YXJkIGluIHNvdXJjZTsgbm8gYWRkZWQgaGF6YXJkIG1vdGlmLgoKU1VCSkVDVApPbmUgRWFydGggUmFjZXIuIHZlcnkgc2xlbmRlciB3aGlwLXRoaW4gYm9keSBpbiBhIGZhc3QgUy1jdXJ2ZTsgc21vb3RoIGdsb3NzeSB1bmlmb3JtIHNjYWxlczsgbGFyZ2UgZXllIG9uIGEgbmFycm93IHJvdW5kZWQgaGVhZC4gTmFtZSByZWFkIGFzIHRoZSBOb3J0aCBBbWVyaWNhbiByYWNlciBzbmFrZSAoQ29sdWJlciksIGEgc2xpbSBmYXN0LW1vdmluZyBjb2x1YnJpZCwgbm90IGEgbGl6YXJkIG9yIGEgJ3JhY2VydW5uZXInLgpHZW5vbWljIGlkZW50aXR5IGFuZCB0cmFpdHMgKEVhcnRoIGFuYXRvbXkgdGFrZXMgcHJpb3JpdHkpOiB7InNlZWQiOjI3NTg5Nzc2NDYsImtpbmdkb20iOiJmYXVuYSIsImNvbG9yIjoxNCwiZm9ybSI6MCwiYm9keSI6NCwibG9jbyI6MTcsInRyYWl0IjoxNSwic2l6ZSI6MSwiZGlldCI6MSwiaGVhZCI6MSwibGltYnMiOjAsInNraW4iOjIsInRhaWwiOjMsInBhdHRlcm4iOjYsImV5ZXMiOjQsImJlaGF2aW9yIjowLCJoYWJpdGF0IjoxMiwiZGV0YWlsIjo1LCJhY2NlbnQiOjIsInRlbXBlciI6NSwic2Vuc2UiOjAsInJlcHJvIjowLCJsaWZlIjoxLCJtZXRhYiI6NCwibHVtaW4iOmZhbHNlLCJnZW4iOjAsImhlYXQiOjEsIl9lYXJ0aE5hbWUiOiJSYWNlciJ9CkZhbWlseSBjb250cmFjdCBzZXJwZW50LCBjbGlwIHNldCBzZXJwZW50LXYxLiBSZXF1aXJlZCByaWcgam9pbnQvcGFydCBpbnZlbnRvcnk6IHJvb3QsIGhlYWQsIGphdywgc2VnMCwgc2VnMSwgc2VnMiwgc2VnMywgc2VnNCwgc2VnNSwgc2VnNiwgc2VnNywgc2VnOCwgc2VnOS4gQ29ubmVjdGVkIG9yZ2FuaWMgcGFpbnRlZCBzdWJqZWN0LCBubyBlcXVpcG1lbnQsIG5vIGZhbnRhc3kgYWRkZWQgbGltYnMuClJpZ2h0LWZhY2luZyBzaWRlLW9uIHNsZW5kZXIgcmFjZXIgc25ha2UsIGVsb25nYXRlZCBsb29zZSBob3Jpem9udGFsIFMtY3VydmUsIHdob2xlIGNyZWF0dXJlIHZpc2libGUgd2l0aCBjbGVhciBsb25nIHRoaW4gdGFpbCB0YXBlciwgcm91bmRlZCBuYXJyb3cgaGVhZCBhbmQgcm91bmQgZXllLiBQbGFpbiB1bmlmb3JtIG9saXZlLWdyZXkgYmFzZSBjb2F0IHdpdGggc3VidGxlIHNjYWxlIHRleHR1cmUgb25seSwgbm8gc3RyaXBlcywgc3BvdHMsIGJhbmRzIG9yIHBpZ21lbnQgbWFya2luZ3MuIE5vIGNvaWxzIG92ZXJsYXBwaW5nIGFueSBvdGhlciBib2R5IHNlZ21lbnQuIEFsbCBib2R5IHR1cm5zIHNoYWxsb3cgYW5kIHNlcGFyYXRlZCBmb3IgYSBjb250aW51b3VzIHNlZ21lbnQgcmlnOyBubyByYWlzZWQgdGhyZWF0ZW5pbmcgY29icmEgaG9vZC4gQXQgbGVhc3QgMTAgcGVyY2VudCB0cmFuc3BhcmVudCBtYXJnaW5zIG9uIGFsbCBzaWRlcy4KCkFDQ1VSQUNZCiAgQ29tcGxldGUgcmVhbCBSYWNlciwgb25lIGNyZWF0dXJlLCBhbmF0b21pY2FsbHkgYWNjdXJhdGUgc3BlY2llcyBwcm9wb3J0aW9ucy4KICBBbGwgbm9ybWFsbHkgdmlzaWJsZSBsaW1icyBzZXBhcmF0ZWx5IHJlYWRhYmxlIHdpdGggZmFyIGFwcGVuZGFnZXMgdmlzaWJseSBvZmZzZXQgd2hlcmUgdGhlIHZpZXcgcGVybWl0czsgbmV2ZXIgaW52ZW50IGV4dHJhIGFuYXRvbXkuCiAgTm8gc2NlbmVyeSwgZ3JvdW5kLCBzaGFkb3csIHRleHQsIGR1cGxpY2F0ZSBjcmVhdHVyZSwgY3JvcHBlZCBhbmF0b215LgogIE5hbWUgcmVhZCBhcyB0aGUgTm9ydGggQW1lcmljYW4gcmFjZXIgc25ha2UgKENvbHViZXIpLCBhIHNsaW0gZmFzdC1tb3ZpbmcgY29sdWJyaWQsIG5vdCBhIGxpemFyZCBvciBhICdyYWNlcnVubmVyJy4KCkxBWU9VVAogIFJpZ2h0LWZhY2luZyBzaWRlLW9uIHNsZW5kZXIgcmFjZXIgc25ha2UsIGVsb25nYXRlZCBsb29zZSBob3Jpem9udGFsIFMtY3VydmUsIHdob2xlIGNyZWF0dXJlIHZpc2libGUgd2l0aCBjbGVhciBsb25nIHRoaW4gdGFpbCB0YXBlciwgcm91bmRlZCBuYXJyb3cgaGVhZCBhbmQgcm91bmQgZXllLiBQbGFpbiB1bmlmb3JtIG9saXZlLWdyZXkgYmFzZSBjb2F0IHdpdGggc3VidGxlIHNjYWxlIHRleHR1cmUgb25seSwgbm8gc3RyaXBlcywgc3BvdHMsIGJhbmRzIG9yIHBpZ21lbnQgbWFya2luZ3MuIE5vIGNvaWxzIG92ZXJsYXBwaW5nIGFueSBvdGhlciBib2R5IHNlZ21lbnQuIEFsbCBib2R5IHR1cm5zIHNoYWxsb3cgYW5kIHNlcGFyYXRlZCBmb3IgYSBjb250aW51b3VzIHNlZ21lbnQgcmlnOyBubyByYWlzZWQgdGhyZWF0ZW5pbmcgY29icmEgaG9vZC4gQXQgbGVhc3QgMTAgcGVyY2VudCB0cmFuc3BhcmVudCBtYXJnaW5zIG9uIGFsbCBzaWRlcy4KICBPbmUgd2hvbGUgY3JlYXR1cmUgY2VudGVyZWQsIGVudGlyZSBhbmF0b215IGluIGZyYW1lLCBhdCBsZWFzdCA4IHBlcmNlbnQgc2FmZSBtYXJnaW4uIE5vIGZsb29yIHBsYW5lLgoKVEVDSE5JQ0FMIE9VVFBVVAogIENyZWF0ZSBhIHNxdWFyZSAxMjU0IHggMTI1NCBQTkcuIEV2ZXJ5IHBpeGVsIHRoYXQgaXMgbm90IHRoZSBzdWJqZWN0IGlzIG9uZQogIGZsYXQsIHVuaWZvcm0sIHB1cmUgbWFnZW50YSBmaWxsICgjRkYwMEZGKTogbm8gZ3JhZGllbnQsIHZpZ25ldHRlLCB0ZXh0dXJlLAogIG5vaXNlLCBjaGVja2VyYm9hcmQgb3IgdHJhbnNwYXJlbmN5IHBhdHRlcm4sIGFuZCBubyBncm91bmQsIGJhc2UsIGZyYW1lLAogIHNjZW5lcnkgb3IgY2FzdCBzaGFkb3cuIFRoZSBzdWJqZWN0J3Mgb3V0bGluZSBpcyBjcmlzcCBhbmQgZnVsbHkgb3BhcXVlCiAgYWdhaW5zdCB0aGUgbWFnZW50YSwgd2l0aCBubyBnbG93LCBoYXplLCBzbW9rZSBvciBzb2Z0IGZlYXRoZXJpbmcgYmxlZWRpbmcKICBpbnRvIGl0LCBhbmQgbm90aGluZyBvbiB0aGUgc3ViamVjdCBpcyBtYWdlbnRhIG9yIHBpbmsuIFRoZSBtYWdlbnRhIGlzIGtleWVkCiAgb3V0IGFmdGVyd2FyZHMgdG8gcHJvZHVjZSB0aGUgdHJhbnNwYXJlbnQgYXNzZXQuCgpORUdBVElWRQogIE5vIHRleHQsIGxldHRlcnMsIG51bWJlcnMsIHdhdGVybWFyaywgc2lnbmF0dXJlLCBib3JkZXIsIGZyYW1lLCBncmlkLCBVSQogIGVsZW1lbnQsIGhlYWx0aCBiYXIsIG1pbmltYXAsIHdheXBvaW50LCB0b2tlbiByaW5nLCBiYXNlLCBwZWRlc3RhbCwKICBwaG90b3JlYWxpc20sIGFuaW1lLCBjaGliaSBzdHlsaW5nLCBjZWwgc2hhZGluZywgM0QgcmVuZGVyLCBwbGFzdGljIHRveQogIHNoZWVuLCBhaXJicnVzaGVkIGdyYWRpZW50cywgZHVwbGljYXRlIHN1YmplY3QsIHVuaW50ZW5kZWQgY29tcGFuaW9uLCBleHRyYQogIGxpbWJzLCBtaXNzaW5nIGxpbWJzLCBtYWxmb3JtZWQgaGFuZHMsIGNyb3BwZWQgYW5hdG9teSwgb3IgY29udGFjdC1zaGVldAogIGxheW91dC4gTm8gbGVucyBmbGFyZSwgbm8gY2hyb21hdGljIGFiZXJyYXRpb24sIG5vIGhvbG9ncmFwaGljIFVJCiAgcHJvamVjdGlvbnMsIG5vIGdsb3dpbmcgb3V0bGluZXMgb3IgcmltIGxpZ2h0IHVzZWQgYXMgYW4gZWZmZWN0LgogIE5vIHNjZW5lcnksIG5vIGZsb29yIHBsYW5lLCBubyBjYXN0IHNoYWRvdywgbm8gZHJvcCBzaGFkb3csIG5vIHdoaXRlCiAgYmFja2dyb3VuZCwgbm8gY2hlY2tlcmVkIGJhY2tncm91bmQsIG5vIGJha2VkIHRyYW5zcGFyZW5jeSBwYXR0ZXJuLgogIEJhY2tncm91bmQgbXVzdCBiZSBvbmUgZmxhdCB1bmlmb3JtIG1hZ2VudGEgZmlsbCBhbmQgbm90aGluZyBlbHNlLgogIE5vIGRlZmF1bHQgYmlwZWRhbCBodW1hbm9pZCBzdGFuY2UgdW5sZXNzIG5hbWVkLCBubyBhcm1vdXIgcGxhdGluZyB0aGUgYnJpZWYgZGlkCiAgbm90IGFzayBmb3IsIG5vIGh1bWFuIGV5ZXMsIG5vIHdlYXBvbnMgaGVsZCBpbiBoYW5kcyB1bmxlc3MgbmFtZWQsIG5vIHJpZGVyLAogIG5vIHNlY29uZCBjcmVhdHVyZS4KICBEbyBub3QgYWRkIGEgYmxhbmtldCBvdmVyc2l6ZWQtaGVhZCBiYW4gdGhhdCB3b3VsZCBmaWdodCBhIGRhdGEtb3duZWQKICBjb21wYW5pb24gYnJpZWYu"
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "dc49b6f1d0e1b4c65c5cb57754a810e969b16bbe653b7ad8ad13168aa8eae6b6",
+      "promptFile": "prompts-sent/striped.txt",
+      "promptSha256": "44493d8b24ffff5531f54c1667601a59ea2f7792965c87b69bde5e6c1567d758",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Three slender lengthwise stripes following the continuous curved body axis, like a garter snake. Never transverse tiger bars. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBUaHJlZSBzbGVuZGVyIGxlbmd0aHdpc2Ugc3RyaXBlcyBmb2xsb3dpbmcgdGhlIGNvbnRpbnVvdXMgY3VydmVkIGJvZHkgYXhpcywgbGlrZSBhIGdhcnRlciBzbmFrZS4gTmV2ZXIgdHJhbnN2ZXJzZSB0aWdlciBiYXJzLiBDb25maW5lIGFsbCBtYXJraW5ncyB0byB0aGUgc25ha2UncyBjdXJ2ZWQgYm9keSBiZXR3ZWVuIHg9MzQwIGFuZCB4PTg3MDsgZm9sbG93IGl0cyBhY3R1YWwgc2hhbGxvdyBTLXNoYXBlZCB1cHBlciBmbGFuayBhcm91bmQgeT02MjAuLjcwNC4gTGVhdmUgdGhlIHRoaW4gdGFpbCBiZXlvbmQgeDM0MCwgdGhlIGhlYWQvamF3L3Rvbmd1ZSBiZXlvbmQgeDkwMCBhbmQgYWxsIHN1cnJvdW5kaW5nIGVtcHR5IGNhbnZhcyBUUkFOU1BBUkVOVC4gRG8gbm90IGZpbGwgdGhlIHdob2xlIHNpbGhvdWV0dGUgd2hpdGUuIFNvZnQgcGFpbnRlcmx5IG1hcmtpbmcgZWRnZXMsIGRpc3RpbmN0IHRyYW5zcGFyZW50IGdhcHMuIFRoaXMgaXMgYSBwcmVjaXNlIHJlZ2lzdGVyZWQgbWFya2luZyBtYXNrLCBub3QgYSByZXBhaW50ZWQgc25ha2Uu",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "c3f8a5072d06face1b3fb5fe34bbf18bd5208068b22dd96150d0f18f3d5b5df6",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "74b563164f0de1924f6d56300f5b6746779f645fa9814879ecafe0962f533d98",
+      "promptFile": "prompts-sent/spotted.txt",
+      "promptSha256": "2ee51612d96a54835240af4c741c55b704900ce37bf1f9659854c818dd590807",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Small scattered rounded spots with substantial transparent space between the spots. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBTbWFsbCBzY2F0dGVyZWQgcm91bmRlZCBzcG90cyB3aXRoIHN1YnN0YW50aWFsIHRyYW5zcGFyZW50IHNwYWNlIGJldHdlZW4gdGhlIHNwb3RzLiBDb25maW5lIGFsbCBtYXJraW5ncyB0byB0aGUgc25ha2UncyBjdXJ2ZWQgYm9keSBiZXR3ZWVuIHg9MzQwIGFuZCB4PTg3MDsgZm9sbG93IGl0cyBhY3R1YWwgc2hhbGxvdyBTLXNoYXBlZCB1cHBlciBmbGFuayBhcm91bmQgeT02MjAuLjcwNC4gTGVhdmUgdGhlIHRoaW4gdGFpbCBiZXlvbmQgeDM0MCwgdGhlIGhlYWQvamF3L3Rvbmd1ZSBiZXlvbmQgeDkwMCBhbmQgYWxsIHN1cnJvdW5kaW5nIGVtcHR5IGNhbnZhcyBUUkFOU1BBUkVOVC4gRG8gbm90IGZpbGwgdGhlIHdob2xlIHNpbGhvdWV0dGUgd2hpdGUuIFNvZnQgcGFpbnRlcmx5IG1hcmtpbmcgZWRnZXMsIGRpc3RpbmN0IHRyYW5zcGFyZW50IGdhcHMuIFRoaXMgaXMgYSBwcmVjaXNlIHJlZ2lzdGVyZWQgbWFya2luZyBtYXNrLCBub3QgYSByZXBhaW50ZWQgc25ha2Uu",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "fa49f879edf471d990b3d96ab198f3e7602831ea10ad786826073acf4fced9e8",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "45769a78d2ac462d713465cb1bede37f92b22f7666784236188729c7be298bef",
+      "promptFile": "prompts-sent/banded.txt",
+      "promptSha256": "b7baf08bcbda9dfb642da3a1eea88b7cf4003f6928890abaeb0f1d8d93734f6d",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Seven separated narrow transverse rings/bands crossing the body width, like king-snake rings. Never longitudinal stripes. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBTZXZlbiBzZXBhcmF0ZWQgbmFycm93IHRyYW5zdmVyc2UgcmluZ3MvYmFuZHMgY3Jvc3NpbmcgdGhlIGJvZHkgd2lkdGgsIGxpa2Uga2luZy1zbmFrZSByaW5ncy4gTmV2ZXIgbG9uZ2l0dWRpbmFsIHN0cmlwZXMuIENvbmZpbmUgYWxsIG1hcmtpbmdzIHRvIHRoZSBzbmFrZSdzIGN1cnZlZCBib2R5IGJldHdlZW4geD0zNDAgYW5kIHg9ODcwOyBmb2xsb3cgaXRzIGFjdHVhbCBzaGFsbG93IFMtc2hhcGVkIHVwcGVyIGZsYW5rIGFyb3VuZCB5PTYyMC4uNzA0LiBMZWF2ZSB0aGUgdGhpbiB0YWlsIGJleW9uZCB4MzQwLCB0aGUgaGVhZC9qYXcvdG9uZ3VlIGJleW9uZCB4OTAwIGFuZCBhbGwgc3Vycm91bmRpbmcgZW1wdHkgY2FudmFzIFRSQU5TUEFSRU5ULiBEbyBub3QgZmlsbCB0aGUgd2hvbGUgc2lsaG91ZXR0ZSB3aGl0ZS4gU29mdCBwYWludGVybHkgbWFya2luZyBlZGdlcywgZGlzdGluY3QgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBpcyBhIHByZWNpc2UgcmVnaXN0ZXJlZCBtYXJraW5nIG1hc2ssIG5vdCBhIHJlcGFpbnRlZCBzbmFrZS4=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "f8896c5cc8f2dc49fa9f979a4a91441cf03842dd10cb54cdbaab864c312ac83c",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "5d564ba51f760bec786950963d0aa769e3a81f689c3ff6323b969f8f6f8cbc2e",
+      "promptFile": "prompts-sent/mottled.txt",
+      "promptSha256": "ed458336c5cd31f191df9ab5412837bfe674e39f7e15e2d016e57f75653a3f78",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Irregular softly edged separated blotches, mottled natural organic shapes. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBJcnJlZ3VsYXIgc29mdGx5IGVkZ2VkIHNlcGFyYXRlZCBibG90Y2hlcywgbW90dGxlZCBuYXR1cmFsIG9yZ2FuaWMgc2hhcGVzLiBDb25maW5lIGFsbCBtYXJraW5ncyB0byB0aGUgc25ha2UncyBjdXJ2ZWQgYm9keSBiZXR3ZWVuIHg9MzQwIGFuZCB4PTg3MDsgZm9sbG93IGl0cyBhY3R1YWwgc2hhbGxvdyBTLXNoYXBlZCB1cHBlciBmbGFuayBhcm91bmQgeT02MjAuLjcwNC4gTGVhdmUgdGhlIHRoaW4gdGFpbCBiZXlvbmQgeDM0MCwgdGhlIGhlYWQvamF3L3Rvbmd1ZSBiZXlvbmQgeDkwMCBhbmQgYWxsIHN1cnJvdW5kaW5nIGVtcHR5IGNhbnZhcyBUUkFOU1BBUkVOVC4gRG8gbm90IGZpbGwgdGhlIHdob2xlIHNpbGhvdWV0dGUgd2hpdGUuIFNvZnQgcGFpbnRlcmx5IG1hcmtpbmcgZWRnZXMsIGRpc3RpbmN0IHRyYW5zcGFyZW50IGdhcHMuIFRoaXMgaXMgYSBwcmVjaXNlIHJlZ2lzdGVyZWQgbWFya2luZyBtYXNrLCBub3QgYSByZXBhaW50ZWQgc25ha2Uu",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "80c307cc6812abe58338f1fa9c50e450d68d55a8f48f9760763f08483b33512d",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "4768809011aeb07c9a16ca709679cc1572fc145d1920f8182e6ea9817eb9ad6c",
+      "promptFile": "prompts-sent/marbled.txt",
+      "promptSha256": "ab38ae7a4d8ff416cd680817a316f45aa7b668ca38ca223ca572b67155cc9400",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Thin branching irregular marbled veins with ample transparent gaps. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBUaGluIGJyYW5jaGluZyBpcnJlZ3VsYXIgbWFyYmxlZCB2ZWlucyB3aXRoIGFtcGxlIHRyYW5zcGFyZW50IGdhcHMuIENvbmZpbmUgYWxsIG1hcmtpbmdzIHRvIHRoZSBzbmFrZSdzIGN1cnZlZCBib2R5IGJldHdlZW4geD0zNDAgYW5kIHg9ODcwOyBmb2xsb3cgaXRzIGFjdHVhbCBzaGFsbG93IFMtc2hhcGVkIHVwcGVyIGZsYW5rIGFyb3VuZCB5PTYyMC4uNzA0LiBMZWF2ZSB0aGUgdGhpbiB0YWlsIGJleW9uZCB4MzQwLCB0aGUgaGVhZC9qYXcvdG9uZ3VlIGJleW9uZCB4OTAwIGFuZCBhbGwgc3Vycm91bmRpbmcgZW1wdHkgY2FudmFzIFRSQU5TUEFSRU5ULiBEbyBub3QgZmlsbCB0aGUgd2hvbGUgc2lsaG91ZXR0ZSB3aGl0ZS4gU29mdCBwYWludGVybHkgbWFya2luZyBlZGdlcywgZGlzdGluY3QgdHJhbnNwYXJlbnQgZ2Fwcy4gVGhpcyBpcyBhIHByZWNpc2UgcmVnaXN0ZXJlZCBtYXJraW5nIG1hc2ssIG5vdCBhIHJlcGFpbnRlZCBzbmFrZS4=",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "2e11c783eb7df019d7080018bb95b7b95d6af3b717fed522a086669e1b7132fa",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "53586ca32022bce9ff0e33cb3f9d6b070cf4edce9fb47d7d81e34f8bb266b181",
+      "promptFile": "prompts-sent/eye-spotted.txt",
+      "promptSha256": "b971694e57f1d32ac70a32e6b788ea1f5dfb7818022aa853d85ba58e5e47e9f5",
+      "prompt": "Use case: stylized-concept. Create one standalone marking alpha mask for the attached EXACT plain Racer snake master. EXACT 1254 x 1254 canvas and pixel registration; never recenter, enlarge or shrink. Output ONLY white painted marks on genuinely transparent background, no snake body pixels, colored background, labels or text. Pattern: Six small oval rings with transparent centres, distinct separated eye spots; not solid blobs. Confine all markings to the snake's curved body between x=340 and x=870; follow its actual shallow S-shaped upper flank around y=620..704. Leave the thin tail beyond x340, the head/jaw/tongue beyond x900 and all surrounding empty canvas TRANSPARENT. Do not fill the whole silhouette white. Soft painterly marking edges, distinct transparent gaps. This is a precise registered marking mask, not a repainted snake.",
+      "promptBytesBase64": "VXNlIGNhc2U6IHN0eWxpemVkLWNvbmNlcHQuIENyZWF0ZSBvbmUgc3RhbmRhbG9uZSBtYXJraW5nIGFscGhhIG1hc2sgZm9yIHRoZSBhdHRhY2hlZCBFWEFDVCBwbGFpbiBSYWNlciBzbmFrZSBtYXN0ZXIuIEVYQUNUIDEyNTQgeCAxMjU0IGNhbnZhcyBhbmQgcGl4ZWwgcmVnaXN0cmF0aW9uOyBuZXZlciByZWNlbnRlciwgZW5sYXJnZSBvciBzaHJpbmsuIE91dHB1dCBPTkxZIHdoaXRlIHBhaW50ZWQgbWFya3Mgb24gZ2VudWluZWx5IHRyYW5zcGFyZW50IGJhY2tncm91bmQsIG5vIHNuYWtlIGJvZHkgcGl4ZWxzLCBjb2xvcmVkIGJhY2tncm91bmQsIGxhYmVscyBvciB0ZXh0LiBQYXR0ZXJuOiBTaXggc21hbGwgb3ZhbCByaW5ncyB3aXRoIHRyYW5zcGFyZW50IGNlbnRyZXMsIGRpc3RpbmN0IHNlcGFyYXRlZCBleWUgc3BvdHM7IG5vdCBzb2xpZCBibG9icy4gQ29uZmluZSBhbGwgbWFya2luZ3MgdG8gdGhlIHNuYWtlJ3MgY3VydmVkIGJvZHkgYmV0d2VlbiB4PTM0MCBhbmQgeD04NzA7IGZvbGxvdyBpdHMgYWN0dWFsIHNoYWxsb3cgUy1zaGFwZWQgdXBwZXIgZmxhbmsgYXJvdW5kIHk9NjIwLi43MDQuIExlYXZlIHRoZSB0aGluIHRhaWwgYmV5b25kIHgzNDAsIHRoZSBoZWFkL2phdy90b25ndWUgYmV5b25kIHg5MDAgYW5kIGFsbCBzdXJyb3VuZGluZyBlbXB0eSBjYW52YXMgVFJBTlNQQVJFTlQuIERvIG5vdCBmaWxsIHRoZSB3aG9sZSBzaWxob3VldHRlIHdoaXRlLiBTb2Z0IHBhaW50ZXJseSBtYXJraW5nIGVkZ2VzLCBkaXN0aW5jdCB0cmFuc3BhcmVudCBnYXBzLiBUaGlzIGlzIGEgcHJlY2lzZSByZWdpc3RlcmVkIG1hcmtpbmcgbWFzaywgbm90IGEgcmVwYWludGVkIHNuYWtlLg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "93d97ecb1fc06bc4ba35118609014a26a49f79fbacf257c5225c6329b713ca2a",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha \u00d7 keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

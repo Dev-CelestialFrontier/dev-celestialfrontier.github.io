@@ -1,0 +1,179 @@
+{
+  "schema": "cf.marking-masks/v1",
+  "space": "master",
+  "width": 1254,
+  "height": 1254,
+  "source": "master.png",
+  "sourceSha256": "15618869db6ea85407c2566b5dacd469513bffd1db2fa0a76247918cb51c491c",
+  "keyedAlphaFile": "fit-01/parts/keyed.png",
+  "keyedSha256": "e1ffdf32a93e7d79cdfa18abf9b1455039bcf116e9a331212f06877d72d7a411",
+  "recordRecipeHash": "cf60db301065dbb0147b3ba91650fbaa7b0447cf8fac40250a2b758d2cdb5982",
+  "compiledPrompt": {
+    "file": "prompt.txt",
+    "sha256": "b91547e1d02ad4dc7466a34bc537fb7d92154537b8eda228019ca723ae1805cd",
+    "bytesBase64": "UGFzdGUgaW4gZXZlcnkgcHJvbXB0LiBBdHRhY2ggdGhlIE9ORSByZWZlcmVuY2UgdGhlIGNsYXNzIGNhbGxzIGZvciwgbmV2ZXIgYm90aC4KCkZvciBjdXQtb3V0IGNsYXNzZXMgKG9yYml0YWwgcGxhbmV0cywgZmxvcmEsIGZhdW5hLCBzaGlwcywgbGFuZG1hcmtzLCBpdGVtcywKZW1ibGVtcywgRWZmZWN0czsgaW5hY3RpdmUgcGVvcGxlIGV4Y2x1ZGVkOyBBcmVuYSBNSUQvTkVBUiB1c2UgdGhlIHJ1bGUgYmVsb3cpOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIERpc2NvdmVyeSBBdGxhcywKICBhdWRpdHMvTUlER0FNRV9BUlRfRElSRUNUSU9OXzIwMjYwOTA4LzAxLWRpc2NvdmVyeS1hdGxhcy5wbmcsCiAgc3R5bGVfaWQgImZyb250aWVyIi4gRG8gbm90IHJlZGVzaWduIG9yIHJlaW50ZXJwcmV0IHRoZSBzdHlsZS4gVGhlIGF0bGFzIGlzCiAgYSByZWZlcmVuY2Ugb25seTogbmV2ZXIgY3JvcCBhcnR3b3JrIG91dCBvZiBpdC4gSXRzIGJhY2tncm91bmQsIGxldHRlcmluZwogIGFuZCBkaXZpZGVkIGxheW91dCBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogYzUzYWRkMjk5M2NhYmEzOWI2ZGMxMmRjNzVkNWQ3NjdiZTg2ODk2YTdjNDFjZmFhNmM5NGYzNTZlOGQ5MmE2MgoKRm9yIHNjZW5lIGNsYXNzZXMgKHVuaXZlcnNlLCBzdGFycywgcGxhbmV0IGJpb21lcywgQXJlbmEgRkFSKSwgYW5kIEFyZW5hCk1JRC9ORUFSIGtleS1wYWludGVkIHRlcnJhaW4gc28gYWxsIGFyZW5hIGxheWVycyBtYXRjaCB0aGUgc2FtZSBiaW9tZSBoYW5kOgogIE1hdGNoIHRoZSBleGFjdCB2aXN1YWwgbGFuZ3VhZ2Ugb2YgdGhlIGF0dGFjaGVkIGFwcHJvdmVkIExpdmluZyBXb3JsZHMKICB0cmlwdHljaCwgYXVkaXRzL01JREdBTUVfQVJUX0RJUkVDVElPTl8yMDI2MDkwOC8wMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKICBzdHlsZV9pZCAiZnJvbnRpZXIiLiBEbyBub3QgcmVkZXNpZ24gb3IgcmVpbnRlcnByZXQgdGhlIHN0eWxlLiBUaGUgdHJpcHR5Y2gKICBpcyBhIHJlZmVyZW5jZSBvbmx5OiBuZXZlciBjcm9wIGFydHdvcmsgb3V0IG9mIGl0LiBJdHMgbGV0dGVyaW5nIGFuZCBwYW5lbAogIGRpdmlzaW9ucyBhcmUgbm90IHRoZSBvdXRwdXQgbGF5b3V0OyB1c2UgdGhpcyBjbGFzcydzIG93biBsYXlvdXQuCiAgU0hBLTI1NjogNjhmMDNmMDIzM2VjMmNhODlkZGYzOTIzOGNmYWYxYTMwYjgzMDI3YTU4YmVhZWE5ZmJiMTczNTI3MzcyMGEzOAoKVGhlIGZvdXIgYXBwcm92ZWQgaW1hZ2VzIGluIGF1ZGl0cy9NSURHQU1FX0FSVF9ESVJFQ1RJT05fMjAyNjA5MDggZGVmaW5lIHRoZQphcnQgZGlyZWN0aW9uOiAwMS1kaXNjb3ZlcnktYXRsYXMucG5nLCAwMi1pbmhhYml0ZWQtd29ybGRzLnBuZywKMDMtZWFydGgtZnVsbC1sYW5kZmFsbC5wbmcgYW5kIDA0LWFsaWVuLWZ1bGwtbGFuZGZhbGwucG5nLiBUaGUgZXhpc3RpbmcgYXRsYXMKYW5kIHRyaXB0eWNoIGFib3ZlIGFyZSB0aGUgcHJvZHVjdGlvbiByZWZlcmVuY2UgbG9ja3M7IGRvIG5vdCBwYWludCBuZXcgbG9ja3MuClZlcmlmeSB0aGVpciBvcmlnaW5hbCBieXRlcyBhZ2FpbnN0IHRoZXNlIFNIQS0yNTYgdmFsdWVzIGJlZm9yZSB1c2UuClRoZSBsb2NhbCBtb2RlbCdzIGN1cnJlbnQgcml2ZXJiYW5rIG91dHB1dCBpcyBhIGdhcCB0byBjbG9zZSwgbm90IGEgcmVmZXJlbmNlLgoKUGFzdGUgdGhpcyBwYXJhZ3JhcGggdmVyYmF0aW0gaW4gZXZlcnkgcHJvbXB0LiBBcHByb3ZlZCBieSBOaWNrIGF0IDZmNWMzOTZlLgpDaGFuZ2VzIHRvIHRoZSBwYXJhZ3JhcGggcmVxdWlyZSBhIG5ldyBraXQgdmVyc2lvbjsgbmV2ZXIgcmV2aXNlIGl0IGF0IHNlbmQgdGltZS4KCiAgUmljaCBuYXR1cmFsLWhpc3RvcnkgZmFudGFzeSBwYWludGluZywgb25lIGhhbmQgYWNyb3NzIGV2ZXJ5IHN1YmplY3QsCiAgdGFjdGlsZSBkaXJlY3Rpb25hbCBicnVzaHdvcmssIGJlbGlldmFibGUgY29ubmVjdGVkIGFuYXRvbXksIHdlYXRoZXJlZCByb2NrLAogIGluZGl2aWR1YWwgYnV0IGdyb3VwZWQgZm9saWFnZSwgZGVlcCBhdG1vc3BoZXJpYyBsYXllcnMsIHJlYWRhYmxlIHNpbGhvdWV0dGVzLAogIHNlbGVjdGl2ZSBoaWdoIGRldGFpbCwgc29mdCBuYXR1cmFsIGxpZ2h0IHNoYXJlZCBieSBldmVyeSBzdWJqZWN0LCBob25lc3QKICBncm91bmQgYW5kIHdhdGVyIGNvbnRhY3QsIHN1YnRsZSBmb3JlZ3JvdW5kIG9jY2x1c2lvbiwgcHJlbWl1bSBwYWludGVkCiAgc2NpZW5jZS1maWN0aW9uIHdpdGggZGlzY292ZXJ5IGFuZCBjaGFyYWN0ZXI7IEVhcnRoIHNwZWNpZXMga2VlcCByZWFsCiAgYW5hdG9teSwgZnVyLCBmZWF0aGVyIGFuZCBib3Rhbnk7IGFsaWVuIGxpZmUga2VlcHMgaXRzIGRhdGEtZHJpdmVuIGZvcm0gYW5kCiAgcGFsZXR0ZSBpbiB0aGUgc2FtZSBoYW5kOyBub3QgcGxhc3RpYyBDR0ksIG5vdCBwaG90b2dyYXBoeSwgbm90IGNhcnRvb24sCiAgbm90IG92ZXJzaGFycGVuZWQsIG5vIGdsb3dpbmcgb3V0bGluZXMuCgpUaGUgc2NlbmUtY29udGFjdCBhbmQgb2NjbHVzaW9uIGxhbmd1YWdlIGdvdmVybnMgY29tcG9zZWQgc2NlbmVzLiBBIGN1dC1vdXQKcmV0YWlucyB0aGUgc2FtZSBoYW5kIGFuZCBhbmF0b215IHdoaWxlIG9iZXlpbmcgaXRzIG5vLWdyb3VuZC9uby1zaGFkb3cgbGF5b3V0Owpjb250YWN0IGFuZCBzaGFyZWQgYXRtb3NwaGVyZSBhcmUgcmVzb2x2ZWQgd2hlbiBjb21wb3NlZCBhbmQgZmluaXNoZWQgb24gYSBwbGF0ZS4KVGhlIGNvbXBhbmlvbiBydWxlIGluIHNlY3Rpb24gNEUgaXMgcmV0YWluZWQgZm9yIGNvbXBhbmlvbi1mbGFnZ2VkIGdhbWUgZGF0YTsKaXQgZG9lcyBub3QgY2hhbmdlIGNvdW50cyBvciB0aGUgdW5kZXJseWluZyBnZW5vbWUuCgpTWVNURU0gQ0FSRCAtIFNvbCAvIEVhcnRoOyBDRjF8Zzo5OTlAOTAsLTYwfHM6NDI0MjQyQDU2MCwxNzB8cDoxMzMjMgogIFN0YXI6IEc7IGEgeWVsbG93IHN1bi1saWtlIHN0YXI7ICNmZmY0ZDg7IHJhZGl1cyAyNi4gI2ZmZjRkOCAgeWVsbG93IHN1bi1saWtlIHN0YXI7IFNvbCBwaW5uZWQuIFBpZ21lbnQ6IGl2b3J5LCB3YXJtIHdoaXRlLgogICAgICAgICBMaWdodDogbmVhci1uZXV0cmFsIHllbGxvdy13aGl0ZSwgbmF0dXJhbCBkaWZmdXNlIGZpbGwuCiAgTGlnaHQ6IGRheTsgcmFpbjsgb25lIHByaW1hcnksIG5vIGNvbXBhbmlvbnM7IGRpZmZ1c2UgY2xvdWQtZmlsdGVyZWQgbGlnaHQsIHNvZnQgbmV1dHJhbCBjb250YWN0IHNoYWRvd3M7IGRpcmVjdGlvbmFsIHN1biBwb3NpdGlvbiBhYnNlbnQgZnJvbSBzb3VyY2UsIGRvIG5vdCBpbnZlbnQgYSB2aXNpYmxlIHNlY29uZCBsaWdodC4KICBNaW5lcmFsIHBhbGV0dGU6IHRlcnJhbjsgc2VhSHVlIDIxMCwgbGFuZEh1ZSAxMTUsIGljZUFtdCAwLjU7IGJsdWUgd2F0ZXIsIGdyZWVuIGxhbmQsIHBhbGUgaWNlOyBodWUgYWJzZW50IGZyb20gc291cmNlLgogIEF0bW9zcGhlcmU6IHZpc3RhIHBhbGV0dGUgcmFpbiwgY2xpbWF0ZSB0ZW1wZXJhdGUsIHdlYXRoZXIgcmFpbiwgd2F0ZXIgbGlxdWlkOyByYWluIHNvZnRlbnMgZGlzdGFudCBibHVlLWdyZXkgbGF5ZXJzLgogIEZsb3JhIHBpZ21lbnQ6IHRlbXBlcmF0ZTsgZm9ybXMgdHJlZSwgc2hydWIsIGZsb3dlciwgZ3Jhc3MsIGZlcm47IFBlcnNpbW1vbjogZ3JlZW4gbGVhdmVzLCBvcmFuZ2UgZnJ1aXQsIGJyb3duIHdvb2Q7IERldmlsJ3MgQ2x1YjogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycnkgY29uZXM7IENyYW5iZXJyeTogZ3JlZW4gbGVhdmVzIGFuZCByZWQgYmVycmllcy4KICBGYXVuYSBhZGFwdGF0aW9uOiBFYXJ0aCBIZXJvbjsgcmVhbCBuYW1lZCBhbmF0b215IGFuZCBuYXR1cmFsIG1hdGVyaWFscyB0YWtlIHByaW9yaXR5IG92ZXIgcmF3IHByb2NlZHVyYWwgZ2VuZXMuIGxvbmcgbmVjayBraW5rZWQgaW50byBhbiBTOyBoZWF2eSBkYWdnZXIgYmlsbDsgc3RpbHQgbGVncyB3aXRoIGxvbmcgdHJhaWxpbmcgdG9lcy4gSXNvbGF0ZWQgbGlicmFyeSBhcmNoZXR5cGUsIG5vdCBhIGxhbmRpbmcgcmVzaWRlbnQgY2xhaW0uCiAgT25lIHNpZ25hdHVyZTogbm8gYmlvbWUgaGF6YXJkIGluIHNvdXJjZTsgbm8gYWRkZWQgaGF6YXJkIG1vdGlmLgoKU1VCSkVDVApPbmUgRWFydGggSGVyb24uIGxvbmcgbmVjayBraW5rZWQgaW50byBhbiBTOyBoZWF2eSBkYWdnZXIgYmlsbDsgc3RpbHQgbGVncyB3aXRoIGxvbmcgdHJhaWxpbmcgdG9lcy4gUmVhZCBhcyBncmVhdCBibHVlIGhlcm9uLiBOZWNrIGZvbGRzIGJhY2sgaW4gYW4gUyBhdCByZXN0OyBpdCBpcyBub3QgaGVsZCBzdHJhaWdodCBsaWtlIGEgc3Rvcmsncy4KR2Vub21pYyBpZGVudGl0eSBhbmQgdHJhaXRzIChFYXJ0aCBhbmF0b215IHRha2VzIHByaW9yaXR5KTogeyJzZWVkIjoxMzIxNTY4NCwia2luZ2RvbSI6ImZhdW5hIiwiY29sb3IiOjgsImZvcm0iOjEyLCJib2R5IjoxLCJsb2NvIjoxMSwidHJhaXQiOjIsInNpemUiOjMsImRpZXQiOjQsImhlYWQiOjMsImxpbWJzIjowLCJza2luIjozLCJ0YWlsIjoxLCJwYXR0ZXJuIjo3LCJleWVzIjoxLCJiZWhhdmlvciI6NCwiaGFiaXRhdCI6NywiZGV0YWlsIjozLCJhY2NlbnQiOjEyLCJ0ZW1wZXIiOjYsInNlbnNlIjozLCJyZXBybyI6NCwibGlmZSI6NCwibWV0YWIiOjAsImx1bWluIjpmYWxzZSwiZ2VuIjowLCJoZWF0IjoxLCJfZWFydGhOYW1lIjoiSGVyb24ifQpGYW1pbHkgY29udHJhY3QgYmlwZWQtYmlyZCwgY2xpcCBzZXQgYmlwZWQtYmlyZC12MS4gUmVxdWlyZWQgcmlnIGpvaW50L3BhcnQgaW52ZW50b3J5OiByb290LCBwZWx2aXMsIHNwaW5lLCBjaGVzdCwgbmVjazAsIG5lY2sxLCBoZWFkLCBiZWFrLCBsZWdGYXJLbmVlLCBsZWdGYXJBbmtsZSwgbGVnRmFyRm9vdCwgbGVnTmVhcktuZWUsIGxlZ05lYXJBbmtsZSwgbGVnTmVhckZvb3QsIHdpbmdGYXJSb290LCB3aW5nRmFyVGlwLCB3aW5nTmVhclJvb3QsIHdpbmdOZWFyVGlwLCB0YWlsRmFuLiBDb25uZWN0ZWQgb3JnYW5pYyBwYWludGVkIHN1YmplY3QsIG5vIGVxdWlwbWVudCwgbm8gZmFudGFzeSBhZGRlZCBsaW1icy4KU3RyaWN0IFNJREUgUFJPRklMRSBmYWNpbmcgUklHSFQsIG9uZSBzdGFuZGluZyBhZHVsdCBIRVJPTiwgbm90IGEgZ29vc2Ugb3IgcmFwdG9yLiBTbGltIHVwcmlnaHQgd2FkZXIgYm9keTsgTE9ORyBTLUtJTktFRCBuZWNrIHdpdGggb2J2aW91cyBhbmd1bGFyIGZvbGRlZCBTLCBzbWFsbCBuYXJyb3cgaGVhZCwgbG9uZyBoZWF2eSBTVFJBSUdIVCBEQUdHRVIgYmlsbCBwb2ludGluZyByaWdodC4gVFdPIHZlcnkgbG9uZyB0aGluIHN0aWx0IGxlZ3Mgd2l0aCB2aXNpYmxlIHJlbGF4ZWQga25lZS9ob2NrIGJlbmRzIGFuZCBsb25nIHNsZW5kZXIgc3BsYXllZCBUT0VTIHJlc3Rpbmcgb24gdGhlIGltcGxpZWQgZ3JvdW5kLiBCb3RoIGxlZ3MvdG9lcyBzZXBhcmF0ZWx5IHJlYWRhYmxlLCBmYXIgbGVnIG9mZnNldC4gUGxhaW4gdW5pZm9ybSBtZWRpdW0gZ3JleSBmZWF0aGVyIHBpZ21lbnQgb3ZlciBlbnRpcmUgYmlyZCwgb25seSBmb3JtIHNoYWRpbmcsIG5vIGJsYWNrIGNyZXN0IG9yIHBhdGNoZXMsIHdoaXRlIGFyZWFzLCBiYW5kcyBvciBzcG90cy4gVHdvIHdpbmdzIHBhcnRpYWxseSBzcHJlYWQgdXB3YXJkL2JhY2sgdG93YXJkIGxlZnQsIG5lYXIgd2luZyBicm9hZCBmZWF0aGVyIGZhbiBhbmQgZmFyIHdpbmcgb2Zmc2V0IGFib3ZlIGl0OyBib3RoIGZ1bGx5IHZpc2libGUgYXMgdHdvIGNvbnRpbnVvdXMgZmVhdGhlciBzdXJmYWNlcywgYW5hdG9taWNhbGx5IGF0dGFjaGVkIHRvIHNob3VsZGVycy4gU2hvcnQgY29tcGxldGUgdGFpbCBMRUZULiBZZWxsb3ctZ3JleSBiaWxsLCBtdXRlZCBvbGl2ZS1ncmV5IGxlZ3MuIEFsbCBvZiBiaXJkIG9jY3VwaWVzIG1pZGRsZSA2OCBwZXJjZW50IG9mIDEyNTQtc3F1YXJlIGNhbnZhcyB3aXRoIGdlbmVyb3VzIGNsZWFyIHBhZGRpbmcgYXJvdW5kIGJpbGwsIHdpbmd0aXBzIGFuZCB0b2VzLiBObyBzY2VuZXJ5LCBmbG9vciwgc2hhZG93LCB0ZXh0IG9yIGV4dHJhIGxpbWJzLiBJbWFnZSAxIG9ubHkgc3VwcGxpZXMgZXN0YWJsaXNoZWQgcGFpbnRlZCBzdHlsZS4gVHJ1ZSBhbHBoYSBvciBtYWdlbnRhIGtleSBiYWNrZHJvcC4KCkFDQ1VSQUNZCiAgQ29tcGxldGUgcmVhbCBIZXJvbiwgb25lIGNyZWF0dXJlLCBhbmF0b21pY2FsbHkgYWNjdXJhdGUgc3BlY2llcyBwcm9wb3J0aW9ucy4KICBBbGwgbm9ybWFsbHkgdmlzaWJsZSBsaW1icyBzZXBhcmF0ZWx5IHJlYWRhYmxlIHdpdGggZmFyIGFwcGVuZGFnZXMgdmlzaWJseSBvZmZzZXQgd2hlcmUgdGhlIHZpZXcgcGVybWl0czsgbmV2ZXIgaW52ZW50IGV4dHJhIGFuYXRvbXkuCiAgTm8gc2NlbmVyeSwgZ3JvdW5kLCBzaGFkb3csIHRleHQsIGR1cGxpY2F0ZSBjcmVhdHVyZSwgY3JvcHBlZCBhbmF0b215LgogIFJlYWQgYXMgZ3JlYXQgYmx1ZSBoZXJvbi4gTmVjayBmb2xkcyBiYWNrIGluIGFuIFMgYXQgcmVzdDsgaXQgaXMgbm90IGhlbGQgc3RyYWlnaHQgbGlrZSBhIHN0b3JrJ3MuCgpMQVlPVVQKICBTdHJpY3QgU0lERSBQUk9GSUxFIGZhY2luZyBSSUdIVCwgb25lIHN0YW5kaW5nIGFkdWx0IEhFUk9OLCBub3QgYSBnb29zZSBvciByYXB0b3IuIFNsaW0gdXByaWdodCB3YWRlciBib2R5OyBMT05HIFMtS0lOS0VEIG5lY2sgd2l0aCBvYnZpb3VzIGFuZ3VsYXIgZm9sZGVkIFMsIHNtYWxsIG5hcnJvdyBoZWFkLCBsb25nIGhlYXZ5IFNUUkFJR0hUIERBR0dFUiBiaWxsIHBvaW50aW5nIHJpZ2h0LiBUV08gdmVyeSBsb25nIHRoaW4gc3RpbHQgbGVncyB3aXRoIHZpc2libGUgcmVsYXhlZCBrbmVlL2hvY2sgYmVuZHMgYW5kIGxvbmcgc2xlbmRlciBzcGxheWVkIFRPRVMgcmVzdGluZyBvbiB0aGUgaW1wbGllZCBncm91bmQuIEJvdGggbGVncy90b2VzIHNlcGFyYXRlbHkgcmVhZGFibGUsIGZhciBsZWcgb2Zmc2V0LiBQbGFpbiB1bmlmb3JtIG1lZGl1bSBncmV5IGZlYXRoZXIgcGlnbWVudCBvdmVyIGVudGlyZSBiaXJkLCBvbmx5IGZvcm0gc2hhZGluZywgbm8gYmxhY2sgY3Jlc3Qgb3IgcGF0Y2hlcywgd2hpdGUgYXJlYXMsIGJhbmRzIG9yIHNwb3RzLiBUd28gd2luZ3MgcGFydGlhbGx5IHNwcmVhZCB1cHdhcmQvYmFjayB0b3dhcmQgbGVmdCwgbmVhciB3aW5nIGJyb2FkIGZlYXRoZXIgZmFuIGFuZCBmYXIgd2luZyBvZmZzZXQgYWJvdmUgaXQ7IGJvdGggZnVsbHkgdmlzaWJsZSBhcyB0d28gY29udGludW91cyBmZWF0aGVyIHN1cmZhY2VzLCBhbmF0b21pY2FsbHkgYXR0YWNoZWQgdG8gc2hvdWxkZXJzLiBTaG9ydCBjb21wbGV0ZSB0YWlsIExFRlQuIFllbGxvdy1ncmV5IGJpbGwsIG11dGVkIG9saXZlLWdyZXkgbGVncy4gQWxsIG9mIGJpcmQgb2NjdXBpZXMgbWlkZGxlIDY4IHBlcmNlbnQgb2YgMTI1NC1zcXVhcmUgY2FudmFzIHdpdGggZ2VuZXJvdXMgY2xlYXIgcGFkZGluZyBhcm91bmQgYmlsbCwgd2luZ3RpcHMgYW5kIHRvZXMuIE5vIHNjZW5lcnksIGZsb29yLCBzaGFkb3csIHRleHQgb3IgZXh0cmEgbGltYnMuIEltYWdlIDEgb25seSBzdXBwbGllcyBlc3RhYmxpc2hlZCBwYWludGVkIHN0eWxlLiBUcnVlIGFscGhhIG9yIG1hZ2VudGEga2V5IGJhY2tkcm9wLgogIE9uZSB3aG9sZSBjcmVhdHVyZSBjZW50ZXJlZCwgZW50aXJlIGFuYXRvbXkgaW4gZnJhbWUsIGF0IGxlYXN0IDggcGVyY2VudCBzYWZlIG1hcmdpbi4gTm8gZmxvb3IgcGxhbmUuCgpURUNITklDQUwgT1VUUFVUCiAgQ3JlYXRlIGEgc3F1YXJlIDEyNTQgeCAxMjU0IFBORy4gRXZlcnkgcGl4ZWwgdGhhdCBpcyBub3QgdGhlIHN1YmplY3QgaXMgb25lCiAgZmxhdCwgdW5pZm9ybSwgcHVyZSBtYWdlbnRhIGZpbGwgKCNGRjAwRkYpOiBubyBncmFkaWVudCwgdmlnbmV0dGUsIHRleHR1cmUsCiAgbm9pc2UsIGNoZWNrZXJib2FyZCBvciB0cmFuc3BhcmVuY3kgcGF0dGVybiwgYW5kIG5vIGdyb3VuZCwgYmFzZSwgZnJhbWUsCiAgc2NlbmVyeSBvciBjYXN0IHNoYWRvdy4gVGhlIHN1YmplY3QncyBvdXRsaW5lIGlzIGNyaXNwIGFuZCBmdWxseSBvcGFxdWUKICBhZ2FpbnN0IHRoZSBtYWdlbnRhLCB3aXRoIG5vIGdsb3csIGhhemUsIHNtb2tlIG9yIHNvZnQgZmVhdGhlcmluZyBibGVlZGluZwogIGludG8gaXQsIGFuZCBub3RoaW5nIG9uIHRoZSBzdWJqZWN0IGlzIG1hZ2VudGEgb3IgcGluay4gVGhlIG1hZ2VudGEgaXMga2V5ZWQKICBvdXQgYWZ0ZXJ3YXJkcyB0byBwcm9kdWNlIHRoZSB0cmFuc3BhcmVudCBhc3NldC4KCk5FR0FUSVZFCiAgTm8gdGV4dCwgbGV0dGVycywgbnVtYmVycywgd2F0ZXJtYXJrLCBzaWduYXR1cmUsIGJvcmRlciwgZnJhbWUsIGdyaWQsIFVJCiAgZWxlbWVudCwgaGVhbHRoIGJhciwgbWluaW1hcCwgd2F5cG9pbnQsIHRva2VuIHJpbmcsIGJhc2UsIHBlZGVzdGFsLAogIHBob3RvcmVhbGlzbSwgYW5pbWUsIGNoaWJpIHN0eWxpbmcsIGNlbCBzaGFkaW5nLCAzRCByZW5kZXIsIHBsYXN0aWMgdG95CiAgc2hlZW4sIGFpcmJydXNoZWQgZ3JhZGllbnRzLCBkdXBsaWNhdGUgc3ViamVjdCwgdW5pbnRlbmRlZCBjb21wYW5pb24sIGV4dHJhCiAgbGltYnMsIG1pc3NpbmcgbGltYnMsIG1hbGZvcm1lZCBoYW5kcywgY3JvcHBlZCBhbmF0b215LCBvciBjb250YWN0LXNoZWV0CiAgbGF5b3V0LiBObyBsZW5zIGZsYXJlLCBubyBjaHJvbWF0aWMgYWJlcnJhdGlvbiwgbm8gaG9sb2dyYXBoaWMgVUkKICBwcm9qZWN0aW9ucywgbm8gZ2xvd2luZyBvdXRsaW5lcyBvciByaW0gbGlnaHQgdXNlZCBhcyBhbiBlZmZlY3QuCiAgTm8gc2NlbmVyeSwgbm8gZmxvb3IgcGxhbmUsIG5vIGNhc3Qgc2hhZG93LCBubyBkcm9wIHNoYWRvdywgbm8gd2hpdGUKICBiYWNrZ3JvdW5kLCBubyBjaGVja2VyZWQgYmFja2dyb3VuZCwgbm8gYmFrZWQgdHJhbnNwYXJlbmN5IHBhdHRlcm4uCiAgQmFja2dyb3VuZCBtdXN0IGJlIG9uZSBmbGF0IHVuaWZvcm0gbWFnZW50YSBmaWxsIGFuZCBub3RoaW5nIGVsc2UuCiAgTm8gZGVmYXVsdCBiaXBlZGFsIGh1bWFub2lkIHN0YW5jZSB1bmxlc3MgbmFtZWQsIG5vIGFybW91ciBwbGF0aW5nIHRoZSBicmllZiBkaWQKICBub3QgYXNrIGZvciwgbm8gaHVtYW4gZXllcywgbm8gd2VhcG9ucyBoZWxkIGluIGhhbmRzIHVubGVzcyBuYW1lZCwgbm8gcmlkZXIsCiAgbm8gc2Vjb25kIGNyZWF0dXJlLgogIERvIG5vdCBhZGQgYSBibGFua2V0IG92ZXJzaXplZC1oZWFkIGJhbiB0aGF0IHdvdWxkIGZpZ2h0IGEgZGF0YS1vd25lZAogIGNvbXBhbmlvbiBicmllZi4="
+  },
+  "plain": null,
+  "iridescent": {
+    "mode": "emissive",
+    "mask": null
+  },
+  "patterns": {
+    "striped": {
+      "file": "markings/striped.png",
+      "sha256": "9ccf9feeba1980ecf03c63463dcbc9a164eefa7cfe9b3cf0be830c207a37f424",
+      "promptFile": "prompts/striped.txt",
+      "promptSha256": "0d8745cc781382468df42b09b3a6058b90761c90caa8f1bc6bca347b77e4a6f4",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: five separate narrow tapered vertical stripes. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogZml2ZSBzZXBhcmF0ZSBuYXJyb3cgdGFwZXJlZCB2ZXJ0aWNhbCBzdHJpcGVzLiBQdXQgYWxsIG1hcmtzIHdpdGhpbiB4PTQ3NS4uNjI1LHk9NTEwLi42MjUsIG1pZGRsZS1sZWZ0IGZlYXRoZXIgcmVnaW9uIG9mIGZ1bGwgY2FudmFzLiBLZWVwIGFtcGxlIHRyYW5zcGFyZW50IGVtcHR5IHNwYWNlIGFyb3VuZCB0aGlzIHNtYWxsIGNsdXN0ZXIuIE5vIGJpcmQsIGJhY2tpbmcgZmlsbCwgc2hhZG93LCB0ZXh0LCBib3JkZXIsIGNoZWNrZXJib2FyZCBvciBsYWJlbC4gRG8gbm90IGNyb3AsIHJlY2VudGVyLCB0cmFuc2xhdGUsIHJvdGF0ZSBvciBlbmxhcmdlLiBQYXR0ZXJuIG9ubHkgaW4gdGhlIHNwZWNpZmllZCBtYXN0ZXItcGl4ZWwgcmVnaW9uLCBjcmlzcC9hbnRpYWxpYXNlZCB3aGl0ZS1hbHBoYSBlZGdlcy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/striped.png",
+      "rawSha256": "6f5c589286d30fbfe9c99a265f18f91d8729430a84672b98b73e81aafe7dca1e",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "spotted": {
+      "file": "markings/spotted.png",
+      "sha256": "288cbc31fa1aef50ff8c0138e3c2df4ee991910179baad95b1bd585f13877270",
+      "promptFile": "prompts/spotted.txt",
+      "promptSha256": "d10373be39a1e1115aa73117fb88a0185de81c069882bbd4e62c9209f758f4ed",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: twelve separated small irregular solid dots. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogdHdlbHZlIHNlcGFyYXRlZCBzbWFsbCBpcnJlZ3VsYXIgc29saWQgZG90cy4gUHV0IGFsbCBtYXJrcyB3aXRoaW4geD00NzUuLjYyNSx5PTUxMC4uNjI1LCBtaWRkbGUtbGVmdCBmZWF0aGVyIHJlZ2lvbiBvZiBmdWxsIGNhbnZhcy4gS2VlcCBhbXBsZSB0cmFuc3BhcmVudCBlbXB0eSBzcGFjZSBhcm91bmQgdGhpcyBzbWFsbCBjbHVzdGVyLiBObyBiaXJkLCBiYWNraW5nIGZpbGwsIHNoYWRvdywgdGV4dCwgYm9yZGVyLCBjaGVja2VyYm9hcmQgb3IgbGFiZWwuIERvIG5vdCBjcm9wLCByZWNlbnRlciwgdHJhbnNsYXRlLCByb3RhdGUgb3IgZW5sYXJnZS4gUGF0dGVybiBvbmx5IGluIHRoZSBzcGVjaWZpZWQgbWFzdGVyLXBpeGVsIHJlZ2lvbiwgY3Jpc3AvYW50aWFsaWFzZWQgd2hpdGUtYWxwaGEgZWRnZXMuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/spotted.png",
+      "rawSha256": "2c030cf4b1c072a5a1e11f0531d1964e4fcc8b667c65d7ff8f36f8645a31c2d7",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "banded": {
+      "file": "markings/banded.png",
+      "sha256": "551f6fe492bc7c4db7be62c3bf3028020966f73728bf84878a3fcc6783d13896",
+      "promptFile": "prompts/banded.txt",
+      "promptSha256": "a7b951a7a61bb4ced61013155dda4cfc54a0913dda23223d830cc9a322a53284",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: three separated broad vertical bands. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogdGhyZWUgc2VwYXJhdGVkIGJyb2FkIHZlcnRpY2FsIGJhbmRzLiBQdXQgYWxsIG1hcmtzIHdpdGhpbiB4PTQ3NS4uNjI1LHk9NTEwLi42MjUsIG1pZGRsZS1sZWZ0IGZlYXRoZXIgcmVnaW9uIG9mIGZ1bGwgY2FudmFzLiBLZWVwIGFtcGxlIHRyYW5zcGFyZW50IGVtcHR5IHNwYWNlIGFyb3VuZCB0aGlzIHNtYWxsIGNsdXN0ZXIuIE5vIGJpcmQsIGJhY2tpbmcgZmlsbCwgc2hhZG93LCB0ZXh0LCBib3JkZXIsIGNoZWNrZXJib2FyZCBvciBsYWJlbC4gRG8gbm90IGNyb3AsIHJlY2VudGVyLCB0cmFuc2xhdGUsIHJvdGF0ZSBvciBlbmxhcmdlLiBQYXR0ZXJuIG9ubHkgaW4gdGhlIHNwZWNpZmllZCBtYXN0ZXItcGl4ZWwgcmVnaW9uLCBjcmlzcC9hbnRpYWxpYXNlZCB3aGl0ZS1hbHBoYSBlZGdlcy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/banded.png",
+      "rawSha256": "0c7b9a9fc8bb5d3c528c32ebc00159f0f1b274adc671deef60e00346d315444e",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "mottled": {
+      "file": "markings/mottled.png",
+      "sha256": "05101dd3ae3c274c95f88a1baa6ffb52377f7c3eaf9f77e7495f6d7b8416816f",
+      "promptFile": "prompts/mottled.txt",
+      "promptSha256": "b819c85ff8c9f2791dfafda05576c6e9942d43135959e41b90ddad5b82fccb74",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: six separate soft-edged irregular blotches. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogc2l4IHNlcGFyYXRlIHNvZnQtZWRnZWQgaXJyZWd1bGFyIGJsb3RjaGVzLiBQdXQgYWxsIG1hcmtzIHdpdGhpbiB4PTQ3NS4uNjI1LHk9NTEwLi42MjUsIG1pZGRsZS1sZWZ0IGZlYXRoZXIgcmVnaW9uIG9mIGZ1bGwgY2FudmFzLiBLZWVwIGFtcGxlIHRyYW5zcGFyZW50IGVtcHR5IHNwYWNlIGFyb3VuZCB0aGlzIHNtYWxsIGNsdXN0ZXIuIE5vIGJpcmQsIGJhY2tpbmcgZmlsbCwgc2hhZG93LCB0ZXh0LCBib3JkZXIsIGNoZWNrZXJib2FyZCBvciBsYWJlbC4gRG8gbm90IGNyb3AsIHJlY2VudGVyLCB0cmFuc2xhdGUsIHJvdGF0ZSBvciBlbmxhcmdlLiBQYXR0ZXJuIG9ubHkgaW4gdGhlIHNwZWNpZmllZCBtYXN0ZXItcGl4ZWwgcmVnaW9uLCBjcmlzcC9hbnRpYWxpYXNlZCB3aGl0ZS1hbHBoYSBlZGdlcy4K",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/mottled.png",
+      "rawSha256": "286ea227f0ece0281ecbd3b5b7c4b6e5c1b4e09ac623490509865b1c082e220f",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "marbled": {
+      "file": "markings/marbled.png",
+      "sha256": "dc7598350262495e8d78aeda0b1ea3ba28179afd2c7854744e05add95625f2e2",
+      "promptFile": "prompts/marbled.txt",
+      "promptSha256": "ee328d60a922dfd0509424a5a6421e7d5bbff61c3f83a44ed45df30606b499fb",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: a sparse branching meandering network of thin marble veins. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogYSBzcGFyc2UgYnJhbmNoaW5nIG1lYW5kZXJpbmcgbmV0d29yayBvZiB0aGluIG1hcmJsZSB2ZWlucy4gUHV0IGFsbCBtYXJrcyB3aXRoaW4geD00NzUuLjYyNSx5PTUxMC4uNjI1LCBtaWRkbGUtbGVmdCBmZWF0aGVyIHJlZ2lvbiBvZiBmdWxsIGNhbnZhcy4gS2VlcCBhbXBsZSB0cmFuc3BhcmVudCBlbXB0eSBzcGFjZSBhcm91bmQgdGhpcyBzbWFsbCBjbHVzdGVyLiBObyBiaXJkLCBiYWNraW5nIGZpbGwsIHNoYWRvdywgdGV4dCwgYm9yZGVyLCBjaGVja2VyYm9hcmQgb3IgbGFiZWwuIERvIG5vdCBjcm9wLCByZWNlbnRlciwgdHJhbnNsYXRlLCByb3RhdGUgb3IgZW5sYXJnZS4gUGF0dGVybiBvbmx5IGluIHRoZSBzcGVjaWZpZWQgbWFzdGVyLXBpeGVsIHJlZ2lvbiwgY3Jpc3AvYW50aWFsaWFzZWQgd2hpdGUtYWxwaGEgZWRnZXMuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/marbled.png",
+      "rawSha256": "5c8fb61f2e16e00308c4c95278bea61084892863d541c0df3c91c2ccd42e7dca",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    },
+    "eye-spotted": {
+      "file": "markings/eye-spotted.png",
+      "sha256": "83a0810a90565b03c7cbf38318695b5e0c078477571cfea464315706bc17000a",
+      "promptFile": "prompts/eye-spotted.txt",
+      "promptSha256": "3920dc343672bd8c676e892c3ea9aa924bb00cce4f90975c4afb1e789b284c26",
+      "prompt": "Generate a standalone 1254 x 1254 RGBA marking-mask texture for this game heron. Pure white shapes on genuine zero-alpha transparency. Pattern: five separated open oval rings with transparent centers. Put all marks within x=475..625,y=510..625, middle-left feather region of full canvas. Keep ample transparent empty space around this small cluster. No bird, backing fill, shadow, text, border, checkerboard or label. Do not crop, recenter, translate, rotate or enlarge. Pattern only in the specified master-pixel region, crisp/antialiased white-alpha edges.\n",
+      "promptBytesBase64": "R2VuZXJhdGUgYSBzdGFuZGFsb25lIDEyNTQgeCAxMjU0IFJHQkEgbWFya2luZy1tYXNrIHRleHR1cmUgZm9yIHRoaXMgZ2FtZSBoZXJvbi4gUHVyZSB3aGl0ZSBzaGFwZXMgb24gZ2VudWluZSB6ZXJvLWFscGhhIHRyYW5zcGFyZW5jeS4gUGF0dGVybjogZml2ZSBzZXBhcmF0ZWQgb3BlbiBvdmFsIHJpbmdzIHdpdGggdHJhbnNwYXJlbnQgY2VudGVycy4gUHV0IGFsbCBtYXJrcyB3aXRoaW4geD00NzUuLjYyNSx5PTUxMC4uNjI1LCBtaWRkbGUtbGVmdCBmZWF0aGVyIHJlZ2lvbiBvZiBmdWxsIGNhbnZhcy4gS2VlcCBhbXBsZSB0cmFuc3BhcmVudCBlbXB0eSBzcGFjZSBhcm91bmQgdGhpcyBzbWFsbCBjbHVzdGVyLiBObyBiaXJkLCBiYWNraW5nIGZpbGwsIHNoYWRvdywgdGV4dCwgYm9yZGVyLCBjaGVja2VyYm9hcmQgb3IgbGFiZWwuIERvIG5vdCBjcm9wLCByZWNlbnRlciwgdHJhbnNsYXRlLCByb3RhdGUgb3IgZW5sYXJnZS4gUGF0dGVybiBvbmx5IGluIHRoZSBzcGVjaWZpZWQgbWFzdGVyLXBpeGVsIHJlZ2lvbiwgY3Jpc3AvYW50aWFsaWFzZWQgd2hpdGUtYWxwaGEgZWRnZXMuCg==",
+      "tool": "image_gen.imagegen",
+      "seed": null,
+      "rawFile": "raw/eye-spotted.png",
+      "rawSha256": "9bed1ba755dc7487a14aadcf97caf450739babbf76ab7b715b79da83d79fe9cd",
+      "transform": {
+        "resize": null,
+        "translationPx": [
+          0,
+          0
+        ],
+        "registration": null,
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "alpha": "generated alpha × keyed alpha / 255, rounded; no anatomical exclusions"
+      }
+    }
+  }
+}

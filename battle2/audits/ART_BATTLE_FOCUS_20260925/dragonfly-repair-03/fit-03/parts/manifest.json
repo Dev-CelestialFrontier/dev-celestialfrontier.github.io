@@ -1,0 +1,110 @@
+{
+  "creatureId": "dragonfly",
+  "parts": [
+    {
+      "name": "antenna-far.png",
+      "path": "parts/antenna-far.png",
+      "sha256": "1978980bddb8ebd0f3e7e51637bf1f4b1dd3ab4fd7c204dc5015e81a70414b73"
+    },
+    {
+      "name": "antenna-near.png",
+      "path": "parts/antenna-near.png",
+      "sha256": "c5aa49a47bdb384f618aa9a5aec7ce3ec92131f8373748da83845c9ed33daa56"
+    },
+    {
+      "name": "mandible.png",
+      "path": "parts/mandible.png",
+      "sha256": "3748fa9256b2c4b4d1c44d0f4c9f23e35143a482cad25d271206da823c0968c1"
+    },
+    {
+      "name": "leg-front-far-foot.png",
+      "path": "parts/leg-front-far-foot.png",
+      "sha256": "fee82eed617c6259132344eb05658e554e837891b172a48ef0e18e37bebd2ff5"
+    },
+    {
+      "name": "leg-front-near-foot.png",
+      "path": "parts/leg-front-near-foot.png",
+      "sha256": "7d711eda705f8ac047947e38d11910625a7be54d61c55043f526cf6342b69197"
+    },
+    {
+      "name": "leg-mid-far-foot.png",
+      "path": "parts/leg-mid-far-foot.png",
+      "sha256": "d21389f7ec6fe67a7502bd118c07c09aa9c7d07800dbadb82c80db94fbcbd6e4"
+    },
+    {
+      "name": "leg-mid-near-foot.png",
+      "path": "parts/leg-mid-near-foot.png",
+      "sha256": "8169c1b30c13261661cb141d2906e1f83ec51b281a47352bb33f597eac93af95"
+    },
+    {
+      "name": "leg-hind-far-foot.png",
+      "path": "parts/leg-hind-far-foot.png",
+      "sha256": "ca6bcf8fc0185d9b76b24c3d30149cb5ffe9d8dc9695361bca178fa00682bcad"
+    },
+    {
+      "name": "leg-hind-near-foot.png",
+      "path": "parts/leg-hind-near-foot.png",
+      "sha256": "f1a041d2feb7022e468662acc065281c7927fe0f93e455dbaf50ec0e3a8f7f39"
+    },
+    {
+      "name": "leg-front-far-knee.png",
+      "path": "parts/leg-front-far-knee.png",
+      "sha256": "68abebf27702e37470289db7bd42b2c0c1a54d1fda4bbfa9abce21fe78d50033"
+    },
+    {
+      "name": "leg-front-near-knee.png",
+      "path": "parts/leg-front-near-knee.png",
+      "sha256": "8bdc78e9fb9506e0759c5ce959fc4e8b5b1dcaea0459cfaca8d9ee207be01815"
+    },
+    {
+      "name": "leg-mid-far-knee.png",
+      "path": "parts/leg-mid-far-knee.png",
+      "sha256": "4b6b1de86f3381b0e38c322028a508bee1d6792edc9adc7e715acfe6c8eea755"
+    },
+    {
+      "name": "leg-mid-near-knee.png",
+      "path": "parts/leg-mid-near-knee.png",
+      "sha256": "575d64cf5ef6242630e0d039a86d596354fd658e5a68406d2c7772fcacc98740"
+    },
+    {
+      "name": "leg-hind-far-knee.png",
+      "path": "parts/leg-hind-far-knee.png",
+      "sha256": "d830c6ca1c42fe40291fa980abfdb79ea69c0911444ba81076a1673bcdab36dd"
+    },
+    {
+      "name": "leg-hind-near-knee.png",
+      "path": "parts/leg-hind-near-knee.png",
+      "sha256": "bda419cc989ac2b0ac66b1da0479910d67a7ea3a67fb9b5a17d1197bfa22d821"
+    },
+    {
+      "name": "wing-far.png",
+      "path": "parts/wing-far.png",
+      "sha256": "3b053bd60feb311526d6d67583bd63c9ea40467e0ab202441db5560a475d5281"
+    },
+    {
+      "name": "wing-near.png",
+      "path": "parts/wing-near.png",
+      "sha256": "462f412e180ee3931480cd1856c1f0e4bd791f8115ef0b81d728ebd5af692dba"
+    },
+    {
+      "name": "head.png",
+      "path": "parts/head.png",
+      "sha256": "23ad906214f06ff68d6b8c3a7b1e19f0c3b4867f760c1483aa854c7547ed7d29"
+    },
+    {
+      "name": "abdomen.png",
+      "path": "parts/abdomen.png",
+      "sha256": "b7e6dbe0e5b3cecec276b54c15363ebfedb21d544ddf3eb9d383eb3a24cf27b3"
+    },
+    {
+      "name": "root.png",
+      "path": "parts/root.png",
+      "sha256": "8b34753e458b42c9f364ea41bb413343e3db874bb9a8929dd7ab9f6d38246a71"
+    },
+    {
+      "name": "thorax.png",
+      "path": "parts/thorax.png",
+      "sha256": "a49fc81067c23065b23bf926a0392636583796cea2a49400406b88523474a4bb"
+    }
+  ]
+}

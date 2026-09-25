@@ -1,0 +1,212 @@
+{
+  "kind": "insect",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Dragonfly\"]],[\"accent\",[\"number\",\"14\"]],[\"behavior\",[\"number\",\"5\"]],[\"body\",[\"number\",\"1\"]],[\"color\",[\"number\",\"2\"]],[\"detail\",[\"number\",\"5\"]],[\"diet\",[\"number\",\"0\"]],[\"eyes\",[\"number\",\"3\"]],[\"form\",[\"number\",\"11\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"7\"]],[\"head\",[\"number\",\"2\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"0\"]],[\"limbs\",[\"number\",\"1\"]],[\"loco\",[\"number\",\"7\"]],[\"lumin\",[\"boolean\",true]],[\"metab\",[\"number\",\"2\"]],[\"pattern\",[\"number\",\"1\"]],[\"repro\",[\"number\",\"4\"]],[\"seed\",[\"number\",\"862555894\"]],[\"sense\",[\"number\",\"3\"]],[\"size\",[\"number\",\"1\"]],[\"skin\",[\"number\",\"6\"]],[\"tail\",[\"number\",\"3\"]],[\"temper\",[\"number\",\"9\"]],[\"trait\",[\"number\",\"15\"]]]]",
+    "seed": 862555894,
+    "ownerId": "authored:archetype-sprint/dragonfly",
+    "earthName": "Dragonfly"
+  },
+  "template": {
+    "id": "insect",
+    "version": 1
+  },
+  "clipSetId": "insect-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 862555894,
+    "kingdom": "fauna",
+    "color": 2,
+    "form": 11,
+    "body": 1,
+    "loco": 7,
+    "trait": 15,
+    "size": 1,
+    "diet": 0,
+    "head": 2,
+    "limbs": 1,
+    "skin": 6,
+    "tail": 3,
+    "pattern": 1,
+    "eyes": 3,
+    "behavior": 5,
+    "habitat": 7,
+    "detail": 5,
+    "accent": 14,
+    "temper": 9,
+    "sense": 3,
+    "repro": 4,
+    "life": 0,
+    "metab": 2,
+    "lumin": true,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Dragonfly"
+  },
+  "geometry": {
+    "cutoutAssetHash": "8b09ab3ef579a7860bec17e3fdaa82040b748d9541d2429c84d8f5e7f0d1383a",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.8070175438596491,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.7001594896331739,
+      0.5909090909090909
+    ],
+    "thorax": [
+      0.6985645933014354,
+      0.5893141945773525
+    ],
+    "head": [
+      0.7966507177033493,
+      0.580542264752791
+    ],
+    "mandible": [
+      0.8293460925039873,
+      0.6196172248803827
+    ],
+    "abdomen": [
+      0.5661881977671451,
+      0.6068580542264753
+    ],
+    "legFrontFarKnee": [
+      0.7990430622009569,
+      0.65311004784689
+    ],
+    "legFrontFarFoot": [
+      0.8381180223285486,
+      0.6977671451355661
+    ],
+    "legFrontNearKnee": [
+      0.7990430622009569,
+      0.7017543859649122
+    ],
+    "legFrontNearFoot": [
+      0.8293460925039873,
+      0.748006379585327
+    ],
+    "legMidFarKnee": [
+      0.7288676236044657,
+      0.6778309409888357
+    ],
+    "legMidFarFoot": [
+      0.7679425837320574,
+      0.7456140350877193
+    ],
+    "legMidNearKnee": [
+      0.6698564593301436,
+      0.6850079744816587
+    ],
+    "legMidNearFoot": [
+      0.664274322169059,
+      0.8038277511961722
+    ],
+    "legHindFarKnee": [
+      0.631578947368421,
+      0.6690590111642744
+    ],
+    "legHindFarFoot": [
+      0.5964912280701754,
+      0.7424242424242424
+    ],
+    "legHindNearKnee": [
+      0.6012759170653907,
+      0.6658692185007975
+    ],
+    "legHindNearFoot": [
+      0.5215311004784688,
+      0.7695374800637959
+    ],
+    "antennaFar": [
+      0.8700159489633174,
+      0.5430622009569378
+    ],
+    "antennaNear": [
+      0.8676236044657097,
+      0.569377990430622
+    ],
+    "wingFar": [
+      0.8269537480063796,
+      0.35645933014354064
+    ],
+    "wingNear": [
+      0.3684210526315789,
+      0.4178628389154705
+    ]
+  },
+  "materials": {
+    "surface": "chitinous shell and transparent net-veined wings"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/dragonfly-repair-03/master.png",
+  "habitat": {
+    "realm": "aerial",
+    "gait": "fly",
+    "source": "Codex explicit adult-stage observation: four fully spread, unfolded net-veined wings and six legs on master SHA256 8b09ab3ef579a7860bec17e3fdaa82040b748d9541d2429c84d8f5e7f0d1383a. Flying adult Dragonfly, not an aquatic nymph or wingless caste."
+  },
+  "coverage": {
+    "scope": "One manually observed Dragonfly master, six explicit leg chains and four visible wings paired under the existing near/far wing owners; no hidden or folded anatomy.",
+    "notes": "No generated-family coverage is claimed before integration. Fine leg/antenna source pixels are retained.",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "df6b9a783fd35bd1b3ce1d2a79b4018677392ec4d02a8fd60e88d204121a5c0f",
+    "subjectSourceSha256": "7e88c5376123e27cc2877d705a2db6963762e8b6ee95b31e568b656d028399a5",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "thorax": 0.002255524022923661,
+      "head": 0.0984775840129862,
+      "mandible": 0.050949387065273674,
+      "abdomen": 0.1335338799932024,
+      "legFrontFarKnee": 0.11902030753942988,
+      "legFrontFarFoot": 0.059338931969013145,
+      "legFrontNearKnee": 0.1507936316681284,
+      "legFrontNearFoot": 0.055294851111195385,
+      "legMidFarKnee": 0.09356007717408744,
+      "legMidFarFoot": 0.07823937854169723,
+      "legMidNearKnee": 0.09990723931971822,
+      "legMidNearFoot": 0.11895082847030534,
+      "legHindFarKnee": 0.10414563137042752,
+      "legHindFarFoot": 0.08132407517691839,
+      "legHindNearKnee": 0.12379724638165891,
+      "legHindNearFoot": 0.13079122381863417,
+      "antennaFar": 0.08238453944745838,
+      "antennaNear": 0.07184561000174947,
+      "wingFar": 0.2659044244391939,
+      "wingNear": 0.37200850098395105
+    },
+    "measures": {
+      "body": 0.2319601126723484,
+      "bone-min": 0.002255524022923661,
+      "bone-max": 0.37200850098395105,
+      "leg/body:legFrontFar": 0.7689220247982098,
+      "leg/body:legFrontNear": 0.8884651779352721,
+      "leg/body:legMidFar": 0.7406422325654639,
+      "leg/body:legMidNear": 0.9435159574144891,
+      "leg/body:legHindFar": 0.7995758598778068,
+      "leg/body:legHindNear": 1.09755279589775
+    }
+  },
+  "recipeHash": "b8f467b449a7513003020473048212b80b33c99c3006d1b414111a29f82d225e"
+}

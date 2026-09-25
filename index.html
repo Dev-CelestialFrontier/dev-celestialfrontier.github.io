@@ -133,10 +133,10 @@
       padding: 8px 34px 8px 10px; border: 1px solid #647ba4; border-radius: 10px;
       background: #101c30; color: #eef6ff; font: 12px var(--ui); }
     /* §20 plan pickers (stance, Guardian party slots): the same phone touch target and look as the champion picker */
-    [data-combat-stance], [data-combat-party-slot] { width: 100%; min-height: 44px; box-sizing: border-box; margin: 4px 0;
+    [data-combat-stance], [data-combat-party-slot], [data-combat-mode] { width: 100%; min-height: 44px; box-sizing: border-box; margin: 4px 0;
       padding: 8px 34px 8px 10px; border: 1px solid #647ba4; border-radius: 10px;
       background: #101c30; color: #eef6ff; font: 12px var(--ui); }
-    [data-combat-stance]:focus-visible, [data-combat-party-slot]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
+    [data-combat-stance]:focus-visible, [data-combat-party-slot]:focus-visible, [data-combat-mode]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
     [data-combat-champion]:focus-visible,
     [data-combat-challenge]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
     .combat-card-forecast { margin: 8px 0 2px; color: var(--combat-odds-color, #dce9fa); }
@@ -149,6 +149,12 @@
       background: rgba(67,39,99,.92); color: #f8efff; font: 700 12px var(--ui);
       cursor: pointer; touch-action: manipulation; }
     [data-combat-challenge]:hover:not(:disabled) { border-color: #d3adff; background: rgba(87,51,127,.96); }
+    /* §20 Command Break: each answer is a full-width phone touch target, like Challenge */
+    .combat-card-break-headline { margin: 8px 0 2px; color: #f3d58b; font-weight: 700; line-height: 1.42; }
+    [data-combat-break] { display: block; width: 100%; min-height: 44px; box-sizing: border-box; margin-top: 6px; padding: 8px 12px;
+      border: 1px solid #956fc7; border-radius: 10px; background: rgba(67,39,99,.92); color: #f8efff; font: 700 12px var(--ui);
+      cursor: pointer; touch-action: manipulation; }
+    [data-combat-break]:focus-visible { outline: 3px solid #f3d58b; outline-offset: 2px; }
     [data-combat-challenge]:disabled, [data-combat-champion]:disabled {
       cursor: not-allowed; color: #8394ab; border-color: #39495f;
       background: rgba(18,26,39,.72); opacity: .82; }
@@ -262,6 +268,11 @@
       transform: translateX(44px); }
     #guidepanel { z-index: 24; }   /* player-requested help must sit above the z23 survey card */
     #setpanel { z-index: 24; }   /* preferences must remain operable over a populated phone survey card */
+    /* D16 parity: Reset expedition's armed confirmation (.panel .row is display:flex, which would beat [hidden]) */
+    #setpanel .row.reset-confirm { flex-wrap: wrap; }
+    #setpanel .row.reset-confirm[hidden] { display: none !important; }
+    #setpanel .row.reset-confirm > .sub { flex: 1 0 100%; }
+    #setpanel button.danger { border-color: #d0604a; color: #ffd0c4; background: rgba(110,32,22,.55); }
     @media (max-width: 900px) {
       body:not(.training) :is(#codexpanel,#recpanel,#atlaspanel,#chpanel,#primepanel,#shipyardpanel,#inventorypanel,#combatpanel) { z-index: 24; }
     }
@@ -443,6 +454,22 @@
       border: 1px solid #405477; border-radius: 10px; background: rgba(22,34,57,.9);
       color: #dcecff; cursor: pointer; font: 700 12px var(--ui); white-space: normal; }
     #shipyardpanel button.engineering-action:disabled { opacity: .58; cursor: default; }
+    /* D16 parity: the Fabricator's 📌 pin and its tracking chip (v1 #pinchip; hidden unless a recipe is pinned) */
+    #shipyardpanel button.engineering-pin { display: inline-flex; align-items: center; justify-content: center;
+      min-width: 44px; min-height: 44px; box-sizing: border-box; margin: 5px 0 9px 6px; padding: 7px 10px;
+      border: 1px solid #405477; border-radius: 10px; background: rgba(22,34,57,.9); color: #dcecff; cursor: pointer;
+      font: 700 12px var(--ui); opacity: .72; }
+    #shipyardpanel button.engineering-pin.on { opacity: 1; border-color: #e0b85a; background: rgba(90,70,22,.5); }
+    #pinchip { position: fixed; z-index: 40; left: max(8px, env(safe-area-inset-left)); top: calc(var(--topbar-h, 56px) + 8px);
+      max-width: min(360px, calc(100vw - 16px)); min-height: 44px; box-sizing: border-box; display: flex; align-items: center;
+      gap: 6px; padding: 6px 10px; border: 1px solid #405477; border-radius: 10px; background: rgba(8,14,27,.88);
+      color: #dcecff; font: 600 12px var(--ui); cursor: pointer; text-align: left; }
+    #pinchip[hidden] { display: none !important; }
+    /* D16 parity: the hint bubble (v1 #tipbubble) — display only, never takes a press */
+    #tipbubble { position: fixed; z-index: 60; max-width: min(280px, calc(100vw - 16px)); padding: 6px 9px; border-radius: 8px;
+      border: 1px solid #405477; background: rgba(8,14,27,.94); color: #dcecff; font: 500 12px/1.35 var(--ui); pointer-events: none; }
+    #tipbubble[hidden] { display: none !important; }
+    #pinchip.ready { border-color: #7fe6a0; color: #c9f5d8; }
     .engineering-pending-status { padding: 9px; border: 1px solid #a87939;
       border-radius: 9px; color: #ffe0a0; background: rgba(90,55,22,.28); }
     .engineering-pending-status[hidden] { display: none !important; }
@@ -564,6 +591,10 @@
     .prime-signature[open] > summary { border-bottom: 1px solid rgba(64,84,119,.42); }
     .prime-signature-body { padding: 9px 10px; user-select: text; -webkit-user-select: text; }
     .prime-signature-body p { margin: 5px 0; overflow-wrap: anywhere; }
+    /* D16 parity: Prime Codex travel (v1 data-pgo) and Titan tracking (v1 data-tgo) */
+    .prime-travel-row { margin-top: 8px; }
+    #primepanel button.prime-travel { min-height: 44px; min-width: 44px; padding: 8px 12px; box-sizing: border-box;
+      border: 1px solid #405477; border-radius: 10px; background: rgba(22,34,57,.9); color: #dcecff; font: 700 12px var(--ui); cursor: pointer; }
     .prime-guardian { color: #ff9b88; }
     .prime-claim { display: grid; gap: 3px; border-left: 4px solid var(--prime-claim-color,#9fb6d6);
       padding: 5px 8px; overflow-wrap: anywhere; }
@@ -646,6 +677,12 @@
       padding-top: 12px; }
     .inventory-action-controls { display: flex; flex-wrap: wrap; gap: 8px; }
     .inventory-action-controls button { min-height: 44px; }
+    /* D16 parity: Salvage all (v1 data-salvall) — armed state reads as a warning */
+    .inventory-salvage-all { display: grid; gap: 6px; margin: 6px 0 10px; }
+    #inventorypanel .inventory-salvage-all button { min-height: 44px; width: 100%; box-sizing: border-box; padding: 8px 12px;
+      border: 1px solid #405477; border-radius: 10px; background: rgba(22,34,57,.9); color: #dcecff; font: 700 12px var(--ui); cursor: pointer; }
+    #inventorypanel .inventory-salvage-all button[data-inventory-salvage-all="armed"] { border-color: #e0a04a; background: rgba(90,55,22,.55); color: #ffe0a0; }
+    #inventorypanel .inventory-salvage-all button:disabled { opacity: .58; cursor: default; }
     .inventory-action-status { min-height: 20px; margin: 0; color: var(--dim); }
     .inventory-action-status[data-kind="committed"] { color: #9ee49d; }
     .inventory-action-status[data-kind="refused"],
@@ -859,7 +896,7 @@
     }
   </style>
   <script type="module" data-cf-dev-loader>
-const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"76c8b2f823dfd4160be3ec744f9464aef24d8424","shortCommit":"76c8b2f823df","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-76c8b2f823df","channel":"development","entry":"./assets/main-DvBj18YJ.js"});
+const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"b9bf13be107095a239be275997c956db603bdb50","shortCommit":"b9bf13be1070","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-b9bf13be1070","channel":"development","entry":"./assets/main-8AWjW6tk.js"});
 window.__CF_DEV_PREVIEW__=info;
 const local=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
 if((location.origin===info.expectedOrigin&&info.publishable)||local){
@@ -873,16 +910,16 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/Geometry-BhLxjYlb.js">
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
   <link rel="modulepreload" crossorigin href="./assets/src-PpYgFp_O.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-CCoyTm6A.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-CYxXpI-_.js">
   <link rel="modulepreload" crossorigin href="./assets/speciesidentity-Dv9PKGDT.js">
   <link rel="modulepreload" crossorigin href="./assets/repeated-anatomy-CjJiumbW.js">
-  <link rel="modulepreload" crossorigin href="./assets/secondary-BoGqcmCO.js">
   <link rel="modulepreload" crossorigin href="./assets/src-DDq_m0Mw.js">
-  <link rel="modulepreload" crossorigin href="./assets/png-decode-DUCD4ESF.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-qL6B_u2k.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-B6vpzXm7.js">
-  <link rel="modulepreload" crossorigin href="./assets/world-roster-3cXF8dj6.js">
-  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-BauWRNt0.js">
+  <link rel="modulepreload" crossorigin href="./assets/body-card-etCesJO0.js">
+  <link rel="modulepreload" crossorigin href="./assets/png-decode-B3RzPpX6.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-DoxoOykp.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-CrNgFlvq.js">
+  <link rel="modulepreload" crossorigin href="./assets/world-roster-ChRpEmRo.js">
+  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-CHW8eQUR.js">
   <link rel="modulepreload" crossorigin href="./assets/canvasUtils-BdWL41L6.js">
   <link rel="modulepreload" crossorigin href="./assets/init-CDdLwmtt.js">
   <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-DUsRdIdr.js">
@@ -894,7 +931,7 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/surface-polish-CBmmi-Kj.js">
   <link rel="modulepreload" crossorigin href="./assets/visual-effect-policy-DOpWhvoj.js">
   <link rel="modulepreload" crossorigin href="./assets/earth-layered-recipe-DTHL9JNN.js">
-  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-Btd8lf8m.js">
+  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-CkpBajse.js">
   <link rel="modulepreload" crossorigin href="./assets/release-identity-CIuedefi.js">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/celestial-frontier.svg" type="image/svg+xml">

@@ -1,0 +1,369 @@
+{
+ "schema": "cf.card-master/v1",
+ "earthName": "Jellyfish",
+ "recordRecipeHash": "050cddedc732597f195ebed17582e37e1c7e9eaea348bbaaa0375e1554c806e7",
+ "source": {
+  "master": "audits/ART_BATTLE_FOCUS_20260925/jellyfish-repair-03/master.png",
+  "masterSha256": "5c878a70e83b232ef7aa1d716f6deab99626a8292e2a9714d87d945b1187e2ee",
+  "keyedSha256": "ecfb60dd5bbe4efe07fc91db638b341e486d29db0989927077d2d44491f61d32",
+  "alpha": "parts/keyed.png",
+  "labelsSha256": "67d05b4d70e7d33c6bc8ecff0777430f94f0f4625bd8b42d0522ae006acf8d9f",
+  "labelSource": "labels.png + declaration.json",
+  "width": 1254,
+  "height": 1254
+ },
+ "labels": [
+  {
+   "label": 1,
+   "id": "arm8-oral",
+   "joint": "arm8Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 2,
+   "id": "arm9-oral",
+   "joint": "arm9Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 3,
+   "id": "arm10-oral",
+   "joint": "arm10Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 4,
+   "id": "arm11-oral",
+   "joint": "arm11Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 5,
+   "id": "arm0-seg0",
+   "joint": "arm0Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 6,
+   "id": "arm0-seg1",
+   "joint": "arm0Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 7,
+   "id": "arm0-seg2",
+   "joint": "arm0Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 8,
+   "id": "arm1-seg0",
+   "joint": "arm1Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 9,
+   "id": "arm1-seg1",
+   "joint": "arm1Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 10,
+   "id": "arm1-seg2",
+   "joint": "arm1Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 11,
+   "id": "arm2-seg0",
+   "joint": "arm2Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 12,
+   "id": "arm2-seg1",
+   "joint": "arm2Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 13,
+   "id": "arm2-seg2",
+   "joint": "arm2Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 14,
+   "id": "arm3-seg0",
+   "joint": "arm3Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 15,
+   "id": "arm3-seg1",
+   "joint": "arm3Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 16,
+   "id": "arm3-seg2",
+   "joint": "arm3Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 17,
+   "id": "arm4-seg0",
+   "joint": "arm4Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 18,
+   "id": "arm4-seg1",
+   "joint": "arm4Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 19,
+   "id": "arm4-seg2",
+   "joint": "arm4Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 20,
+   "id": "arm5-seg0",
+   "joint": "arm5Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 21,
+   "id": "arm5-seg1",
+   "joint": "arm5Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 22,
+   "id": "arm5-seg2",
+   "joint": "arm5Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 23,
+   "id": "arm6-seg0",
+   "joint": "arm6Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 24,
+   "id": "arm6-seg1",
+   "joint": "arm6Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 25,
+   "id": "arm6-seg2",
+   "joint": "arm6Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 26,
+   "id": "arm7-seg0",
+   "joint": "arm7Seg0",
+   "layer": "near"
+  },
+  {
+   "label": 27,
+   "id": "arm7-seg1",
+   "joint": "arm7Seg1",
+   "layer": "near"
+  },
+  {
+   "label": 28,
+   "id": "arm7-seg2",
+   "joint": "arm7Seg2",
+   "layer": "near"
+  },
+  {
+   "label": 29,
+   "id": "root",
+   "joint": "root",
+   "layer": "near"
+  },
+  {
+   "label": 30,
+   "id": "bell",
+   "joint": "bell",
+   "layer": "near"
+  },
+  {
+   "label": 31,
+   "id": "centre",
+   "joint": "centre",
+   "layer": "near"
+  }
+ ],
+ "landmarks": {
+  "root": [
+   0.49920255183413076,
+   0.20733652312599682
+  ],
+  "centre": [
+   0.49920255183413076,
+   0.2703349282296651
+  ],
+  "bell": [
+   0.49920255183413076,
+   0.14114832535885166
+  ],
+  "arm8Seg0": [
+   0.4513556618819777,
+   0.26156299840510366
+  ],
+  "arm8Seg1": [
+   0.406048337627285,
+   0.41586921850079744
+  ],
+  "arm8Seg2": [
+   0.4314194577352472,
+   0.5701754385964912
+  ],
+  "arm9Seg0": [
+   0.48325358851674644,
+   0.25598086124401914
+  ],
+  "arm9Seg1": [
+   0.4655752195384409,
+   0.43859649122807015
+  ],
+  "arm9Seg2": [
+   0.49362041467304624,
+   0.6212121212121212
+  ],
+  "arm10Seg0": [
+   0.5255183413078149,
+   0.2607655502392344
+  ],
+  "arm10Seg1": [
+   0.5415104099314626,
+   0.43301435406698563
+  ],
+  "arm10Seg2": [
+   0.5534290271132376,
+   0.6052631578947368
+  ],
+  "arm11Seg0": [
+   0.5550239234449761,
+   0.2671451355661882
+  ],
+  "arm11Seg1": [
+   0.5791301169590642,
+   0.4126794258373206
+  ],
+  "arm11Seg2": [
+   0.6004784688995215,
+   0.5582137161084529
+  ],
+  "arm0Seg0": [
+   0.2711323763955343,
+   0.2671451355661882
+  ],
+  "arm0Seg1": [
+   0.1971843945528156,
+   0.5781499202551834
+  ],
+  "arm0Seg2": [
+   0.17304625199362042,
+   0.8891547049441786
+  ],
+  "arm1Seg0": [
+   0.30303030303030304,
+   0.25757575757575757
+  ],
+  "arm1Seg1": [
+   0.2776431873700361,
+   0.5952950558213717
+  ],
+  "arm1Seg2": [
+   0.24720893141945774,
+   0.9330143540669856
+  ],
+  "arm2Seg0": [
+   0.3444976076555024,
+   0.24800637958532695
+  ],
+  "arm2Seg1": [
+   0.32612307283359915,
+   0.5984848484848485
+  ],
+  "arm2Seg2": [
+   0.3181818181818182,
+   0.94896331738437
+  ],
+  "arm3Seg0": [
+   0.3835725677830941,
+   0.24960127591706538
+  ],
+  "arm3Seg1": [
+   0.40381125226860254,
+   0.5817384370015949
+  ],
+  "arm3Seg2": [
+   0.39872408293460926,
+   0.9138755980861244
+  ],
+  "arm4Seg0": [
+   0.5917065390749602,
+   0.30462519936204147
+  ],
+  "arm4Seg1": [
+   0.5734649122807017,
+   0.6208133971291866
+  ],
+  "arm4Seg2": [
+   0.5789473684210527,
+   0.9370015948963317
+  ],
+  "arm5Seg0": [
+   0.6052631578947368,
+   0.2647527910685805
+  ],
+  "arm5Seg1": [
+   0.6422272258185571,
+   0.6108452950558214
+  ],
+  "arm5Seg2": [
+   0.664274322169059,
+   0.9569377990430622
+  ],
+  "arm6Seg0": [
+   0.6570972886762361,
+   0.27910685805422647
+  ],
+  "arm6Seg1": [
+   0.7016367296781447,
+   0.611244019138756
+  ],
+  "arm6Seg2": [
+   0.733652312599681,
+   0.9433811802232854
+  ],
+  "arm7Seg0": [
+   0.6985645933014354,
+   0.2902711323763955
+  ],
+  "arm7Seg1": [
+   0.7657644790402057,
+   0.5917065390749602
+  ],
+  "arm7Seg2": [
+   0.7878787878787878,
+   0.8931419457735247
+  ]
+ },
+ "card": {
+  "width": 512,
+  "height": 512,
+  "scale": 0.4082934609250399,
+  "masterSha256": "67d9a73aaf752b7d9f5717552ff7d0201704bbfbbaef9917a2db9e06ef8f6692",
+  "labelsSha256": "d49de2705cbbbe081cb00ff7036c1146063724a2b6bf312ffe1b17b108b5b4cd",
+  "filter": "alpha-weighted box; labels nearest"
+ }
+}

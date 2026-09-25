@@ -1,0 +1,169 @@
+{
+  "kind": "fish",
+  "identity": {
+    "speciesVisualKey": "[\"object\",[[\"_earthName\",[\"string\",\"Reef Shark\"]],[\"accent\",[\"number\",\"16\"]],[\"behavior\",[\"number\",\"10\"]],[\"body\",[\"number\",\"12\"]],[\"color\",[\"number\",\"13\"]],[\"detail\",[\"number\",\"4\"]],[\"diet\",[\"number\",\"5\"]],[\"eyes\",[\"number\",\"5\"]],[\"form\",[\"number\",\"17\"]],[\"gen\",[\"number\",\"0\"]],[\"habitat\",[\"number\",\"1\"]],[\"head\",[\"number\",\"2\"]],[\"heat\",[\"number\",\"1\"]],[\"kingdom\",[\"string\",\"fauna\"]],[\"life\",[\"number\",\"0\"]],[\"limbs\",[\"number\",\"4\"]],[\"loco\",[\"number\",\"12\"]],[\"lumin\",[\"boolean\",false]],[\"metab\",[\"number\",\"2\"]],[\"pattern\",[\"number\",\"6\"]],[\"repro\",[\"number\",\"0\"]],[\"seed\",[\"number\",\"163690985\"]],[\"sense\",[\"number\",\"1\"]],[\"size\",[\"number\",\"3\"]],[\"skin\",[\"number\",\"2\"]],[\"tail\",[\"number\",\"6\"]],[\"temper\",[\"number\",\"9\"]],[\"trait\",[\"number\",\"8\"]]]]",
+    "seed": 163690985,
+    "ownerId": "authored:archetype-sprint/reef-shark",
+    "earthName": "Reef Shark"
+  },
+  "template": {
+    "id": "fish",
+    "version": 1
+  },
+  "clipSetId": "fish-aquatic-v1",
+  "anatomy": {
+    "schema": "cf.anatomy-presence/v2",
+    "absent": [],
+    "hidden": [],
+    "folded": []
+  },
+  "genome": {
+    "seed": 163690985,
+    "kingdom": "fauna",
+    "color": 13,
+    "form": 17,
+    "body": 12,
+    "loco": 12,
+    "trait": 8,
+    "size": 3,
+    "diet": 5,
+    "head": 2,
+    "limbs": 4,
+    "skin": 2,
+    "tail": 6,
+    "pattern": 6,
+    "eyes": 5,
+    "behavior": 10,
+    "habitat": 1,
+    "detail": 4,
+    "accent": 16,
+    "temper": 9,
+    "sense": 1,
+    "repro": 0,
+    "life": 0,
+    "metab": 2,
+    "lumin": false,
+    "gen": 0,
+    "heat": 1,
+    "_earthName": "Reef Shark"
+  },
+  "geometry": {
+    "cutoutAssetHash": "c3d4a67f11764fb5fe7a9f98d2fa44b85fc63cd40b17b8d9ae934557fa6ebb46",
+    "width": 1254,
+    "height": 1254,
+    "groundLineY": 0.85,
+    "depthLayers": [
+      {
+        "id": "far",
+        "order": 0
+      },
+      {
+        "id": "near",
+        "order": 1
+      }
+    ]
+  },
+  "landmarks": {
+    "root": [
+      0.6859377990430623,
+      0.5304688995215311
+    ],
+    "head": [
+      0.8015622009569378,
+      0.5335940988835726
+    ],
+    "jaw": [
+      0.8140622009569377,
+      0.5640622009569377
+    ],
+    "spine0": [
+      0.6281251993620415,
+      0.5289059011164274
+    ],
+    "spine1": [
+      0.5554688995215311,
+      0.5273437001594896
+    ],
+    "spine2": [
+      0.47812519936204145,
+      0.5296874003189792
+    ],
+    "spine3": [
+      0.40390590111642743,
+      0.5296874003189792
+    ],
+    "spine4": [
+      0.32578149920255184,
+      0.5289059011164274
+    ],
+    "spine5": [
+      0.25781259968102077,
+      0.5281251993620415
+    ],
+    "caudal": [
+      0.2054688995215311,
+      0.5242185007974481
+    ],
+    "dorsal": [
+      0.5515622009569378,
+      0.42265629984051034
+    ],
+    "pectoralNear": [
+      0.6031251993620415,
+      0.6125
+    ],
+    "pectoralFar": [
+      0.6617185007974481,
+      0.6203125996810207
+    ]
+  },
+  "materials": {
+    "surface": "plain grey painted placoid scales (shark dermal denticles), pale belly shading, no pigment markings"
+  },
+  "source": "audits/ART_BATTLE_FOCUS_20260925/19-reef-shark/master.png",
+  "habitat": {
+    "realm": "aquatic",
+    "source": "Manually declared Earth Reef Shark swimming fish; paired pectorals and pelvic fins, anal and second dorsal present on source. No terrestrial support inferred."
+  },
+  "coverage": {
+    "scope": "One manually observed sprint painting; no family-wide visual acceptance",
+    "declarations": "Thirteen existing fish joints. Two separately visible pectoral fins; paired pelvic fins, anal fin and small second dorsal follow their observed axial body region. Complete asymmetric caudal, tall first dorsal, five gill slits, crescent mouth. No absent/hidden/folded contracted anatomy, no new fin joint invented. All polygons and landmarks manually authored on this master.",
+    "sourceFacing": "right",
+    "visualAcceptance": "Nick pending; no family-wide acceptance",
+    "nativeAcceptance": false
+  },
+  "provenance": {
+    "authoringSha256": "45795045085a6654192209b027cb86acefd2fa96864919d9f4b450a7b29a9d32",
+    "subjectSourceSha256": "da3f098a88065dd1d975d3f49c2a9bfb683a73aaaa74a20392dd4855d813e673",
+    "presenceSha256": "87470cdb432e53322bf6b85c040101fa8a47703ecd9baccd8e69e1604e54d0aa",
+    "sourceLabelsReused": false,
+    "sourceLandmarksReused": false,
+    "hiddenInference": false
+  },
+  "boundsCheck": {
+    "inside": true,
+    "clamped": [],
+    "boneLengths": {
+      "head": 0.11566662953935293,
+      "jaw": 0.03293258635383799,
+      "spine0": 0.057833724122628695,
+      "spine1": 0.07267309253323409,
+      "spine2": 0.07737920188783698,
+      "spine3": 0.07421929824561402,
+      "spine4": 0.07812831058844392,
+      "spine5": 0.06797338300686004,
+      "caudal": 0.05248928690753146,
+      "dorsal": 0.1047602695644719,
+      "pectoralFar": 0.0930508724615642,
+      "pectoralNear": 0.11656340811608797
+    },
+    "measures": {
+      "body": 0.3703134226270299,
+      "bone-min": 0.03293258635383799,
+      "bone-max": 0.11656340811608797,
+      "caudal/body": 0.14174286887893156,
+      "head/body": 0.31234792603196937
+    }
+  },
+  "recipeHash": "82cd8b102478032bfe5a80d25761a696b7029acf5c600fdd4fb27221664a6b38"
+}

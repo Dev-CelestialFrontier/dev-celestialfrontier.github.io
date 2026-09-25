@@ -1,0 +1,70 @@
+{
+  "creatureId": "reef-shark",
+  "parts": [
+    {
+      "name": "near-pectoral.png",
+      "path": "parts/near-pectoral.png",
+      "sha256": "f9cfa2c2305406825ae873e80a8100b1aefef006ae7999f64148a2f4f03fc59b"
+    },
+    {
+      "name": "far-pectoral.png",
+      "path": "parts/far-pectoral.png",
+      "sha256": "e53c55016c6fe8571240c74d310c4e8f9f8df241b4a326c9668289bc060eb88b"
+    },
+    {
+      "name": "dorsal.png",
+      "path": "parts/dorsal.png",
+      "sha256": "9f765ad6b29ca064561d7ed1bf4763d7b72a0574dbbb4f07feb6b8727230a2b5"
+    },
+    {
+      "name": "jaw.png",
+      "path": "parts/jaw.png",
+      "sha256": "1002d9d6ca2fb0c8c30766718652a15cdf33d03aefb7b062d6628ded5ed3181d"
+    },
+    {
+      "name": "head.png",
+      "path": "parts/head.png",
+      "sha256": "e2fd8ad16c0eccbaaa40e6c38a68fe21b926e186bccc5bc7e2e9f3f925d68199"
+    },
+    {
+      "name": "caudal.png",
+      "path": "parts/caudal.png",
+      "sha256": "5a5dd0d8e3a028b57cfde91b9171275aef241d984c462bb99b170745fb34c0f9"
+    },
+    {
+      "name": "root.png",
+      "path": "parts/root.png",
+      "sha256": "6790f09acb0265bc0245a6f1a4beba5f209825111fd4d39ca43d97760a4a6645"
+    },
+    {
+      "name": "tail-peduncle.png",
+      "path": "parts/tail-peduncle.png",
+      "sha256": "41da4cbccdad1378d896c9ad723a8cbaa7db482c2ddc7b0b07dfd7d24801530f"
+    },
+    {
+      "name": "rear-body.png",
+      "path": "parts/rear-body.png",
+      "sha256": "a9c0a151be4285a3159ee0b7cfb5017e980f351edb371861c513e5e7b352e6e0"
+    },
+    {
+      "name": "pelvic-body.png",
+      "path": "parts/pelvic-body.png",
+      "sha256": "998703318cd299396969801d8c7dcb68abb4d0b89175b0023676793223932c0a"
+    },
+    {
+      "name": "mid-body.png",
+      "path": "parts/mid-body.png",
+      "sha256": "5751ee09bfabf2d4e7e0465494232f72bdaed21253f1fa328dd0ef1aba2225a6"
+    },
+    {
+      "name": "front-body.png",
+      "path": "parts/front-body.png",
+      "sha256": "9d721e0210499190010d8933bd06eddf0de32653530ad7eeea241f5d179262e0"
+    },
+    {
+      "name": "body.png",
+      "path": "parts/body.png",
+      "sha256": "6f841075579ef83ec6e067d9234d377f614b7316c4d26152b1d6e4dda005a711"
+    }
+  ]
+}

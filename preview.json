@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-09-26T18:44:04.206Z",
+  "generatedAt": "2026-09-26T18:52:15.651Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-66801cbee71b",
+    "build": "develop-c99e3eb7ded7",
     "channel": "development"
   },
   "source": {
-    "commit": "66801cbee71bd85778f6dd987afe64bb0b9333ed",
-    "shortCommit": "66801cbee71b",
+    "commit": "c99e3eb7ded7a38c21fe451133483bb3891419c7",
+    "shortCommit": "c99e3eb7ded7",
     "branch": "anthropic/mac",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "6530d2d1e5eb11732d87a428acc2f245c2c32121",
+      "tree": "854f767eaaa80a5839d0b993c2dc58807c4f362e",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -53,6 +53,11 @@
       "path": "__local_ai/browser-variant-plan.json",
       "bytes": 142918,
       "sha256": "26263980f6dce7f3578a904aa9fe64649530e43797bfc94a0ddb8b2a3aaace81"
+    },
+    {
+      "path": "__local_ai/creature-finish-math.mjs",
+      "bytes": 6231,
+      "sha256": "23a8d08e0ecde69c47fd1da0f0ad72caca68546655008f0efa14ec6189aa6c34"
     },
     {
       "path": "__local_ai/denoiser-shapes.mjs",
@@ -1427,12 +1432,12 @@
     {
       "path": "audiovisual-pilot.html",
       "bytes": 3574,
-      "sha256": "927216527db278353bf82e88dffa1ad89ae89ab413bf1d81eff2af784bac1b69"
+      "sha256": "273cb93b67f41044cf3c66df0394f03afca286d19a562e3f43bdaab91f9c5bbb"
     },
     {
       "path": "audit.html",
       "bytes": 2461,
-      "sha256": "cddc24ab27f47363d1acb96fa77270c81e1e11af9f3654550c2cae93b33ec0e4"
+      "sha256": "c6f8b7c07db4ac1d92b345564b84b5a0750f1680f13edc91f9cb8950faebb72b"
     },
     {
       "path": "battle2/audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/binding.json.gz",
@@ -1987,7 +1992,7 @@
     {
       "path": "hybrid-matrix.html",
       "bytes": 2550,
-      "sha256": "e0c4a350971d67fb7c2fe16069b78ca92d8ca1b8a1e1c5e2e9ed513559916b95"
+      "sha256": "d163fe980dc50d9cb40d49bbb98a477e10b8f2937af58210fbdaac7bc85ac4c5"
     },
     {
       "path": "icons/celestial-frontier-maskable.svg",
@@ -2002,7 +2007,7 @@
     {
       "path": "index.html",
       "bytes": 81869,
-      "sha256": "2cb6e88c6ab5e2f2ca563cc27e8979132a28ebe60342c31d9b07cabbf02e575a"
+      "sha256": "6cd37263abf30cc41d7d8ea99cde5406a80a962b180e288a2f1fd593d26b93ec"
     },
     {
       "path": "library/art-library.json",
@@ -5036,14 +5041,14 @@
     },
     {
       "path": "service-worker.js",
-      "bytes": 65938,
-      "sha256": "83f6783cafe2218e8363f5fb0daafb3b37351a3dc2bc09f15c01f9bb7fabda4a"
+      "bytes": 66062,
+      "sha256": "8eaeb3336c414cf973bda5fe95bcd5bb344556d2fb2edbad6415240a049c7697"
     },
     {
       "path": "version.json",
       "bytes": 243,
-      "sha256": "caa952384550e14f47b50c3e523f6890d349eeb2addc279c2212ef7632d24fa4"
+      "sha256": "948394c5a3417e85d1213407f7f0c66c64feacef94857ccb2499f22cd2352812"
     }
   ],
-  "contentSha256": "a4d5172ad2c80c2927b0a7e6e14c3e24232689dddc41f4504a472048ae11d6a2"
+  "contentSha256": "67242da5b0c1e50d8d67090149ff75d536d52f20039992f7f9ac3835da1fcc35"
 }

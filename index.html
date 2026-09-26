@@ -900,9 +900,54 @@
       #shipyardpanel [data-layer="livery-core"], #shipyardpanel [data-hardpoint] circle { fill: Highlight; }
       :is(button, input, textarea, [tabindex]):focus-visible { outline-color: Highlight; box-shadow: none; }
     }
-  </style>
+      /* D16 (v1 _codexTabs + shelves): the Compendium chip bar is ONE horizontally scrolling row of 44px chips (a phone keeps its list
+       height), and the virtual scrollport gives up exactly that row (52px) in both height owners (the U2 sheet rule and the landscape
+       phone rule); higher specificity than either, so neither can win back the space and push rows under the dock. */
+    #codexpanel .codex-chips { display: flex; gap: 6px; align-items: center; height: 52px; margin: 0 0 4px;
+      overflow-x: auto; overflow-y: hidden; scrollbar-width: none; overscroll-behavior-x: contain; }
+    #codexpanel .codex-chip-row { display: contents; }
+    #codexpanel .codex-chip { flex: 0 0 auto; min-height: 44px; min-width: 44px; padding: 0 12px; border-radius: 22px;
+      border: 1px solid #2a3550; background: #0d1426; color: var(--dim); font: inherit; font-size: 13px; cursor: pointer; }
+    #codexpanel .codex-chip.on { border-color: #f2c45a; color: #fff; background: #1a2238; }
+    #codexpanel:has(.codex-chips) .compendium-scroll { height: min(560px, max(44px, calc(var(--cf-sheet-floor) - var(--topbar-h) - 168px))); }
+    @media (max-width: 900px) and (orientation: landscape) {
+      body.panel-open #codexpanel:has(.codex-chips) .compendium-scroll { height: min(560px, max(44px, calc(100dvh - var(--safe-top) - var(--safe-bottom) - 178px))); }
+    }
+    .panel button.codex-shelf { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%;
+      min-height: 44px; margin: 0; padding: 6px 4px; border: 0; border-bottom: 1px solid #1e2740; background: none;
+      color: var(--cf-color-accent-gold, #f2c45a); font: inherit; text-align: left; cursor: pointer; }
+    .panel button.codex-shelf .cnt { color: var(--dim); font-size: 12px; }
+    .panel button.codex-shelf::after { content: '▸'; color: var(--dim); }
+    .panel button.codex-shelf.open::after { content: '▾'; }
+    /* D16 (v1 data-go): the detail card's origin travel, a real 44px button under the kind/realm line */
+    .panel button.codex-origin { min-height: 44px; margin: 0 0 8px; padding: 0 14px; border-radius: 22px; border: 1px solid #2a3550;
+      background: #0d1426; color: #7ec8f0; font: inherit; font-size: 13px; cursor: pointer; }
+    /* D16 (v1 showReveal): the specimen reveal, a centered modal card with 44px Continue and Skip-all buttons; queued, never stacked */
+    #reveal { position: fixed; inset: 0; z-index: 60; display: flex; align-items: center; justify-content: center;
+      padding: calc(var(--safe-top, 0px) + 12px) 16px calc(var(--safe-bottom, 0px) + 12px); background: rgba(3, 6, 14, 0.72); }
+    #reveal[hidden] { display: none; }
+    #reveal .reveal-card { width: min(360px, 100%); max-height: 100%; overflow-y: auto; box-sizing: border-box; padding: 16px;
+      border-radius: 14px; border: 1px solid #2a3550; background: #0a101e; text-align: center; }
+    #reveal .reveal-title { color: var(--dim); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
+    #reveal img { width: 100%; height: auto; border-radius: 10px; background: #0b1220; }
+    #reveal .reveal-name { color: #f4f8ff; font-size: 18px; font-weight: 700; margin-top: 8px; }
+    #reveal .reveal-kind { color: var(--dim); font-size: 13px; margin: 2px 0 12px; }
+    #reveal button { display: block; width: 100%; min-height: 44px; margin: 6px 0 0; border-radius: 22px; border: 1px solid #2a3550;
+      background: #1a2238; color: #fff; font: inherit; cursor: pointer; }
+    #reveal button[data-rev="skip"] { background: none; color: var(--dim); }
+    /* D16 (v1 _vistaExtras): the vista pill row over the stage (outside the survey card) and the full-screen VISTA VIEW, where the survey
+       card, panels and HUD chrome step aside so the landing vista stands alone; the pill row stays (Back, Postcard) */
+    .vista-pills { position: fixed; z-index: 30; right: calc(var(--safe-right, 0px) + 12px); bottom: calc(var(--safe-bottom, 0px) + var(--dock-h, 0px) + 12px);
+      display: flex; gap: 8px; }
+    .vista-pills[hidden] { display: none; }
+    .vista-pills button { min-height: 44px; min-width: 44px; padding: 0 14px; border-radius: 22px; border: 1px solid #2a3550;
+      background: rgba(10, 16, 30, 0.86); color: #f4f8ff; font: inherit; font-size: 13px; cursor: pointer; }
+    body.vista-view :is(#survey, .panel, #topbar, #dock, #hpbar, #ctxbar, #hintpill, #objchip, #playerchip, #primechip, #sceneactions, #raillft, #railrgt, #trail) {
+      visibility: hidden; pointer-events: none; }
+    body.vista-view .vista-pills { bottom: calc(var(--safe-bottom, 0px) + 12px); }
+</style>
   <script type="module" data-cf-dev-loader>
-const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"567695809473f807f68dc75af8ec9df72d2ae003","shortCommit":"567695809473","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-567695809473","channel":"development","entry":"./assets/main-DpdypsB5.js"});
+const info=Object.freeze({"schema":"cf-dev-preview/v3","expectedOrigin":"https://dev-celestialfrontier.github.io","productionOrigin":"https://celestialfrontier.github.io","sourceCommit":"0b4c8dca9be3a58d57bd1dd6529b8bdff8ad3e58","shortCommit":"0b4c8dca9be3","sourceState":"committed","publishable":true,"developmentVersion":"2.0","buildId":"develop-0b4c8dca9be3","channel":"development","entry":"./assets/main-C1MYihKU.js"});
 window.__CF_DEV_PREVIEW__=info;
 const local=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
 if((location.origin===info.expectedOrigin&&info.publishable)||local){
@@ -916,19 +961,17 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/Geometry-BhLxjYlb.js">
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
   <link rel="modulepreload" crossorigin href="./assets/src-B2fXMzXR.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-CH6IBQsV.js">
   <link rel="modulepreload" crossorigin href="./assets/src-UKmQ1keR.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-BuqmKPas.js">
-  <link rel="modulepreload" crossorigin href="./assets/earth-fauna-profiles-DT3KaS2t.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-DDq_m0Mw.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-Cqzotg9g.js">
-  <link rel="modulepreload" crossorigin href="./assets/src-Rmhj2N5a.js">
-  <link rel="modulepreload" crossorigin href="./assets/audio-identity-projector-CsWEquZi.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-DKsQ9n2x.js">
   <link rel="modulepreload" crossorigin href="./assets/speciesidentity-Dv9PKGDT.js">
+  <link rel="modulepreload" crossorigin href="./assets/earth-fauna-profiles-DT3KaS2t.js">
+  <link rel="modulepreload" crossorigin href="./assets/painted-stand-in-Cj0MCxU1.js">
   <link rel="modulepreload" crossorigin href="./assets/repeated-anatomy-CjJiumbW.js">
-  <link rel="modulepreload" crossorigin href="./assets/body-card-CLSJ-Y15.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-DDq_m0Mw.js">
+  <link rel="modulepreload" crossorigin href="./assets/body-card-D45qqJiN.js">
   <link rel="modulepreload" crossorigin href="./assets/png-decode-C-JqFVmd.js">
-  <link rel="modulepreload" crossorigin href="./assets/world-roster-D5iZcjrh.js">
-  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-BBH53PmN.js">
+  <link rel="modulepreload" crossorigin href="./assets/painted-card-source-DFGvAL_w.js">
   <link rel="modulepreload" crossorigin href="./assets/canvasUtils-BdWL41L6.js">
   <link rel="modulepreload" crossorigin href="./assets/init-CDdLwmtt.js">
   <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-DUsRdIdr.js">
@@ -938,10 +981,15 @@ if((location.origin===info.expectedOrigin&&info.publishable)||local){
   <link rel="modulepreload" crossorigin href="./assets/CanvasPool-BdanJG_4.js">
   <link rel="modulepreload" crossorigin href="./assets/getPo2TextureFromSource-BZgiTsLH.js">
   <link rel="modulepreload" crossorigin href="./assets/surface-polish-CBmmi-Kj.js">
-  <link rel="modulepreload" crossorigin href="./assets/voice-identity-BGZXa4lV.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-BTTy0nGV.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-DODRGX08.js">
+  <link rel="modulepreload" crossorigin href="./assets/audio-identity-projector-BjvD3Vz3.js">
+  <link rel="modulepreload" crossorigin href="./assets/world-roster-By4C-t92.js">
+  <link rel="modulepreload" crossorigin href="./assets/tame-greeting-audio-DV6jGbBx.js">
+  <link rel="modulepreload" crossorigin href="./assets/voice-identity-DAPW9YMR.js">
   <link rel="modulepreload" crossorigin href="./assets/visual-effect-policy-DOpWhvoj.js">
   <link rel="modulepreload" crossorigin href="./assets/earth-layered-recipe-DTHL9JNN.js">
-  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-CvCDbOKZ.js">
+  <link rel="modulepreload" crossorigin href="./assets/combat-chronicle-A9pDZZMX.js">
   <link rel="modulepreload" crossorigin href="./assets/release-identity-CIuedefi.js">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/celestial-frontier.svg" type="image/svg+xml">

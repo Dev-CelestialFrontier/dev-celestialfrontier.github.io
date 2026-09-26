@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Wolf",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/fit-03/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/11-wolf/mask-set-02/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "9d9d3fbcd8bdfcb5ed37a534b3afd44303ca0b1229a53593362d9b5292a2e316"
+}

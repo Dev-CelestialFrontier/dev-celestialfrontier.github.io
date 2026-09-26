@@ -1,0 +1,7 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Impala",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/interior-root-repair-05/impala-fit-02/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "58c3ed14e316b21d18ab2e2bac292277bf2caeef26a7d32af9c783ce8e5899d2"
+}

@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Salamander",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/26-salamander/fit-05/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/26-salamander/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "712c584bdd51bc0c585f4f8ae059faa8d9b7f0fcdc531f7841c46c054ed1f2e2"
+}

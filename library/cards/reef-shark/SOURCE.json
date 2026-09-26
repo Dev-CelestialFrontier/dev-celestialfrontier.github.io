@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Reef Shark",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/19-reef-shark/fit-06/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/19-reef-shark/mask-set-02/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "82cd8b102478032bfe5a80d25761a696b7029acf5c600fdd4fb27221664a6b38"
+}

@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Racer",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/21-racer/fit-02/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/21-racer/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "e9dcb7f05109bf5d758eb6d7053792ea93ffc677f05978c2764fd3df5dda9335"
+}

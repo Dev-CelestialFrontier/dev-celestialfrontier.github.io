@@ -1,0 +1,7 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Freshwater Crab",
+ "fitDir": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/freshwater-crab/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "ffb9a6786ed27e1cf9fd98d9a653111e2f69f0856bbd5b70ccad71dffca5419f"
+}

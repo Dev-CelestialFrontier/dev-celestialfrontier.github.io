@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Rat",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/29-rat/fit-03/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/29-rat/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "93a34fe91c56f8f64ed72223a5e101380065fb312d06d57f3923d815466ce9b0"
+}

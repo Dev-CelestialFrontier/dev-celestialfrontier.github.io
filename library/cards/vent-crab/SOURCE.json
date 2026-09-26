@@ -1,0 +1,7 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Vent Crab",
+ "fitDir": "audits/ANATOMY_COMPLETION_20260917/crab-fits-03/vent-crab/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "cbb1c415eca9c4c763b4f87a1c83d7f1928b1f3b5ded1165b6bdc99a9cae2505"
+}

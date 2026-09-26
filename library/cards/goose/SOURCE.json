@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Goose",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/bird-motion-02/goose-fit-04/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/15-goose/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "887857dd7213d86fe5278ab6dd4ef3ebbf5a06a86f12a9f241b56c4e14eb26a0"
+}

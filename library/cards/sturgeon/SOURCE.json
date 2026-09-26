@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Sturgeon",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/fit-02/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/sturgeon-facing-04/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "42621bc17f76e19de15b2d6300922321146355ff8699a4767373c1f03d82dd64"
+}

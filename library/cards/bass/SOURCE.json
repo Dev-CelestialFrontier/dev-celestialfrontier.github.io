@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Bass",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/08-bass/fit-05/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/08-bass/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "5147fe4303aff3d7821c41d28697113dbbadd69e0f04f2288b1ae01841fb035f"
+}

@@ -1,0 +1,8 @@
+{
+ "schema": "cf.shipped-card-archetype/v1",
+ "earthName": "Eel",
+ "fitDir": "audits/ART_BATTLE_FOCUS_20260925/27-eel/fit-02/",
+ "markingsDir": "audits/ART_BATTLE_FOCUS_20260925/27-eel/mask-set-03/",
+ "mirroredBy": "tools/morph/build-card-masters.mjs",
+ "recordRecipeHash": "9b55893072b7c53f8bc5ae4f9ccb7cb89974743bfcd7bd3297a030553741e37c"
+}

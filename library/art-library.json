@@ -2647,6 +2647,16 @@
    "sha256": "27331ceeb3353de388c97e1c4ecc62b11fd75fa6421852ae4e7a22cba971c408"
   },
   {
+   "path": "library/creature-finish-source/civet/labels.png",
+   "bytes": 18746,
+   "sha256": "da39e0a76713f5adee819751c96db00ffebad52288b3d113a84baf218ced2132"
+  },
+  {
+   "path": "library/creature-finish-source/civet/master.png",
+   "bytes": 1931944,
+   "sha256": "a5e62568dfa010d8d646124ce641c72d42686bff5329bba40cfdfc21fa25a76b"
+  },
+  {
    "path": "library/creature-finish-source/coconut-crab/labels.png",
    "bytes": 26219,
    "sha256": "234df901e16b674429a14ceeec4edb89ec3ec742f73027ec50cf23700ad3e4d7"
@@ -2695,6 +2705,16 @@
    "path": "library/creature-finish-source/eagle/master.png",
    "bytes": 1602781,
    "sha256": "78ad63443cf8a1a3e48ac89ef320db995697a798be56366164999814ae61b50a"
+  },
+  {
+   "path": "library/creature-finish-source/eel/labels.png",
+   "bytes": 8826,
+   "sha256": "1b07c0600205a24f8d42a025f2d909b4374b156718a39fa2da268a0b32eac0c3"
+  },
+  {
+   "path": "library/creature-finish-source/eel/master.png",
+   "bytes": 1028834,
+   "sha256": "77890d5b4b55daf076bfc6ca2da0b03fce16930feaca08223bc2d0822e2571cb"
   },
   {
    "path": "library/creature-finish-source/freshwater-crab/labels.png",
@@ -2837,6 +2857,16 @@
    "sha256": "650d3a5d2fe3fe0b5fc986448a3a7818f89975642af68b51d27dac1366bc958e"
   },
   {
+   "path": "library/creature-finish-source/rat/labels.png",
+   "bytes": 12796,
+   "sha256": "9205f57215cb3631e592b8bcda5ffa335365cda028aa1c117d11e454d984212e"
+  },
+  {
+   "path": "library/creature-finish-source/rat/master.png",
+   "bytes": 1283423,
+   "sha256": "41f8ed50d1e195f7cbd2096ac228dc48df5f9da6b1a95537d67ab3427e3c4701"
+  },
+  {
    "path": "library/creature-finish-source/reef-shark/labels.png",
    "bytes": 43267,
    "sha256": "b09ed706fdd131e3206114213f471a03040125f890f3f30d3d5de5d90f2eb908"
@@ -2855,6 +2885,16 @@
    "path": "library/creature-finish-source/river-otter/master.png",
    "bytes": 457140,
    "sha256": "12b5d7092a86a53c7769a1719c0eda38d5369f3ca3056b80a6275dbf1cd3411e"
+  },
+  {
+   "path": "library/creature-finish-source/salamander/labels.png",
+   "bytes": 11547,
+   "sha256": "56052d9264e158d7c6080dc39310675ba07b30ff9c44890d9ea5f60352496520"
+  },
+  {
+   "path": "library/creature-finish-source/salamander/master.png",
+   "bytes": 1152155,
+   "sha256": "9a9701c7b127da311b031082f29c66b8c5b01cd94d3fae4f154275a95d5f6235"
   },
   {
    "path": "library/creature-finish-source/salmon/labels.png",
@@ -2945,6 +2985,36 @@
    "path": "library/creature-finish-source/wolf/master.png",
    "bytes": 609200,
    "sha256": "ab7a9c80a6b5ea2344f88d7d14038ad1df0fe9d5cf942fae59a5860543bb1e43"
+  },
+  {
+   "path": "library/creature-finish/9d29bc0fe48eb61901948bf72f2a871f507f579352ff15f2f85ae734abfd41ec/original.png",
+   "bytes": 42794,
+   "sha256": "4f33f8595b67f42b37f1298d574c653d0f161f2d8e68041f13ec46141a7bdb25"
+  },
+  {
+   "path": "library/creature-finish/9d29bc0fe48eb61901948bf72f2a871f507f579352ff15f2f85ae734abfd41ec/receipt.json",
+   "bytes": 10527,
+   "sha256": "f8ad399d19a72d9a2b980a4078de0b5caa7a194f7105a203a2b10b79479464ba"
+  },
+  {
+   "path": "library/creature-finish/ec2e35e0299d0e4d47261267b83b15375e43297831303c5b67ae9eb3fd5a01e2/original.png",
+   "bytes": 34690,
+   "sha256": "cc870adc8ad629df189de879fb8eb497b28baa61c329947b63630c35925da926"
+  },
+  {
+   "path": "library/creature-finish/ec2e35e0299d0e4d47261267b83b15375e43297831303c5b67ae9eb3fd5a01e2/receipt.json",
+   "bytes": 10521,
+   "sha256": "ba28ce27318545c4d76eaf956c8233cd7f5db1c0bd112ee6f96a3e76043d256b"
+  },
+  {
+   "path": "library/creature-finish/fe91e4d748f14c2c3969583e8c4f3c7c1a977db24af7968c853208700bb0a138/original.png",
+   "bytes": 42238,
+   "sha256": "b1e80c121ea329ab9c4e9c54c34d9192c5e499d429a0f0283f047ba25684d003"
+  },
+  {
+   "path": "library/creature-finish/fe91e4d748f14c2c3969583e8c4f3c7c1a977db24af7968c853208700bb0a138/receipt.json",
+   "bytes": 10693,
+   "sha256": "008bc882f7987649fdcaffc115bfb96a10c260faa95de9df7e7aff2ddd005e16"
   }
  ]
 }

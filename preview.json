@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-09-26T18:11:19.616Z",
+  "generatedAt": "2026-09-26T18:44:04.206Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-14b712e6e14f",
+    "build": "develop-66801cbee71b",
     "channel": "development"
   },
   "source": {
-    "commit": "14b712e6e14f1c69a0bbd1ccb09449b0744bea86",
-    "shortCommit": "14b712e6e14f",
+    "commit": "66801cbee71bd85778f6dd987afe64bb0b9333ed",
+    "shortCommit": "66801cbee71b",
     "branch": "anthropic/mac",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "d248ca8fbeae9932cfa81723acab692a18b26184",
+      "tree": "6530d2d1e5eb11732d87a428acc2f245c2c32121",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -255,24 +255,24 @@
       "sha256": "19ea3564dc5f8b3d4a2fc70526c71f476699bc83d171623aa4407baaa471ace5"
     },
     {
-      "path": "assets/battle2-matchup-BEy4aAKH.js",
-      "bytes": 9324,
-      "sha256": "d8a6e8900d2ce72ff00af6571be4459f5d29dbac4ae18d2834ef4ac4a596e159"
+      "path": "assets/battle2-matchup-Bxq62GHv.js",
+      "bytes": 9390,
+      "sha256": "6cdf834b2a2b4a32cd35827ec50537e71f4f594a03a5eb5869899d1c9edebaaf"
     },
     {
-      "path": "assets/battle2-matchup-BEy4aAKH.js.map",
-      "bytes": 30495,
-      "sha256": "9802d82ec1b6a99fdfe0d6a13129dbf606a1f8b745bc51648b94947e5cd7cdbe"
+      "path": "assets/battle2-matchup-Bxq62GHv.js.map",
+      "bytes": 30845,
+      "sha256": "7bf902f85b7d333aa7f3a843529ba2973590cbbbfbab33057bbae3bdfaca6ece"
     },
     {
-      "path": "assets/battle2-wiring-BMwjoG-6.js",
-      "bytes": 177156,
-      "sha256": "931c75d60b1800bb3a5dea5dae90f6ef6893f1fd21e0220706dbdd413521a37c"
+      "path": "assets/battle2-wiring-BCv_sohF.js",
+      "bytes": 177274,
+      "sha256": "a1c0d90e89915ef400afdc4639d8a42edc35f4783028fcfdeee9e947b5522a31"
     },
     {
-      "path": "assets/battle2-wiring-BMwjoG-6.js.map",
-      "bytes": 647383,
-      "sha256": "ce1fca6bd01c69b6171e3bdf9240b12af016be4046ee377ef71409a4e3e3e215"
+      "path": "assets/battle2-wiring-BCv_sohF.js.map",
+      "bytes": 647771,
+      "sha256": "99dad3d1c4b1d9545a7fbd9c13d2072ccedd506cce861aff71f0d54aff1b8238"
     },
     {
       "path": "assets/biome-vista.worker-D3XRSJZJ.js",
@@ -445,14 +445,14 @@
       "sha256": "f9f86c15b625357c5ecdb3116029fe5dbe75673eb50138c2c8465d541b9d0506"
     },
     {
-      "path": "assets/creature-finish-app-DsTcyYzh.js",
+      "path": "assets/creature-finish-app-CLm3ZPBH.js",
       "bytes": 6391,
-      "sha256": "277712db8d632dab200c877822f1f94c0a71adb98622c06d423561ee1b356949"
+      "sha256": "a19cb112b3310ae53302c78abf7899763376d94f29c4f1ebdb4762f4b7f6ce92"
     },
     {
-      "path": "assets/creature-finish-app-DsTcyYzh.js.map",
+      "path": "assets/creature-finish-app-CLm3ZPBH.js.map",
       "bytes": 15501,
-      "sha256": "739a618644d15b846a3bf4356c16c082db258fb46cc54ad3f24b7339394b714c"
+      "sha256": "4e872b234bbeb82bf47b335b98ab3acc61eca2b60894cfac68b9654dbff6fa0f"
     },
     {
       "path": "assets/derive-Bm83kMQ0.js",
@@ -780,14 +780,14 @@
       "sha256": "b8a34b5d5d6cee876c153393e2e0d1ea8a5a600f2aa1e39a1ab47d2ce5895b6b"
     },
     {
-      "path": "assets/main-D-IEk1R1.js",
-      "bytes": 1722512,
-      "sha256": "38c88af6773869259f75dc2b9a9ed2554b4772c9dc7fccbd966389944e66105a"
+      "path": "assets/main-ClJzuMsY.js",
+      "bytes": 1722586,
+      "sha256": "70de197e75fc0612ff386494b9ba855f69e7c04fadbaf23266a28314eb460ab0"
     },
     {
-      "path": "assets/main-D-IEk1R1.js.map",
-      "bytes": 6047132,
-      "sha256": "ebca2d02fddb28c8f8b87c2fe85d113b7f7fc3f4db8ab6a848e5dd2b9719cd36"
+      "path": "assets/main-ClJzuMsY.js.map",
+      "bytes": 6047371,
+      "sha256": "929a2ea7338f04cff67ed5bf53b15c2dae389729b6547e436513bab204f52c4a"
     },
     {
       "path": "assets/marbled-B8SNTQY6.png",
@@ -1427,12 +1427,12 @@
     {
       "path": "audiovisual-pilot.html",
       "bytes": 3574,
-      "sha256": "47f8a7656daea0737e58e93b9a0f7285a52313fbf3287cbca5e408aba2aa033a"
+      "sha256": "927216527db278353bf82e88dffa1ad89ae89ab413bf1d81eff2af784bac1b69"
     },
     {
       "path": "audit.html",
       "bytes": 2461,
-      "sha256": "fcd95fb7c17763f50c9f54f57fc448e889c272b207520b1c087299e672aebaf6"
+      "sha256": "cddc24ab27f47363d1acb96fa77270c81e1e11af9f3654550c2cae93b33ec0e4"
     },
     {
       "path": "battle2/audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/binding.json.gz",
@@ -1987,7 +1987,7 @@
     {
       "path": "hybrid-matrix.html",
       "bytes": 2550,
-      "sha256": "8fc77e2d70c26cfeaa1b5653bb239d0ee8be54cb5deabfbc3d7b09a28d497e80"
+      "sha256": "e0c4a350971d67fb7c2fe16069b78ca92d8ca1b8a1e1c5e2e9ed513559916b95"
     },
     {
       "path": "icons/celestial-frontier-maskable.svg",
@@ -2002,7 +2002,7 @@
     {
       "path": "index.html",
       "bytes": 81869,
-      "sha256": "d71e07124d7602f2b29fb651091c71e7d3b576e805cf77ff08b3d6863cd11b36"
+      "sha256": "2cb6e88c6ab5e2f2ca563cc27e8979132a28ebe60342c31d9b07cabbf02e575a"
     },
     {
       "path": "library/art-library.json",
@@ -5037,13 +5037,13 @@
     {
       "path": "service-worker.js",
       "bytes": 65938,
-      "sha256": "6751d2d205146069f989669e291d9932ff847b420d17b4d38e5d7f0e619fedb6"
+      "sha256": "83f6783cafe2218e8363f5fb0daafb3b37351a3dc2bc09f15c01f9bb7fabda4a"
     },
     {
       "path": "version.json",
       "bytes": 243,
-      "sha256": "5b156a127835d64cb5f3d6eeaf796f54fa93df69479b89761f4515c1ef159ce7"
+      "sha256": "caa952384550e14f47b50c3e523f6890d349eeb2addc279c2212ef7632d24fa4"
     }
   ],
-  "contentSha256": "382641472fab30d36943cd7a4e8c17f2591ae9d610d6a92c12db3457a82e100c"
+  "contentSha256": "a4d5172ad2c80c2927b0a7e6e14c3e24232689dddc41f4504a472048ae11d6a2"
 }

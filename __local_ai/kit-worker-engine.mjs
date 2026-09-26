@@ -1,4 +1,4 @@
-import {admitCreatureFinishJob,creatureFinishMask,conserveCreaturePixels} from './creature-finish-math.mjs';
+import {admitCreatureFinishJob,readCreatureFinishRef,creatureFinishMask,conserveCreaturePixels,padCreatureFinishCanvas,cropCreatureFinishCanvas} from './creature-finish-math.mjs';
 import {admitKitEngineJob,imageToImageStart,planarToRgba,rgbaToPlanar,placementBox,prepareKitTextTokens,MAX_KIT_TEXT_TOKENS} from './kit-engine-math.mjs';
 import {expandPinnedTransformer,sha256} from './kit-worker-expansion.mjs';
 import {applyKitWeather} from './kit-weather-math.mjs';
@@ -155,13 +155,15 @@ export async function createKitWorkerEngine({ort,Tokenizer,progress,expand=expan
     if(busy)throw Error('Kit engine already painting');check();const job=admitCreatureFinishJob(input);busy=true;
     const started=performance.now();
     try{
-      const master=await pixels(job.master),labels=await pixels(job.labels),mask=creatureFinishMask(master,labels,job.width,job.height);
-      const initial=await encode(master,job.width,job.height);
-      const result=await paintPass({prompt:job.prompt,width:job.width,height:job.height,seed:job.seed,steps:1,strength:.35,initial,references:[],protection:mask.latent});
-      const generated=planarToRgba(result.decoded,job.width,job.height).rgba;
-      const rgba=conserveCreaturePixels(master,generated,mask.editable);
+      const master=await readCreatureFinishRef(job.master),labels=await readCreatureFinishRef(job.labels);
+      const work=padCreatureFinishCanvas(master,labels,job.width,job.height),mask=creatureFinishMask(work.master,work.labels,work.width,work.height);
+      const initial=await encode(work.master,work.width,work.height);
+      const result=await paintPass({prompt:job.prompt,width:work.width,height:work.height,seed:job.seed,steps:1,strength:.35,initial,references:[],protection:mask.latent});
+      const generated=planarToRgba(result.decoded,work.width,work.height).rgba;
+      const conserved=conserveCreaturePixels(work.master,generated,mask.editable);
+      const rgba=cropCreatureFinishCanvas(conserved,job.width,job.height,work.width,work.height);
       return {schema:'cf.creature-finish-result.v1',painting:await png(rgba,job.width,job.height),rgba,elapsedMs:performance.now()-started,
-        text:result.text,sigmas:result.sigmas,sessionCreates:{...creates},editablePixels:mask.editable.reduce((a,b)=>a+b,0),protectedTokens:mask.latent.reduce((a,b)=>a+b,0),inferencePasses:1};
+        width:job.width,height:job.height,workCanvas:{width:work.width,height:work.height,paddingRight:work.paddingRight,paddingBottom:work.paddingBottom},text:result.text,sigmas:result.sigmas,sessionCreates:{...creates},editablePixels:mask.editable.reduce((a,b)=>a+b,0),protectedTokens:mask.latent.reduce((a,b)=>a+b,0),inferencePasses:1};
     }finally{busy=false;}
   }
   async function dispose(){if(closed)return;closed=true;cache.clear();try{for(const s of sessions.values())await s.release();}finally{sessions.clear();expanded=null;for(const url of urls)URL.revokeObjectURL(url);device.destroy();}}

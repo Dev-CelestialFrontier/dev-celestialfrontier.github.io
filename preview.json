@@ -1,26 +1,26 @@
 {
   "schema": "cf-dev-preview/v3",
   "kind": "human-development-preview",
-  "generatedAt": "2026-09-26T15:53:24.940Z",
+  "generatedAt": "2026-09-26T16:43:30.010Z",
   "expectedOrigin": "https://dev-celestialfrontier.github.io",
   "productionOrigin": "https://celestialfrontier.github.io",
   "publishable": true,
   "development": {
     "versionSchema": "cf-v2-version/v1",
     "version": "2.0",
-    "build": "develop-d60c4f95f232",
+    "build": "develop-29b827dfecb1",
     "channel": "development"
   },
   "source": {
-    "commit": "d60c4f95f2322f9990b03ff1deaa28bbea022aa2",
-    "shortCommit": "d60c4f95f232",
+    "commit": "29b827dfecb1843966f2a16c5d01d977f2177948",
+    "shortCommit": "29b827dfecb1",
     "branch": "anthropic/mac",
     "state": "committed",
     "dirtyEntries": [],
     "buildInput": {
       "mode": "git-archive-exact-commit",
       "subtree": "port/v2",
-      "tree": "6d8ae8bb2030bd434d0f95615bfeeb34d4235219",
+      "tree": "43b441502d1ab7f8bd62a5ad2d1a9532f92b1271",
       "externalInputs": [
         {
           "path": "port/baseline-v1.8.9/content-registry.json",
@@ -255,24 +255,24 @@
       "sha256": "19ea3564dc5f8b3d4a2fc70526c71f476699bc83d171623aa4407baaa471ace5"
     },
     {
-      "path": "assets/battle2-matchup-JnswA4vu.js",
-      "bytes": 9329,
-      "sha256": "e4c539e17c31fb8cb1cbcfd5e7b7a6b2ea657282109e5cc09ed281504240e685"
+      "path": "assets/battle2-matchup-d33y8JsD.js",
+      "bytes": 9324,
+      "sha256": "cf1b312a13c85101aebc7c6be2d6837f01e2669bd32e78677f0c9492b449e23d"
     },
     {
-      "path": "assets/battle2-matchup-JnswA4vu.js.map",
+      "path": "assets/battle2-matchup-d33y8JsD.js.map",
       "bytes": 30495,
-      "sha256": "4b2758de0a77309f9e8a8e5b1c0cda1c58a0627ff11858a97c03f793f6a65e83"
+      "sha256": "3a299c70803ce710e1d9d798cf67423b78349fc571a7de5d08e96ef9291cc1bc"
     },
     {
-      "path": "assets/battle2-wiring-DN0Nchdv.js",
-      "bytes": 176825,
-      "sha256": "90ce4f10fbb3384388c95d4c89bb2b89615bdd20016207907864a817760f3ad8"
+      "path": "assets/battle2-wiring-CdFf55r8.js",
+      "bytes": 177156,
+      "sha256": "99f38f4a548ad88b13f156e982dc7d6b06b01e2a089f7550c39d6a42cf7c34fd"
     },
     {
-      "path": "assets/battle2-wiring-DN0Nchdv.js.map",
-      "bytes": 645595,
-      "sha256": "61c2d24f612caf96fa005f45368d27d8d84c204493cd67f6a32c762fd6707302"
+      "path": "assets/battle2-wiring-CdFf55r8.js.map",
+      "bytes": 647383,
+      "sha256": "bac1e5641bf084a68aed9ca572c2ec6cc2fc21e5c1a22e7f33817441a603e8e5"
     },
     {
       "path": "assets/biome-vista.worker-D3XRSJZJ.js",
@@ -435,24 +435,24 @@
       "sha256": "59d07d86200c6c0cc877a5f21e3b0b8afe6bef0c2d52ae05bcb1c91fd3981d07"
     },
     {
-      "path": "assets/creature-finish-admission-_PrXOPGI.js",
-      "bytes": 58292,
-      "sha256": "0a24418975dae0459a462b412c4b4526c22bb0b4f24d34127405f62b2c183404"
+      "path": "assets/creature-finish-admission-BiuLBuI6.js",
+      "bytes": 71076,
+      "sha256": "4dff5c58bfb0e91a6a218a1ef5d34ccc82e99682edf338d0b2043b3dedd22fbb"
     },
     {
-      "path": "assets/creature-finish-admission-_PrXOPGI.js.map",
-      "bytes": 123243,
-      "sha256": "2f48a4ee48a2b43f1b10dd970352fac2286c05c499831a098999f45513e524ea"
+      "path": "assets/creature-finish-admission-BiuLBuI6.js.map",
+      "bytes": 142198,
+      "sha256": "27ffb0bee276f592afab935b422e268d0c3e3d41ff32241ba082fb0e3a902f4a"
     },
     {
-      "path": "assets/creature-finish-app-CBVRvgxL.js",
-      "bytes": 6130,
-      "sha256": "7638f86a1e9797d9692e63924595351d263670390f0a2957a533d348e3f55f1c"
+      "path": "assets/creature-finish-app-oaI8jYcp.js",
+      "bytes": 6330,
+      "sha256": "34e690fd79cd5043c833e42309269015ff6125d0254da08679965036eaab0e60"
     },
     {
-      "path": "assets/creature-finish-app-CBVRvgxL.js.map",
-      "bytes": 13968,
-      "sha256": "3a92f2e0cc1c176a1b17165739de1e8e40e8a01a273262d52b0da20ce98cec10"
+      "path": "assets/creature-finish-app-oaI8jYcp.js.map",
+      "bytes": 15386,
+      "sha256": "8d5d45802aea03e6d77c038fa0622db5ff7226abe248d77f1630a43e325504e5"
     },
     {
       "path": "assets/derive-Bm83kMQ0.js",
@@ -585,14 +585,14 @@
       "sha256": "ea73bed763df64981dea3cc411532acb512cf0fb9c4614ef00adf9428265d831"
     },
     {
-      "path": "assets/guide-content-BBM4Fktu.js",
-      "bytes": 140582,
-      "sha256": "35938690f5eeb57e23dbc709ed705efee63f13935a678419fb773bf525c68192"
+      "path": "assets/guide-content-B1Fu4Fq4.js",
+      "bytes": 140925,
+      "sha256": "a25980ede8ea9153904c87104809b99b2706080e41dbc62db4fcef397408685c"
     },
     {
-      "path": "assets/guide-content-BBM4Fktu.js.map",
-      "bytes": 159109,
-      "sha256": "1c96c49eb8f837cd9f8dec880b7a63bd74e071d2ca208c1fa7128fedef7f8df6"
+      "path": "assets/guide-content-B1Fu4Fq4.js.map",
+      "bytes": 159452,
+      "sha256": "ddeaeb5feda439ad7f384502e57ffc8bd9aae0adc215d08e628c7b4d5636b1a0"
     },
     {
       "path": "assets/hybridMatrix-hDSq1kUr.js",
@@ -780,14 +780,14 @@
       "sha256": "b8a34b5d5d6cee876c153393e2e0d1ea8a5a600f2aa1e39a1ab47d2ce5895b6b"
     },
     {
-      "path": "assets/main-CVaT82ai.js",
-      "bytes": 1722438,
-      "sha256": "33db5dba44f5bfd5585e91a74012bb917b0d5ec8dfd102b9af400a47edea5303"
+      "path": "assets/main-DAhh8Oyg.js",
+      "bytes": 1722512,
+      "sha256": "acfc45f5c44a5d40bb20cfc65a2582b86f0b60b933688e7fb7943b2d1c732ccd"
     },
     {
-      "path": "assets/main-CVaT82ai.js.map",
-      "bytes": 6046775,
-      "sha256": "ff109d359864060a8838fd2aa365e68709ca4e8a72ac67378ea2dab16e04f6c3"
+      "path": "assets/main-DAhh8Oyg.js.map",
+      "bytes": 6047132,
+      "sha256": "fc1226cb69a5a939cb2fde326c787ffbf2f41b673e030b2c977926469079ba62"
     },
     {
       "path": "assets/marbled-B8SNTQY6.png",
@@ -1125,14 +1125,14 @@
       "sha256": "0d55904876d7638af2b8a43eea96e48328de0950e241cf1c32509c62ab1b6696"
     },
     {
-      "path": "assets/release-content-Q7lWkAS5.js",
-      "bytes": 158856,
-      "sha256": "7628730a3044504d4d4741ee509f349534860dce33335696369a2f645004a25a"
+      "path": "assets/release-content-DTOYyWG3.js",
+      "bytes": 159260,
+      "sha256": "d9e975d0cd903ab39a31d2bfec80f3a574da41b0a1765f4058c8ff0160709b23"
     },
     {
-      "path": "assets/release-content-Q7lWkAS5.js.map",
-      "bytes": 180305,
-      "sha256": "04b84856eb8e315d1000083c81cf04533a3acde4cd320c57bc0ec49a95ac3d98"
+      "path": "assets/release-content-DTOYyWG3.js.map",
+      "bytes": 180727,
+      "sha256": "e8debd850d69dcbecd16409f877711a25e9f9159bfbcbf8410ca64f5e97ac7a2"
     },
     {
       "path": "assets/release-identity-CIuedefi.js",
@@ -1427,12 +1427,12 @@
     {
       "path": "audiovisual-pilot.html",
       "bytes": 3574,
-      "sha256": "895bf8ec28fbb2774a3acea5e76691b7c9b5918776c2dc13d6221b4419b03158"
+      "sha256": "f8e0b3d94fceb505fb427bd1ed6ec795f62fbfec20e905abce0916d8ab7cbb61"
     },
     {
       "path": "audit.html",
       "bytes": 2461,
-      "sha256": "94b65ca501fd4fb7a3bd8e6432c943f8cd6e8f4899cb3a75370e7eaf8a6747e4"
+      "sha256": "b77c5b2dd284d2b8c0a1fda4a75995422461f8b10827b1e733f5f59b9f89d08b"
     },
     {
       "path": "battle2/audits/ANATOMY_COMPLETION_20260917/civet-sentinel-input-01/binding.json.gz",
@@ -1987,7 +1987,7 @@
     {
       "path": "hybrid-matrix.html",
       "bytes": 2550,
-      "sha256": "82df4ef6ec1ac9e7d3bf169e888afdb699a6b691e316aed48c39b75df8f8fd91"
+      "sha256": "51ec06365bbb2b4f364ea4dc1d1cad165dc1bcbb6f7b35f9cd637a1c40a45981"
     },
     {
       "path": "icons/celestial-frontier-maskable.svg",
@@ -2002,7 +2002,7 @@
     {
       "path": "index.html",
       "bytes": 81869,
-      "sha256": "1e9d1f74dff3c7016ce46aadaf2c7294f992d191462f46cc4a6bc79eaefc34e7"
+      "sha256": "412be1eb19580a20452519799573d1dc26b503fec8446e56bc75764b68d4a354"
     },
     {
       "path": "library/art-library.json",
@@ -4967,13 +4967,13 @@
     {
       "path": "service-worker.js",
       "bytes": 65938,
-      "sha256": "c176263b9f2641296b1a2a08e57ea0bd70e05bee7a7887f0fd1460c930ecd34b"
+      "sha256": "1510846889ddc13253a86272fd99d608325e6300c74f446b645e0a0642dd396a"
     },
     {
       "path": "version.json",
       "bytes": 243,
-      "sha256": "416c1f3a48f7db973e5b121e618228573520406dac63d604e2db6b1b3ca22546"
+      "sha256": "27162756257a5f6ecb65c082599239158c3a7dfc0ea5172c9edb37edb4cbd5ed"
     }
   ],
-  "contentSha256": "e247f534b206077bfbebb5b36020ebde0ac4ddf633224712f5ece3baa22d1785"
+  "contentSha256": "583b55c521f5e2355e44b734fed733cde005267a9b8b8088f0d0d6f28a9c8865"
 }

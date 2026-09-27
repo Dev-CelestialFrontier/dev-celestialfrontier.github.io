@@ -1,5 +1,5 @@
 /** Creature texture class for the accepted kit interpreter; no geometry authority. */
-export const CREATURE_FINISH_SETTINGS=Object.freeze({strength:.35,steps:1,boundaryPixels:4,gradientRatio:.95});
+export const CREATURE_FINISH_SETTINGS=Object.freeze({strength:.35,steps:1,boundaryPixels:4,gradientRatio:.95,interiorAlphaMin:250});
 export function admitCreatureFinishJob(job,ua=globalThis.navigator?.userAgent??''){
  if(job?.schema!=='cf.creature-finish.v1'||job.tier!=='desktop'||/Android|iPhone|iPad|Mobile/i.test(ua))throw Error('Creature finishing requires desktop tier');
  if(!Number.isSafeInteger(job.width)||!Number.isSafeInteger(job.height)||job.width<128||job.height<128||job.width>2048||job.height>2048||!Number.isSafeInteger(job.seed)||job.seed<0||job.seed>0xffffffff)throw Error('Creature finish dimensions/seed');
@@ -11,8 +11,8 @@ export function creatureFinishMask(master,labels,w,h,radius=4){
  if(master.length!==w*h*4||labels.length!==master.length||radius!==4||w%16||h%16)throw Error('Creature mask shape');
  const editable=new Uint8Array(w*h),latent=new Float32Array(w*h/256);latent.fill(1);
  for(let y=radius;y<h-radius;y++)for(let x=radius;x<w-radius;x++){
-  const i=y*w+x,label=labels[i*4];if(!label||master[i*4+3]!==255)continue;
-  let inner=true;for(let dy=-radius;dy<=radius&&inner;dy++)for(let dx=-radius;dx<=radius;dx++){const j=(y+dy)*w+x+dx;if(master[j*4+3]!==255||labels[j*4]!==label){inner=false;break;}}
+  const i=y*w+x,label=labels[i*4];if(!label||master[i*4+3]<CREATURE_FINISH_SETTINGS.interiorAlphaMin)continue;
+  let inner=true;for(let dy=-radius;dy<=radius&&inner;dy++)for(let dx=-radius;dx<=radius;dx++){const j=(y+dy)*w+x+dx;if(master[j*4+3]<CREATURE_FINISH_SETTINGS.interiorAlphaMin||labels[j*4]!==label){inner=false;break;}}
   if(inner)editable[i]=1;
  }
  for(let y=0;y<h/16;y++)for(let x=0;x<w/16;x++){let n=0;for(let dy=0;dy<16;dy++)for(let dx=0;dx<16;dx++)n+=editable[(y*16+dy)*w+x*16+dx];if(n/256>=.55)latent[y*w/16+x]=0;}
